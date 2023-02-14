@@ -1,6 +1,4 @@
-# A modern guide to MilkyTracker
-
-## Introduction
+# A modern guide to MilkyTracker - Introduction
 
 Welcome to page 0!
 
