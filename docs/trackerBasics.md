@@ -12,10 +12,10 @@ Whenever we refer to something as a "tracker" in this guide, it will be a tradit
 Trackers are computer programs that enable users to create music via music samples.
 They handle manipulation of one of four sample properties:
 
-1. Volume
-2. Pitch
-3. Panning
-4. Offset
+- Offset
+- Panning
+- Pitch
+- Volume
 
 A tracker allows storing the compositions the user creates under some
 module format. In MT, you will be met with MOD and XM.
@@ -28,7 +28,7 @@ We won't be going into too much history, since it's easy for those interested to
 
 What you should know is that the term "tracker", or "sound tracker", comes from the term **"track"**.<br>
 A track is a single column in the program which holds musical data.<br>
-And the act of placing notes into that track is called **tracking**.<br>
+And the act of placing notes into tracks is called **tracking**.<br>
 There is some debate on what you call a musician that tracks, since the term "tracker" fits, but is taken.
 So more often than not, you'll just hear the term **"tracker musician"**.
 
@@ -40,14 +40,14 @@ Cells are single elements which make up a track.<br>
 They usually contain the following information, most commonly in this exact order:
 
 ```
-| Note  Octave | Instrument index | Volume | Effect |
-| ------------------------------------------------- |
-| C   - 4      | .1               | 30     | 102    |
+| Note  Octave | Instrument | Volume | Effect |
+| ------------------------------------------- |
+| C   - 4      | .1         | ..     | ...    |
 ```
 
 The dots are meant to be empty spaces. Some trackers show them, some don't. MT does.
 
-All of these elements will covered in the doc relating to the XM file format.
+All of these elements will be covered in the doc relating to the XM file format.
 
 ### Tracks
 
@@ -65,10 +65,11 @@ For example, here's a track containing a manually created arpeggio:
 | D#4 | .1 | .. | ... |
 ```
 
+You can consider tracks as one-dimensional arrays of cells.
+
 ### Patterns
 
-The next step up after tracks are patterns, collections of multiple tracks.
-You can consider them as two-dimensional matricies of musical data.<br>
+The next step up after tracks are patterns, collections of multiple tracks.<br>
 For example, let's expand on the previous example with a bass in the second track:
 
 ```
@@ -84,7 +85,23 @@ For example, let's expand on the previous example with a bass in the second trac
 | D#4 | .1 | .. | ... | ... | .. | .. | ... |
 ```
 
-**Multiple arranged patterns create a composition, the actual song.**
+You can consider them as two-dimensional array, or matrix, of musical data.
+
+### Songs
+
+A song is a system consisting of mulitple patterns, played one after another in a specific order.<br>
+The duration of the song can be either finite or infinite, depending on whether or not you set pattern looping.
+
+So, to keep the analogy from before going, a song is a three-dimensional array, where the third dimension is the playback order! :)
+
+### Instruments
+
+An instrument is a system consisting of samples and rules on how to play them back.<br>
+Instruments allow you to:
+
+- Choose which note triggers which sample
+- Set a volume and panning envelope
+- Set fine definition properties
 
 # Further links
 

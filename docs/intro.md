@@ -27,7 +27,7 @@ And if you're well into using it or some other tracker, there might still be int
 Also, from this page onward, MilkyTracker will be referred to as MT or, affectionately, Milky.
 
 This guide assumes you have basic music knowledge and an understanding of elementary musical terms.
-These are mainly going to be terms like "pitch", "panning", "scale", and so on.
+These are mainly going to be terms like "pitch", "sample", "scale", and so on.
 You can easily look all of them up, so this shouldn't be an issue.
 
 Good? Let's move on!
