@@ -11,15 +11,15 @@ It's meant to be a modern collection of knowledge relating to the MilkyTracker m
 
 Currently, it is meant to be a collection of the following information<sup>1</sup>:
 
-- ❎ General tracker basics
-- ❎ MilkyTracker basics
-- ❎ Good sources of information and samples
-- ❎ Information on the XM module format
-- ❎ Information on the XI instrument format
-- ❎ An index of (if I succeed) all MilkyTracker options, settings and functionalities
-- ❎ More advanced tips relating to MilkyTracker (mixing, quick editing, etc)
-- ❎ Where to find modules
-- ❎ Compiling MilkyTracker
+- General tracker basics
+- MilkyTracker basics
+- Good sources of information and samples
+- Information on the XM module format
+- Information on the XI instrument format
+- An index of (if I succeed) all MilkyTracker options, settings and functionalities
+- More advanced tips relating to MilkyTracker (mixing, quick editing, etc)
+- Where to find modules
+- Compiling MilkyTracker
 
 If all goes well, this guide should move you from having no clue what you're doing to being competent at using MilkyTracker.<br>
 And if you're well into using it or some other tracker, there might still be interesting information to find.
@@ -32,12 +32,4 @@ You can easily look all of them up, so this shouldn't be an issue.
 
 Good? Let's move on!
 
-## Further links
-
-[>>> TRACKER BASICS](./trackerBasics.md)
-
-[>>> TABLE OF CONTENTS](../README.md)<br>
-
----
-
-1: The tick and cross represent whether or not the information has been added to the guide.
+[>>> BACK](../README.md)<br>

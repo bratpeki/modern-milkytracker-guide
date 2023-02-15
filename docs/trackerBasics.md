@@ -34,20 +34,35 @@ So more often than not, you'll just hear the term **"tracker musician"**.
 
 ## The basics of tracker music
 
+Here, we'll be looking at the basic elements of tracker music.<br>
+They will be covered in more detail in another doc.
+
+### Instruments
+
+An instrument is a system consisting of samples and rules on how to play them back.<br>
+Instruments allow you to:
+
+- Choose which note triggers which sample
+- Set a volume and panning envelope
+- Set fine definition properties
+
 ### Cells
 
 Cells are single elements which make up a track.<br>
-They usually contain the following information, most commonly in this exact order:
+They usually look like this:
 
 ```
-| Note  Octave | Instrument | Volume | Effect |
-| ------------------------------------------- |
-| C   - 4      | .1         | ..     | ...    |
+| C-4 | .1 | .. | ... |
 ```
+
+In the case of many trackers, the data is always presented in the same order, that being:
+
+1. Note and octave
+2. Instrument slot
+3. Volume slot
+4. Effect slot
 
 The dots are meant to be empty spaces. Some trackers show them, some don't. MT does.
-
-All of these elements will be covered in the doc relating to the XM file format.
 
 ### Tracks
 
@@ -90,21 +105,10 @@ You can consider them as two-dimensional arrays, or matricies, of musical data.
 ### Songs
 
 A song is a system consisting of mulitple patterns, played one after another in a specific order.<br>
-The duration of the song can be either finite or infinite, depending on whether or not you set pattern looping.
+The duration of the song can be either finite or infinite, depending on whether or not you've set pattern looping.
 
 So, to keep the analogy from before going, a song is a three-dimensional array, where the third dimension is the playback order! :)
 
-### Instruments
-
-An instrument is a system consisting of samples and rules on how to play them back.<br>
-Instruments allow you to:
-
-- Choose which note triggers which sample
-- Set a volume and panning envelope
-- Set fine definition properties
-
 # Further links
 
-[>>> XM FILE FORMAT](./xm.md)
-
-[>>> TABLE OF CONTENTS](../README.md)<br>
+[>>> BACK](../README.md)<br>
