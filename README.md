@@ -5,7 +5,6 @@
 [0. INTRODUCTION](./docs/intro.md)
 
 [1. TRACKER BASICS](./docs/trackerBasics.md)
-
 - [What are trackers?](./docs/trackerasics.md#what-are-trackers)
 - [Origin of the name](./docs/trackerBasics.md#origin-of-the-name)
 - [The basics of tracker music](./docs/trackerBasics.md#the-basics-of-tracker-music)
@@ -16,7 +15,6 @@
 	- [Songs](./docs/trackerBasics.md#songs)
 
 [2. MILKYTRACKER BASICS](./docs/mtBasics.md)
-
 - [The XM file format]()
 	- [Notes]()
 	- [Instruments]()
@@ -24,13 +22,11 @@
 	- [Effects]()
 	- [Patterns]()
 	- [Songs]()
-
 - [The GUI]()
 
 [2.1. MAKING A SMALL MILKYTRACKER SONG]()
 
 [3. ADVANCED MILKYTRACKER FUNCTIONALITY]()
-
 - [A deeper dive into the GUI]()
 - [Keybinds]()
 	- [Useful keybinds in FT2 edit mode]()
