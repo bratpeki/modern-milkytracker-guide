@@ -5,7 +5,7 @@
 [0. INTRODUCTION](./docs/intro.md)
 
 [1. TRACKER BASICS](./docs/trackerBasics.md)
-- [What are trackers?](./docs/trackerasics.md#what-are-trackers)
+- [What are trackers?](./docs/trackerBasics.md#what-are-trackers)
 - [Origin of the name](./docs/trackerBasics.md#origin-of-the-name)
 - [The basics of tracker music](./docs/trackerBasics.md#the-basics-of-tracker-music)
 	- [Instruments](./docs/trackerBasics.md#instruments)
