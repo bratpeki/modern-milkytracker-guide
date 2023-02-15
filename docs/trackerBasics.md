@@ -51,7 +51,7 @@ All of these elements will be covered in the doc relating to the XM file format.
 
 ### Tracks
 
-Tracks are a column consisting of a finite number of cells.<br>
+Tracks are columns consisting of a finite number of cells.<br>
 For example, here's a track containing a manually created arpeggio:
 
 ```
@@ -105,6 +105,6 @@ Instruments allow you to:
 
 # Further links
 
-[`XM FILE FORMAT`](./xm.md)
+[>>> XM FILE FORMAT](./xm.md)
 
-[`TABLE OF CONTENTS`](../README.md)<br>
+[>>> TABLE OF CONTENTS](../README.md)<br>
