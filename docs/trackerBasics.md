@@ -28,7 +28,7 @@ We won't be going into too much history, since it's easy for those interested to
 
 What you should know is that the term "tracker", or "sound tracker", comes from the term **"track"**.<br>
 A track is a single column in the program which holds musical data.<br>
-And the act of placing notes into tracks is called **tracking**.<br>
+The act of placing notes into tracks is called **tracking**.<br>
 There is some debate on what you call a musician that tracks, since the term "tracker" fits, but is taken.
 So more often than not, you'll just hear the term **"tracker musician"**.
 
@@ -85,7 +85,7 @@ For example, let's expand on the previous example with a bass in the second trac
 | D#4 | .1 | .. | ... | ... | .. | .. | ... |
 ```
 
-You can consider them as two-dimensional array, or matrix, of musical data.
+You can consider them as two-dimensional arrays, or matricies, of musical data.
 
 ### Songs
 
@@ -105,6 +105,6 @@ Instruments allow you to:
 
 # Further links
 
-[>>> XM FILE FORMAT](./xm.md)
+[`XM FILE FORMAT`](./xm.md)
 
-[>>> TABLE OF CONTENTS](../README.md)<br>
+[`TABLE OF CONTENTS`](../README.md)<br>

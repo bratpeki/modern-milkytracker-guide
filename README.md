@@ -2,6 +2,6 @@
 
 ## Table of Contents
 
-[>>> INTRODUCTION](./docs/intro.md)<br>
+[`0. INTRODUCTION`](./docs/intro.md)<br>
 
-[>>> TRACKER BASICS](./docs/trackerBasics.md)
+[`1. TRACKER BASICS`](./docs/trackerBasics.md)
