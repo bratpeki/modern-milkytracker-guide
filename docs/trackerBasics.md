@@ -17,25 +17,26 @@ They handle manipulation of one of four sample properties:
 - Pitch
 - Volume
 
-A tracker allows storing the compositions the user creates under some
-module format. In MT, you will be met with MOD and XM.
-These formats are usually of a much smaller file size than the lossless export,
+A tracker allows storing the user-created composition under a binary file called a module.
+In MT, you will be met with two module formats: MOD and XM.
+Modules are usually of a much smaller file size than the lossless export,
 making trackers optimal for making "small", but good-sounding music.
 
 ## Origin of the name
 
 We won't be going into too much history, since it's easy for those interested to find that information online.
 
-What you should know is that the term "tracker", or "sound tracker", comes from the term **"track"**.<br>
-A track is a single column in the program which holds musical data.<br>
-The act of placing notes into tracks is called **tracking**.<br>
+**What you should know is that the term "tracker", or "sound tracker", comes from the term *"track"*.**
+
+A *track* is a single column in the program which holds musical data.<br>
+*Tracking* is the act of placing notes into tracks.<br>
 There is some debate on what you call a musician that tracks, since the term "tracker" fits, but is taken.
-So more often than not, you'll just hear the term **"tracker musician"**.
+So more often than not, you'll just hear the term *"tracker musician"*.
 
 ## The basics of tracker music
 
 Here, we'll be looking at the basic elements of tracker music.<br>
-They will be covered in more detail in another doc.
+They will be covered in more detail in the "MilkyTracker basics" doc.
 
 ### Instruments
 
@@ -108,7 +109,5 @@ A song is a system consisting of mulitple patterns, played one after another in 
 The duration of the song can be either finite or infinite, depending on whether or not you've set pattern looping.
 
 So, to keep the analogy from before going, a song is a three-dimensional array, where the third dimension is the playback order! :)
-
-# Further links
 
 [>>> BACK](../README.md)<br>
