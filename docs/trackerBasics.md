@@ -29,7 +29,6 @@ You should know the following trems:
 | Term             | Meaning                                                     |
 | -                | -                                                           |
 | **Track**        | **A single column in the program which holds musical data** |
-| Tracker          | A music production tool which stores musical data in tracks |
 | Tracking         | The act of placing notes into tracks                        |
 | Tracker musician | A musician that makes music using trackers                  |
 
