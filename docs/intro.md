@@ -1,4 +1,4 @@
-# A modern guide to MilkyTracker - Introduction
+# Introduction
 
 Welcome to page 0!
 

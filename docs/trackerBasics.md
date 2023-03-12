@@ -1,4 +1,4 @@
-# A modern guide to MilkyTracker - Tracker basics
+# Tracker basics
 
 Here, we will be covering the basics of **traditional** trackers.
 
