@@ -6,10 +6,10 @@ Welcome to page 0!
 
 It's meant to be a modern collection of knowledge relating to the MilkyTracker music tracker.<br>
 "Modern" implies:
-- **that it is presented in a modern format (Markdown)** and
+- **that it is presented in a modern format (Markdown, GitHub standard)** and
 - **that it is clean of stale links and information which was relevant for very old versions**.
 
-Currently, it is meant to be a collection of the following information<sup>1</sup>:
+Currently, it is meant to be a collection of the following information:
 
 - General tracker basics
 - MilkyTracker basics

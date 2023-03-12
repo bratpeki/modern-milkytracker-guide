@@ -3,7 +3,7 @@
 Here, we will be covering the basics of **traditional** trackers.
 
 I hightlight the term "traditional" because you will mainly hear that trackers are split into
-traditional and modern trackers. Modern trackers have some neat features like plugin support, mixers and other niceties.
+traditional and modern trackers. Modern trackers have some neat features like plugin support, mixers and so on.
 
 Whenever we refer to something as a "tracker" in this guide, it will be a traditional tracker.
 
@@ -20,18 +20,22 @@ They handle manipulation of one of four sample properties:
 A tracker allows storing the user-created composition under a binary file called a module.
 In MT, you will be met with two module formats: MOD and XM.
 Modules are usually of a much smaller file size than the lossless export,
-making trackers optimal for making "small", but good-sounding music.
+making trackers optimal for making small, but good-sounding music.
 
 ## Origin of the name
 
 We won't be going into too much history, since it's easy for those interested to find that information online.
 
-**What you should know is that the term "tracker", or "sound tracker", comes from the term *"track"*.**
+What you should know are the following trems:
 
-A *track* is a single column in the program which holds musical data.<br>
-*Tracking* is the act of placing notes into tracks.<br>
-There is some debate on what you call a musician that tracks, since the term "tracker" fits, but is taken.
-So more often than not, you'll just hear the term *"tracker musician"*.
+| Term             | Meaning                                                     |
+| -                | -                                                           |
+| Tracker          | A music production tool which stores musical data in tracks |
+| Track            | A single column in the program which holds musical data     |
+| Tracking         | The act of placing notes into tracks                        |
+| Tracker musician | A musician that makes music using trackers                  |
+
+More often than not, you'll hear the term "tracker" being used to describe a tracker musician.
 
 ## The basics of tracker music
 
@@ -108,6 +112,6 @@ You can consider them as two-dimensional arrays, or matricies, of musical data.
 A song is a system consisting of mulitple patterns, played one after another in a specific order.<br>
 The duration of the song can be either finite or infinite, depending on whether or not you've set pattern looping.
 
-So, to keep the analogy from before going, a song is a three-dimensional array, where the third dimension is the playback order! :)
+So, to keep the analogy from before going, a song is a three-dimensional array, where the third dimension is the playback order, or time! :)
 
 [>>> BACK](../README.md)<br>
