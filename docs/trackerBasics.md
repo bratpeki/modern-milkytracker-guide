@@ -24,14 +24,12 @@ making trackers optimal for making small, but good-sounding music.
 
 ## Origin of the name
 
-We won't be going into too much history, since it's easy for those interested to find that information online.
-
-What you should know are the following trems:
+You should know the following trems:
 
 | Term             | Meaning                                                     |
 | -                | -                                                           |
+| **Track**        | **A single column in the program which holds musical data** |
 | Tracker          | A music production tool which stores musical data in tracks |
-| Track            | A single column in the program which holds musical data     |
 | Tracking         | The act of placing notes into tracks                        |
 | Tracker musician | A musician that makes music using trackers                  |
 

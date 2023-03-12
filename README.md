@@ -15,7 +15,7 @@
 	- [Songs](./docs/trackerBasics.md#songs)
 
 [2. MILKYTRACKER BASICS](./docs/mtBasics.md)
-- [The XM file format]()
+- [The XM file format](./docs/mtBasics.md/#the-xm-file-format)
 	- [Notes]()
 	- [Instruments]()
 	- [Volume]()

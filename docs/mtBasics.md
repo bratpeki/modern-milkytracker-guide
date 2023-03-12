@@ -40,4 +40,8 @@ MT track, where everything that's covered here will be used in practice.
 This section is reserved for explaining what the XM file format is
 and what you should know about it.
 
-**This is a very important piece of theory to understand.**
+**This is a very important piece of theory to understand**,
+because each tracker format works differently.
+
+Okay, let's get into it.
+
