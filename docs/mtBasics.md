@@ -1,15 +1,6 @@
 <!--
 THIS WAS IN THE OTHER DOC AND SHOULD BE PROPERLY FORMATTED HERE
 
-Notice how in the second row, instead of the dash, there is a `#`, signifying that the note in that cell is C#.
-This saves up on screen space.<br>
-
-#### Note and octave slot
-
-What you input here is pretty self-explanatory.
-You should, however, know the "limits" of MT when it comes to notes.
-MT allows for placing all notes between C0 and B7, so you have 8 octaves of space.
-
 #### Instrument index slot
 
 Here, you input the actual instrument that will be playing back.
@@ -47,20 +38,15 @@ Okay, let's get into it.
 
 ### Notes
 
-The thing you should be met with are the "limits" of XM
-when it comes to notes.
-XM allows for placing all notes between C0 and B7,
-so you have 8 octaves of space.
+The thing you should be met with are the "limits" of XM when it comes to notes.<br>
+XM allows for placing all notes between C0 and B7, so you have 8 octaves of space.
 
-Each note has a corresponding volume assigned to it.
-By default, it's the volume of the instrment.
-You can, of course, specify the volume yourself,
-in the [third column of the cell](./trackerBasics.md#cells).
+Each note has a corresponding volume assigned to it. By default, it's the volume of the instrment.<br>
+You can, of course, specify the volume yourself, in the [third column of the cell](./trackerBasics.md#cells).
 
-Each note might also have an effect applied to it.
-They are plentiful and confusing at times, until you get used to them.
-The default state depends on what effect was there previously,
-or if there was any at all.
+Each note might also have an effect applied to it.<br>
+They are plentiful and confusing at times, until you get used to them.<br>
+The default state depends on what effect was there previously, or if there was any at all.<br>
 Effects are, of course, specified in the [last column of the cell](./trackerBasics.md#cells).
 
 ### Instruments
@@ -72,3 +58,5 @@ Effects are, of course, specified in the [last column of the cell](./trackerBasi
 ### Patterns
 
 ### Songs
+
+[>>> BACK](../README.md)<br>
