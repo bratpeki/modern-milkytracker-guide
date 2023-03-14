@@ -84,6 +84,10 @@ For example, here's a track containing a manually created arpeggio:
 
 You can consider tracks as one-dimensional arrays of cells.
 
+Also, notice that instead of the `-`,
+there is now a `#` for sharp notes in the first row.
+This saves up on screen space.
+
 ### Patterns
 
 The next step up after tracks are patterns, collections of multiple tracks.<br>
