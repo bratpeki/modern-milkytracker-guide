@@ -84,8 +84,7 @@ For example, here's a track containing a manually created arpeggio:
 
 You can consider tracks as one-dimensional arrays of cells.
 
-Also, notice that instead of the `-`,
-there is now a `#` for sharp notes in the first row.
+Also, notice that instead of the `-`, there is now a `#` for sharp notes in the first row.<br>
 This saves up on screen space.
 
 ### Patterns

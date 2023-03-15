@@ -17,6 +17,7 @@
 [2. MILKYTRACKER BASICS](./docs/mtBasics.md)
 - [The XM file format](./docs/mtBasics.md/#the-xm-file-format)
 	- [Notes](./docs/mtBasics.md/#notes)
+	- [Intro to XM](./docs/mtBasics.md#intro-to-xm)
 	- [Instruments]()
 	- [Volume]()
 	- [Effects]()

@@ -28,13 +28,29 @@ MT track, where everything that's covered here will be used in practice.
 
 ## The XM file format
 
-This section is reserved for explaining what the XM file format is
-and what you should know about it.
+This section is reserved for explaining
+what the XM file format is and
+what you should know about it.
 
 **This is a very important piece of theory to understand**,
-because each tracker format works differently.
+because each tracker format works differently,
+so understanding the one you're using is key to mastering it.
 
 Okay, let's get into it.
+
+### Intro to XM
+
+A brief bit of history and introductory trivia about the format.
+
+The XM (**"eXtended Module"**) is a direct decendant of the MOD (**"Module"**) format.<br>
+Unlike a MOD, XM has:
+
+- 16-bit sample support
+- Instruments
+- Sample looping
+- The ability to store more than 4 tracks (up to 256 in MT)
+
+and so on.
 
 ### Notes
 
@@ -51,9 +67,11 @@ Effects are, of course, specified in the [last column of the cell](./trackerBasi
 
 ### Instruments
 
+Instruments are specified by the XI standard.
+
 ### Volume
 
-## Effects
+### Effects
 
 ### Patterns
 
