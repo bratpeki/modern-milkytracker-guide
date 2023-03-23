@@ -45,10 +45,11 @@ They are plentiful and confusing at times, until you get used to them.<br>
 The default state depends on what effect was there previously, or if there was any at all.<br>
 Effects are, of course, specified in the [last column of the cell](./trackerBasics.md#cells).
 
-There is a special kind of note known as **Note-off**.<br>
-Note-off has special properties which depend on the context it is used in.<br>
+There is a special kind of note known as **Note-off**.
+Note-off has special properties which depend on the context it is used in.
 In short, it stops the note from playing and, if you have set an envelope
-and/or fadeout, play for a short period of time after the Note-off instruction.<br>
+and/or fadeout, play for a short period of time after the Note-off instruction.
+
 There's more talk about Note-off below.
 
 ### Instruments
@@ -60,7 +61,7 @@ so let's get into it!
 
 #### Volume envelope
 
-Either turned on or off, via the `On` button.
+Either turned on or off, via the `On` button.<br>
 If on, MT will read the slope and interpret the height as volume.
 
 A slope is made out of points, 12 maximum.<br>
