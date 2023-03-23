@@ -24,6 +24,7 @@
 		- [Volume (Instrument slot)]()
 		- [Panning]()
 		- [Fine-tune]()
+		- [Fadeout]()
 		- [Vibrato]()
 		- [Relative note]()
 		- [Samples]()

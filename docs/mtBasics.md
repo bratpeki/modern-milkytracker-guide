@@ -1,23 +1,3 @@
-<!--
-THIS WAS IN THE OTHER DOC AND SHOULD BE PROPERLY FORMATTED HERE
-
-#### Instrument index slot
-
-Here, you input the actual instrument that will be playing back.
-We'll be touching on instruments more in another doc, namely the one relating to the XM file format.
-
-#### Volume slot
-
-Here, you will be writing the volume of the currently playing sound in the track.<br>
-To save up on screen space, the volume is written in hexadecimal format and ranges from 0 to 64.
-In MT's hexadecimal form, that is `00` to `40`.
-
-#### Effect slot
-
-The effects are the modifications to the four sample properties we mentioned earlier.
-More on this in another doc.
--->
-
 # MilkyTracker basics
 
 This doc is reserved for explaining the basics of using MT.
@@ -65,6 +45,12 @@ They are plentiful and confusing at times, until you get used to them.<br>
 The default state depends on what effect was there previously, or if there was any at all.<br>
 Effects are, of course, specified in the [last column of the cell](./trackerBasics.md#cells).
 
+There is a special kind of note known as **Note-off**.<br>
+Note-off has special properties which depend on the context it is used in.<br>
+In short, it stops the note from playing and, if you have set an envelope
+and/or fadeout, play for a short period of time after the Note-off instruction.<br>
+There's more talk about Note-off below.
+
 ### Instruments
 
 Instruments are specified by the XI standard,
@@ -74,6 +60,22 @@ so let's get into it!
 
 #### Volume envelope
 
+Either turned on or off, via the `On` button.
+If on, MT will read the slope and interpret the height as volume.
+
+A slope is made out of points, 12 maximum.<br>
+The number can be changed with the buttons `Add` and `Del`.
+
+If `Sustain` is on, the envelope will function as normal
+until the sustain point, after which it will stay on that volume.
+Once the note is off (via Note-off),
+the envelope will play on as normal after the sustain point.
+
+If `Loop` is on, the envelope will continually replay the
+envelope segment between loop start and end points.
+Note-off doesn't affect it,
+it will continue to play the loop for as long as Fadeout is set.
+
 #### Panning envelope
 
 #### Volume (Instrument slot)
@@ -81,6 +83,8 @@ so let's get into it!
 #### Panning
 
 #### Fine-tune
+
+#### Fadeout
 
 #### Vibrato
 
