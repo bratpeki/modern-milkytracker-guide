@@ -62,7 +62,7 @@ so let's get into it!
 #### Volume envelope
 
 Either turned on or off, via the `On` button.<br>
-If on, MT will read the slope and interpret the height as volume.
+If on, MT will read the slope and interpret its height as volume.
 
 A slope is made out of points, 12 maximum.<br>
 The number can be changed with the buttons `Add` and `Del`.
@@ -77,13 +77,41 @@ envelope segment between loop start and end points.
 Note-off doesn't affect it,
 it will continue to play the loop for as long as Fadeout is set.
 
+If the instrument volume is 0, the envelope will not play.
+
 #### Panning envelope
+
+The panning envelope behaves exactly the same as the volume envelope,
+with the exception that MT reads the slope height as panning.
+
+If above the centre, the panning will move right, and vice-versa.
 
 #### Volume (Instrument slot)
 
+A hexadecimal value between 0 (`00`) and 64 (`40`)
+which presents the intensity of the sample playback.
+
+The default value is 64(`40`).
+
+Stacks with the volume envelope.
+
 #### Panning
 
+A hexadecimal value between 0 (`00`) and 255 (`FF`)
+which presents the intensity of the sample panning.
+
+The default value is 128 (`80`).
+
+Stacks with the panning envelope.
+
 #### Fine-tune
+
+A value between -128 and 127 which presents microtonal tuning.
+
+-128 is one note below.<br>
+127 is one note above.
+
+The default value is 0 (`+000`).
 
 #### Fadeout
 
