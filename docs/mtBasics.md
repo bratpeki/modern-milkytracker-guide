@@ -67,9 +67,28 @@ Effects are, of course, specified in the [last column of the cell](./trackerBasi
 
 ### Instruments
 
-Instruments are specified by the XI standard.
+Instruments are specified by the XI standard,
+meaning that you can save any instrument and reuse it elsewhere.
+It has plenty of basic tools that'll help you make the sound you're looking for,
+so let's get into it!
 
-### Volume
+#### Volume envelope
+
+#### Panning envelope
+
+#### Volume (Instrument slot)
+
+#### Panning
+
+#### Fine-tune
+
+#### Vibrato
+
+#### Relative note
+
+#### Samples
+
+### Volume (Track slot)
 
 ### Effects
 

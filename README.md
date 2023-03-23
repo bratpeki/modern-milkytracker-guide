@@ -21,6 +21,7 @@
 	- [Instruments]()
 	- [Volume]()
 	- [Effects]()
+		- [Effect glossary]()
 	- [Patterns]()
 	- [Songs]()
 - [The GUI]()
