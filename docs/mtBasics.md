@@ -92,7 +92,7 @@ If above the centre, the panning will move right, and vice-versa.
 A hexadecimal value between 0 (`00`) and 64 (`40`)
 which presents the intensity of the sample playback.
 
-The default value is 64(`40`).
+The default value is 64 (`40`).
 
 It stacks with the volume envelope.
 
