@@ -54,9 +54,9 @@ There's more talk about Note-off below.
 
 ### Instruments
 
-Instruments are specified by the XI standard,
-meaning that you can save any instrument and reuse it elsewhere.
-It has plenty of basic tools that'll help you make the sound you're looking for,
+Instruments are specified by their own standard, called XI (**"eXpanded Instrument"**).
+They can be saved as files, meaning that you can reuse them elsewhere.
+XI instruments have plenty of basic tools that'll help you make the sound you're looking for,
 so let's get into it!
 
 #### Volume envelope
@@ -70,12 +70,13 @@ The number can be changed with the buttons `Add` and `Del`.
 If `Sustain` is on, the envelope will function as normal
 until the sustain point, after which it will stay on that volume.
 Once the note is off (via Note-off),
-the envelope will play on as normal after the sustain point.
+the envelope will play on as normal after the sustain point
+for as long as Fadeout is set.
 
 If `Loop` is on, the envelope will continually replay the
 envelope segment between loop start and end points.
-Note-off doesn't affect it,
-it will continue to play the loop for as long as Fadeout is set.
+Note-off doesn't affect it, it will continue to play the loop
+for as long as Fadeout is set.
 
 If the instrument volume is 0, the envelope will not play.
 
@@ -93,7 +94,7 @@ which presents the intensity of the sample playback.
 
 The default value is 64(`40`).
 
-Stacks with the volume envelope.
+It stacks with the volume envelope.
 
 #### Panning
 
@@ -102,7 +103,7 @@ which presents the intensity of the sample panning.
 
 The default value is 128 (`80`).
 
-Stacks with the panning envelope.
+It stacks with the panning envelope.
 
 #### Fine-tune
 
