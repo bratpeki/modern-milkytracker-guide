@@ -105,13 +105,39 @@ For example, let's expand on the previous example with a bass in the second trac
 | D#4 | .1 | .. | ... | ... | .. | .. | ... |
 ```
 
+They consist of pattern lines, which are a collection of cells that play at the same time.<br>
+In the example above:
+
+```
+| TRACK 1             | TRACK 2             |
+|-------------------------------------------|
+| C-4 | .1 | .. | ... | C-3 | .2 | .. | ... | < This is the first pattern line
+| D#4 | .1 | .. | ... | ... | .. | .. | ... | < This is the second pattern line
+```
+
 You can consider them as two-dimensional arrays, or matricies, of musical data.
 
 ### Songs
 
-A song is a system consisting of mulitple patterns, played one after another in a specific order.<br>
+A song is a system consisting of mulitple patterns, played one after another in a specific order.
+
 The duration of the song can be either finite or infinite, depending on whether or not you've set pattern looping.
 
 So, to keep the analogy from before going, a song is a three-dimensional array, where the third dimension is the playback order, or time! :)
+
+### Ticks
+
+Ticks are the smallest unit of time in a tracker.
+
+Each track has a definiton of how many ticks play out in a single pattern line.
+
+It is useful to set more ticks when you need fine-tuned changes to take place,
+because, for example, 10 ticks mean that you have 10 units of time between two pattern lines
+to make changes.
+
+The two general ideas you should have in mind are:
+
+1. The less ticks there are, the faster your song is.
+2. The more ticks there are, the finer you can tune your effects.
 
 [>>> BACK](../README.md)<br>

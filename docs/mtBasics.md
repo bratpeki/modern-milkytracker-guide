@@ -141,7 +141,7 @@ The Fadeout operates on the following rule, written in pseudocode:
 ```
 FADEOUT_VOLUME = 32678
 
-# this happens every tick
+# Code below happens every tick for as long as VOLUME > 0
 
 FADEOUT_VOLUME = FADEOUT_VOLUME - INSTRUMENT_FADEOUT_VALUE
 VOLUME = (VOLUME * FADEOUT_VOLUME) / 32768
