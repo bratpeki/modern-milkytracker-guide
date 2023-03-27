@@ -137,5 +137,7 @@ to make changes.
 
 The general idea you should have in mind is:
 **If I don't change the BPM and decrease the tick rate, my pattern will play faster, but the effects won't have enough time to work**.
+This will make more sense when we look at the
+[Effects section of MILKYTRACKER BASICS](./mtBasics.md#effects).
 
 [>>> BACK](../README.md)<br>
