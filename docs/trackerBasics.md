@@ -129,15 +129,15 @@ So, to keep the analogy from before going, a song is a three-dimensional array, 
 
 Ticks are the smallest unit of time in a tracker.
 
-Each track has a definiton of how many ticks play out in a single pattern line.
+Each pattern has a definiton of how many ticks play out in a single pattern line.
 
 It is useful to set more ticks when you need fine-tuned changes to take place,
 because, for example, 10 ticks mean that you have 10 units of time between two pattern lines
 to make changes.
 
-The two general ideas you should have in mind are:
-
-1. The less ticks there are, the faster your song is.
-2. The more ticks there are, the finer you can tune your effects.
+The general idea you should have in mind is:
+**If I don't change the BPM, but make the pattern have less ticks,**
+**it'll be faster,**
+**but the effects won't have enough time to work**.
 
 [>>> BACK](../README.md)<br>
