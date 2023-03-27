@@ -119,7 +119,7 @@ A hexadecimal value that determines
 how quickly the volume of the sample drops to 0
 after the Note-off.
 
-Works only when the volume envelope is `On`.
+Works only when the volume envelope is on.
 
 You will usually have little use of the Fadeout setting, since the volume
 fall-off can be controlled using the volume envelope.
@@ -135,9 +135,9 @@ The values range from `000` to `FFF`, including the last value, `cut`.
 | `FFF` | Fastest possible fall-off.                                        |
 | `cut` | Instant fall-off, the envelope will not play after the Note-off.  |
 
-`cut` is very specific and is not part of many XM trackers and players.<br>
-You could simulate the effect of `cut` by simply not having any points in the volume envelope after the sustain point.<br>
-Some, however, would argue that it's useful when you're using effects that offset where you are on the envelope.<br>
+`cut` **is very specific and is not part of many XM trackers and players.**
+You could simulate the effect of `cut` by simply not having any points in the volume envelope after the sustain point.
+Some, however, would argue that it's useful when you're using effects that offset where you are on the envelope.
 Ultimately, it's up to you.
 
 #### Vibrato
