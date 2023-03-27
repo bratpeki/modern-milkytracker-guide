@@ -13,6 +13,7 @@
 	- [Tracks](./docs/trackerBasics.md#tracks)
 	- [Patterns](./docs/trackerBasics.md#patterns)
 	- [Songs](./docs/trackerBasics.md#songs)
+	- [Ticks](./docs/trackerBasics.md#ticks)
 
 [2. MILKYTRACKER BASICS](./docs/mtBasics.md)
 - [The XM file format](./docs/mtBasics.md/#the-xm-file-format)
