@@ -48,13 +48,13 @@ Effects are, of course, specified in the [last column of the cell](./trackerBasi
 There is a special kind of note known as **Note-off**.
 Note-off has special properties which depend on the context it is used in.
 In short, it stops the note from playing and, if you have set an envelope
-and/or fadeout, play for a short period of time after the Note-off instruction.
+and/or Fadeout, play for a short period of time after the Note-off instruction.
 
 There's more talk about Note-off below.
 
 ### Instruments
 
-Instruments are specified by their own standard, called XI (**"eXpanded Instrument"**).
+Instruments are specified by their own standard, called XI (**"eXtended Instrument"**).
 They can be saved as files, meaning that you can reuse them elsewhere.
 XI instruments have plenty of basic tools that'll help you make the sound you're looking for,
 so let's get into it!
@@ -115,7 +115,7 @@ The default value is 0 (`+000`).
 
 #### Fadeout
 
-A hexadecimal value that determines
+A value that determines
 how quickly the volume of the sample drops to 0
 after the Note-off.
 
@@ -134,6 +134,18 @@ The values range from `000` to `FFF`, including the last value, `cut`.
 | `000` | No fall-off in volume, it will play the entire envelope as it is. |
 | `FFF` | Fastest possible fall-off.                                        |
 | `cut` | Instant fall-off, the envelope will not play after the Note-off.  |
+
+As far as values `000`-`FFF` go, they are hexadecimal and range from 0 to 4095.
+The Fadeout operates on the following rule, written in pseudocode:
+
+```
+FADEOUT_VOLUME = 32678
+
+# this happens every tick
+
+FADEOUT_VOLUME = FADEOUT_VOLUME - INSTRUMENT_FADEOUT_VALUE
+VOLUME = (VOLUME * FADEOUT_VOLUME) / 32768
+```
 
 `cut` **is very specific and is not part of many XM trackers and players.**
 You could simulate the effect of `cut` by simply not having any points in the volume envelope after the sustain point.
