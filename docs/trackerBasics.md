@@ -136,8 +136,6 @@ because, for example, 10 ticks mean that you have 10 units of time between two p
 to make changes.
 
 The general idea you should have in mind is:
-**If I don't change the BPM, but make the pattern have less ticks,**
-**it'll be faster,**
-**but the effects won't have enough time to work**.
+**If I don't change the BPM and decrease the tick rate, my pattern will play faster, but the effects won't have enough time to work**.
 
 [>>> BACK](../README.md)<br>
