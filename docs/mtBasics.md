@@ -69,12 +69,11 @@ The number can be changed with the buttons `Add` and `Del`.
 
 If `Sustain` is on, the envelope will function as normal
 until the sustain point, after which it will stay on that volume.
-Once the note is off (via Note-off),
-the envelope will play on as normal after the sustain point
+Once the note is off (via Note-off), the envelope will play on as normal
 for as long as Fadeout is set.
 
 If `Loop` is on, the envelope will continually replay the
-envelope segment between loop start and end points.
+envelope segment between the loop start and end points.
 Note-off doesn't affect it, it will continue to play the loop
 for as long as Fadeout is set.
 
@@ -83,7 +82,7 @@ If the instrument volume is 0, the envelope will not play.
 #### Panning envelope
 
 The panning envelope behaves exactly the same as the volume envelope,
-with the exception that MT reads the slope height as panning.
+with the exception that MT reads the slope height as panning instead of volume.
 
 If above the centre, the panning will move right, and vice-versa.
 
@@ -115,6 +114,31 @@ A value between -128 and 127 which presents microtonal tuning.
 The default value is 0 (`+000`).
 
 #### Fadeout
+
+A hexadecimal value that determines
+how quickly the volume of the sample drops to 0
+after the Note-off.
+
+Works only when the volume envelope is `On`.
+
+You will usually have little use of the Fadeout setting, since the volume
+fall-off can be controlled using the volume envelope.
+
+It is, however, useful when you want to set long volume fall-off
+without moving the envelope point very far away from the start.
+
+The values range from `000` to `FFF`, including the last value, `cut`.
+
+| Value | Meaning                                                           |
+| ----- | ----------------------------------------------------------------- |
+| `000` | No fall-off in volume, it will play the entire envelope as it is. |
+| `FFF` | Fastest possible fall-off.                                        |
+| `cut` | Instant fall-off, the envelope will not play after the Note-off.  |
+
+`cut` is very specific and is not part of many XM trackers and players.<br>
+You could simulate the effect of `cut` by simply not having any points in the volume envelope after the sustain point.<br>
+Some, however, would argue that it's useful when you're using effects that offset where you are on the envelope.<br>
+Ultimately, it's up to you.
 
 #### Vibrato
 
