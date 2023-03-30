@@ -195,6 +195,8 @@ for example `C-5 (+12)` or `C-3 (-12)`.
 
 ### Volume (Track slot)
 
+Similar to volume in the XI instrument, except that it overrides the volume set by the instrument.
+
 ### Effects
 
 ### Patterns
