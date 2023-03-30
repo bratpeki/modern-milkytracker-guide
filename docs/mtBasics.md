@@ -160,25 +160,25 @@ Ultimately, it's up to you.
 
 Vibrato control consists of 4 properties:
 
-1. `Vibspeed`:
-How quickly the vibrato is oscillating within the vibrato depth.
-Hexadecimal value.
+1. `Vibspeed`:<br>
+How quickly the vibrato is oscillating within the vibrato depth.<br>
+Hexadecimal value.<br>
 Ranges from `00` (no vibrato) to `FF` (fastest possible vibrato).
 
-2. `Vibdepth`:
-How deep/high the vibrato goes.
-Hexadecimal value.
+2. `Vibdepth`:<br>
+How deep/high the vibrato goes.<br>
+Hexadecimal value.<br>
 Ranges from `0` (no vibrato depth, even with `Vibspeed > 00`) to `F` (depth of one tone up/down).
 
-3. `Vibsweep`:
-The time, in player ticks, it takes the vibrato to reach the vibrato depth,
-starting from `0` (no depth).
-Hexadecimal value.
+3. `Vibsweep`:<br>
+The time, in player ticks, it takes the vibrato to reach the vibrato depth
+starting from `0` (no depth).<br>
+Hexadecimal value.<br>
 Ranges from `00` (no sweep, the vibrato happens instantly) to `FF` (255 ticks until the proper vibrato).
 
-4. `Type`:
-The oscillator which will govern how the vibrato happens.
-Choice-driven value.
+4. `Type`:<br>
+The oscillator which will govern how the vibrato happens.<br>
+Choice-driven value.<br>
 The choices are:
 
 - Sine (Default)
@@ -207,18 +207,18 @@ Similar to volume in the XI instrument, except that it overrides the volume set 
 
 Patterns are specified by 3 things:
 
-1. **A pattern number**:
-In the MT GUI, specified as `Patn.`.
-The ID of the pattern, presented in hexadecimal.
+1. **The pattern number**:<br>
+In the MT GUI, specified as `Patn.`.<br>
+The ID of the pattern, presented in hexadecimal.<br>
 You can have a maximum of 255 different patterns.
 
-2. **Pattern length**:
-In the MT GUI, specified as `Len.`.
-The number of cell rows in the pattern, presented in hexadecimal.
-You can have a maximum of 256 pattern rows per pattern.
+2. **The pattern length**:<br>
+In the MT GUI, specified as `Len.`.<br>
+The number of cell rows in the pattern, presented in hexadecimal.<br>
+You can have a maximum of 256 pattern rows per pattern.<br>
 The default value is `40`, or 4 bars split into 16th notes in 4/4 meter.
 
-3. **Pattern content**:
+3. **The pattern content**:<br>
 The actual notes.
 
 ### Songs
