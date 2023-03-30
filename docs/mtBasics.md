@@ -32,9 +32,9 @@ Unlike a MOD, XM has:
 
 and so on.
 
-XM is **very** modular.
-Tracks, patterns and instruments can be saved and reused, each with their own standard.
-The standards are named XT, XP and XI, and stand for **"eXtended Track/Pattern/Instrument"**.
+XM is **very** modular.<br>
+Tracks, patterns and instruments can be saved and reused, each with their own standard.<br>
+The standards are named XT, XP and XI, and stand for **"eXtended Track/Pattern/Instrument"**.<br>
 Their file extensions are, as expected, `.xt`, `.xp` and `.xi`, respectively.
 
 ### Notes
