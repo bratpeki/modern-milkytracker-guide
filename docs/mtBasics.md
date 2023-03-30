@@ -208,12 +208,12 @@ Similar to volume in the XI instrument, except that it overrides the volume set 
 Patterns are specified by 3 things:
 
 1. **The pattern number**:<br>
-In the MT GUI, specified as `Patn.`.<br>
+In the MT GUI, specified as `Patn.`<br>
 The ID of the pattern, presented in hexadecimal.<br>
 You can have a maximum of 255 different patterns.
 
 2. **The pattern length**:<br>
-In the MT GUI, specified as `Len.`.<br>
+In the MT GUI, specified as `Len.`<br>
 The number of cell rows in the pattern, presented in hexadecimal.<br>
 You can have a maximum of 256 pattern rows per pattern.<br>
 The default value is `40`, or 4 bars split into 16th notes in 4/4 meter.
