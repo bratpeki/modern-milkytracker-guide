@@ -59,9 +59,8 @@ There's more talk about Note-off below.
 
 ### Instruments
 
-Instruments are specified by their own standard, called XI (**"eXtended Instrument"**).
-They can be saved as files, meaning that you can reuse them elsewhere.
-XI instruments have plenty of basic tools that'll help you make the sound you're looking for,
+XI instruments have plenty of basic tools
+that'll help you make the sound you're looking for,
 so let's get into it!
 
 #### Volume envelope
@@ -161,23 +160,23 @@ Ultimately, it's up to you.
 
 Vibrato control consists of 4 properties:
 
-`Vibspeed`:
+1. `Vibspeed`:
 How quickly the vibrato is oscillating within the vibrato depth.
 Hexadecimal value.
 Ranges from `00` (no vibrato) to `FF` (fastest possible vibrato).
 
-`Vibdepth`:
+2. `Vibdepth`:
 How deep/high the vibrato goes.
 Hexadecimal value.
 Ranges from `0` (no vibrato depth, even with `Vibspeed > 00`) to `F` (depth of one tone up/down).
 
-`Vibsweep`:
+3. `Vibsweep`:
 The time, in player ticks, it takes the vibrato to reach the vibrato depth,
 starting from `0` (no depth).
 Hexadecimal value.
 Ranges from `00` (no sweep, the vibrato happens instantly) to `FF` (255 ticks until the proper vibrato).
 
-`Type`
+4. `Type`:
 The oscillator which will govern how the vibrato happens.
 Choice-driven value.
 The choices are:
@@ -205,6 +204,22 @@ Similar to volume in the XI instrument, except that it overrides the volume set 
 ### Effects
 
 ### Patterns
+
+Patterns are specified by 3 things:
+
+1. **A pattern number**:
+In the MT GUI, specified as `Patn.`.
+The ID of the pattern, presented in hexadecimal.
+You can have a maximum of 255 different patterns.
+
+2. **Pattern length**:
+In the MT GUI, specified as `Len.`.
+The number of cell rows in the pattern, presented in hexadecimal.
+You can have a maximum of 256 pattern rows per pattern.
+The default value is `40`, or 4 bars split into 16th notes in 4/4 meter.
+
+3. **Pattern content**:
+The actual notes.
 
 ### Songs
 
