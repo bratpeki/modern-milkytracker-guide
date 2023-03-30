@@ -29,14 +29,13 @@
 		- [Vibrato](./docs/mtBasics.md#vibrato)
 		- [Relative note](./docs/mtBasics.md#relative-note)
 		- [Samples](./docs/mtBasics.md#samples)
-	- [Volume (Track slot)]()
-	- [Effects]()
-		- [Effect glossary]()
-	- [Patterns]()
-	- [Songs]()
-- [The GUI]()
+	- [Volume (Track slot)](./docs/mtBasics.md#volume-track-slot)
+	- [Effects](./docs/mtBasics.md#effects)
+	- [Patterns](./docs/mtBasics.md#patterns)
+	- [Songs](./docs/mtBasics.md#songs)
+- [The GUI](./docs/mtBasics.md#the-gui)
 
-[2.1. EFFECT GLOSSARY]()
+[2.1. EFFECT GLOSSARY](./docs/mtBasics.md#effect-glossary)
 
 [2.2. MAKING A SMALL MILKYTRACKER SONG]()
 
