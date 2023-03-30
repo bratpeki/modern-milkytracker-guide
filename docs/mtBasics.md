@@ -184,6 +184,13 @@ The choices are:
 
 #### Relative note
 
+Allow you to set which note middle C actually is.
+
+You operate it using the buttons `Octave up/dn` and `Note up/dn`.
+
+The number in the bracket next to the relative note displays how far you are from middle C,
+for example `C-5 (+12)` or `C-3 (-12)`.
+
 #### Samples
 
 ### Volume (Track slot)
