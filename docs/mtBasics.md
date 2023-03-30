@@ -154,6 +154,34 @@ Ultimately, it's up to you.
 
 #### Vibrato
 
+Vibrato control consists of 4 properties:
+
+`Vibspeed`:
+How quickly the vibrato is oscillating within the vibrato depth.
+Hexadecimal value.
+Ranges from `00` (no vibrato) to `FF` (fastest possible vibrato).
+
+`Vibdepth`:
+How deep/high the vibrato goes.
+Hexadecimal value.
+Ranges from `0` (no vibrato depth, even with `Vibspeed > 00`) to `F` (depth of one tone up/down).
+
+`Vibsweep`:
+The time, in player ticks, it takes the vibrato to reach the vibrato depth,
+starting from `0` (no depth).
+Hexadecimal value.
+Ranges from `00` (no sweep, the vibrato happens instantly) to `FF` (255 ticks until the proper vibrato).
+
+`Type`
+The oscillator which will govern how the vibrato happens.
+Choice-driven value.
+The choices are:
+
+- Sine (Default)
+- Square
+- Reverse sawtooth
+- Sawtooth
+
 #### Relative note
 
 #### Samples
