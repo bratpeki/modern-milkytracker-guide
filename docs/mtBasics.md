@@ -88,19 +88,19 @@ If above the centre, the panning will move right, and vice-versa.
 
 #### Volume (Instrument slot)
 
-A hexadecimal value between 0 (`00`) and 64 (`40`)
+A hexadecimal value between `00` and `40`
 which presents the intensity of the sample playback.
 
-The default value is 64 (`40`).
+The default value is `40`.
 
 It stacks with the volume envelope.
 
 #### Panning
 
-A hexadecimal value between 0 (`00`) and 255 (`FF`)
+A hexadecimal value between `00` and `FF`
 which presents the intensity of the sample panning.
 
-The default value is 128 (`80`).
+The default value is `80`.
 
 It stacks with the panning envelope.
 
