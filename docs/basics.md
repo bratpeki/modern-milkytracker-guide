@@ -36,8 +36,7 @@ More often than not, you'll hear the term "tracker" being used to describe a tra
 
 ## The basics of tracker music
 
-Here, we'll be looking at the basic elements of tracker music.<br>
-They will be covered in more detail in the "MilkyTracker basics" doc.
+Here, we'll be looking at the elements which make up a tracker composition.
 
 ### Instruments
 
@@ -57,7 +56,7 @@ They usually look like this:
 | C-4 | .1 | .. | ... |
 ```
 
-In the case of many trackers, the data is always presented in the same order, that being:
+In the case of many trackers, the data is presented in the same order, that being:
 
 1. Note and octave
 2. Instrument slot
@@ -81,8 +80,6 @@ For example, here's a track containing a manually created arpeggio:
 | F-4 | .1 | .. | ... |
 | D#4 | .1 | .. | ... |
 ```
-
-You can consider tracks as one-dimensional arrays of cells.
 
 Also, notice that instead of the `-`, there is now a `#` for sharp notes in the first row.<br>
 This saves up on screen space.
@@ -115,15 +112,11 @@ In the example above:
 | D#4 | .1 | .. | ... | ... | .. | .. | ... | < This is the second pattern line
 ```
 
-You can consider them as two-dimensional arrays, or matricies, of musical data.
-
 ### Songs
 
 A song is a system consisting of mulitple patterns, played one after another in a specific order.
 
 The duration of the song can be either finite or infinite, depending on whether or not you've set pattern looping.
-
-So, to keep the analogy from before going, a song is a three-dimensional array, where the third dimension is the playback order, or time! :)
 
 ### Ticks
 
@@ -134,10 +127,5 @@ Each pattern has a definiton of how many ticks play out in a single pattern line
 It is useful to set more ticks when you need fine-tuned changes to take place,
 because, for example, 10 ticks mean that you have 10 units of time between two pattern lines
 to make changes.
-
-The general idea you should have in mind is:
-**If I don't change the BPM and decrease the tick rate, my pattern will play faster, but the effects won't have enough time to work**.
-This will make more sense when we look at the
-[Effects section of MILKYTRACKER BASICS](./mtBasics.md#effects).
 
 [>>> BACK](../README.md)<br>

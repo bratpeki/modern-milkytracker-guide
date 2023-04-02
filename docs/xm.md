@@ -51,9 +51,10 @@ There's more talk about Note-off below.
 
 ## Instruments
 
-XI instruments have plenty of basic tools
-that'll help you make the sound you're looking for,
-so let's get into it!
+In one composition, you can have up to 128 XI instruments.
+
+They have plenty of basic tools
+that'll help you make the sound you're looking for.
 
 ### Volume envelope
 
