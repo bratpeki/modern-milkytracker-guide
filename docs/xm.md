@@ -1,14 +1,6 @@
-# MilkyTracker basics
+# The XM file format
 
-This doc is reserved for explaining the basics of using MT.
-It should quickly get you up and running to start making your own music.
-
-Just in case, however, there will be another doc reserved for making a basic
-MT track, where everything that's covered here will be used in practice.
-
-## The XM file format
-
-This section is reserved for explaining
+This doc is reserved for explaining
 what the XM file format is and
 what you should know about it.
 
@@ -18,7 +10,7 @@ so understanding the one you're using is key to mastering it.
 
 Okay, let's get into it.
 
-### Intro to XM
+## Intro to XM
 
 A brief bit of history and introductory trivia about the format.
 
@@ -37,7 +29,7 @@ Tracks, patterns and instruments can be saved and reused, each with their own st
 The standards are named XT, XP and XI, and stand for **"eXtended Track/Pattern/Instrument"**.<br>
 Their file extensions are, as expected, `.xt`, `.xp` and `.xi`, respectively.
 
-### Notes
+## Notes
 
 The thing you should be met with are the "limits" of XM when it comes to notes.<br>
 XM allows for placing all notes between C0 and B7, so you have 8 octaves of space.
@@ -57,13 +49,13 @@ and/or Fadeout, play for a short period of time after the Note-off instruction.
 
 There's more talk about Note-off below.
 
-### Instruments
+## Instruments
 
 XI instruments have plenty of basic tools
 that'll help you make the sound you're looking for,
 so let's get into it!
 
-#### Volume envelope
+### Volume envelope
 
 Either turned on or off, via the `On` button.<br>
 If on, MT will read the slope and interpret its height as volume.
@@ -83,14 +75,14 @@ for as long as Fadeout is set.
 
 If the instrument volume is 0, the envelope will not play.
 
-#### Panning envelope
+### Panning envelope
 
 The panning envelope behaves exactly the same as the volume envelope,
 with the exception that MT reads the slope height as panning instead of volume.
 
 If above the centre, the panning will move right, and vice-versa.
 
-#### Volume (Instrument slot)
+### Volume (Instrument slot)
 
 A hexadecimal value between `00` and `40`
 which presents the intensity of the sample playback.
@@ -99,7 +91,7 @@ The default value is `40`.
 
 It stacks with the volume envelope.
 
-#### Panning
+### Panning
 
 A hexadecimal value between `00` and `FF`
 which presents the intensity of the sample panning.
@@ -108,7 +100,7 @@ The default value is `80`.
 
 It stacks with the panning envelope.
 
-#### Fine-tune
+### Fine-tune
 
 A value between -128 and 127 which presents microtonal tuning.
 
@@ -117,7 +109,7 @@ A value between -128 and 127 which presents microtonal tuning.
 
 The default value is 0 (`+000`).
 
-#### Fadeout
+### Fadeout
 
 A value that determines
 how quickly the volume of the sample drops to 0
@@ -156,7 +148,7 @@ You could simulate the effect of `cut` by simply not having any points in the vo
 Some, however, would argue that it's useful when you're using effects that offset where you are on the envelope.
 Ultimately, it's up to you.
 
-#### Vibrato
+### Vibrato
 
 Vibrato control consists of 4 properties:
 
@@ -186,7 +178,7 @@ The choices are:
 - Reverse sawtooth
 - Sawtooth
 
-#### Relative note
+### Relative note
 
 Allow you to set which note middle C actually is.
 
@@ -195,7 +187,7 @@ You operate it using the buttons `Octave up/dn` and `Note up/dn`.
 The number in the bracket next to the relative note displays how far you are from middle C,
 for example `C-5 (+12)` or `C-3 (-12)`.
 
-#### Samples
+### Samples
 
 Samples are, arguably, the most important part of the instrument.
 
@@ -211,13 +203,13 @@ The graphical keyboard in the instrument tab allows you to choose which sample i
 You select the sample you want to set, and then click, or hold and drag, on the keys. By default,
 all notes play instrument 0.
 
-### Volume (Track slot)
+## Volume (Track slot)
 
 Similar to volume in the XI instrument, except that it overrides the volume set by the instrument.
 
-### Effects
+## Effects
 
-### Patterns
+## Patterns
 
 Patterns are specified by 3 things:
 
@@ -235,6 +227,6 @@ The default value is `40`, or 4 bars split into 16th notes in 4/4 meter.
 3. **The pattern content**:<br>
 The actual notes.
 
-### Songs
+## Songs
 
 [>>> BACK](../README.md)<br>
