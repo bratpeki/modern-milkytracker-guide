@@ -42,7 +42,7 @@ Their file extensions are, as expected, `.xt`, `.xp` and `.xi`, respectively.
 The thing you should be met with are the "limits" of XM when it comes to notes.<br>
 XM allows for placing all notes between C0 and B7, so you have 8 octaves of space.
 
-Each note has a corresponding volume assigned to it. By default, it's the volume of the instrment.<br>
+Each note has a corresponding volume assigned to it. By default, it's the volume of the instrument.<br>
 You can, of course, specify the volume yourself, in the [third column of the cell](./trackerBasics.md#cells).
 
 Each note might also have an effect applied to it.<br>
@@ -196,6 +196,20 @@ The number in the bracket next to the relative note displays how far you are fro
 for example `C-5 (+12)` or `C-3 (-12)`.
 
 #### Samples
+
+Samples are, arguably, the most important part of the instrument.
+
+Each instrument holds 16 samples unique to that instrument,
+meaning you cannot share them between instruments unless you literally
+copy them from one instrument onto another.
+
+**All samples are mono.**
+If you want to make stereo audio, you need to place two samples,
+pan them far-left and far-right and play them simultaneously.
+
+The graphical keyboard in the instrument tab allows you to choose which sample is played by which note.
+You select the sample you want to set, and then click, or hold and drag, on the keys. By default,
+all notes play instrument 0.
 
 ### Volume (Track slot)
 

@@ -35,7 +35,9 @@
 	- [Songs](./docs/mtBasics.md#songs)
 - [The GUI](./docs/mtBasics.md#the-gui)
 
-[2.1. EFFECT GLOSSARY](./docs/mtBasics.md#effect-glossary)
+[2.1. WORKING WITH SAMPLES](./docs/samples.md)
+
+[2.2. EFFECT GLOSSARY](./docs/fx.md)
 
 [2.2. MAKING A SMALL MILKYTRACKER SONG]()
 
