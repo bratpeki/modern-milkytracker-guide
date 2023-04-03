@@ -38,6 +38,8 @@
 [2.2. EFFECT GLOSSARY](./docs/fx.md)
 
 [3. MILKYTRACKER UI]()
+- [Settings]()
+- [Keybinds]()
 
 [4. TIPS AND TRICKS]()
 - [Mixing]()
