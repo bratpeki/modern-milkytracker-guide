@@ -1,6 +1,4 @@
-# A modern guide to MilkyTracker
-
-## Table of Contents
+# Table of Contents
 
 [0. INTRODUCTION](./docs/intro.md)
 
