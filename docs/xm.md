@@ -190,13 +190,13 @@ for example `C-5 (+12)` or `C-3 (-12)`.
 
 ### Samples
 
-Samples are, arguably, the most important part of the instrument.
+Samples are the most important part of the instrument.
 
 Each instrument holds 16 samples unique to that instrument,
 meaning you cannot share them between instruments unless you literally
 copy them from one instrument onto another.
 
-**All samples are mono.**
+**All samples are mono.**<br>
 If you want to make stereo audio, you need to place two samples,
 pan them far-left and far-right and play them simultaneously.
 
@@ -204,11 +204,35 @@ The graphical keyboard in the instrument tab allows you to choose which sample i
 You select the sample you want to set, and then click, or hold and drag, on the keys. By default,
 all notes play instrument 0.
 
+An in-depth look into how samples are used is given in "[2.1. WORKING WITH SAMPLES](./samples.md)".
+
 ## Volume (Track slot)
 
 Similar to volume in the XI instrument, except that it overrides the volume set by the instrument.
 
+If no volume is set in the track and a new note is played, the volume is going to be the instrument volume.<br>
+If no volume is set in the track and no note is played, the volume is going to be same as in the track above.
+
+And example of the track slot volume is given below.
+
+```
+Instrument volume: 30
+
+| C-4 | .1 | .. | ... | < Volume: 30
+| ... | .. | .. | ... | < Volume: 30
+| ... | .. | 20 | ... | < Volume: 20
+| D#4 | .1 | 10 | ... | < Volume: 10
+| ... | .. | .. | ... | < Volume: 10
+| D#4 | .1 | .. | ... | < Volume: 30
+| ... | .. | 08 | ... | < Volume: 08
+| ... | .. | .. | ... | < Volume: 08
+```
+
 ## Effects
+
+Effects allow manipulation of one of the key sample properties at a time.
+
+There are many, so we'll cover them in "[2.2. EFFECT GLOSSARY](./fx.md)".
 
 ## Patterns
 
