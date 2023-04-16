@@ -50,7 +50,7 @@ You can find that doc **in dark mode** in my fork
 
 ### Kxx Key-off
 
-# Volume column effects
+## Volume column effects
 
 ### xx Set note volume
 
@@ -58,12 +58,18 @@ You can find that doc **in dark mode** in my fork
 
 ### -x Volume slide down
 
-### Ux Fine volume slide up (displayed as ▲x)
+### Ux Fine volume slide up
 
-### Dx Fine volume slide down (displayed as ▼x)
+Displayed as `▲x`.
 
-### Lx Panning slide left (displayed as ◀x)
+### Dx Fine volume slide down
 
-### Rx Panning slide right (displayed as ▶x)
+Displayed as `▼x`.
 
-### Vx Vibrato
+### Lx Panning slide left
+
+Displayed as `◀x`.
+
+### Rx Panning slide right
+
+Displayed as `▶x`.

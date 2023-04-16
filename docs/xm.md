@@ -232,7 +232,8 @@ Instrument volume: 30
 
 Effects allow manipulation of one of the key sample properties at a time.
 
-There are many, so we'll cover them in "[2.2. EFFECT GLOSSARY](./fx.md)".
+There are many, so we'll cover them in
+"[2.2. EFFECT GLOSSARY](./fx.md)".
 
 ## Patterns
 
