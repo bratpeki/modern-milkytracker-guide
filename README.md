@@ -34,6 +34,8 @@
 [2.1. WORKING WITH SAMPLES](./docs/samples.md)
 
 [2.2. EFFECT GLOSSARY](./docs/fx.md)
+- [Effect column effects](./docs/fx.md#effect-column-effects)
+- [Volume column effects](./docs/fx.md#volume-column-effects)
 
 [3. MILKYTRACKER UI]()
 - [Settings]()
