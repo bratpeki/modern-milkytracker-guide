@@ -73,3 +73,5 @@ Displayed as `◀x`.
 ### Rx Panning slide right
 
 Displayed as `▶x`.
+
+[>>> BACK](../README.md)<br>
