@@ -237,7 +237,7 @@ There are many, so we'll cover them in
 
 ## Patterns
 
-Patterns are specified by 3 things:
+Patterns are defined by 3 things:
 
 1. **The pattern number**:<br>
 In the MT GUI, specified as `Patn.`<br>
@@ -253,8 +253,15 @@ The default value is `40`, or 4 bars split into 16th notes in 4/4 meter.
 3. **The pattern content**:<br>
 The actual notes.
 
+At any point in the pattern you can change the BPM and SPD.<br>
+BPM ranges from 32 upto 255. SPD ranges from 1 upto 31.
+
+What you cannot change is the number of tracks in all patterns.
+You can have at least 2 and at most 32 tracks in each pattern in standard XM.
+In MT, you can "unlock" more tracks in the settings, either 64 or 128.
+
 ## Songs
 
-<!-- TODO -->
+You can have a maximum of 256 patterns in a song.
 
 [>>> BACK](../README.md)<br>

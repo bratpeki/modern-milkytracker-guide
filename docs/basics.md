@@ -122,7 +122,8 @@ The duration of the song can be either finite or infinite, depending on whether 
 
 Ticks are the smallest unit of time in a tracker.
 
-Each pattern has a definiton of how many ticks play out in a single pattern line.
+You can, at any point in the song, define a tick rate,
+AKA the number of ticks between two pattern lines.
 
 It is useful to set more ticks when you need fine-tuned changes to take place,
 because, for example, 10 ticks mean that you have 10 units of time between two pattern lines
