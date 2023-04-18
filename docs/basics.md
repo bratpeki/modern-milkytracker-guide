@@ -40,7 +40,8 @@ Here, we'll be looking at the elements which make up a tracker composition.
 
 ### Instruments
 
-An instrument is a system consisting of samples and rules on how to play them back.<br>
+An instrument is a system consisting of samples and rules on how to play them back.
+
 Instruments allow you to:
 
 - Choose which note triggers which sample
@@ -112,21 +113,30 @@ In the example above:
 | D#4 | .1 | .. | ... | ... | .. | .. | ... | < This is the second pattern line
 ```
 
+Patterns will play back at different speeds depending on the BPM and pattern speed (labeled `SPD`).
+More on SPD in the [TICKS, SPD AND BPM](#ticks-spd-and-bpm) section.
+
 ### Songs
 
 A song is a system consisting of mulitple patterns, played one after another in a specific order.
 
 The duration of the song can be either finite or infinite, depending on whether or not you've set pattern looping.
 
-### Ticks
+### Ticks, SPD and BPM
 
 Ticks are the smallest unit of time in a tracker.
 
-You can, at any point in the song, define a tick rate,
-AKA the number of ticks between two pattern lines.
+They are controlled via BPM, the measure for beats per minute, and SPD, the pattern speed.
 
-It is useful to set more ticks when you need fine-tuned changes to take place,
-because, for example, 10 ticks mean that you have 10 units of time between two pattern lines
-to make changes.
+BPM defines how much time there is between ticks.<br>
+SPD defines the number of ticks between two pattern lines.
+
+The general idea is:
+
+- **The greater the BPM, the less time there is between two neighboring ticks.**
+- **The greater the SPD, the more ticks there are between two pattern lines.**
+
+It is useful to set a bigger SPD when you need fine-tuned changes to take place, because, for example,
+with SPD set to 10 you have 10 units of time between two pattern lines to make changes.
 
 [>>> BACK](../README.md)<br>

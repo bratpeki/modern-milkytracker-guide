@@ -11,7 +11,7 @@
 	- [Tracks](./docs/basics.md#tracks)
 	- [Patterns](./docs/basics.md#patterns)
 	- [Songs](./docs/basics.md#songs)
-	- [Ticks](./docs/basics.md#ticks)
+	- [Ticks, SPD and BPM](./docs/basics.md#ticks-spd-and-bpm)
 
 [2. THE XM FILE FORMAT](./docs/xm.md)
 - [Notes](./docs/xm.md/#notes)
