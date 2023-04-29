@@ -1,18 +1,19 @@
 # Effect glossary
 
-Here, we'll be covering effects
-based on how commonly they are used and
-what they are used for.
+Here, we'll be covering effects you will *commonly* use.
 
-Since there are **a lot** of effects,
-most of which you will, frankly, *"never"* use,
-I'll be covering the commonly used ones in much detail.
+What you should keep in mind is
+that some effects play differently on MODs than on XMs.
+This is called playback mode and can be found
+by clicking on the `OPTIONS` button in the top-left section
+of the main UI.
+We'll keep in mind that the playback mode is always set to `Fasttracker 2.x`
+(that is, that you're composing in XM).
 
-This part will be very similar to the effect glossary in the
+All effects that we leave out, and `MOD` playback mode specifications can be found in the
 `/docs/MilkyTracker.html` section of the original MT repo.
 You can find that doc **in dark mode** in my fork
 [here](https://github.com/bratpeki/MilkyTracker/blob/master/docs/MilkyTracker.html).
-**Any effect that is not covered here will be listed in the doc.**
 
 ## Effect column effects
 
