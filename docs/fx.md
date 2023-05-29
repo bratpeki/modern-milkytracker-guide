@@ -61,7 +61,7 @@ Bends the note pitch up.
 The greater the speed, the greater the bend.
 
 The bending depends on the frequency table, BPM, SPD, the current note, and some other instrument-related settings,
-so it's pretty difficult to calculate to which note it will "climb" when you use this effect. So, go by trial and error! :)
+so it's pretty difficult to calculate which note it will "climb" to when you use this effect. So, go by trial and error! :)
 
 The same applies for [2xx PORTAMENTO DOWN](#2xx-portamento-down) and [3xx PORTAMENTO TO NOTE](#3xx-portamento-to-note).
 
