@@ -10,7 +10,7 @@ of the main UI.
 We'll keep in mind that the playback mode is always set to `Fasttracker 2.x`
 (that is, that you're composing in XM).
 
-We'll also assume you're resampling (in `SETTINGS > I/O`) is set to a non-Amiga option (ex. `Linear interpolation`).
+We'll also assume your resampling mode (in `SETTINGS > I/O`) is set to a non-Amiga option (ex. `Linear interpolation`).
 
 All effects that we leave out, and specifics relating to the settings mentioned above, can be found in the
 `/docs/MilkyTracker.html` section of the original MT repo.
@@ -56,7 +56,14 @@ C-4 .1 .. 103
 
 **Description:**
 
-Bends the note pitch up, each tick, by the speed.
+Bends the note pitch up.
+
+The greater the speed, the greater the bend.
+
+The bending depends on the frequency table, BPM, SPD, the current note, and some other instrument-related settings,
+so it's pretty difficult to calculate to which note it will "climb" when you use this effect. So, go by trial and error! :)
+
+The same applies for [2xx PORTAMENTO DOWN](#2xx-portamento-down) and [3xx PORTAMENTO TO NOTE](#3xx-portamento-to-note).
 
 ### 2xx Portamento down
 
@@ -73,9 +80,33 @@ C-4 .1 .. 203
 
 **Description:**
 
-Bends the note pitch down, each tick, by the speed.
+Bends the note pitch down.
+
+For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 
 ### 3xx Portamento to note
+
+**Syntax:**
+
+`3` `PORTAMENTO SPEED`
+
+**Example:**
+
+```
+C-4 .1 .. ...
+... .. .. ...
+D-4 .. .. 301
+... .. .. 300
+... .. .. 300
+... .. .. 300
+```
+
+MT "remembers" the last parameter for the `3xx` effect, as long as it's used on the same note,
+so you can use `300` instead of `301`.
+
+Bends down from the original note (in this case `C-4`) to the target note (in this case `D-4`).
+
+For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 
 ### 4xy Vibrato
 
