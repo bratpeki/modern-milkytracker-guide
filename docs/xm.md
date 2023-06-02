@@ -265,4 +265,10 @@ In MT, you can "unlock" more tracks in the settings, either 64 or 128.
 
 You can have a maximum of 256 patterns in a song.
 
-[>>> BACK](../README.md)<br>
+---
+
+[>>> TRACKER BASICS](./basics.md)<br>
+[>>> WORKING WITH SAMPLES](./samples.md)<br>
+[>>> EFFECT GLOSSARY](./fx.md)<br>
+
+[>>> BACK](../README.md)

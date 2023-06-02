@@ -139,4 +139,9 @@ The general idea is:
 It is useful to set a bigger SPD when you need fine-tuned changes to take place, because, for example,
 with SPD set to 10 you have 10 units of time between two pattern lines to make changes.
 
-[>>> BACK](../README.md)<br>
+---
+
+[>>> INTRODUCTION](./intro.md)<br>
+[>>> THE XM FILE FORMAT](./xm.md)
+
+[>>> BACK](../README.md)
