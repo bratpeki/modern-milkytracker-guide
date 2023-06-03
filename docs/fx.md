@@ -2,20 +2,14 @@
 
 Here, we'll be covering effects you will *commonly* use.
 
-What you should keep in mind is
-that some effects play differently on MODs than on XMs.
-This is called playback mode and can be found
-by clicking on the `OPTIONS` button in the top-left section
-of the main UI.
-We'll keep in mind that the playback mode is always set to `Fasttracker 2.x`
-(that is, that you're composing in XM).
+What you should keep in mind is that some effects play differently on MODs than on XMs.
+This is called playback mode and can be found by clicking on the `OPTIONS` button in the top-left section of the main UI.
+We'll keep in mind that the playback mode is always set to `Fasttracker 2.x` (that is, that you're composing in XM).
 
 We'll also assume your resampling mode (in `SETTINGS > I/O`) is set to a non-Amiga option (ex. `Linear interpolation`).
 
-All effects that we leave out, and specifics relating to the settings mentioned above, can be found in the
-`/docs/MilkyTracker.html` section of the original MT repo.
-You can find that doc **in dark mode** in my fork
-[here](https://github.com/bratpeki/MilkyTracker/blob/master/docs/MilkyTracker.html).
+All effects that we leave out, and specifics relating to the settings mentioned above, can be found in the `/docs/MilkyTracker.html` section of the original MT repo.
+You can find that doc **in dark mode** in my fork [here](https://github.com/bratpeki/MilkyTracker/blob/master/docs/MilkyTracker.html).
 
 ## Effect column effects
 
@@ -34,9 +28,7 @@ C-4 .1 .. 037
 
 **Description:**
 
-Arpeggio quickly alters the note pitch between
-the base note (`C-4`) and
-the semitone offsets `x` (3 = `D#4`) and `y` (7 = `G-4`).
+Arpeggio quickly alters the note pitch between the base note (`C-4`) and the semitone offsets `x` (3 = `D#4`) and `y` (7 = `G-4`).
 
 Each pitch is played for the duration of 1 tick.
 If speed is higher than 3 (meaning there are more than 3 ticks per row), the sequence is looped.
@@ -60,8 +52,7 @@ Bends the note pitch up.
 
 The greater the speed, the greater the bend.
 
-The bending depends on the frequency table, BPM, SPD, the current note, and some other instrument-related settings,
-so it's pretty difficult to calculate which note it will "climb" to when you use this effect. So, go by trial and error! :)
+The bending depends on the frequency table, BPM, SPD, the current note, and some other instrument-related settings, so it's pretty difficult to calculate which note it will "climb" to when you use this effect. So, go by trial and error! :)
 
 The same applies for [2xx PORTAMENTO DOWN](#2xx-portamento-down) and [3xx PORTAMENTO TO NOTE](#3xx-portamento-to-note).
 
@@ -101,8 +92,9 @@ D-4 .. .. 301
 ... .. .. 300
 ```
 
-MT "remembers" the last parameter for the `3xx` effect, as long as it's used on the same note,
-so you can use `300` instead of `301`.
+**Description:**
+
+MT "remembers" the last parameter for the `3xx` effect, as long as it's used on the same note, so you can use `300` instead of `301`.
 
 Bends down from the original note (in this case `C-4`) to the target note (in this case `D-4`).
 
@@ -110,52 +102,120 @@ For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 
 ### 4xy Vibrato
 
-### 5xy Portamento to note with volume slide
-
-### 6xy Vibrato with volume slide
+**Syntax:**
+**Example:**
+**Description:**
 
 ### 7xy Tremolo
 
+**Syntax:**
+**Example:**
+**Description:**
+
 ### 8xx Set note panning position
+
+**Syntax:**
+**Example:**
+**Description:**
 
 ### 9xx Sample offset
 
+**Syntax:**
+**Example:**
+**Description:**
+
 ### Axy Volume slide
+
+**Syntax:**
+**Example:**
+**Description:**
 
 ### Bxx Jump to order
 
+**Syntax:**
+**Example:**
+**Description:**
+
 ### Cxx Set note volume
+
+**Syntax:**
+**Example:**
+**Description:**
 
 ### Dxx Pattern break
 
+**Syntax:**
+**Example:**
+**Description:**
+
 ### Gxx Set global volume
+
+**Syntax:**
+**Example:**
+**Description:**
 
 ### Fxx Set song speed
 
+**Syntax:**
+**Example:**
+**Description:**
+
 ### Kxx Key-off
+
+**Syntax:**
+**Example:**
+**Description:**
 
 ## Volume column effects
 
 ### xx Set note volume
 
+**Syntax:**
+**Example:**
+**Description:**
+
 ### +x Volume slide up
+
+**Syntax:**
+**Example:**
+**Description:**
 
 ### -x Volume slide down
 
+**Syntax:**
+**Example:**
+**Description:**
+
 ### Ux Fine volume slide up
+
+**Syntax:**
+**Example:**
+**Description:**
 
 Displayed as `▲x`.
 
 ### Dx Fine volume slide down
 
+**Syntax:**
+**Example:**
+**Description:**
+
 Displayed as `▼x`.
 
 ### Lx Panning slide left
+
+**Syntax:**
+**Example:**
+**Description:**
 
 Displayed as `◀x`.
 
 ### Rx Panning slide right
 
+**Syntax:**
+**Example:**
+**Description:**
+
 Displayed as `▶x`.
 
-[>>> BACK](../README.md)<br>
+[>>> BACK TO START](../README.md)<br>

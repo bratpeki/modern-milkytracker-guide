@@ -2,8 +2,7 @@
 
 Here, we will be covering the basics of **traditional** trackers.
 
-I hightlight the term "traditional" because you will mainly hear that trackers are split into
-traditional and modern trackers. Modern trackers have some neat features like plugin support, mixers and so on.
+I hightlight the term "traditional" because you will mainly hear that trackers are split into traditional and modern trackers. Modern trackers have some neat features like plugin support, mixers and so on.
 
 Whenever we refer to something as a "tracker" in this guide, it will be a traditional tracker.
 
@@ -19,8 +18,7 @@ They handle manipulation of one of four sample properties:
 
 A tracker allows storing the user-created composition under a binary file called a module.
 In MT, you will be met with two module formats: MOD and XM.
-Modules are usually of a much smaller file size than the lossless export,
-making trackers optimal for making small, but good-sounding music.
+Modules are usually of a much smaller file size than the lossless export, making trackers optimal for making small, but good-sounding music.
 
 ## Origin of the name
 
@@ -136,12 +134,11 @@ The general idea is:
 - **The greater the BPM, the less time there is between two neighboring ticks.**
 - **The greater the SPD, the more ticks there are between two pattern lines.**
 
-It is useful to set a bigger SPD when you need fine-tuned changes to take place, because, for example,
-with SPD set to 10 you have 10 units of time between two pattern lines to make changes.
+It is useful to set a bigger SPD when you need fine-tuned changes to take place, because, for example, with SPD set to 10 you have 10 units of time between two pattern lines to make changes.
 
 ---
 
 [>>> INTRODUCTION](./intro.md)<br>
 [>>> THE XM FILE FORMAT](./xm.md)
 
-[>>> BACK](../README.md)
+[>>> BACK TO START](../README.md)

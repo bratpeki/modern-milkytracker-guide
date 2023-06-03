@@ -6,8 +6,15 @@ Welcome to page 0!
 
 It's meant to be a modern collection of knowledge relating to the MilkyTracker music tracker.<br>
 "Modern" implies:
+
 - **that it is presented in a modern format (Markdown, GitHub standard)** and
 - **that it is clean of stale links and information which was relevant for very old versions**.
+
+As for the Markdown code, it is written following these rules:
+
+- Do not break sentences, the reader can use word breaks if they see fit
+- Avoid using HTML code unless neccessary (i.e. for a direct line break, `<br>`)
+- Make moving between docs easy and accessible
 
 Currently, it is meant to be a collection of the following information:
 
@@ -36,4 +43,4 @@ Good? Let's move on!
 
 [>>> TRACKER BASICS](./basics.md)
 
-[>>> BACK](../README.md)
+[>>> BACK TO START](../README.md)

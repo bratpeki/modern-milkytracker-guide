@@ -1,12 +1,8 @@
 # The XM file format
 
-This doc is reserved for explaining
-what the XM file format is and
-what you should know about it.
+This doc is reserved for explaining what the XM file format is and what you should know about it.
 
-**This is a very important piece of theory to understand**,
-because each tracker format works differently,
-so understanding the one you're using is key to mastering it.
+**This is a very important piece of theory to understand**, because each tracker format works differently, so understanding the one you're using is key to mastering it.
 
 Okay, let's get into it.
 
@@ -64,29 +60,23 @@ If on, MT will read the slope and interpret its height as volume.
 A slope is made out of points, 12 maximum.<br>
 The number can be changed with the buttons `Add` and `Del`.
 
-If `Sustain` is on, the envelope will function as normal
-until the sustain point, after which it will stay on that volume.
-Once the note is off (via Note-off), the envelope will play on as normal
-for as long as Fadeout is set.
+If `Sustain` is on, the envelope will function as normal until the sustain point, after which it will stay on that volume.
+Once the note is off (via Note-off), the envelope will play on as normal for as long as Fadeout is set.
 
-If `Loop` is on, the envelope will continually replay the
-envelope segment between the loop start and end points.
-Note-off doesn't affect it, it will continue to play the loop
-for as long as Fadeout is set.
+If `Loop` is on, the envelope will continually replay the envelope segment between the loop start and end points.
+Note-off doesn't affect it, it will continue to play the loop for as long as Fadeout is set.
 
 If the instrument volume is 0, the envelope will not play.
 
 ### Panning envelope
 
-The panning envelope behaves exactly the same as the volume envelope,
-with the exception that MT reads the slope height as panning instead of volume.
+The panning envelope behaves exactly the same as the volume envelope, with the exception that MT reads the slope height as panning instead of volume.
 
 If above the centre, the panning will move right, and vice-versa.
 
 ### Volume (Instrument slot)
 
-A hexadecimal value between `00` and `40`
-which presents the intensity of the sample playback.
+A hexadecimal value between `00` and `40` which presents the intensity of the sample playback.
 
 The default value is `40`.
 
@@ -94,8 +84,7 @@ It stacks with the volume envelope.
 
 ### Panning
 
-A hexadecimal value between `00` and `FF`
-which presents the intensity of the sample panning.
+A hexadecimal value between `00` and `FF` which presents the intensity of the sample panning.
 
 The default value is `80`.
 
@@ -112,17 +101,13 @@ The default value is 0 (`+000`).
 
 ### Fadeout
 
-A value that determines
-how quickly the volume of the sample drops to 0
-after the Note-off.
+A value that determines how quickly the volume of the sample drops to 0 after the Note-off.
 
 Works only when the volume envelope is on.
 
-You will usually have little use of the Fadeout setting, since the volume
-fall-off can be controlled using the volume envelope.
+You will usually have little use of the Fadeout setting, since the volume fall-off can be controlled using the volume envelope.
 
-It is, however, useful when you want to set long volume fall-off
-without moving the envelope point very far away from the start.
+It is, however, useful when you want to set long volume fall-off without moving the envelope point very far away from the start.
 
 The values range from `000` to `FFF`, including the last value, `cut`.
 
@@ -185,20 +170,16 @@ Allow you to set which note middle C actually is.
 
 You operate it using the buttons `Octave up/dn` and `Note up/dn`.
 
-The number in the bracket next to the relative note displays how far you are from middle C,
-for example `C-5 (+12)` or `C-3 (-12)`.
+The number in the bracket next to the relative note displays how far you are from middle C, for example `C-5 (+12)` or `C-3 (-12)`.
 
 ### Samples
 
 Samples are the most important part of the instrument.
 
-Each instrument holds 16 samples unique to that instrument,
-meaning you cannot share them between instruments unless you literally
-copy them from one instrument onto another.
+Each instrument holds 16 samples unique to that instrument, meaning you cannot share them between instruments unless you literally copy them from one instrument onto another.
 
 **All samples are mono.**<br>
-If you want to make stereo audio, you need to place two samples,
-pan them far-left and far-right and play them simultaneously.
+If you want to make stereo audio, you need to place two samples, pan them far-left and far-right and play them simultaneously.
 
 The graphical keyboard in the instrument tab allows you to choose which sample is played by which note.
 You select the sample you want to set, and then click, or hold and drag, on the keys. By default,
@@ -271,4 +252,4 @@ You can have a maximum of 256 patterns in a song.
 [>>> WORKING WITH SAMPLES](./samples.md)<br>
 [>>> EFFECT GLOSSARY](./fx.md)<br>
 
-[>>> BACK](../README.md)
+[>>> BACK TO START](../README.md)
