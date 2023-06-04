@@ -43,7 +43,7 @@ If speed is higher than 3 (meaning there are more than 3 ticks per row), the seq
 
 ```
 C-4 .1 .. 103
-... .. .. 103
+... .. .. 100
 ```
 
 **Description:**
@@ -53,6 +53,8 @@ Bends the note pitch up.
 The greater the speed, the greater the bend.
 
 The bending depends on the frequency table, BPM, SPD, the current note, and some other instrument-related settings, so it's pretty difficult to calculate which note it will "climb" to when you use this effect. So, go by trial and error! :)
+
+The last parameter is remembered, as long as it's used on the same note, so, in the example above, you can use `200` instead of `203`.
 
 The same applies for [2xx PORTAMENTO DOWN](#2xx-portamento-down) and [3xx PORTAMENTO TO NOTE](#3xx-portamento-to-note).
 
@@ -66,12 +68,14 @@ The same applies for [2xx PORTAMENTO DOWN](#2xx-portamento-down) and [3xx PORTAM
 
 ```
 C-4 .1 .. 203
-... .. .. 203
+... .. .. 200
 ```
 
 **Description:**
 
 Bends the note pitch down.
+
+The last parameter is remembered, as long as it's used on the same note, so, in the example above, you can use `200` instead of `203`.
 
 For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 
@@ -94,17 +98,38 @@ D-4 .. .. 301
 
 **Description:**
 
-MT "remembers" the last parameter for the `3xx` effect, as long as it's used on the same note, so you can use `300` instead of `301`.
-
 Bends down from the original note (in this case `C-4`) to the target note (in this case `D-4`).
+
+The last parameter is remembered, as long as it's used on the same note, so, in the example above, you can use `300` instead of `301`.
 
 For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 
 ### 4xy Vibrato
 
 **Syntax:**
+
+`4` `SPEED` `DEPTH`
+
 **Example:**
+
+```
+C-4 .1 .. ... | Note start, no vibrato
+... .. .. 41F | Vibrato: 41F
+... .. .. 400 | Vibrato: 41F
+... .. .. ... | No vibrato
+... .. .. 400 | Vibrato: 41F
+... .. .. ... | No vibrato
+... .. .. 42F | Vibrato: 42F
+... .. .. 400 | Vibrato: 42F
+... .. .. ... | No vibrato
+```
+
 **Description:**
+
+Alters note pitch up and down in the range of a full tone.
+Starts by going down.
+
+The last parameter is remembered, for the note currently being played.
 
 ### 7xy Tremolo
 
