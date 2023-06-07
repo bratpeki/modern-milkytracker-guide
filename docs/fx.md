@@ -22,8 +22,8 @@ You can find that doc **in dark mode** in my fork [here](https://github.com/brat
 **Example:**
 
 ```
-C-4 .1 .. 037
-... .. .. 037
+| C-4 | .1 | .. | 037 |
+| ... | .. | .. | 037 |
 ```
 
 **Description:**
@@ -31,7 +31,7 @@ C-4 .1 .. 037
 Arpeggio quickly alters the note pitch between the base note (`C-4`) and the semitone offsets `x` (3 = `D#4`) and `y` (7 = `G-4`).
 
 Each pitch is played for the duration of 1 tick.
-If speed is higher than 3 (meaning there are more than 3 ticks per row), the sequence is looped.
+If SPD is higher than 3 (meaning there are more than 3 ticks per row), the sequence is looped.
 
 ### 1xx Portamento up
 
@@ -42,8 +42,13 @@ If speed is higher than 3 (meaning there are more than 3 ticks per row), the seq
 **Example:**
 
 ```
-C-4 .1 .. 103
-... .. .. 100
+| TRACK               | PORTAMENTO
+| ------------------- |
+| C-4 | .1 | .. | 103 | 103
+| ... | .. | .. | 100 | 103
+| ... | .. | .. | ... | None
+| ... | .. | .. | 107 | 107
+| ... | .. | .. | 100 | 107
 ```
 
 **Description:**
@@ -67,8 +72,13 @@ The same applies for [2xx PORTAMENTO DOWN](#2xx-portamento-down) and [3xx PORTAM
 **Example:**
 
 ```
-C-4 .1 .. 203
-... .. .. 200
+| TRACK               | PORTAMENTO
+| ------------------- |
+| C-4 | .1 | .. | 203 | 203
+| ... | .. | .. | 200 | 203
+| ... | .. | .. | ... | None
+| ... | .. | .. | 207 | 207
+| ... | .. | .. | 200 | 207
 ```
 
 **Description:**
@@ -88,12 +98,14 @@ For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 **Example:**
 
 ```
-C-4 .1 .. ...
-... .. .. ...
-D-4 .. .. 301
-... .. .. 300
-... .. .. 300
-... .. .. 300
+| TRACK               | PORTAMENTO
+| ------------------- |
+| C-4 | .1 | .. | ... | None
+| ... | .. | .. | ... | None
+| D-4 | .. | .. | 301 | 301
+| ... | .. | .. | 300 | 301
+| ... | .. | .. | 300 | 301
+| ... | .. | .. | 300 | 301
 ```
 
 **Description:**
@@ -113,15 +125,17 @@ For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 **Example:**
 
 ```
-C-4 .1 .. ... | Note start, no vibrato
-... .. .. 41F | Vibrato: 41F
-... .. .. 400 | Vibrato: 41F
-... .. .. ... | No vibrato
-... .. .. 400 | Vibrato: 41F
-... .. .. ... | No vibrato
-... .. .. 42F | Vibrato: 42F
-... .. .. 400 | Vibrato: 42F
-... .. .. ... | No vibrato
+| TRACK               | VIBRATO
+| ------------------- |
+| C-4 | .1 | .. | ... | None
+| ... | .. | .. | 41F | 41F
+| ... | .. | .. | 400 | 41F
+| ... | .. | .. | ... | None
+| ... | .. | .. | 400 | 41F
+| ... | .. | .. | ... | None
+| ... | .. | .. | 42F | 42F
+| ... | .. | .. | 400 | 42F
+| ... | .. | .. | ... | None
 ```
 
 **Description:**
