@@ -121,7 +121,7 @@ For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 
 **Syntax:**
 
-`4` `SPEED` `DEPTH` or
+`4` `SPEED` `DEPTH` or<br>
 `4` `00` (Memory)
 
 **Example:**
