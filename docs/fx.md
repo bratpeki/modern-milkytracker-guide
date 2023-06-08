@@ -104,13 +104,13 @@ For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 | ... | .. | .. | ... | None
 | D-4 | .. | .. | 301 | 301
 | ... | .. | .. | 300 | 301
-| ... | .. | .. | 300 | 301
+| ... | .. | .. | ... | None
 | ... | .. | .. | 300 | 301
 ```
 
 **Description:**
 
-Bends down from the original note (in this case `C-4`) to the target note (in this case `D-4`).
+Bends down from the original note (`C-4`) to the target note (`D-4`).
 
 The last parameter is remembered, as long as it's used on the same note, so, in the example above, you can use `300` instead of `301`.
 
