@@ -173,7 +173,7 @@ Starts by going down.
 
 Alters note volume up and down at a given speed and depth.
 
-The speed is not reset after the effect.
+The volume is not reset after the effect.
 
 ### 8xx Set note panning position
 
