@@ -13,6 +13,11 @@ You can find that doc **in dark mode** in my fork [here](https://github.com/brat
 
 ## Effect column effects
 
+Some things to note:
+
+- The "(Memory)" added to certain effect syntax sections means that MT "remembers" the last used parameter **for that note**
+- Any bracket that looks like "(ex. ...)" shows how the current description relates to the example above
+
 ### 0xy Arpeggio
 
 **Syntax:**
@@ -37,7 +42,8 @@ If SPD is higher than 3 (meaning there are more than 3 ticks per row), the seque
 
 **Syntax:**
 
-`1` `PORTAMENTO SPEED`
+`1` `PORTAMENTO SPEED` or<br>
+`1` `00` (Memory)
 
 **Example:**
 
@@ -57,17 +63,15 @@ Bends the note pitch up.
 
 The greater the speed, the greater the bend.
 
-The bending depends on the frequency table, BPM, SPD, the current note, and some other instrument-related settings, so it's pretty difficult to calculate which note it will "climb" to when you use this effect. So, go by trial and error! :)
-
-The last parameter is remembered, as long as it's used on the same note, so, in the example above, you can use `200` instead of `203`.
-
+The bending depends on the frequency table, BPM, SPD, the current note, and some other instrument-related settings, so it's pretty difficult to calculate which note it will "climb" to when you use this effect. So, go by trial and error! :)<br>
 The same applies for [2xx PORTAMENTO DOWN](#2xx-portamento-down) and [3xx PORTAMENTO TO NOTE](#3xx-portamento-to-note).
 
 ### 2xx Portamento down
 
 **Syntax:**
 
-`2` `PORTAMENTO SPEED`
+`2` `PORTAMENTO SPEED` or<br>
+`2` `00` (Memory)
 
 **Example:**
 
@@ -85,15 +89,14 @@ The same applies for [2xx PORTAMENTO DOWN](#2xx-portamento-down) and [3xx PORTAM
 
 Bends the note pitch down.
 
-The last parameter is remembered, as long as it's used on the same note, so, in the example above, you can use `200` instead of `203`.
-
 For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 
 ### 3xx Portamento to note
 
 **Syntax:**
 
-`3` `PORTAMENTO SPEED`
+`3` `PORTAMENTO SPEED` or<br>
+`3` `00` (Memory)
 
 **Example:**
 
@@ -112,15 +115,14 @@ For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 
 Bends down from the original note (`C-4`) to the target note (`D-4`).
 
-The last parameter is remembered, as long as it's used on the same note, so, in the example above, you can use `300` instead of `301`.
-
 For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 
 ### 4xy Vibrato
 
 **Syntax:**
 
-`4` `SPEED` `DEPTH`
+`4` `SPEED` `DEPTH` or
+`4` `00` (Memory)
 
 **Example:**
 
@@ -142,8 +144,6 @@ For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 
 Alters note pitch up and down in the range of a full tone.
 Starts by going down.
-
-The last parameter is remembered, for the note currently being played.
 
 ### 7xy Tremolo
 
