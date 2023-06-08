@@ -16,13 +16,14 @@ You can find that doc **in dark mode** in my fork [here](https://github.com/brat
 Some things to note:
 
 - The "(Memory)" added to certain effect syntax sections means that MT "remembers" the last used parameter **for that note**
+    - "(Memory - ...)" means that only the parameter "..." is remembered
 - Any bracket that looks like "(ex. ...)" shows how the current description relates to the example above
 
 ### 0xy Arpeggio
 
 **Syntax:**
 
-`0` `OFFSET 1` `OFFSET 2`
+`0` `OFFSET X` `OFFSET Y`
 
 **Example:**
 
@@ -33,7 +34,7 @@ Some things to note:
 
 **Description:**
 
-Arpeggio quickly alters the note pitch between the base note (`C-4`) and the semitone offsets `x` (3 = `D#4`) and `y` (7 = `G-4`).
+Arpeggio quickly alters the note pitch between the base note (`C-4`) and the semitone offsets `X` (3 = `D#4`) and `Y` (7 = `G-4`).
 
 Each pitch is played for the duration of 1 tick.
 If SPD is higher than 3 (meaning there are more than 3 ticks per row), the sequence is looped.
@@ -148,8 +149,31 @@ Starts by going down.
 ### 7xy Tremolo
 
 **Syntax:**
+
+`7` `SPEED` `DEPTH` or<br>
+`7` `0` `DEPTH` (Memory - `SPEED`) or<br>
+`7` `SPEED` `0` (Memory - `DEPTH`) or<br>
+`7` `00` (Memory)
+
 **Example:**
+
+```
+| TRACK               | TREMOLO
+| ------------------- |
+| C-4 | .1 | .. | 72F | 72F
+| ... | .. | .. | 700 | 72F
+| ... | .. | .. | ... | None
+| ... | .. | .. | 700 | 72F
+| ... | .. | .. | 7F0 | 7FF
+| ... | .. | .. | 701 | 7F1
+| ... | .. | 30 | ... | None, volume reset
+```
+
 **Description:**
+
+Alters note volume up and down at a given speed and depth.
+
+The speed is not reset after the effect.
 
 ### 8xx Set note panning position
 
