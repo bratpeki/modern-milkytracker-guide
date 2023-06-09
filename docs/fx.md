@@ -34,7 +34,7 @@ Some things to note:
 
 **Description:**
 
-Arpeggio quickly alters the note pitch between the base note (`C-4`) and the semitone offsets `X` (3 = `D#4`) and `Y` (7 = `G-4`).
+Arpeggio quickly alters the note pitch between the base note (ex. `C-4`) and the semitone offsets `X` (ex. 3 = `D#4`) and `Y` (ex. 7 = `G-4`).
 
 Each pitch is played for the duration of 1 tick.
 If SPD is higher than 3 (meaning there are more than 3 ticks per row), the sequence is looped.
@@ -114,7 +114,7 @@ For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 
 **Description:**
 
-Bends down from the original note (`C-4`) to the target note (`D-4`).
+Bends down from the original note (ex. `C-4`) to the target note (ex. `D-4`).
 
 For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 
