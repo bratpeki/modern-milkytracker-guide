@@ -123,6 +123,8 @@ For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 **Syntax:**
 
 `4` `SPEED` `DEPTH` or<br>
+`4` `0` `DEPTH` (Memory - `SPEED`) or<br>
+`4` `SPEED` `0` (Memory - `DEPTH`) or<br>
 `4` `00` (Memory)
 
 **Example:**
@@ -178,7 +180,11 @@ The volume is not reset after the effect.
 ### 8xx Set note panning position
 
 **Syntax:**
+
+`8` `POSITION`
+
 **Example:**
+
 **Description:**
 
 ### 9xx Sample offset
