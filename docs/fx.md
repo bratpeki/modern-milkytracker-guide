@@ -1,3 +1,5 @@
+## Effect glossary
+
 Here, we'll be covering effects you will *commonly* use. I'll leave out some effects which are useful for very specific use-cases.
 
 <!-- TODO: Axy, Bxx, Dxx, Kxx -->
@@ -11,13 +13,13 @@ We'll also assume your resampling mode (in `SETTINGS > I/O`) is set to a non-Ami
 All effects that we leave out, and specifics relating to the settings mentioned above, can be found in the `/docs/MilkyTracker.html` section of the original MT repo.
 You can find that doc **in dark mode** in my fork [here](https://github.com/bratpeki/MilkyTracker/blob/master/docs/MilkyTracker.html).
 
-# Effect column effects
-
 Some things to note:
 
 - The "(Memory)" added to certain effect syntax sections means that MT "remembers" the last used parameter **for that note**
     - "(Memory - ...)" means that only the parameter "..." is remembered
 - Any bracket that looks like "(ex. ...)" shows how the current description relates to the example above
+
+# Effect column effects
 
 ## 0xy Arpeggio
 

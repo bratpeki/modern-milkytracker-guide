@@ -1,3 +1,5 @@
+## The XM file format
+
 This doc is reserved for explaining what the XM file format is and what you should know about it.
 
 **This is a very important piece of theory to understand**, because each tracker format works differently, so understanding the one you're using is key to mastering it.

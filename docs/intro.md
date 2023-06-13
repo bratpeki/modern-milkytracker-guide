@@ -1,3 +1,5 @@
+## Introduction
+
 Welcome to page 0!
 
 **Before we begin, let's state what this guide *actually* is.**

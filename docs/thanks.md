@@ -1,4 +1,4 @@
-# Thanks
+## Thanks
 
 My thanks go out to:
 
