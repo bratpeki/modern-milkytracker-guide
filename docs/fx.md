@@ -265,8 +265,7 @@ Just like the other two volume settings, the value is a hex number between `00` 
 
 **Description:**
 
-When `VALUE` is between `01` (1) and `1F` (31), `VALUE` will be the new SPD.
-
+When `VALUE` is between `01` (1) and `1F` (31), `VALUE` will be the new SPD.<br>
 When `VALUE` is between `20` (32) and `FF` (255), `VALUE` will be the new BPM.
 
 ### Gxx Set global volume
@@ -323,8 +322,8 @@ Overrides the instrument sample volume setting.
 
 **Description:**
 
-Increases the note volume by `VALUE` each tick.
-So, SPD acts as a multilpier (ex. if SPD is 3, for `+2`, the note volume will be increased by 3x2 = 6)
+Increases the note volume by `VALUE` each tick.<br>
+SPD acts as a multilpier (ex. if SPD is 3, for `+2`, the note volume will be increased by 3x2 = 6).
 
 Same as using `A` `VALUE` `0` in the effect column.
 
@@ -342,8 +341,8 @@ Same as using `A` `VALUE` `0` in the effect column.
 
 **Description:**
 
-Decreases the note volume by `VALUE` each tick.
-So, SPD acts as a multilpier (ex. if SPD is 3, for `+2`, the note volume will be decreased by 3x2 = 6)
+Decreases the note volume by `VALUE` each tick.<br>
+SPD acts as a multilpier (ex. if SPD is 3, for `+2`, the note volume will be decreased by 3x2 = 6).
 
 Same as using `A` `0` `VALUE` in the effect column.
 
@@ -436,5 +435,31 @@ SPD acts like a multiplier.
 `3xx` and `▶x` share memory (ex. in the second row we slide the pan over to `83`, and in the third row the `300` keeps the pan at `83`).
 
 Displayed as `▶x`.
+
+### Px Set note panning position
+
+**Syntax:**
+
+`P` `VALUE`
+
+**Example:**
+
+```
+| TRACK               | PAN
+| ------------------- |
+| C-4 | .1 | P0 | ... | 00
+| ... | .. | P3 | ... | 33
+| ... | .. | .. | 300 | 33
+| ... | .. | .. | ... | 33
+| ... | .. | .. | 880 | 80
+```
+
+**Description:**
+
+Pan the note from the volume column.
+
+`P` `VALUE` equates to using `8` `VALUE` `VALUE` in the effect column.
+
+`3xx` and `Px` share memory (ex. in the second row we set the pan to `33`, and in the third row the `300` keeps the pan at `33`).
 
 [>>> BACK TO START](../README.md)<br>
