@@ -343,24 +343,43 @@ Same as using `A` `VALUE` `0` in the effect column.
 **Description:**
 
 Decreases the note volume by `VALUE` each tick.
+So, SPD acts as a multilpier (ex. if SPD is 3, for `+2`, the note volume will be decreased by 3x2 = 6)
 
 Same as using `A` `0` `VALUE` in the effect column.
-
-For more information read [+X VOLUME SLIDE UP](#x-volume-slide-up).
 
 ### Ux Fine volume slide up
 
 **Syntax:**
+
+`U` `VALUE`
+
 **Example:**
+
+```
+| C-4 | .1 | ▲2 | ... |
+```
+
 **Description:**
+
+Similar to [+X VOLUME SLIDE UP](#x-volume-slide-up), except that it changes the volume per row (ex. the volume will increase by 2).
 
 Displayed as `▲x`.
 
 ### Dx Fine volume slide down
 
 **Syntax:**
+
+`D` `VALUE`
+
 **Example:**
+
+```
+| C-4 | .1 | ▼2 | ... |
+```
+
 **Description:**
+
+Similar to [+X VOLUME SLIDE DOWN](#x-volume-slide-down), except that it changes the volume per row (ex. the volume will decrease by 2).
 
 Displayed as `▼x`.
 

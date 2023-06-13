@@ -101,7 +101,7 @@ For example, let's expand on the previous example with a bass in the second trac
 | D#4 | .1 | .. | ... | ... | .. | .. | ... |
 ```
 
-They consist of pattern lines, which are a collection of cells that play at the same time.<br>
+They consist of pattern lines (rows), which are a collection of cells that play at the same time.<br>
 In the example above:
 
 ```
