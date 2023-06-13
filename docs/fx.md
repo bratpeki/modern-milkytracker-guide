@@ -185,7 +185,18 @@ The volume is not reset after the effect.
 
 **Example:**
 
+```
+| C-4 | .1 | .. | 800
+| ... | .. | .. | ...
+| ... | .. | .. | 880
+```
+
 **Description:**
+
+Pans the currently playing tone.
+`00` is far left, `80` is center and `FF` is far-right.
+
+The effect is not reset if there is no argument on the next pattern line (ex. in the second pattern line, the tone is still panned far-left, and is reset back to the center on the third pattern line).
 
 ### 9xx Sample offset
 
