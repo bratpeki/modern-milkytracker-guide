@@ -287,6 +287,8 @@ Sets the global song volume.
 
 By default, the global song volume will be `40`.
 
+This setting cannot be set graphically, and can only be altered using the `Gxx` command.
+
 ## Volume column effects
 
 ### xx Set note volume
