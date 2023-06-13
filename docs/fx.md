@@ -379,23 +379,61 @@ Displayed as `▲x`.
 
 **Description:**
 
-Similar to [+X VOLUME SLIDE DOWN](#x-volume-slide-down), except that it changes the volume per row (ex. the volume will decrease by 2).
+Similar to [-X VOLUME SLIDE DOWN](#-x-volume-slide-down), except that it changes the volume per row (ex. the volume will decrease by 2).
 
 Displayed as `▼x`.
 
 ### Lx Panning slide left
 
 **Syntax:**
+
+`L` `VALUE`
+
 **Example:**
+
+```
+| TRACK               | PAN
+| ------------------- |
+| C-4 | .1 | .. | F03 | 80 (Center)
+| ... | .. | ◀2 | ... | 80 - 2*3 = 7A
+| ... | .. | .. | 300 | 7A
+| ... | .. | .. | ... | 7A
+| ... | .. | .. | 880 | 80
+```
+
 **Description:**
+
+Slides the pan, once per tick, over to the left.
+SPD acts like a multiplier.
+
+`3xx` and `◀x` share memory (ex. in the second row we slide the pan over to `7A`, and in the third row the `300` keeps the pan at `7A`).
 
 Displayed as `◀x`.
 
 ### Rx Panning slide right
 
 **Syntax:**
+
+`R` `VALUE`
+
 **Example:**
+
+```
+| TRACK               | PAN
+| ------------------- |
+| C-4 | .1 | .. | F03 | 80 (Center)
+| ... | .. | ▶1 | ... | 80 + 1*3 = 83
+| ... | .. | .. | 300 | 83
+| ... | .. | .. | ... | 83
+| ... | .. | .. | 880 | 80
+```
+
 **Description:**
+
+Slides the pan, once per tick, over to the left.
+SPD acts like a multiplier.
+
+`3xx` and `▶x` share memory (ex. in the second row we slide the pan over to `83`, and in the third row the `300` keeps the pan at `83`).
 
 Displayed as `▶x`.
 
