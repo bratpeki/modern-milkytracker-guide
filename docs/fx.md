@@ -258,14 +258,14 @@ Just like the other two volume settings, the value is a hex number between `00` 
 **Example:**
 
 ```
-| TRACK 1 (BPM)        | TRACK 2 (TICK RATE)  |
+| TRACK 1 (BPM)        | TRACK 2 (SPD)        |
 | -------------------- | -------------------- |
 | ... | .. | ... | F90 | ... | .. | ... | F06 |
 ```
 
 **Description:**
 
-When `VALUE` is between `01` (1) and `1F` (31), `VALUE` will be the new tick rate.
+When `VALUE` is between `01` (1) and `1F` (31), `VALUE` will be the new SPD.
 
 When `VALUE` is between `20` (32) and `FF` (255), `VALUE` will be the new BPM.
 
@@ -294,20 +294,59 @@ This setting cannot be set graphically, and can only be altered using the `Gxx` 
 ### xx Set note volume
 
 **Syntax:**
+
+`VALUE`
+
 **Example:**
+
+```
+| C-4 | .1 | 3F | ... |
+```
+
 **Description:**
+
+Sets the sample playback volume.
+
+Overrides the instrument sample volume setting.
 
 ### +x Volume slide up
 
 **Syntax:**
+
+`+` `VALUE`
+
 **Example:**
+
+```
+| C-4 | .1 | +2 | ... |
+```
+
 **Description:**
+
+Increases the note volume by `VALUE` each tick.
+So, SPD acts as a multilpier (ex. if SPD is 3, for `+2`, the note volume will be increased by 3x2 = 6)
+
+Same as using `A` `VALUE` `0` in the effect column.
 
 ### -x Volume slide down
 
 **Syntax:**
+
+`-` `VALUE`
+
 **Example:**
+
+```
+| C-4 | .1 | -2 | ... |
+```
+
 **Description:**
+
+Decreases the note volume by `VALUE` each tick.
+
+Same as using `A` `0` `VALUE` in the effect column.
+
+For more information read [+X VOLUME SLIDE UP](#x-volume-slide-up).
 
 ### Ux Fine volume slide up
 
