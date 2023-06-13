@@ -1,6 +1,8 @@
 # Effect glossary
 
-Here, we'll be covering effects you will *commonly* use.
+Here, we'll be covering effects you will *commonly* use. I'll leave out some effects which are useful for very specific use-cases.
+
+<!-- TODO: Axy, Bxx, Dxx, Kxx -->
 
 What you should keep in mind is that some effects play differently on MODs than on XMs.
 This is called playback mode and can be found by clicking on the `OPTIONS` button in the top-left section of the main UI.
@@ -186,9 +188,9 @@ The volume is not reset after the effect.
 **Example:**
 
 ```
-| C-4 | .1 | .. | 800
-| ... | .. | .. | ...
-| ... | .. | .. | 880
+| C-4 | .1 | .. | 800 |
+| ... | .. | .. | ... |
+| ... | .. | .. | 880 |
 ```
 
 **Description:**
@@ -196,55 +198,94 @@ The volume is not reset after the effect.
 Pans the currently playing tone.
 `00` is far left, `80` is center and `FF` is far-right.
 
+This effect overrides the panning value defined by the instrument sample settings.
+
 The effect is not reset if there is no argument on the next pattern line (ex. in the second pattern line, the tone is still panned far-left, and is reset back to the center on the third pattern line).
 
 ### 9xx Sample offset
 
 **Syntax:**
+
+`9` `OFFSET MULTIPLIER`
+
 **Example:**
+
+```
+| C-4 | .1 | .. | 907 |
+| ... | .. | .. | ... |
+```
+
 **Description:**
 
-### Axy Volume slide
+Offsets the sample playback start position by `OFFSET MULTIPLER`*256 bytes.
+Keep in mind that `OFFSET MULTIPLER` is read in hex.
+So, with `901`, you are offsetting the sample playback start position by 256 (`0x100`) bytes, with `902` by 512 bytes, and so on.
 
-**Syntax:**
-**Example:**
-**Description:**
+The maximum offset amount is 65280 bytes.
 
-### Bxx Jump to order
-
-**Syntax:**
-**Example:**
-**Description:**
+`900`, of course, makes no change to the sample playback.
 
 ### Cxx Set note volume
 
 **Syntax:**
+
+`C` `VOLUME`
+
 **Example:**
+
+```
+| C-4 | .1 | .. | C40 |
+| ... | .. | .. | C20 |
+| ... | .. | .. | C10 |
+| ... | .. | .. | C08 |
+| ... | .. | .. | C04 |
+| ... | .. | .. | C02 |
+| ... | .. | .. | C01 |
+```
+
 **Description:**
 
-### Dxx Pattern break
+Sets the sample playback volume, **overriding both the instrument sample volume setting and the volume in the volume column**.
 
-**Syntax:**
-**Example:**
-**Description:**
-
-### Gxx Set global volume
-
-**Syntax:**
-**Example:**
-**Description:**
+Just like the other two volume settings, the value is a hex number between `00` and `40`.
 
 ### Fxx Set song speed
 
 **Syntax:**
+
+`F` `VALUE`
+
 **Example:**
+
+```
+| TRACK 1 (BPM)        | TRACK 2 (TICK RATE)  |
+| -------------------- | -------------------- |
+| ... | .. | ... | F90 | ... | .. | ... | F06 |
+```
+
 **Description:**
 
-### Kxx Key-off
+When `VALUE` is between `01` (1) and `1F` (31), `VALUE` will be the new tick rate.
+
+When `VALUE` is between `20` (32) and `FF` (255), `VALUE` will be the new BPM.
+
+### Gxx Set global volume
 
 **Syntax:**
+
+`G` `VALUE`
+
 **Example:**
+
+```
+| ... | .. | ... | G40 |
+```
+
 **Description:**
+
+Sets the global song volume.
+
+By default, the global song volume will be `40`.
 
 ## Volume column effects
 
