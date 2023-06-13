@@ -1,12 +1,10 @@
-# Tracker basics
-
 Here, we will be covering the basics of **traditional** trackers.
 
 I hightlight the term "traditional" because you will mainly hear that trackers are split into traditional and modern trackers. Modern trackers have some neat features like plugin support, mixers and so on.
 
 Whenever we refer to something as a "tracker" in this guide, it will be a traditional tracker.
 
-## What are trackers?
+# What are trackers?
 
 Trackers are computer programs that enable users to create music via music samples.
 They handle manipulation of one of four sample properties:
@@ -20,7 +18,7 @@ A tracker allows storing the user-created composition under a binary file called
 In MT, you will be met with two module formats: MOD and XM.
 Modules are usually of a much smaller file size than the lossless export, making trackers optimal for making small, but good-sounding music.
 
-## Origin of the name
+# Origin of the name
 
 You should know the following trems:
 
@@ -32,11 +30,11 @@ You should know the following trems:
 
 More often than not, you'll hear the term "tracker" being used to describe a tracker musician.
 
-## The basics of tracker music
+# The basics of tracker music
 
 Here, we'll be looking at the elements which make up a tracker composition.
 
-### Instruments
+## Instruments
 
 An instrument is a system consisting of samples and rules on how to play them back.
 
@@ -46,7 +44,7 @@ Instruments allow you to:
 - Set a volume and panning envelope
 - Set fine definition properties
 
-### Cells
+## Cells
 
 Cells are single elements which make up a track.<br>
 They usually look like this:
@@ -64,7 +62,7 @@ In the case of many trackers, the data is presented in the same order, that bein
 
 The dots are meant to be empty spaces. Some trackers show them, some don't. MT does.
 
-### Tracks
+## Tracks
 
 Tracks are columns consisting of a finite number of cells.<br>
 For example, here's a track containing a manually created arpeggio:
@@ -83,7 +81,7 @@ For example, here's a track containing a manually created arpeggio:
 Also, notice that instead of the `-`, there is now a `#` for sharp notes in the first row.<br>
 This saves up on screen space.
 
-### Patterns
+## Patterns
 
 The next step up after tracks are patterns, collections of multiple tracks.<br>
 For example, let's expand on the previous example with a bass in the second track:
@@ -114,13 +112,13 @@ In the example above:
 Patterns will play back at different speeds depending on the BPM and pattern speed (labeled `SPD`).
 More on SPD in the [TICKS, SPD AND BPM](#ticks-spd-and-bpm) section.
 
-### Songs
+## Songs
 
 A song is a system consisting of mulitple patterns, played one after another in a specific order.
 
 The duration of the song can be either finite or infinite, depending on whether or not you've set pattern looping.
 
-### Ticks, SPD and BPM
+## Ticks, SPD and BPM
 
 Ticks are the smallest unit of time in a tracker.
 

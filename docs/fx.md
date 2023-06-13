@@ -1,5 +1,3 @@
-# Effect glossary
-
 Here, we'll be covering effects you will *commonly* use. I'll leave out some effects which are useful for very specific use-cases.
 
 <!-- TODO: Axy, Bxx, Dxx, Kxx -->
@@ -13,7 +11,7 @@ We'll also assume your resampling mode (in `SETTINGS > I/O`) is set to a non-Ami
 All effects that we leave out, and specifics relating to the settings mentioned above, can be found in the `/docs/MilkyTracker.html` section of the original MT repo.
 You can find that doc **in dark mode** in my fork [here](https://github.com/bratpeki/MilkyTracker/blob/master/docs/MilkyTracker.html).
 
-## Effect column effects
+# Effect column effects
 
 Some things to note:
 
@@ -21,7 +19,7 @@ Some things to note:
     - "(Memory - ...)" means that only the parameter "..." is remembered
 - Any bracket that looks like "(ex. ...)" shows how the current description relates to the example above
 
-### 0xy Arpeggio
+## 0xy Arpeggio
 
 **Syntax:**
 
@@ -41,7 +39,7 @@ Arpeggio quickly alters the note pitch between the base note (ex. `C-4`) and the
 Each pitch is played for the duration of 1 tick.
 If SPD is higher than 3 (meaning there are more than 3 ticks per row), the sequence is looped.
 
-### 1xx Portamento up
+## 1xx Portamento up
 
 **Syntax:**
 
@@ -69,7 +67,7 @@ The greater the speed, the greater the bend.
 The bending depends on the frequency table, BPM, SPD, the current note, and some other instrument-related settings, so it's pretty difficult to calculate which note it will "climb" to when you use this effect. So, go by trial and error! :)<br>
 The same applies for [2xx PORTAMENTO DOWN](#2xx-portamento-down) and [3xx PORTAMENTO TO NOTE](#3xx-portamento-to-note).
 
-### 2xx Portamento down
+## 2xx Portamento down
 
 **Syntax:**
 
@@ -94,7 +92,7 @@ Bends the note pitch down.
 
 For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 
-### 3xx Portamento to note
+## 3xx Portamento to note
 
 **Syntax:**
 
@@ -120,7 +118,7 @@ Bends down from the original note (ex. `C-4`) to the target note (ex. `D-4`).
 
 For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 
-### 4xy Vibrato
+## 4xy Vibrato
 
 **Syntax:**
 
@@ -150,7 +148,7 @@ For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 Alters note pitch up and down in the range of a full tone.
 Starts by going down.
 
-### 7xy Tremolo
+## 7xy Tremolo
 
 **Syntax:**
 
@@ -179,7 +177,7 @@ Alters note volume up and down at a given speed and depth.
 
 The volume is not reset after the effect.
 
-### 8xx Set note panning position
+## 8xx Set note panning position
 
 **Syntax:**
 
@@ -202,7 +200,7 @@ This effect overrides the panning value defined by the instrument sample setting
 
 The effect is not reset if there is no argument on the next pattern line (ex. in the second pattern line, the tone is still panned far-left, and is reset back to the center on the third pattern line).
 
-### 9xx Sample offset
+## 9xx Sample offset
 
 **Syntax:**
 
@@ -225,7 +223,7 @@ The maximum offset amount is 65280 bytes.
 
 `900`, of course, makes no change to the sample playback.
 
-### Cxx Set note volume
+## Cxx Set note volume
 
 **Syntax:**
 
@@ -249,7 +247,7 @@ Sets the sample playback volume, **overriding both the instrument sample volume 
 
 Just like the other two volume settings, the value is a hex number between `00` and `40`.
 
-### Fxx Set song speed
+## Fxx Set song speed
 
 **Syntax:**
 
@@ -268,7 +266,7 @@ Just like the other two volume settings, the value is a hex number between `00` 
 When `VALUE` is between `01` (1) and `1F` (31), `VALUE` will be the new SPD.<br>
 When `VALUE` is between `20` (32) and `FF` (255), `VALUE` will be the new BPM.
 
-### Gxx Set global volume
+## Gxx Set global volume
 
 **Syntax:**
 
@@ -288,9 +286,9 @@ By default, the global song volume will be `40`.
 
 This setting cannot be set graphically, and can only be altered using the `Gxx` command.
 
-## Volume column effects
+# Volume column effects
 
-### xx Set note volume
+## xx Set note volume
 
 **Syntax:**
 
@@ -308,7 +306,7 @@ Sets the sample playback volume.
 
 Overrides the instrument sample volume setting.
 
-### +x Volume slide up
+## +x Volume slide up
 
 **Syntax:**
 
@@ -327,7 +325,7 @@ SPD acts as a multilpier (ex. if SPD is 3, for `+2`, the note volume will be inc
 
 Same as using `A` `VALUE` `0` in the effect column.
 
-### -x Volume slide down
+## -x Volume slide down
 
 **Syntax:**
 
@@ -346,7 +344,7 @@ SPD acts as a multilpier (ex. if SPD is 3, for `+2`, the note volume will be dec
 
 Same as using `A` `0` `VALUE` in the effect column.
 
-### Ux Fine volume slide up
+## Ux Fine volume slide up
 
 **Syntax:**
 
@@ -364,7 +362,7 @@ Similar to [+X VOLUME SLIDE UP](#x-volume-slide-up), except that it changes the 
 
 Displayed as `▲x`.
 
-### Dx Fine volume slide down
+## Dx Fine volume slide down
 
 **Syntax:**
 
@@ -382,7 +380,7 @@ Similar to [-X VOLUME SLIDE DOWN](#-x-volume-slide-down), except that it changes
 
 Displayed as `▼x`.
 
-### Lx Panning slide left
+## Lx Panning slide left
 
 **Syntax:**
 
@@ -409,7 +407,7 @@ SPD acts like a multiplier.
 
 Displayed as `◀x`.
 
-### Rx Panning slide right
+## Rx Panning slide right
 
 **Syntax:**
 
@@ -436,7 +434,7 @@ SPD acts like a multiplier.
 
 Displayed as `▶x`.
 
-### Px Set note panning position
+## Px Set note panning position
 
 **Syntax:**
 

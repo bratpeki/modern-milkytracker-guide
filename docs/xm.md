@@ -1,12 +1,10 @@
-# The XM file format
-
 This doc is reserved for explaining what the XM file format is and what you should know about it.
 
 **This is a very important piece of theory to understand**, because each tracker format works differently, so understanding the one you're using is key to mastering it.
 
 Okay, let's get into it.
 
-## Intro to XM
+# Intro to XM
 
 A brief bit of history and introductory trivia about the format.
 
@@ -25,7 +23,7 @@ Tracks, patterns and instruments can be saved and reused, each with their own st
 The standards are named XT, XP and XI, and stand for **"eXtended Track/Pattern/Instrument"**.<br>
 Their file extensions are, as expected, `.xt`, `.xp` and `.xi`, respectively.
 
-## Notes
+# Notes
 
 The thing you should be met with are the "limits" of XM when it comes to notes.<br>
 XM allows for placing all notes between C0 and B7, so you have 8 octaves of space.
@@ -45,14 +43,14 @@ and/or Fadeout, play for a short period of time after the Note-off instruction.
 
 There's more talk about Note-off below.
 
-## Instruments
+# Instruments
 
 In one composition, you can have up to 128 XI instruments.
 
 They have plenty of basic tools
 that'll help you make the sound you're looking for.
 
-### Volume envelope
+## Volume envelope
 
 Either turned on or off, via the `On` button.<br>
 If on, MT will read the slope and interpret its height as volume.
@@ -68,13 +66,13 @@ Note-off doesn't affect it, it will continue to play the loop for as long as Fad
 
 If the instrument volume is 0, the envelope will not play.
 
-### Panning envelope
+## Panning envelope
 
 The panning envelope behaves exactly the same as the volume envelope, with the exception that MT reads the slope height as panning instead of volume.
 
 If above the centre, the panning will move right, and vice-versa.
 
-### Volume (Instrument slot)
+## Volume (Instrument slot)
 
 A hexadecimal value between `00` and `40` which presents the intensity of the sample playback.
 
@@ -82,7 +80,7 @@ The default value is `40`.
 
 It stacks with the volume envelope.
 
-### Panning
+## Panning
 
 A hexadecimal value between `00` and `FF` which presents the intensity of the sample panning.
 
@@ -90,7 +88,7 @@ The default value is `80`.
 
 It stacks with the panning envelope.
 
-### Fine-tune
+## Fine-tune
 
 A value between -128 and 127 which presents microtonal tuning.
 
@@ -99,7 +97,7 @@ A value between -128 and 127 which presents microtonal tuning.
 
 The default value is 0 (`+000`).
 
-### Fadeout
+## Fadeout
 
 A value that determines how quickly the volume of the sample drops to 0 after the Note-off.
 
@@ -134,7 +132,7 @@ You could simulate the effect of `cut` by simply not having any points in the vo
 Some, however, would argue that it's useful when you're using effects that offset where you are on the envelope.
 Ultimately, it's up to you.
 
-### Vibrato
+## Vibrato
 
 Vibrato control consists of 4 properties:
 
@@ -164,7 +162,7 @@ The choices are:
 - Reverse sawtooth
 - Sawtooth
 
-### Relative note
+## Relative note
 
 Allow you to set which note middle C actually is.
 
@@ -172,7 +170,7 @@ You operate it using the buttons `Octave up/dn` and `Note up/dn`.
 
 The number in the bracket next to the relative note displays how far you are from middle C, for example `C-5 (+12)` or `C-3 (-12)`.
 
-### Samples
+## Samples
 
 Samples are the most important part of the instrument.
 
@@ -187,7 +185,7 @@ all notes play instrument 0.
 
 An in-depth look into how samples are used is given in "[2.1. WORKING WITH SAMPLES](./samples.md)".
 
-## Volume (Track slot)
+# Volume (Track slot)
 
 Similar to volume in the XI instrument, except that it overrides the volume set by the instrument.
 
@@ -211,14 +209,14 @@ Instrument volume: 30
 | ... | .. | .. | ... | 08
 ```
 
-## Effects
+# Effects
 
 Effects allow manipulation of one of the key sample properties at a time.
 
 There are many, so we'll cover them in
 "[2.2. EFFECT GLOSSARY](./fx.md)".
 
-## Patterns
+# Patterns
 
 Patterns are defined by 3 things:
 
@@ -244,7 +242,7 @@ What you cannot change is the number of tracks in all patterns.
 You can have at least 2 and at most 32 tracks in each pattern in standard XM.
 In MT, you can "unlock" more tracks in the settings, either 64 or 128.
 
-## Songs
+# Songs
 
 You can have a maximum of 256 patterns in a song.
 
