@@ -51,7 +51,7 @@ If SPD is higher than 3 (meaning there are more than 3 ticks per row), the seque
 **Example:**
 
 ```
-| TRACK               | PORTAMENTO
+| TRACK               | PORTAMENTO (effect equivalent)
 | ------------------- |
 | C-4 | .1 | .. | 103 | 103
 | ... | .. | .. | 100 | 103
@@ -79,7 +79,7 @@ The same applies for [2xx PORTAMENTO DOWN](#2xx-portamento-down) and [3xx PORTAM
 **Example:**
 
 ```
-| TRACK               | PORTAMENTO
+| TRACK               | PORTAMENTO (effect equivalent)
 | ------------------- |
 | C-4 | .1 | .. | 203 | 203
 | ... | .. | .. | 200 | 203
@@ -104,7 +104,7 @@ For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 **Example:**
 
 ```
-| TRACK               | PORTAMENTO
+| TRACK               | PORTAMENTO (effect equivalent)
 | ------------------- |
 | C-4 | .1 | .. | ... | None
 | ... | .. | .. | ... | None
@@ -132,7 +132,7 @@ For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 **Example:**
 
 ```
-| TRACK               | VIBRATO
+| TRACK               | VIBRATO (effect equivalent)
 | ------------------- |
 | C-4 | .1 | .. | ... | None
 | ... | .. | .. | 41F | 41F
@@ -162,7 +162,7 @@ Starts by going down.
 **Example:**
 
 ```
-| TRACK               | TREMOLO
+| TRACK               | TREMOLO (effect equivalent)
 | ------------------- |
 | C-4 | .1 | .. | 72F | 72F
 | ... | .. | .. | 700 | 72F
@@ -224,6 +224,35 @@ So, with `901`, you are offsetting the sample playback start position by 256 (`0
 The maximum offset amount is 65280 bytes.
 
 `900`, of course, makes no change to the sample playback.
+
+## Axy Volume slide
+
+**Syntax:**
+
+`A` `VOLUME SLIDE UP VALUE` `VOLUME SLIDE DOWN VALUE`
+
+**Example**
+
+```
+| TRACK               | VOLUME (hex)
+| ------------------- |
+| ... | .. | .. | F03 |
+| C-4 | .1 | 30 | A04 | 30 - (3-1)*4 = 28
+| ... | .. | .. | ... | 28
+| ... | .. | .. | A40 | 28 + (3-1)*4 = 30
+```
+
+**Description:**
+
+**After the first tick**, the command does one of the two:
+
+- Increases the volume by `VOLUME SLIDE UP VALUE`
+- Decreases the volume by `VOLUME SLIDE DOWN VALUE`
+
+If both are used at the same time, the volume is only increased by `VOLUME SLIDE UP VALUE`.<br>
+**I highly advise against using both at the same time, since playback is unpredictable on different players.**
+
+## Kxx Key-off
 
 ## Cxx Set note volume
 
@@ -418,9 +447,9 @@ Displayed as `◀x`.
 **Example:**
 
 ```
-| TRACK               | PAN
+| TRACK               | PAN (hex)
 | ------------------- |
-| C-4 | .1 | .. | F03 | 80 (Center)
+| C-4 | .1 | .. | F03 | 80 (center)
 | ... | .. | ▶1 | ... | 80 + 1*3 = 83
 | ... | .. | .. | 300 | 83
 | ... | .. | .. | ... | 83
@@ -445,7 +474,7 @@ Displayed as `▶x`.
 **Example:**
 
 ```
-| TRACK               | PAN
+| TRACK               | PAN (hex)
 | ------------------- |
 | C-4 | .1 | P0 | ... | 00
 | ... | .. | P3 | ... | 33
