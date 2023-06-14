@@ -419,14 +419,17 @@ Displayed as `▼x`.
 
 **Example:**
 
+I'm using `L` instead of the `◀` you'll see in the program.<br>
+This is because that character is two character widths wide, so this makes the example easier to read.
+
 ```
 | TRACK               | PAN
 | ------------------- |
-| C-4 | .1 | . . | F03 | 80 (Center)
-| ... | .. | ◀2 | ... | 80 - 2*3 = 7A
-| ... | .. | . . | 300 | 7A
-| ... | .. | . . | ... | 7A
-| ... | .. | . . | 880 | 80
+| C-4 | .1 | .. | F03 | 80 (Center)
+| ... | .. | L2 | ... | 80 - 2*3 = 7A
+| ... | .. | .. | 300 | 7A
+| ... | .. | .. | ... | 7A
+| ... | .. | .. | 880 | 80
 ```
 
 **Description:**
@@ -446,14 +449,17 @@ Displayed as `◀x`.
 
 **Example:**
 
+I'm using `R` instead of the `▶` you'll see in the program.<br>
+This is because that character is two character widths wide, so this makes the example easier to read.
+
 ```
 | TRACK               | PAN (hex)
 | ------------------- |
-| C-4 | .1 | . . | F03 | 80 (center)
-| ... | .. | ▶1 | ... | 80 + 1*3 = 83
-| ... | .. | . . | 300 | 83
-| ... | .. | . . | ... | 83
-| ... | .. | . . | 880 | 80
+| C-4 | .1 | .. | F03 | 80 (center)
+| ... | .. | R1 | ... | 80 + 1*3 = 83
+| ... | .. | .. | 300 | 83
+| ... | .. | .. | ... | 83
+| ... | .. | .. | 880 | 80
 ```
 
 **Description:**
