@@ -31,26 +31,28 @@
 - [Patterns](./docs/xm.md#patterns)
 - [Songs](./docs/xm.md#songs)
 
-[2.1. WORKING WITH SAMPLES](./docs/samples.md)
-
-[2.2. EFFECT GLOSSARY](./docs/fx.md)
+[2.1. EFFECT GLOSSARY](./docs/fx.md)
 - [Effect column effects](./docs/fx.md#effect-column-effects)
 - [Volume column effects](./docs/fx.md#volume-column-effects)
 
 [3. MILKYTRACKER UI]()
-- [Settings]()
-- [Keybinds]()
 
-[4. TIPS AND TRICKS]()
+[3.1. WORKING WITH SAMPLES](./docs/samples.md)
+
+[4. CONFIGURING MILKYTRACKER]()
+
+[4.1. KEYBIND OPTIONS]()
+
+[5. TIPS AND TRICKS]()
 - [Mixing]()
 - [Common DAW effects]()
 
-[5. GOOD SOURCES]()
+[6. GOOD SOURCES]()
 - [Samples]()
 - [Modules]()
 - [Information]()
 
-[6. DEVELOPMENT INFORMATION]()
+[7. DEVELOPMENT INFORMATION]()
 - [Compiling MilkyTracker]()
 
-[7. THANKS](./docs/thanks.md)
+[8. THANKS](./docs/thanks.md)
