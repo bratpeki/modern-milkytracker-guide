@@ -2,8 +2,6 @@
 
 Here, we'll be covering effects you will *commonly* use. I'll leave out some effects which are useful for very specific use-cases.
 
-<!-- TODO: Axy, Bxx, Dxx, Kxx -->
-
 What you should keep in mind is that some effects play differently on MODs than on XMs.
 This is called playback mode and can be found by clicking on the `OPTIONS` button in the top-left section of the main UI.
 We'll keep in mind that the playback mode is always set to `Fasttracker 2.x` (that is, that you're composing in XM).
@@ -251,8 +249,6 @@ The maximum offset amount is 65280 bytes.
 
 If both are used at the same time, the volume is only increased by `VOLUME SLIDE UP VALUE`.<br>
 **I highly advise against using both at the same time, since playback is unpredictable on different players.**
-
-## Kxx Key-off
 
 ## Cxx Set note volume
 
