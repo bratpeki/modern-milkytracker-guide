@@ -181,11 +181,15 @@ Each instrument holds 16 samples unique to that instrument, meaning you cannot s
 **All samples are mono.**<br>
 If you want to make stereo audio, you need to place two samples, pan them far-left and far-right and play them simultaneously.
 
-The graphical keyboard in the instrument tab allows you to choose which sample is played by which note.
-You select the sample you want to set, and then click, or hold and drag, on the keys. By default,
-all notes play instrument 0.
+Every note that the tracker can play is bound to an instrument. That means that the user manually sets which note plays which sample in an instrument.
+By default, each note plays sample 0.
 
-An in-depth look into how samples are used is given in "[2.1. WORKING WITH SAMPLES](./samples.md)".
+Each sample can be looped between a manually set start and end point. The possible looping modes are:
+
+- No loop
+- Forward (Loop start to loop end, repeats)
+- Ping-pong (Loop start to loop end, plays backwards from loop end to loop start, repeats)
+- One shot (Sample start to sample end, loops back to sample start, plays until loop end, loops back to loop start)
 
 # Volume (Track slot)
 
@@ -216,7 +220,7 @@ Instrument volume: 30
 Effects allow manipulation of one of the key sample properties at a time.
 
 There are many, so we'll cover them in
-"[2.2. EFFECT GLOSSARY](./fx.md)".
+"[2.1. EFFECT GLOSSARY](./fx.md)".
 
 # Patterns
 
@@ -251,7 +255,6 @@ You can have a maximum of 256 patterns in a song.
 ---
 
 [>>> TRACKER BASICS](./basics.md)<br>
-[>>> WORKING WITH SAMPLES](./samples.md)<br>
 [>>> EFFECT GLOSSARY](./fx.md)<br>
 
 [>>> BACK TO START](../README.md)
