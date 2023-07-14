@@ -10,10 +10,13 @@ It's meant to be a modern collection of knowledge relating to the MilkyTracker m
 - **that it is presented in a modern format (Markdown, GitHub standard)** and
 - **that it is clean of stale links and information which was relevant for very old versions**.
 
+"MilkyTracker" implies MilkyTracker version 1.03.00 on PC devices.
+Most of the information should still be relevant for older versions and different hardware.
+
 As for the Markdown code, it is written following these rules:
 
-- Do not break sentences, the reader can use word breaks if they see fit
-- Avoid using HTML code unless neccessary (i.e. for a direct line break, `<br>`)
+- In the code, do not break sentences, the reader can use word breaks if they see fit
+- In the code, avoid using HTML code unless neccessary (i.e. for a direct line break, `<br>`)
 - Make moving between docs easy and accessible
 
 Currently, it is meant to be a collection of the following information:
