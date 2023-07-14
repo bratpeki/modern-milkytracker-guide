@@ -10,8 +10,8 @@ It's meant to be a modern collection of knowledge relating to the MilkyTracker m
 - **that it is presented in a modern format (Markdown, GitHub standard)** and
 - **that it is clean of stale links and information which was relevant for very old versions**.
 
-"MilkyTracker" implies MilkyTracker version 1.03.00 on PC devices.
-Most of the information should still be relevant for older versions and different hardware.
+"MilkyTracker" implies MilkyTracker version 1.03.00 on PC devices.<br>
+Most of the information should still be relevant for other versions and/or hardware.
 
 As for the Markdown code, it is written following these rules:
 
