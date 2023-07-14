@@ -186,10 +186,22 @@ By default, each note plays sample 0.
 
 Each sample can be looped between a manually set start and end point. The possible looping modes are:
 
-- No loop
-- Forward (Loop start to loop end, repeats)
-- Ping-pong (Loop start to loop end, plays backwards from loop end to loop start, repeats)
-- One shot (Sample start to sample end, loops back to sample start, plays until loop end, loops back to loop start)
+1. **No loop**
+
+2. **Forward**:
+Playback starts at the beginning of the sample, and plays as normal until the loop end point.
+Then the playhead resets itself to the loop start point and playback loops between the loop start and end points.
+
+3. **Ping-pong**:
+Playback starts at the beginning of the sample, and plays as normal until the loop end point.
+Then the sample plays backward from the loop end point to the loop start point.
+Then the sample plays forward from the loop start point to the loop end point.
+This motion loops for as long as the sample is playing.
+
+4. **One shot**:
+Playback starts at the beginning of the sample, and plays as normal until the end of the sample.
+Then the playhead resets itself to the beginning of the sample, and plays in "Forward" mode between the loop start and end points.
+The loop start point is the sample as the sample beginning and any attempt to change it sets the loop mode to "Forward".
 
 # Volume (Track slot)
 
