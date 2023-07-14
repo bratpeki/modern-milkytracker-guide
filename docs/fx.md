@@ -480,7 +480,6 @@ Displayed as `▶x`.
 | ------------------- |
 | C-4 | .1 | P0 | ... | 00
 | ... | .. | P3 | ... | 33
-| ... | .. | .. | 300 | 33
 | ... | .. | .. | ... | 33
 | ... | .. | .. | 880 | 80
 ```
@@ -490,7 +489,5 @@ Displayed as `▶x`.
 Pan the note from the volume column.
 
 `P` `VALUE` equates to using `8` `VALUE` `VALUE` in the effect column.
-
-`3xx` and `Px` share memory (ex. in the second row we set the pan to `33`, and in the third row the `300` keeps the pan at `33`).
 
 [>>> BACK TO START](../README.md)<br>

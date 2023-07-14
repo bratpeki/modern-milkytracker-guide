@@ -253,8 +253,8 @@ The default value is `40`, or 4 bars split into 16th notes in 4/4 meter.
 The actual notes.
 
 At any point in the pattern you can change the SPD and BPM.<br>
-SPD ranges from 1 up to 31.<br>
-BPM ranges from 32 up to 255.
+SPD ranges from 1 up to 31, in decimal.<br>
+BPM ranges from 32 up to 255, in decimal.
 
 What you cannot change is the number of tracks in all patterns.
 You can have at least 2 and at most 32 tracks in each pattern in standard XM.
