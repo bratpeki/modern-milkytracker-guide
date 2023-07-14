@@ -178,13 +178,11 @@ Samples are the most important part of the instrument.
 
 Each instrument holds 16 samples unique to that instrument, meaning you cannot share them between instruments unless you literally copy them from one instrument onto another.
 
-**All samples are mono.**
+All samples are mono.
 If you want to make stereo audio, you need to place two samples, pan them far-left and far-right and play them simultaneously.
 
 You can manually set which note plays which sample in an instrument.
 By default, each note plays sample 0.
-
-Every time a note is triggered,
 
 Each sample can be looped between a manually set start and end point. The possible looping modes are:
 
