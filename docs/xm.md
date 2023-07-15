@@ -246,8 +246,8 @@ You can have a maximum of 255 different patterns.
 2. **The pattern length**:<br>
 In the MT GUI, specified as `Len.`<br>
 The number of cell rows in the pattern, presented in hexadecimal.<br>
-You can have a maximum of 256 pattern rows per pattern.<br>
-The default value is `40`, or 4 bars split into 16th notes in 4/4 meter.
+You can have a maximum of 256 pattern rows per pattern, and a minimum of 1.<br>
+The default value is `40`, 64 in decimal, or 4 bars split into 16th notes in 4/4 meter.
 
 3. **The pattern content**:<br>
 The actual notes.
