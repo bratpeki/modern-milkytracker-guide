@@ -2,7 +2,8 @@
 
 Here, we will be covering the basics of **traditional** trackers.
 
-I hightlight the term "traditional" because you will mainly hear that trackers are split into traditional and modern trackers. Modern trackers have some neat features like plugin support, mixers and so on.
+I hightlight the term "traditional" because you will mainly hear that trackers are split into traditional and modern trackers.
+Modern trackers have some neat features like plugin support, mixers and so on.
 
 Whenever we refer to something as a "tracker" in this guide, it will be a traditional tracker.
 
