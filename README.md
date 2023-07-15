@@ -35,17 +35,19 @@
 - [Effect column effects](./docs/fx.md#effect-column-effects)
 - [Volume column effects](./docs/fx.md#volume-column-effects)
 
-[3. MILKYTRACKER UI]()
+[3. MILKYTRACKER UI](./docs/ui.md)
 
 [3.1. WORKING WITH SAMPLES](./docs/samples.md)
 
-[4. CONFIGURING MILKYTRACKER]()
+[4. CONFIGURING MILKYTRACKER](./docs/config.md)
 
-[4.1. KEYBIND OPTIONS]()
+[4.1. KEYBIND OPTIONS](./docs/keybind.md)
 
 [5. TIPS AND TRICKS]()
 - [Mixing]()
-- [Common DAW effects]()
+- [Common sound effects]()
+	- [Chorus]()
+	- [Delay]()
 
 [6. GOOD SOURCES]()
 - [Samples]()

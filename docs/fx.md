@@ -1,4 +1,4 @@
-# Effect glossary
+# EFFECT GLOSSARY
 
 Here, we'll be covering effects you will *commonly* use. I'll leave out some effects which are useful for very specific use-cases.
 

@@ -1,4 +1,4 @@
-# The XM file format
+# THE XM FILE FORMAT
 
 This doc is reserved for explaining what the XM file format is and what you should know about it.
 

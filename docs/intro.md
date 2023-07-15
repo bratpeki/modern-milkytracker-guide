@@ -1,4 +1,4 @@
-# Introduction
+# INTRODUCTION
 
 Welcome to page 0!
 
