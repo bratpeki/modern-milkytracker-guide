@@ -53,6 +53,28 @@ The elements in this window, from top-left to bottom-right, are:
 5. Pattern editing window
 6. General editor buttons window
 
+## The song arranger
+
+![ui_generalEditor_songArr.png](../img/ui_generalEditor_songArr.png)
+
+## Song title, lenght and peak window + Common MT options toggle window
+
+![ui_generalEditor_songTitleTimePeak.png](ui_generalEditor_songTitleTimePeak.png)
+
+## Song and editing properties
+
+![ui_generalEditor_songEditProp1.png](../img/ui_generalEditor_songEditProp1.png)
+
+![ui_generalEditor_songEditProp2.png](../img/ui_generalEditor_songEditProp2.png)
+
+## Pattern editing window
+
+![ui_generalEditor_pattern.png](../img/ui_generalEditor_pattern.png)
+
+## General editor buttons window
+
+![ui_generalEditor_buttons.png](../img/ui_generalEditor_buttons.png)
+
 # Instrument menu
 
 # Sample menu
