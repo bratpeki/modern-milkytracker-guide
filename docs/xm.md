@@ -16,7 +16,7 @@ Unlike a MOD, XM has:
 - 16-bit sample support
 - Instruments
 - Sample looping
-- The ability to store more than 4 tracks (up to 256 in MT)
+- The ability to store more than 4 tracks (up to 128 in MT)
 
 and so on.
 

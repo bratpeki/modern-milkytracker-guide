@@ -84,6 +84,9 @@ For example, here's a track containing a manually created arpeggio:
 Also, notice that instead of the `-`, there is now a `#` for sharp notes in the first row.<br>
 This saves up on screen space.
 
+Sometimes, as is the case for MT, you'll hear the term "channel" begin used instead of "track".
+We'll mostly be using the term "track", since it's generaly more common.
+
 ## Patterns
 
 The next step up after tracks are patterns, collections of multiple tracks.<br>
