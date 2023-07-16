@@ -59,7 +59,7 @@ The elements in this window, from top-left to bottom-right, are:
 
 ## Song title, lenght and peak window + Common MT options toggle window
 
-![ui_generalEditor_songTitleTimePeak.png](ui_generalEditor_songTitleTimePeak.png)
+![ui_generalEditor_songTitleTimePeak.png](../img/ui_generalEditor_songTitleTimePeak.png)
 
 ## Song and editing properties
 
