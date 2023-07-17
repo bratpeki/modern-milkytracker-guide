@@ -56,18 +56,11 @@ The elements in this window, from top-left to bottom-right, are:
 ## The song arranger
 
 ![ui_generalEditor_songArr.png](../img/ui_generalEditor_songArr.png)
-
 Regular.
-
 ![ui_generalEditor_songArrExpand.png](../img/ui_generalEditor_songArrExpand.png)
-
 Expanded using the pattern sequence display expansion button.
 
-<br>
-
 This window is used to arrange the patterns you've created into the final song.
-
-<br>
 
 - **Pattern sequence display**:
 Allows you to view the song order number (in hex) and the pattern number (in hex), one next to the other.
