@@ -55,10 +55,8 @@ The elements in this window, from top-left to bottom-right, are:
 
 ## The song arranger
 
-![ui_generalEditor_songArr.png](../img/ui_generalEditor_songArr.png)
-Regular.
-![ui_generalEditor_songArrExpand.png](../img/ui_generalEditor_songArrExpand.png)
-Expanded using the pattern sequence display expansion button.
+![ui_generalEditor_songArr.png](../img/ui_generalEditor_songArr.png) Regular.<br>
+![ui_generalEditor_songArrExpand.png](../img/ui_generalEditor_songArrExpand.png) Expanded using the pattern sequence display expansion button.
 
 This window is used to arrange the patterns you've created into the final song.
 
