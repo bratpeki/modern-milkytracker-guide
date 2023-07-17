@@ -56,7 +56,7 @@ The elements in this window, from top-left to bottom-right, are:
 ## The song arranger
 
 ![ui_generalEditor_songArr.png](../img/ui_generalEditor_songArr.png) Regular.<br>
-![ui_generalEditor_songArrExpand.png](../img/ui_generalEditor_songArrExpand.png) Expanded using the pattern sequence display expansion button.
+![ui_generalEditor_songArrExpand.png](../img/ui_generalEditor_songArrExpand.png) Expanded view.
 
 This window is used to arrange the patterns you've created into the final song.
 
@@ -101,6 +101,7 @@ Increments or decrements the number of the pattern at the current song order.
 - `+/-` **buttons next to the song pattern length**:
 Adds a new pattern to the end of the song, or removes a pattern from the end of the song.
 In case a new pattern is added, it's pattern number is `00`.
+The `+/-` buttons next to the song pattern length in the exapnded view have the same effect.
 
 - `+/-` **button next to the repeating order number**:
 Increments or decrements the repeating song order.
@@ -111,9 +112,8 @@ Increments or decrements the repeating song order.
 
 ## Song and editing properties
 
-![ui_generalEditor_songEditProp1.png](../img/ui_generalEditor_songEditProp1.png)
-
-![ui_generalEditor_songEditProp2.png](../img/ui_generalEditor_songEditProp2.png)
+![ui_generalEditor_songEditProp1.png](../img/ui_generalEditor_songEditProp1.png) Regular.<br>
+![ui_generalEditor_songEditProp2.png](../img/ui_generalEditor_songEditProp2.png) Flipped view.
 
 ## Pattern editing window
 
