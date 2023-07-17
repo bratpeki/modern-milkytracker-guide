@@ -63,7 +63,11 @@ Regular.
 
 Expanded using the pattern sequence display expansion button.
 
+<br>
+
 This window is used to arrange the patterns you've created into the final song.
+
+<br>
 
 - **Pattern sequence display**:
 Allows you to view the song order number (in hex) and the pattern number (in hex), one next to the other.
