@@ -48,7 +48,7 @@ You can return to this window by either hitting `Exit` on the windows that take 
 The elements in this window, from top-left to bottom-right, are:
 
 1. The song arranger
-2. Song title, lenght and peak window + Common MT options toggle window
+2. Song title, length and peak window + Common MT options toggle window
 4. Song and editing properties
 5. Pattern editing window
 6. General editor buttons window
@@ -57,7 +57,56 @@ The elements in this window, from top-left to bottom-right, are:
 
 ![ui_generalEditor_songArr.png](../img/ui_generalEditor_songArr.png)
 
-## Song title, lenght and peak window + Common MT options toggle window
+![ui_generalEditor_songArrExpand.png](../img/ui_generalEditor_songArrExpand.png)
+
+This window is used to arrange the patterns you've created into the final song.
+
+**Pattern sequence display**:
+Allows you to view the song order number (in hex) and the pattern number (in hex), one next to the other.
+In a new module, you have the pattern `00` set to order `0`.
+
+**Pattern sequence display expansion button**:
+This button is above the `SEQ` button and allows you to hide the song pattern length and repeating song order number.
+This, in turn, expands the pattern sequence display further down, and allows for more readability.
+Hitting the button toggles this behaviour on and off.
+The example of this behaviour is above, on the second image of the section.
+
+`SEQ` **button**:
+Add a new pattern after the current one, if possible, so that its pattern number is the incremented previous pattern number.
+So, if your pattern sequence is:
+```
+0 | 00
+```
+By hitting `SEQ` you will generate the following sequence:
+```
+0 | 00
+1 | 01
+```
+If the current pattern in the sequence has the pattern number `FF`, the next one will be `00`, as well as every pattern after that next one.
+
+`CLN` **button**:
+Works the same way as the `SEQ` button, except that it copies the content of the current pattern into the next one.
+
+`Ins.` **button**:
+Inserts the current pattern at the next song order number.
+The button has no effect if there are 255 patterns in the song.
+
+`Del` **button**:
+Deletes the pattern from the current song order number and moves the next pattern into the deleted slot.
+If there are no patterns after the deleted one (that is, if we deleted the last one) we just move back one song order to the previous pattern.
+The button has no effect if there's only one pattern in the song.
+
+`+/-` **buttons between** `Ins.` **and** `Del`:
+Increments or decrements the number of the pattern at the current song order.
+
+`+/-` **buttons next to the song pattern length**:
+Adds a new pattern to the end of the song, or removes a pattern from the end of the song.
+In case a new pattern is added, it's pattern number is `00`.
+
+`+/-` **button next to the repeating order number**:
+Increments or decrements the repeating song order.
+
+## Song title, length and peak window + Common MT options toggle window
 
 ![ui_generalEditor_songTitleTimePeak.png](../img/ui_generalEditor_songTitleTimePeak.png)
 
@@ -102,3 +151,12 @@ The elements in this window, from top-left to bottom-right, are:
 # Advanced editor
 
 # About window
+
+---
+
+[>>> TRACKER BASICS](./basics.md)<br>
+[>>> THE XM FILE FORMAT](./xm.md)<br>
+[>>> WORKING WITH SAMPLES](./samples.md)<br>
+[>>> CONFIGURING MILKYTRACKER](./config.md)
+
+[>>> BACK TO START](../README.md)

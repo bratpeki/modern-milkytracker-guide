@@ -490,4 +490,4 @@ Pan the note from the volume column.
 
 `P` `VALUE` equates to using `8` `VALUE` `VALUE` in the effect column.
 
-[>>> BACK TO START](../README.md)<br>
+[>>> BACK TO START](../README.md)
