@@ -131,6 +131,16 @@ As per default, the peak is split into the left signal (left of center) and righ
 If the song clips, the `PEAK LEVEL:` text above the peak will turn red. Right-mouse clicking it resets it back to its default color, white.
 
 - **Common MT options toggle window**:
+This window consists of four buttons labeled `F`, `P`, `W` and `L`, in that order.
+Right-mouse clicking these toggles their respective options.
+The options are:
+
+| Label | Keyboard shortcut | Option                  | Description |
+| -     | -                 | -                       | - |
+| `F`   | `Ctrl+F`          | Song follow             | If on, the cursor follows the playhead |
+| `P`   | `Ctrl+P`          | Prospective             | If on, the previous and next patterns in the song are visible |
+| `W`   | `Ctrl+W`          | Pattern wrapping        | If on, during editing of a pattern, the cursor will wrap and stay on the current pattern, instead of moving to the next or previous one |
+| `L`   | `Ctrl+L`          | Pattern change behavior | **[UNDOCUMENTED]** |
 
 ## Song and editing properties
 
