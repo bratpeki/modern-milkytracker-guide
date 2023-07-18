@@ -159,10 +159,10 @@ The oscillator which will govern how the vibrato happens.<br>
 Choice-driven value.<br>
 The choices are:
 
-- Sine (Default)
-- Square
-- Reverse sawtooth
-- Sawtooth
+    - Sine (Default)
+    - Square
+    - Reverse sawtooth
+    - Sawtooth
 
 ## Relative note
 
