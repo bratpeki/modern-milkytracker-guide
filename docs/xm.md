@@ -280,6 +280,11 @@ That means that after the song is played from start to finish, the playhead retu
 You can set which song order you want to return to.
 The order that the track returns to is called the **repeating song order**.
 
+## Song title
+
+Each song has a title, which can be left blank.
+The maximum title length is 20 characters.
+
 ---
 
 [>>> TRACKER BASICS](./basics.md)<br>

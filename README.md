@@ -30,6 +30,7 @@
 - [Effects](./docs/xm.md#effects)
 - [Patterns](./docs/xm.md#patterns)
 - [Songs](./docs/xm.md#songs)
+	- [Song title](./docs/xm.md#song-title)
 
 [2.1. EFFECT GLOSSARY](./docs/fx.md)
 - [Effect column effects](./docs/fx.md#effect-column-effects)
