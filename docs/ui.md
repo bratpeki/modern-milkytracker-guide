@@ -135,12 +135,12 @@ This window consists of four buttons labeled `F`, `P`, `W` and `L`, in that orde
 Right-mouse clicking these toggles their respective options.
 The options are:
 
-| Label | Keyboard shortcut | Option                  | Description |
-| -     | -                 | -                       | - |
-| `F`   | `Ctrl+F`          | Song follow             | If on, the cursor follows the playhead |
-| `P`   | `Ctrl+P`          | Prospective             | If on, the previous and next patterns in the song are visible |
-| `W`   | `Ctrl+W`          | Pattern wrapping        | If on, during editing of a pattern, the cursor will wrap and stay on the current pattern, instead of moving to the next or previous one |
-| `L`   | `Ctrl+L`          | Pattern change behavior | **[UNDOCUMENTED]** |
+| Label | Keyboard shortcut | Name of the action, taken from the MT manual  | Description |
+| -     | -                 | -                                             | - |
+| `F`   | `Ctrl+F`          | Song follow                                   | If on, the cursor follows the playhead |
+| `P`   | `Ctrl+P`          | Prospective                                   | If on, the previous and next patterns in the song are visible |
+| `W`   | `Ctrl+W`          | Pattern wrapping                              | If on, during editing of a pattern, the cursor will wrap and stay on the current pattern, instead of moving to the next or previous one |
+| `L`   | `Ctrl+L`          | Pattern change behavior (live mode)           | **[UNDOCUMENTED]** |
 
 ## Song and editing properties
 
