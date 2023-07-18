@@ -262,9 +262,9 @@ In MT, you can "unlock" more tracks in the settings, either 64 or 128.
 
 # Songs
 
-A song is structured out of a table of song order numbers and pattern numbers.<br>
-The song order numbers are structured so that the next one is always exactly greated from the previous one by 1.<br>
-The pattern numbers can vary however you want.<br>
+A song is structured out of a table of **song order numbers** and **pattern numbers**.
+The song order numbers are structured so that the next one is always exactly greated from the previous one by 1.
+The pattern numbers can vary however you want.
 So, if we want to play the song in the pattern order `00`, `01`, `00`, `02`, the table of song order numbers and pattern numbers will look like this:
 ```
 ORDER | PATTERN
@@ -275,9 +275,10 @@ ORDER | PATTERN
 ```
 You can have a maximum of 256 patterns in a song.
 
-By default, the song will loop after it is played in its entirety.<br>
-That means that after the song is played from start to finish, the playhead returns to song order 0 and replays the song.<br>
+By default, the song will loop after it is played in its entirety.
+That means that after the song is played from start to finish, the playhead returns to song order 0 and replays the song.
 You can set which song order you want to return to.
+The order that the track returns to is called the **repeating song order**.
 
 ---
 

@@ -65,13 +65,13 @@ Allows you to view the song order number (in hex) and the pattern number (in hex
 In a new module, you have the pattern `00` set to order `0`.
 
 - **Pattern sequence display expansion button**:
-This button is above the `SEQ` button and allows you to hide the song pattern length and repeating song order number.
+This button is above the `SEQ` button and allows you to hide the song pattern length and repeating song order.
 This, in turn, expands the pattern sequence display further down, and allows for more readability.
 Hitting the button toggles this behaviour on and off.
 The example of this behaviour is above, on the second image of the section.
 
 - `SEQ` **button**:
-Add a new pattern after the current one, if possible, so that its pattern number is the incremented previous pattern number.
+Adds a new pattern after the current one, if possible, so that its pattern number is the incremented previous pattern number.
 So, if your pattern sequence is:
 ```
 0 | 00
@@ -103,7 +103,7 @@ Adds a new pattern to the end of the song, or removes a pattern from the end of 
 In case a new pattern is added, it's pattern number is `00`.
 The `+/-` buttons next to the song pattern length in the exapnded view have the same effect.
 
-- `+/-` **button next to the repeating order number**:
+- `+/-` **button next to the repeating song order**:
 Increments or decrements the repeating song order.
 
 ## Song title, length and peak window + Common MT options toggle window
