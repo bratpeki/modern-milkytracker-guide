@@ -121,7 +121,7 @@ By default, the song title is blank.
 
 - **Song length tab**:
 Allows viewing the current time (hour:minute:second) that has elapsed since the module started playback, and the total time.
-By default, in an empty startup module, the text in the tab reads `00:00:00 (00:00:07)`.<br>
+By default, in an empty startup module, the text in the tab reads `00:00:00 (00:00:07)`.<br><br>
 The `ESTIMATE` button estimates the total length of the song.
 You usually have to click this button manually, but you can have MT estimate the time for you once the module is loaded, by ticking a checkbox in the settings (`Misc. > Other > ESTIMATE PLAYTIME AFTER LOAD`).
 
