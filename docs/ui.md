@@ -137,10 +137,10 @@ The options are:
 
 | Label | Keyboard shortcut | Name of the action, taken from the MT manual  | Description |
 | -     | -                 | -                                             | - |
-| `F`   | `Ctrl+F`          | Song follow                                   | If on, the cursor follows the playhead |
-| `P`   | `Ctrl+P`          | Prospective                                   | If on, the previous and next patterns in the song are visible |
-| `W`   | `Ctrl+W`          | Pattern wrapping                              | If on, during editing of a pattern, the cursor will wrap and stay on the current pattern, instead of moving to the next or previous one |
-| `L`   | `Ctrl+L`          | Pattern change behavior (live mode)           | **[UNDOCUMENTED]** |
+| `F`   | `Ctrl+F`          | Song follow                                   | If on, the cursor follows the playhead. |
+| `P`   | `Ctrl+P`          | Prospective pattern view                      | If on, the previous and next patterns in the song are visible. |
+| `W`   | `Ctrl+W`          | Pattern wrapping                              | If on, during editing of a pattern, the cursor will wrap and stay on the current pattern, instead of moving to the next or previous one. |
+| `L`   | `Ctrl+L`          | Pattern change behavior (live mode)           | If on, when you change the current pattern while another pattern is playing, it will first play it all the way to the end, and then move on to the next one. If off, the pattern change happens immedietly, without wait. Used in live performances. |
 
 ## Song and editing properties
 
