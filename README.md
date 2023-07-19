@@ -30,6 +30,7 @@
 - [Effects](./docs/xm.md#effects)
 - [Patterns](./docs/xm.md#patterns)
 - [Songs](./docs/xm.md#songs)
+	- [Global song volume](./docs/xm.md#global-song-volume)
 	- [Song title](./docs/xm.md#song-title)
 
 [2.1. EFFECT GLOSSARY](./docs/fx.md)
