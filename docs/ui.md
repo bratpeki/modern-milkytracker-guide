@@ -181,6 +181,27 @@ You can, however, bring them back by undoing your chagnes (`Ctrl+Alt+Z`).
 
 ![ui_generalEditor_buttons.png](../img/ui_generalEditor_buttons.png)
 
+- [`Zap` - Zapper]()
+- [`Load` - Load module]()
+- [`Save` - Save module]()
+- [`As...` - Save module as...]()
+- [`Disk Op.` - Disk operations]()
+- [`Smp. Ed.` - Sample editor]()
+- [`Ins. Ed.` - Instrument editor]()
+- [`Adv. Edit` - Avdanced editor]()
+- [`Transpose` - Note trasposition]()
+- [`About` - About MT]()
+- [`Optimize` - Module optimization]()
+- [`Options` - Playback options]()
+- [`Config` - MT configuration]()
+- [`Play Sng` - Play module]()
+- [`Pat` - Play pattern]()
+- [`Pos` - Play from cursor position]()
+- [`Stop` - Stop playback]()
+- [`Rec` - Toggle recording (editing)]()
+- [`Add` - Add tracks]()
+- [`Sub` - Subtract (Remove) tracks]()
+
 # Instrument menu
 
 # Sample menu
