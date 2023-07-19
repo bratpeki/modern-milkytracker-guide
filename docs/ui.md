@@ -161,6 +161,22 @@ The `FLIP` button flips the display to show the rest of the editable properties.
 
 ![ui_generalEditor_pattern.png](../img/ui_generalEditor_pattern.png)
 
+- `+/-` **buttons next to** `Patn.`:
+Switch between different patterns.
+
+- `+/-` **buttons next to** `Len.`:
+Increase or decrease the pattern length.
+This action is desctructive; in case you shorten the pattern so certain notes disappear, they cannot be brought back by increasing the pattern length.
+You can, however, bring them back by undoing your chagnes (`Ctrl+Alt+Z`).
+
+- `Expand` **button**:
+Doubles the pattern length, by inserting an empty pattern line on each second line (line 1 - empty line - line 2 - empty line - ...).
+
+- `Shrink` **button**:
+Halves the pattern length, by deleting even second line (line 1 - line 3 - line 5 - line 7...).
+This action is desctructive; expanding a shrinked pattern will not bring back notes that were removed.
+You can, however, bring them back by undoing your chagnes (`Ctrl+Alt+Z`).
+
 ## General editor buttons window
 
 ![ui_generalEditor_buttons.png](../img/ui_generalEditor_buttons.png)
