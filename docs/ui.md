@@ -155,7 +155,7 @@ The `FLIP` button flips the display to show the rest of the editable properties.
 - **Spd**: The song's [SPD](./basics.md#ticks-spd-and-bpm).
 - **Add**: The ammount by which your cursor moves down after placing a note or effect. The cursor loops if pattern wrapping (`Ctrl+W`) is on.
 - **Oct**: The octave of the notes you place (ex. if `Oct` is equal to `04`, then the lowest key you can place with your keyboard is C4).
-- **The** `Mainvol` **property**: The song which shows you the [global song volume](./docs/xm.md#global-song-volume).
+- **The** `Mainvol` **property**: The song which shows you the [global song volume](./xm.md#global-song-volume).
 
 ## Pattern editing window
 

@@ -283,7 +283,8 @@ The order that the track returns to is called the **repeating song order**.
 ## Global song volume
 
 A property of the song which describes the intensity of the volume of the entire song.
-By default, this value is 40, which is the maximum global volume.
+By default, this value is `40` (64 in decimal), which is the maximum global volume.
+The minimum is, of course, 0.
 You can change the global volume using the [Gxx colume effect](./fx.md#gxx-set-global-volume).
 
 ## Song title
