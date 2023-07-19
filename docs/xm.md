@@ -250,7 +250,7 @@ You can have a maximum of 256 pattern rows per pattern, and a minimum of 1.<br>
 The default value is `40`, 64 in decimal, or 4 bars split into 16th notes in 4/4 meter.
 
 3. **The pattern content**:<br>
-The actual notes.
+The actual notes and effects in the pattern.
 
 At any point in the pattern you can change the SPD and BPM.<br>
 SPD ranges from 1 up to 31, in decimal.<br>
@@ -263,9 +263,9 @@ In MT, you can "unlock" more tracks in the settings, either 64 or 128.
 # Songs
 
 A song is structured out of a table of **song order numbers** and **pattern numbers**.
-The song order numbers are structured so that the next one is always exactly greated from the previous one by 1.
+The song order numbers are structured so that the next one is always greater than the previous one by exactly 1.
 The pattern numbers can vary however you want.
-So, if we want to play the song in the pattern order `00`, `01`, `00`, `02`, the table of song order numbers and pattern numbers will look like this:
+So, if we want to play the song in the given order of patterns: `00`, `01`, `00`, `02`, the table of song order numbers and pattern numbers will look like this:
 ```
 ORDER | PATTERN
     0 | 00
