@@ -21,18 +21,18 @@ Some things to note:
 
 ## 0xy Arpeggio
 
-**Syntax:**
+**Syntax**:
 
 `0` `OFFSET X` `OFFSET Y`
 
-**Example:**
+**Example**:
 
 ```
 | C-4 | .1 | .. | 037 |
 | ... | .. | .. | 037 |
 ```
 
-**Description:**
+**Description**:
 
 Arpeggio quickly alters the note pitch between the base note (ex. `C-4`) and the semitone offsets `X` (ex. 3 = `D#4`) and `Y` (ex. 7 = `G-4`).
 
@@ -41,12 +41,12 @@ If SPD is higher than 3 (meaning there are more than 3 ticks per row), the seque
 
 ## 1xx Portamento up
 
-**Syntax:**
+**Syntax**:
 
 `1` `PORTAMENTO SPEED` or<br>
 `1` `00` (Memory)
 
-**Example:**
+**Example**:
 
 ```
 | TRACK               | PORTAMENTO (effect equivalent)
@@ -58,7 +58,7 @@ If SPD is higher than 3 (meaning there are more than 3 ticks per row), the seque
 | ... | .. | .. | 100 | 107
 ```
 
-**Description:**
+**Description**:
 
 Bends the note pitch up.
 
@@ -69,12 +69,12 @@ The same applies for [2xx PORTAMENTO DOWN](#2xx-portamento-down) and [3xx PORTAM
 
 ## 2xx Portamento down
 
-**Syntax:**
+**Syntax**:
 
 `2` `PORTAMENTO SPEED` or<br>
 `2` `00` (Memory)
 
-**Example:**
+**Example**:
 
 ```
 | TRACK               | PORTAMENTO (effect equivalent)
@@ -86,7 +86,7 @@ The same applies for [2xx PORTAMENTO DOWN](#2xx-portamento-down) and [3xx PORTAM
 | ... | .. | .. | 200 | 207
 ```
 
-**Description:**
+**Description**:
 
 Bends the note pitch down.
 
@@ -94,12 +94,12 @@ For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 
 ## 3xx Portamento to note
 
-**Syntax:**
+**Syntax**:
 
 `3` `PORTAMENTO SPEED` or<br>
 `3` `00` (Memory)
 
-**Example:**
+**Example**:
 
 ```
 | TRACK               | PORTAMENTO (effect equivalent)
@@ -112,7 +112,7 @@ For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 | ... | .. | .. | 300 | 301
 ```
 
-**Description:**
+**Description**:
 
 Bends down from the original note (ex. `C-4`) to the target note (ex. `D-4`).
 
@@ -120,14 +120,14 @@ For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 
 ## 4xy Vibrato
 
-**Syntax:**
+**Syntax**:
 
 `4` `SPEED` `DEPTH` or<br>
 `4` `0` `DEPTH` (Memory - `SPEED`) or<br>
 `4` `SPEED` `0` (Memory - `DEPTH`) or<br>
 `4` `00` (Memory)
 
-**Example:**
+**Example**:
 
 ```
 | TRACK               | VIBRATO (effect equivalent)
@@ -143,21 +143,21 @@ For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
 | ... | .. | .. | ... | None
 ```
 
-**Description:**
+**Description**:
 
 Alters note pitch up and down in the range of a full tone.
 Starts by going down.
 
 ## 7xy Tremolo
 
-**Syntax:**
+**Syntax**:
 
 `7` `SPEED` `DEPTH` or<br>
 `7` `0` `DEPTH` (Memory - `SPEED`) or<br>
 `7` `SPEED` `0` (Memory - `DEPTH`) or<br>
 `7` `00` (Memory)
 
-**Example:**
+**Example**:
 
 ```
 | TRACK               | TREMOLO (effect equivalent)
@@ -171,7 +171,7 @@ Starts by going down.
 | ... | .. | 30 | ... | None, volume reset
 ```
 
-**Description:**
+**Description**:
 
 Alters note volume up and down at a given speed and depth.
 
@@ -179,11 +179,11 @@ The volume is not reset after the effect.
 
 ## 8xx Set note panning position
 
-**Syntax:**
+**Syntax**:
 
 `8` `POSITION`
 
-**Example:**
+**Example**:
 
 ```
 | C-4 | .1 | .. | 800 |
@@ -191,7 +191,7 @@ The volume is not reset after the effect.
 | ... | .. | .. | 880 |
 ```
 
-**Description:**
+**Description**:
 
 Pans the currently playing tone.
 `00` is far left, `80` is center and `FF` is far-right.
@@ -202,18 +202,18 @@ The effect is not reset if there is no argument on the next pattern line (ex. in
 
 ## 9xx Sample offset
 
-**Syntax:**
+**Syntax**:
 
 `9` `OFFSET MULTIPLIER`
 
-**Example:**
+**Example**:
 
 ```
 | C-4 | .1 | .. | 907 |
 | ... | .. | .. | ... |
 ```
 
-**Description:**
+**Description**:
 
 Offsets the sample playback start position by `OFFSET MULTIPLER`*256 bytes.
 Keep in mind that `OFFSET MULTIPLER` is read in hex.
@@ -225,7 +225,7 @@ The maximum offset amount is 65280 bytes.
 
 ## Axy Volume slide
 
-**Syntax:**
+**Syntax**:
 
 `A` `VOLUME SLIDE UP VALUE` `VOLUME SLIDE DOWN VALUE`
 
@@ -240,7 +240,7 @@ The maximum offset amount is 65280 bytes.
 | ... | .. | .. | A40 | 28 + (3-1)*4 = 30
 ```
 
-**Description:**
+**Description**:
 
 **After the first tick**, the command does one of the two:
 
@@ -252,11 +252,11 @@ If both are used at the same time, the volume is only increased by `VOLUME SLIDE
 
 ## Cxx Set note volume
 
-**Syntax:**
+**Syntax**:
 
 `C` `VOLUME`
 
-**Example:**
+**Example**:
 
 ```
 | C-4 | .1 | .. | C40 |
@@ -268,7 +268,7 @@ If both are used at the same time, the volume is only increased by `VOLUME SLIDE
 | ... | .. | .. | C01 |
 ```
 
-**Description:**
+**Description**:
 
 Sets the sample playback volume, **overriding both the instrument sample volume setting and the volume in the volume column**.
 
@@ -276,11 +276,11 @@ Just like the other two volume settings, the value is a hex number between `00` 
 
 ## Fxx Set song speed
 
-**Syntax:**
+**Syntax**:
 
 `F` `VALUE`
 
-**Example:**
+**Example**:
 
 ```
 | TRACK 1 (BPM)        | TRACK 2 (SPD)        |
@@ -288,24 +288,24 @@ Just like the other two volume settings, the value is a hex number between `00` 
 | ... | .. | ... | F90 | ... | .. | ... | F06 |
 ```
 
-**Description:**
+**Description**:
 
 When `VALUE` is between `01` (1) and `1F` (31), `VALUE` will be the new SPD.<br>
 When `VALUE` is between `20` (32) and `FF` (255), `VALUE` will be the new BPM.
 
 ## Gxx Set global volume
 
-**Syntax:**
+**Syntax**:
 
 `G` `VALUE`
 
-**Example:**
+**Example**:
 
 ```
 | ... | .. | ... | G40 |
 ```
 
-**Description:**
+**Description**:
 
 Sets the global song volume.
 
@@ -317,17 +317,17 @@ This setting cannot be set graphically, and can only be altered using the `Gxx` 
 
 ## xx Set note volume
 
-**Syntax:**
+**Syntax**:
 
 `VALUE`
 
-**Example:**
+**Example**:
 
 ```
 | C-4 | .1 | 3F | ... |
 ```
 
-**Description:**
+**Description**:
 
 Sets the sample playback volume.
 
@@ -335,17 +335,17 @@ Overrides the instrument sample volume setting.
 
 ## +x Volume slide up
 
-**Syntax:**
+**Syntax**:
 
 `+` `VALUE`
 
-**Example:**
+**Example**:
 
 ```
 | C-4 | .1 | +2 | ... |
 ```
 
-**Description:**
+**Description**:
 
 Increases the note volume by `VALUE` each tick.<br>
 SPD acts as a multilpier (ex. if SPD is 3, for `+2`, the note volume will be increased by 3x2 = 6).
@@ -354,17 +354,17 @@ Same as using `A` `VALUE` `0` in the effect column.
 
 ## -x Volume slide down
 
-**Syntax:**
+**Syntax**:
 
 `-` `VALUE`
 
-**Example:**
+**Example**:
 
 ```
 | C-4 | .1 | -2 | ... |
 ```
 
-**Description:**
+**Description**:
 
 Decreases the note volume by `VALUE` each tick.<br>
 SPD acts as a multilpier (ex. if SPD is 3, for `+2`, the note volume will be decreased by 3x2 = 6).
@@ -373,17 +373,17 @@ Same as using `A` `0` `VALUE` in the effect column.
 
 ## Ux Fine volume slide up
 
-**Syntax:**
+**Syntax**:
 
 `U` `VALUE`
 
-**Example:**
+**Example**:
 
 ```
 | C-4 | .1 | ▲2 | ... |
 ```
 
-**Description:**
+**Description**:
 
 Similar to [+X VOLUME SLIDE UP](#x-volume-slide-up), except that it changes the volume per row (ex. the volume will increase by 2).
 
@@ -391,17 +391,17 @@ Displayed as `▲x`.
 
 ## Dx Fine volume slide down
 
-**Syntax:**
+**Syntax**:
 
 `D` `VALUE`
 
-**Example:**
+**Example**:
 
 ```
 | C-4 | .1 | ▼2 | ... |
 ```
 
-**Description:**
+**Description**:
 
 Similar to [-X VOLUME SLIDE DOWN](#-x-volume-slide-down), except that it changes the volume per row (ex. the volume will decrease by 2).
 
@@ -409,11 +409,11 @@ Displayed as `▼x`.
 
 ## Lx Panning slide left
 
-**Syntax:**
+**Syntax**:
 
 `L` `VALUE`
 
-**Example:**
+**Example**:
 
 I'm using `L` instead of the `◀` you'll see in the program.<br>
 This is because that character is two character widths wide, so this makes the example easier to read.
@@ -428,7 +428,7 @@ This is because that character is two character widths wide, so this makes the e
 | ... | .. | .. | 880 | 80
 ```
 
-**Description:**
+**Description**:
 
 Slides the pan, once per tick, over to the left.
 SPD acts like a multiplier.
@@ -439,11 +439,11 @@ Displayed as `◀x`.
 
 ## Rx Panning slide right
 
-**Syntax:**
+**Syntax**:
 
 `R` `VALUE`
 
-**Example:**
+**Example**:
 
 I'm using `R` instead of the `▶` you'll see in the program.<br>
 This is because that character is two character widths wide, so this makes the example easier to read.
@@ -458,7 +458,7 @@ This is because that character is two character widths wide, so this makes the e
 | ... | .. | .. | 880 | 80
 ```
 
-**Description:**
+**Description**:
 
 Slides the pan, once per tick, over to the left.
 SPD acts like a multiplier.
@@ -469,11 +469,11 @@ Displayed as `▶x`.
 
 ## Px Set note panning position
 
-**Syntax:**
+**Syntax**:
 
 `P` `VALUE`
 
-**Example:**
+**Example**:
 
 ```
 | TRACK               | PAN (hex)
@@ -484,7 +484,7 @@ Displayed as `▶x`.
 | ... | .. | .. | 880 | 80
 ```
 
-**Description:**
+**Description**:
 
 Pan the note from the volume column.
 
