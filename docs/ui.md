@@ -109,6 +109,8 @@ Increments or decrements the repeating song order.
 ## Song title, length and peak window + Common MT options toggle window
 
 ![ui_generalEditor_songTitleTimePeak.png](../img/ui_generalEditor_songTitleTimePeak.png)
+![ui_generalEditor_songTitleTimePeak2.png](../img/ui_generalEditor_songTitleTimePeak2.png)
+![ui_generalEditor_songTitleTimePeak3.png](../img/ui_generalEditor_songTitleTimePeak3.png)
 
 - **"TITLE", "TIME" and "PEAK" tabs**:
 Allows the selection of which of those three things you want to look at.
