@@ -47,11 +47,11 @@ You can return to this window by either hitting `Exit` on the windows that take 
 
 The elements in this window, from top-left to bottom-right, are:
 
-1. [The song arranger](./ui.md#the-song-arranger)
-2. [Song title, length and peak window + Common MT options toggle window](./ui.md#song-title-length-and-peak-window--common-mt-options-toggle-window)
-4. [Song and editing properties](./ui.md#song-and-editing-properties)
-5. [Pattern editing window](./ui.md#pattern-editing-window)
-6. [General editor buttons window](./ui.md#general-editor-buttons-window)
+1. [The song arranger](#the-song-arranger)
+2. [Song title, length and peak window + Common MT options toggle window](#song-title-length-and-peak-window--common-mt-options-toggle-window)
+4. [Song and editing properties](#song-and-editing-properties)
+5. [Pattern editing window](#pattern-editing-window)
+6. [General editor buttons window](#general-editor-buttons-window)
 
 ## The song arranger
 
@@ -183,17 +183,17 @@ You can, however, bring them back by undoing your chagnes (`Ctrl+Alt+Z`).
 
 ![ui_generalEditor_buttons.png](../img/ui_generalEditor_buttons.png)
 
-- [`Zap` - Zapper]()
+- [`Zap` - Zapper](#zapper-window)
 - [`Load` - Load module]()
 - [`Save` - Save module]()
 - [`As...` - Save module as...]()
 - [`Disk Op.` - Disk operations]()
-- [`Smp. Ed.` - Sample editor]()
-- [`Ins. Ed.` - Instrument editor]()
+- [`Smp. Ed.` - Sample editor](#sample-editor)
+- [`Ins. Ed.` - Instrument editor](#instrument-editor)
 - [`Adv. Edit` - Avdanced editor]()
-- [`Transpose` - Note trasposition]()
+- [`Transpose` - Note trasposition](#transposition-window)
 - [`About` - About MT]()
-- [`Optimize` - Module optimization]()
+- [`Optimize` - Module optimization](#optimization-window)
 - [`Options` - Playback options]()
 - [`Config` - MT configuration]()
 - [`Play Sng` - Play module]()
