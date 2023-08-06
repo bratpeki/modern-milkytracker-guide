@@ -186,13 +186,13 @@ You can, however, bring them back by undoing your chagnes (`Ctrl+Alt+Z`).
 - [`Zap` - Zapper](#zapper-window)
 - [`Load` - Load module]()
 - `Save` - Save module
-- `As...` - Save module as...
+- [`As...` - Save module as...]()
 - [`Disk Op.` - Disk operations]()
 - [`Smp. Ed.` - Sample editor](#sample-editor)
 - [`Ins. Ed.` - Instrument editor](#instrument-editor)
 - [`Adv. Edit` - Advanced editor]()
 - [`Transpose` - Note trasposition](#transposition-window)
-- `About` - About MT
+- [`About` - About MT]()
 - [`Optimize` - Module optimization](#optimization-window)
 - [`Options` - Playback options]()
 - [`Config` - MT configuration]()
@@ -208,16 +208,14 @@ The options which don't link to a heading do the following:
 
 | Option     | Description |
 | -          | -           |
-| `Save`     | |
-| `As...`    | |
-| `About`    | |
-| `Play Sng` | |
-| `Pat`      | |
-| `Pos`      | |
-| `Stop`     | |
-| `Rec`      | |
-| `Add`      | |
-| `Sub`      | |
+| `Save`     | Save the module by owerwriting the module you loaded. If the module is the default empty one that MT loads up with, this button works the same as `As...`. |
+| `Play Sng` | Play the module, from the beginning of the current pattern. Same as `Right Ctrl`. |
+| `Pat`      | Play the current pattern indefinitely, starting from the beginning. Same as `AltGr` (`Right Alt`). |
+| `Pos`      | Play the current pattern indefinitely, starting from the cursor position. Same as `Sh+Enter`. |
+| `Stop`     | Stop the playback. Same as `Spc`, when the module is playing. |
+| `Rec`      | Toggle the recording mode. Same as `Spc`, when the module is not playing. |
+| `Add`      | Adds 2 tracks to the song. Can't add more than the maximum value set in the settings (`I/O > XM channel limit`). |
+| `Sub`      | Subtracts 2 tracks from the song. Can't subtract less than 2 tracks, because that makes the number of tracks 0, duh! This action is not desctructive until you save and reload the module. |
 
 # Instrument menu
 
