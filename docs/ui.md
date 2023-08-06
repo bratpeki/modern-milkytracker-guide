@@ -204,7 +204,7 @@ You can, however, bring them back by undoing your chagnes (`Ctrl+Alt+Z`).
 - `Add` - Add tracks
 - `Sub` - Subtract (Remove) tracks
 
-The options which can be explained simply are:
+The options which don't link to a heading do the following:
 
 | Option     | Description |
 | -          | -           |
