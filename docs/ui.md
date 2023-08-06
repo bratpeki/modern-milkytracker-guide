@@ -185,24 +185,39 @@ You can, however, bring them back by undoing your chagnes (`Ctrl+Alt+Z`).
 
 - [`Zap` - Zapper](#zapper-window)
 - [`Load` - Load module]()
-- [`Save` - Save module]()
-- [`As...` - Save module as...]()
+- `Save` - Save module
+- `As...` - Save module as...
 - [`Disk Op.` - Disk operations]()
 - [`Smp. Ed.` - Sample editor](#sample-editor)
 - [`Ins. Ed.` - Instrument editor](#instrument-editor)
-- [`Adv. Edit` - Avdanced editor]()
+- [`Adv. Edit` - Advanced editor]()
 - [`Transpose` - Note trasposition](#transposition-window)
-- [`About` - About MT]()
+- `About` - About MT
 - [`Optimize` - Module optimization](#optimization-window)
 - [`Options` - Playback options]()
 - [`Config` - MT configuration]()
-- [`Play Sng` - Play module]()
-- [`Pat` - Play pattern]()
-- [`Pos` - Play from cursor position]()
-- [`Stop` - Stop playback]()
-- [`Rec` - Toggle recording (editing)]()
-- [`Add` - Add tracks]()
-- [`Sub` - Subtract (Remove) tracks]()
+- `Play Sng` - Play module
+- `Pat` - Play pattern
+- `Pos` - Play from cursor position
+- `Stop` - Stop playback
+- `Rec` - Toggle recording (editing)
+- `Add` - Add tracks
+- `Sub` - Subtract (Remove) tracks
+
+The options which can be explained simply are:
+
+| Option     | Description |
+| -          | -           |
+| `Save`     | |
+| `As...`    | |
+| `About`    | |
+| `Play Sng` | |
+| `Pat`      | |
+| `Pos`      | |
+| `Stop`     | |
+| `Rec`      | |
+| `Add`      | |
+| `Sub`      | |
 
 # Instrument menu
 
