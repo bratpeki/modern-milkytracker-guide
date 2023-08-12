@@ -1,5 +1,3 @@
-# TRACKER BASICS
-
 Here, we will be covering the basics of **traditional** trackers.
 
 I hightlight the term "traditional" because you will mainly hear that trackers are split into traditional and modern trackers.

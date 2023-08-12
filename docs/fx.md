@@ -1,5 +1,3 @@
-# EFFECT GLOSSARY
-
 Here, we'll be covering effects you will *commonly* use. I'll leave out some effects which are useful for very specific use-cases.
 
 What you should keep in mind is that some effects play differently on MODs than on XMs.
