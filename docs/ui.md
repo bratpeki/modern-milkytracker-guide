@@ -207,8 +207,8 @@ You can, however, bring them back by undoing your chagnes (`Ctrl+Alt+Z`).
 The options which don't link to a heading do the following:
 
 | Option     | Description |
-| -          | -           |
-| `Save`     | Save the module by owerwriting the module you loaded. If the module is the default empty one that MT loads up with (`Untitled.xm`), this button works the same as `As...`. |
+| -          | - |
+| `Save`     | Save the module by owerwriting the module you loaded. If the module is the default empty one that MT loads up with (`Untitled.xm`), this button works the same as [`As...`](). |
 | `Play Sng` | Play the module, from the beginning of the current pattern. Same as `Right Ctrl`. |
 | `Pat`      | Play the current pattern indefinitely, starting from the beginning. Same as `AltGr` (`Right Alt`). |
 | `Pos`      | Play the current pattern indefinitely, starting from the cursor position. Same as `Sh+Enter`. |
@@ -219,7 +219,11 @@ The options which don't link to a heading do the following:
 
 # Instrument menu
 
+![](../img/ui_instrumentMenu.png)
+
 # Sample menu
+
+![](../img/ui_sampleMenu.png)
 
 # Instrument editor
 
