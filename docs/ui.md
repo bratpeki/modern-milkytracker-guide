@@ -2,6 +2,7 @@ Here, we'll be covering the MT's UI and how to navigate around it.
 
 I'll use shortcuts to indicate keyboard actions, such as `Ctrl+S`.
 Keep in mind that `Ctrl` is the control key, `Sh` is the shift key, `Spc` is the space bar and `Alt` is, well, the alt key!
+All the listed keyboard actions apply to the **FastTracker II edit mode**.
 
 Also, I'll be covering the various elements of the UI by covering the elements you'll be using commonly, and then the rest.
 
