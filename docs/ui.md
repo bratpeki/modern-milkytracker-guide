@@ -220,9 +220,47 @@ The options which don't link to a heading do the following:
 
 ![](../img/ui_instrumentMenu.png)
 
+Allows selection of the active instrument.
+The active instrument is selected by left-mouse or right-mouse clicking on the ID slot or name slot of the instrument.
+The active instrument is displayed in the [instrument editor](#instrument-editor), as well as being the instrument which is set for inserting notes into the [playlist](#playlist).
+
+- **"Instruments" text field**:
+Hides the active instrument highlight. Useful for making the text in the instrument slot more readable.
+
+- `+/-` **buttons**:
+Add or remove one instrument. Non-desctructive action, unless you save the file without the removed instruments.
+
+- `ZAP` **button**:
+Clears the instrument (samples and instrument settings). Destructive action, undoable. Opens a warning popup window.
+
+- `LOAD` **button**:
+Loads an XI instrument from memory.
+
+- `SAVE` **button**:
+Saves an XI instrument to memory.
+
+- **Scrollbar**:
+Used to navigate the instrument slots. Mouse gestures (scroll up/down) do the same thing.
+
 # Sample menu
 
 ![](../img/ui_sampleMenu.png)
+
+Allows selection of the active sample of the active instrument.
+The active sample is selected by left-mouse or right-mouse clicking on the ID slot or name slot of the sample.
+The sample in the [sample editor](#sample-editor) is the currently active one.
+
+- `CLEAR` **button**:
+Clears the active sample. Destructive action, undoable. Doesn't open a warning popup window.
+
+- `LOAD` **button**:
+Loads a WAV file from memory into the active sample.
+
+- `SAVE` **button**:
+Saves a WAV file of the active sample to memory.
+
+- **Scrollbar**:
+Used to navigate the sample slots. Mouse gestures (scroll up/down) do the same thing.
 
 # Instrument editor
 
