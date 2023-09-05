@@ -294,7 +294,7 @@ Copy or paste the envelope (indepent of which type of envelope it is) into anoth
 Zoom in or out of the envelope.
 
 - **Right-most part of the window**:
-Used for editing the basic instrument properties, as described in the doc titled ["THE XM FILE FORMAT"](./xm.md#instruments).
+Used for editing the basic instrument properties, as described in [the doc titled "THE XM FILE FORMAT" in the "Instruments" section](./xm.md#instruments).
 There are still certain buttons of interest, described below.
 
 - `EXIT` **button**:
@@ -321,6 +321,18 @@ Swap a sample from one sample slot in one instrument with another sample slot in
 Opens an external window, seen below.
 
 ![](../img/ui_swapSample.png)
+
+- **Piano**:
+Allows either playing the instrument, or setting which key triggers which sample.
+Playing the instrument is done by hitting `Play`, after which the keyboard is playable.
+Setting which key triggers which sample is done by hitting `Edit`.
+`Stop` stops all instrument playback, either from playing the keyboard, which is usually neccessary when the user has set a long fadeout, or playing the actual song.
+The graphical look of the two modes of the piano are seen below.
+
+![](../img/ui_pianoPlay.png)<br>
+"Playing" mode.<br>
+![](../img/ui_pianoEdit.png)<br>
+"Editing" mode.
 
 # Sample editor
 
