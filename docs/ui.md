@@ -162,10 +162,10 @@ The `FLIP` button flips the display to show the rest of the editable properties.
 
 ![ui_generalEditor_pattern.png](../img/ui_generalEditor_pattern.png)
 
-- `+/-` **buttons next to** `Patn.`:
+- `+`/`-` **buttons next to** `Patn.`:
 Switch between different patterns.
 
-- `+/-` **buttons next to** `Len.`:
+- `+`/`-` **buttons next to** `Len.`:
 Increase or decrease the pattern length.
 This action is desctructive; in case you shorten the pattern so certain notes disappear, they cannot be brought back by increasing the pattern length.
 You can, however, bring them back by undoing your chagnes (`Ctrl+Alt+Z`).
@@ -227,7 +227,7 @@ The active instrument is displayed in the [instrument editor](#instrument-editor
 - **"Instruments" text field**:
 Hides the active instrument highlight. Useful for making the text in the instrument slot more readable.
 
-- `+/-` **buttons**:
+- `+`/`-` **buttons**:
 Add or remove one instrument. Non-desctructive action, unless you save the file without the removed instruments.
 
 - `ZAP` **button**:
@@ -263,6 +263,64 @@ Saves a WAV file of the active sample to memory.
 Used to navigate the sample slots. Mouse gestures (scroll up/down) do the same thing.
 
 # Instrument editor
+
+![](../img/ui_instrumentEditor.png)
+
+Allows editing of the current selected instrument (via the [instrument menu](#instrument-menu)).
+Can be opened by hitting `Ctrl+I`.
+This section is very large, so let's get started.
+
+- `Volume`/`Panning` **tabs**:
+Used to edit either the volume or panning envelope.
+
+- `0`-`9` and `STORE` **buttons**:
+Used to load of store of the predefined envelopes.
+The used can predefine 20 envelopes, 10 for volume and 10 for panning.
+The predefined envelopes are loaded by hitting the numerical buttons, and storing is done by hitting the `STORE` button first, after which the user hits the numerical buttons.
+
+- `UNDO`/`REDO` **buttons**:
+Undo or redo the envelope changes.
+These include all the envelope editing actions right of the `UNDO`/`REDO` buttons,
+that being adding or removing points from the envelope (via the `Add`/`Del` buttons),
+toggling the envelope on or off (via the `On` button),
+toggling the sustain on or off, or changing which point is the sustain point (via the `Sustain` button and the `+`/`-` buttons under it),
+toggling the loop on or off, of chaning the start and end point (via the `Loop` button and the `+`/`-` buttons under it)
+and scaling the envelope, that is multiplying it by a given percentage (via the `SCALE X`/`SCALE Y` buttons).
+
+- `COPY`/`PASTE` **buttons**:
+Copy or paste the envelope (indepent of which type of envelope it is) into another envelope.
+
+- `ZOOM IN`/`ZOOM OUT` **buttons**:
+Zoom in or out of the envelope.
+
+- **Right-most part of the window**:
+Used for editing the basic instrument properties, as described in the doc titled ["THE XM FILE FORMAT"](./xm.md#instruments).
+There are still certain buttons of interest, described below.
+
+- `EXIT` **button**:
+Close the instrument editor window. Same as hitting `Ctrl+I`.
+
+- `ZAP` **button**:
+Zap the instrument. Cannot be undone.
+
+- `Load` **button**:
+Load an instrument from memory.
+
+- `Save` **button**:
+Save an instrument into memory.
+
+- `Copy` **button**:
+Copy a sample from one sample slot in one instrument into another sample slot in another instrument.
+Overrides the sample in the destination sample slot, if one exists.
+Opens an external window, seen below.
+
+![](../img/ui_copySample.png)
+
+- `Swap` **button**:
+Swap a sample from one sample slot in one instrument with another sample slot in another instrument.
+Opens an external window, seen below.
+
+![](../img/ui_swapSample.png)
 
 # Sample editor
 
