@@ -223,6 +223,7 @@ The options which don't link to a heading do the following:
 Allows selection of the active instrument.
 The active instrument is selected by left-mouse or right-mouse clicking on the ID slot or name slot of the instrument.
 The active instrument is displayed in the [instrument editor](#instrument-editor), as well as being the instrument which is set for inserting notes into the [playlist](#playlist).
+The user can change the active instrument by hitting `Sh+UpArrow` (setting the previous instrument as the active one) or `Sh+DownArrow` (setting the next instrument as the active one).
 
 - **"Instruments" text field**:
 Hides the active instrument highlight. Useful for making the text in the instrument slot more readable.
@@ -249,6 +250,7 @@ Used to navigate the instrument slots. Mouse gestures (scroll up/down) do the sa
 Allows selection of the active sample of the active instrument.
 The active sample is selected by left-mouse or right-mouse clicking on the ID slot or name slot of the sample.
 The sample in the [sample editor](#sample-editor) is the currently active one.
+The user can change the active sample by hitting `Ctrl+Sh+UpArrow` (setting the previous sample as the active one) or `Ctrl+Sh+DownArrow` (setting the next sample as the active one).
 
 - `CLEAR` **button**:
 Clears the active sample. Destructive action, undoable. Doesn't open a warning popup window.
@@ -266,7 +268,7 @@ Used to navigate the sample slots. Mouse gestures (scroll up/down) do the same t
 
 ![](../img/ui_instrumentEditor.png)
 
-Allows editing of the current selected instrument (via the [instrument menu](#instrument-menu)).
+Allows editing of the currently selected instrument (via the [instrument menu](#instrument-menu)).
 Can be opened by hitting `Ctrl+I`.
 This section is very large, so let's get started.
 
@@ -335,6 +337,11 @@ The graphical look of the two modes of the piano are seen below.
 "Editing" mode.
 
 # Sample editor
+
+![](../img/ui_sampleEditor.png)
+
+Allows editing of the currently selected sample (via the [sample menu](#sample-menu)).
+Can be opened by hitting `Ctrl+S`.
 
 # Disk operations window
 
