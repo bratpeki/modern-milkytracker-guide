@@ -270,7 +270,6 @@ Used to navigate the sample slots. Mouse gestures (scroll up/down) do the same t
 
 Allows editing of the currently selected instrument (via the [instrument menu](#instrument-menu)).
 Can be opened by hitting `Ctrl+I`.
-This section is very large, so let's get started.
 
 - `Volume`/`Panning` **tabs**:
 Used to edit either the volume or panning envelope.
