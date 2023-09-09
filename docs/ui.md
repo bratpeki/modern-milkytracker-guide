@@ -69,7 +69,7 @@ This, in turn, expands the pattern sequence display further down, and allows for
 Hitting the button toggles this behaviour on and off.
 The example of this behaviour is above, on the second image of the section.
 
-- `SEQ` **button**:
+- `SEQ` button:
 Adds a new pattern after the current one, if possible, so that its pattern number is the incremented previous pattern number.
 So, if your pattern sequence is:
 ```
@@ -82,14 +82,14 @@ By hitting `SEQ` you will generate the following sequence:
 ```
 If the current pattern in the sequence has the pattern number `FF`, the next one will be `00`, as well as every pattern after that next one.
 
-- `CLN` **button**:
+- `CLN` button:
 Works the same way as the `SEQ` button, except that it copies the content of the current pattern into the next one.
 
-- `Ins.` **button**:
+- `Ins.` button:
 Inserts the current pattern at the next song order number.
 The button has no effect if there are 255 patterns in the song.
 
-- `Del` **button**:
+- `Del` button:
 Deletes the pattern from the current song order number and moves the next pattern into the deleted slot.
 If there are no patterns after the deleted one (that is, if we deleted the last one) we just move back one song order to the previous pattern.
 The button has no effect if there's only one pattern in the song.
@@ -152,11 +152,20 @@ This window consists of a couple properties related to the song and how you edit
 The `+/-` buttons are placed next to their respective properties.
 The `FLIP` button flips the display to show the rest of the editable properties.
 
-- **BPM**: The song's [BPM](./basics.md#ticks-spd-and-bpm).
-- **Spd**: The song's [SPD](./basics.md#ticks-spd-and-bpm).
-- **Add**: The ammount by which your cursor moves down after placing a note or effect. The cursor loops if pattern wrapping (`Ctrl+W`) is on.
-- **Oct**: The octave of the notes you place (ex. if `Oct` is equal to `04`, then the lowest key you can place with your keyboard is C4).
-- **The** `Mainvol` **property**: Shows you the [global song volume](./xm.md#global-song-volume).
+- BPM:
+The song's [BPM](./basics.md#ticks-spd-and-bpm).
+
+- Spd:
+The song's [SPD](./basics.md#ticks-spd-and-bpm).
+
+- Add:
+The ammount by which your cursor moves down after placing a note or effect. The cursor loops if pattern wrapping (`Ctrl+W`) is on.
+
+- Oct:
+The octave of the notes you place (ex. if `Oct` is equal to `04`, then the lowest key you can place with your keyboard is C4).
+
+- The `Mainvol` property:
+Shows you the [global song volume](./xm.md#global-song-volume).
 
 ## Pattern editing window
 
@@ -170,10 +179,10 @@ Increase or decrease the pattern length.
 This action is desctructive; in case you shorten the pattern so certain notes disappear, they cannot be brought back by increasing the pattern length.
 You can, however, bring them back by undoing your chagnes (`Ctrl+Alt+Z`).
 
-- `Expand` **button**:
+- `Expand` button:
 Doubles the pattern length, by inserting an empty pattern line on each second line (line 1 - empty line - line 2 - empty line - ...).
 
-- `Shrink` **button**:
+- `Shrink` button:
 Halves the pattern length, by deleting even second line (line 1 - line 3 - line 5 - line 7...).
 This action is desctructive; expanding a shrinked pattern will not bring back notes that were removed.
 You can, however, bring them back by undoing your chagnes (`Ctrl+Alt+Z`).
@@ -225,22 +234,22 @@ The active instrument is selected by left-mouse or right-mouse clicking on the I
 The active instrument is displayed in the [instrument editor](#instrument-editor), as well as being the instrument which is set for inserting notes into the [playlist](#playlist).
 The user can change the active instrument by hitting `Sh+UpArrow` (setting the previous instrument as the active one) or `Sh+DownArrow` (setting the next instrument as the active one).
 
-- **"Instruments" text field**:
+- "Instruments" text field:
 Hides the active instrument highlight. Useful for making the text in the instrument slot more readable.
 
-- `+`/`-` **buttons**:
+- `+`/`-` buttons:
 Add or remove one instrument. Non-desctructive action, unless you save the file without the removed instruments.
 
-- `ZAP` **button**:
+- `ZAP` button:
 Clears the instrument (samples and instrument settings). Destructive action, undoable. Opens a warning popup window.
 
-- `LOAD` **button**:
+- `LOAD` button:
 Loads an XI instrument from memory.
 
-- `SAVE` **button**:
+- `SAVE` button:
 Saves an XI instrument to memory.
 
-- **Scrollbar**:
+- Scrollbar:
 Used to navigate the instrument slots. Mouse gestures (scroll up/down) do the same thing.
 
 # Sample menu
@@ -252,16 +261,16 @@ The active sample is selected by left-mouse or right-mouse clicking on the ID sl
 The sample in the [sample editor](#sample-editor) is the currently active one.
 The user can change the active sample by hitting `Ctrl+Sh+UpArrow` (setting the previous sample as the active one) or `Ctrl+Sh+DownArrow` (setting the next sample as the active one).
 
-- `CLEAR` **button**:
+- `CLEAR` button:
 Clears the active sample. Destructive action, undoable. Doesn't open a warning popup window.
 
-- `LOAD` **button**:
+- `LOAD` button:
 Loads a WAV file from memory into the active sample.
 
-- `SAVE` **button**:
+- `SAVE` button:
 Saves a WAV file of the active sample to memory.
 
-- **Scrollbar**:
+- Scrollbar:
 Used to navigate the sample slots. Mouse gestures (scroll up/down) do the same thing.
 
 # Instrument editor
@@ -271,15 +280,15 @@ Used to navigate the sample slots. Mouse gestures (scroll up/down) do the same t
 Allows editing of the currently selected instrument (via the [instrument menu](#instrument-menu)).
 Can be opened by hitting `Ctrl+I`.
 
-- `Volume`/`Panning` **tabs**:
+- `Volume`/`Panning` tabs:
 Used to edit either the volume or panning envelope.
 
-- `0`-`9` and `STORE` **buttons**:
+- `0`-`9` and `STORE` buttons:
 Used to load of store of the predefined envelopes.
 The used can predefine 20 envelopes, 10 for volume and 10 for panning.
 The predefined envelopes are loaded by hitting the numerical buttons, and storing is done by hitting the `STORE` button first, after which the user hits the numerical buttons.
 
-- `UNDO`/`REDO` **buttons**:
+- `UNDO`/`REDO` buttons:
 Undo or redo the envelope changes.
 These include all the envelope editing actions right of the `UNDO`/`REDO` buttons,
 that being adding or removing points from the envelope (via the `Add`/`Del` buttons),
@@ -288,47 +297,47 @@ toggling the sustain on or off, or changing which point is the sustain point (vi
 toggling the loop on or off, of chaning the start and end point (via the `Loop` button and the `+`/`-` buttons under it)
 and scaling the envelope, that is multiplying it by a given percentage (via the `SCALE X`/`SCALE Y` buttons).
 
-- `COPY`/`PASTE` **buttons**:
+- `COPY`/`PASTE` buttons:
 Copy or paste the envelope (indepent of which type of envelope it is) into another envelope.
 
-- `ZOOM IN`/`ZOOM OUT` **buttons**:
+- `ZOOM IN`/`ZOOM OUT` buttons:
 Zoom in or out of the envelope.
 
-- **Right-most part of the window**:
+- Right-most part of the window:
 Used for editing the basic instrument properties, as described in [the doc titled "THE XM FILE FORMAT" in the "Instruments" section](./xm.md#instruments).
 There are still certain buttons of interest, described below.
 
-- `EXIT` **button**:
+- `EXIT` button:
 Close the instrument editor window. Same as hitting `Ctrl+I`.
 
-- `ZAP` **button**:
+- `ZAP` button:
 Zap the instrument. Cannot be undone.
 
-- `Load` **button**:
+- `Load` button:
 Load an instrument from memory.
 
-- `Save` **button**:
+- `Save` button:
 Save an instrument into memory.
 
-- `Copy` **button**:
+- `Copy` button:
 Copy a sample from one sample slot in one instrument into another sample slot in another instrument.
 Overrides the sample in the destination sample slot, if one exists.
 Opens an external window, seen below.
 
 ![](../img/ui_copySample.png)
 
-- `Swap` **button**:
+- `Swap` button:
 Swap a sample from one sample slot in one instrument with another sample slot in another instrument.
 Opens an external window, seen below.
 
 ![](../img/ui_swapSample.png)
 
-- **Piano**:
+- Keyboard:
 Allows either playing the instrument, or setting which key triggers which sample.
 Playing the instrument is done by hitting `Play`, after which the keyboard is playable.
 Setting which key triggers which sample is done by hitting `Edit`.
 `Stop` stops all instrument playback, either from playing the keyboard, which is usually neccessary when the user has set a long fadeout, or playing the actual song.
-The graphical look of the two modes of the piano are seen below.
+The graphical look of the keyboard's two modes are seen below.
 
 ![](../img/ui_pianoPlay.png)<br>
 "Playing" mode.<br>
