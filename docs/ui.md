@@ -280,6 +280,11 @@ Used to navigate the sample slots. Mouse gestures (scroll up/down) do the same t
 Allows editing of the currently selected instrument (via the [instrument menu](#instrument-menu)).
 Can be opened by hitting `Ctrl+I`.
 
+- Envelope viewer:
+Displays the volume or panning envelope of the instrument.
+Special actions include left-clicking and right-clicking.
+<!--TODO-->
+
 - `Volume`/`Panning` tabs:
 Used to edit either the volume or panning envelope.
 
@@ -307,10 +312,10 @@ Zoom in or out of the envelope.
 Used for editing the basic instrument properties, as described in [the doc titled "THE XM FILE FORMAT" in the "Instruments" section](./xm.md#instruments).
 There are still certain buttons of interest, described below.
 
-- `EXIT` button:
+- `Exit` button:
 Close the instrument editor window. Same as hitting `Ctrl+I`.
 
-- `ZAP` button:
+- `Zap` button:
 Zap the instrument. Cannot be undone.
 
 - `Load` button:
@@ -351,7 +356,7 @@ The graphical look of the keyboard's two modes are seen below.
 Allows editing of the currently selected sample (via the [sample menu](#sample-menu)).
 Can be opened by hitting `Ctrl+S`.
 
-- Sample viewer:
+- Sample waveform viewer:
 Displays the sample. Largest part of the sample editor.
 Special actions include shift-left-clicking, left-clicking, right-clicking and scrolling.
 <!--TODO-->
