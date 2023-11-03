@@ -278,7 +278,7 @@ Used to navigate the sample slots. Mouse gestures (scroll up/down) do the same t
 ![](../img/ui_instrumentEditor.png)
 
 Allows editing of the currently selected instrument (via the [instrument menu](#instrument-menu)).
-Can be opened by hitting `Ctrl+I`.
+Can be toggled by hitting `Ctrl+I`.
 
 - Envelope viewer:
 Displays the volume or panning envelope of the instrument.
@@ -354,14 +354,14 @@ The graphical look of the keyboard's two modes are seen below.
 ![](../img/ui_sampleEditor.png)
 
 Allows editing of the currently selected sample (via the [sample menu](#sample-menu)).
-Can be opened by hitting `Ctrl+S`.
+Can be toggled by hitting `Ctrl+S`.
 
 - Sample waveform viewer:
 Displays the sample. Largest part of the sample editor.
 Special actions include shift-left-clicking, left-clicking, right-clicking and scrolling.
 <!--TODO-->
 
-- "Play:" text filed:
+- "Play:" text field:
 Indicates which note will play when using `Wav`, `Rng` and `Dsp`. The note is displayed below the text field.
 
 - `Stop` button:
@@ -400,7 +400,7 @@ Zoom out partially.
 Zoom out entirely.
 
 - `Redo filter` button:
-Reaplly the last change done to the same (generators, EQ, volume change, etc).
+Reapply the last change done to the same (generators, EQ, volume change, etc).
 
 <!--TODO-->
 

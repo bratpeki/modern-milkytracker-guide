@@ -490,4 +490,6 @@ Pan the note from the volume column.
 
 ---
 
+[>>> MILKYTRACKER UI](./ui.md)
+
 [>>> BACK TO START](../README.md)
