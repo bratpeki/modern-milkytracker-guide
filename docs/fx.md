@@ -242,8 +242,8 @@ The maximum offset amount is 65280 bytes.
 
 **After the first tick**, the command does one of the two:
 
-- Increases the volume by `VOLUME SLIDE UP VALUE`
-- Decreases the volume by `VOLUME SLIDE DOWN VALUE`
+- Increases the volume by `VOLUME SLIDE UP VALUE` each tick of the row
+- Decreases the volume by `VOLUME SLIDE DOWN VALUE` each tick of the row
 
 If both are used at the same time, the volume is only increased by `VOLUME SLIDE UP VALUE`.<br>
 **I highly advise against using both at the same time, since playback is unpredictable on different players.**
