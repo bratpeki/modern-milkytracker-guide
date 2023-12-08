@@ -359,7 +359,7 @@ Can be toggled by hitting `Ctrl+S`.
 - Sample waveform viewer:
 Displays the sample. Largest part of the sample editor.
 Special actions include shift-left-clicking, left-clicking, right-clicking and scrolling.
-<!--TODO-->
+Right-mouse clicking on it open the waveform editing menu, which is covered in more detail in "[3.1. WORKING WITH SAMPLES](./samples.md)".
 
 - "Play:" text field:
 Indicates which note will play when using `Wav`, `Rng` and `Dsp`. The note is displayed below the text field.
@@ -402,7 +402,27 @@ Zoom out entirely.
 - `Redo filter` button:
 Reapply the last change done to the same (generators, EQ, volume change, etc).
 
-<!--TODO-->
+- `Cut`/`Copy`/`Paste` buttons:
+Work as expected, providing the ability to cut, copy and paste parts of the sample into other sample slots.
+Selecting a range in the sample editor, by holding the left mouse button, and pasting results in the selected section of the sample being swapped for the cut/copied section.
+Cuting is undoable.
+
+- `Crop` button:
+Swaps the current sample for the range you have selected in it.
+Undoable.
+
+- `Vol` button:
+Opens a popup window which lets you input a number.
+Hitting `OK` in the popup window sets the amplitude of the sample to the input number, in percent.
+The input number can go over 100, and below 0.
+Going below 0 reverses the polarity of the waveform.
+
+- `Draw` button:
+Toggles the draw mode on the sample.
+When the button is pressed, any left-mouse action overrides the current sample data, placing the waveform point there where the user has pressed.
+Undoable.
+
+<!-- TODO: Use a unified language for the mouse actions -->
 
 # Disk operations window
 
@@ -426,9 +446,10 @@ Reapply the last change done to the same (generators, EQ, volume change, etc).
 
 ---
 
+[>>> WORKING WITH SAMPLES](./samples.md)<br>
+
 [>>> TRACKER BASICS](./basics.md)<br>
 [>>> THE XM FILE FORMAT](./xm.md)<br>
-[>>> WORKING WITH SAMPLES](./samples.md)<br>
 [>>> CONFIGURING MILKYTRACKER](./config.md)
 
 [>>> BACK TO START](../README.md)
