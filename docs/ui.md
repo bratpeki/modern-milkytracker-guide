@@ -6,82 +6,6 @@ All the listed keyboard actions apply to the **FastTracker II edit mode**.
 
 Also, I'll be covering the various elements of the UI by covering the elements you'll be using commonly, and then the rest.
 
-# Interactive UI elements
-
-There are plenty of different UI elements in MT.
-Here, we'll be covering the interactive ones and how they behave.
-
-## Buttons
-
-![ui_elementButton.png](../img/ui_elementButton.png) A button from the [general editor buttons window](#general-editor-buttons-window).<br>
-![ui_elementButtonPressed.png](../img/ui_elementButtonPressed.png) Pressed.
-
-The simplest of them all!
-Left-mouse clicking activates the action associated with the button.
-Right-mouse clicking shows the button as clicked, but doesn't actually "click" it.
-
-## Checkboxes
-
-Toggle a certain behaviour on or off.
-When on, there is a check inside the box.
-
-These are commonly found in the instrument editor and settings.
-
-## Listviews
-
-![ui_settings_resolutions](../img/ui_settings_resolutions.png)
-A listview of resolutions MT supports.
-
-Select and element from a list, either by double left-mouse clicking or right-mouse clicking on the element in the list.
-
-The most important listviews in MT are in the disk operations window and the instrument and sample menus.
-
-## Radio buttons
-
-![ui_settings_scale.png](../img/ui_settings_scale.png)
-Radio buttons for the scale multiplier of the MT resolutions.
-
-Select one of the given options.
-The selected option will have a point in the circle next to the radio button, while the rest have empty circles next to them.
-
-You can find radio buttons in the sample and instrument editors.
-
-## Sliders
-
-![ui_sliderH](../img/ui_sliderH.png)
-![ui_sliderV](../img/ui_sliderV.png)
-
-Set a value from a fixed interval.
-Can be vertical and horizontal.
-
-Commonly seen in the instrument editor (volume, panning, fine tune, fadeout, etc).
-
-## Text input fields
-
-There are only a few of these fields in MT.
-They are:
-
-- [The song title text input field](#song-title-length-and-peak-window--common-mt-options-toggle-window)
-- [Instrument name text input fields](#instrument-menu)
-- [Sample name text input fields](#sample-menu)
-
-These elements work in the following way:
-
-- Double left-mouse clicking or right-mouse clicking on the field toggles a cursor and allows the user to edit the text in the field
-- Hitting `Enter` saves the text into the field
-- Hitting `Esc` resets the text to what it was before the editing
-
-## Number input fields
-
-This elements works similarly to the text input fields, with the following exceptions:
-
-- If the user inserts a non-number character before a number character, the value in the field will be set to the minimum value allowed
-- If the user inserts a non-number character after the number and hits `Enter`, everything after the first non-number character is lost
-
-One example of this type of field is the sample size field in the sample creation popup window.
-
-<!-- TODO: Link the sample size setting popup window -->
-
 # Startup
 
 Upon first startup, you are going to be greeted by the MT splash screen:
@@ -433,7 +357,7 @@ Can be toggled by hitting `Ctrl+S`.
 - Sample waveform viewer:
 Displays the sample. Largest part of the sample editor.
 Special actions include shift-left-clicking, left-clicking, right-clicking and scrolling.
-Right-mouse clicking on it open the waveform editing menu, which is covered in more detail in "[3.1. WORKING WITH SAMPLES](./samples.md)".
+Right-mouse clicking on it open the waveform editing menu, which is covered in more detail in "[3.2. WORKING WITH SAMPLES](./samples.md)".
 
 - "Play:" text field:
 Indicates which note will play when using `Wav`, `Rng` and `Dsp`. The note is displayed below the text field.
