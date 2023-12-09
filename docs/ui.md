@@ -6,6 +6,50 @@ All the listed keyboard actions apply to the **FastTracker II edit mode**.
 
 Also, I'll be covering the various elements of the UI by covering the elements you'll be using commonly, and then the rest.
 
+# Interactive UI elements
+
+There are plenty of different UI elements in MT.
+Here, we'll be covering the interactive ones and how they behave.
+
+## Buttons
+
+![ui_elementButton.png](../img/ui_elementButton.png) A button from the [general editor buttons window](#general-editor-buttons-window).<br>
+![ui_elementButtonPressed.png](../img/ui_elementButtonPressed.png) Pressed.
+
+The simplest of them all!
+Left-mouse clicking activates the action associated with the button.
+Right-mouse clicking shows the button as clicked, but doesn't actually "click" it.
+
+## Text input fields
+
+There are only a few of these fields in MT.
+They are:
+
+- [The song title text input field](#song-title-length-and-peak-window-common-mt-options-toggle-window)
+- [Instrument name text input field](#instrument-menu)
+- [Sample name text input field](#sample-menu)
+
+These elements work in the following way:
+
+- Double left-mouse clicking or right-mouse clicking on the field toggles a cursor and allows the user to edit the text in the field
+- Hitting `Enter` saves the text into the field
+- Hitting `Esc` resets the text to what it was before the editing
+
+## Number input fields
+
+This elements works similarly to the text input fields, with the following exceptions:
+
+- If the user inserts a non-number character before a number character, the value in the field will be set to the minimum value allowed
+- If the user inserts a non-number character after the number and hits `Enter`, everything after the first non-number character is lost
+
+One example of this type of field is the sample size field in the new sample creation popup window.
+
+<!-- TODO: Link the sample size setting popup window -->
+
+## Listviews
+
+<!-- TODO: Disk operation, instrument menu, sample menu -->
+
 # Startup
 
 Upon first startup, you are going to be greeted by the MT splash screen:
@@ -230,7 +274,7 @@ The options which don't link to a heading do the following:
 ![](../img/ui_instrumentMenu.png)
 
 Allows selection of the active instrument.
-The active instrument is selected by left-mouse or right-mouse clicking on the ID slot or name slot of the instrument.
+The active instrument is selected by left-mouse or right-mouse clicking on the ID slot or left-mouse clicking the name slot of the instrument.
 The active instrument is displayed in the [instrument editor](#instrument-editor), as well as being the instrument which is set for inserting notes into the [playlist](#playlist).
 The user can change the active instrument by hitting `Sh+UpArrow` (setting the previous instrument as the active one) or `Sh+DownArrow` (setting the next instrument as the active one).
 
@@ -423,6 +467,8 @@ When the button is pressed, any left-mouse action overrides the current sample d
 Undoable.
 
 <!-- TODO: Use a unified language for the mouse actions -->
+<!-- TODO: Note that any popup window can be closed with the Esc key -->
+<!-- TODO: Note that the text and number input field are focused by double left-clicking and unfocused by hitting the Esc key -->
 
 # Disk operations window
 
