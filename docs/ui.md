@@ -4,9 +4,9 @@ I'll use shortcuts to indicate keyboard actions, such as `Ctrl+S`.
 Keep in mind that `Ctrl` is the control key, `Sh` is the shift key, `Spc` is the space bar and `Alt` is, well, the alt key!
 All the listed keyboard actions apply to the **FastTracker II edit mode**.
 
-Also, left-, right- and middle- clicking will refer to their respective mouse actions.
+Also, left-, right- and middle-clicking will refer to their respective mouse actions.
 
-Also, I'll be covering the various elements of the UI by covering the elements you'll be using commonly, and then the rest.
+Also, I'll talk about the various elements of the UI by first covering the ones you'll be using commonly, and then the rest.
 
 The interactive UI elements in MT are covered in "[3.1. INTERACTIVE UI ELEMENTS](./docs/elems.md)".
 

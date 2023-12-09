@@ -12,19 +12,19 @@ Right-mouse clicking shows the button as clicked, but doesn't actually "click" i
 
 ## Checkboxes
 
-Toggle a certain behaviour on or off.
+Toggles a certain behaviour on or off.
 When on, there is a check inside the box.
 
-These are commonly found in the instrument editor and settings.
+These are commonly found in the [instrument editor](./ui.md#instrument-editor) and settings.
 
 ## Listviews
 
 ![ui_settings_resolutions](../img/ui_settings_resolutions.png)<br>
 A listview of resolutions MT supports.
 
-Select and element from a list, either by double left-mouse clicking or right-mouse clicking on the element in the list.
+Allows selection of an element from a list, either by double left-mouse clicking or right-mouse clicking on the element in the list.
 
-The most important listviews in MT are in the disk operations window and the instrument and sample menus.
+The most important listviews in MT are in the [disk operations window](./ui.md#disk-operations-window) and the [instrument](./ui.md#instrument-menu) and [sample menus](./ui.md#sample-menu).
 
 ## Radio buttons
 
@@ -34,7 +34,7 @@ Radio buttons for the scale multiplier of the MT resolutions.
 Select one of the given options.
 The selected option will have a point in the circle next to the radio button, while the rest have empty circles next to them.
 
-You can find radio buttons in the sample and instrument editors.
+You can find radio buttons in the [instrument](./ui.md#instrument-editor) and [sample editors](./ui.md#sample-editor).
 
 ## Sliders
 
