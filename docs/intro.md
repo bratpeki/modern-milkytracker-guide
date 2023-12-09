@@ -36,6 +36,7 @@ Also, from this page onward, MilkyTracker will be referred to as MT or, affectio
 
 This guide assumes you have basic music knowledge and an understanding of elementary musical terms.
 These are mainly going to be terms like "pitch", "sample", "scale", and so on.
+Technical terms, like "string", might also appear.
 You can easily look all of them up, so this shouldn't be an issue.
 
 Good? Let's move on!

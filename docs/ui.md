@@ -21,16 +21,40 @@ Left-mouse clicking activates the action associated with the button.
 Right-mouse clicking shows the button as clicked, but doesn't actually "click" it.
 
 ## Checkboxes
-<!-- TODO: Instrument editor -->
+
+Toggle a certain behaviour on or off.
+When on, there is a check inside the box.
+
+These are commonly found in the instrument editor and settings.
 
 ## Listviews
-<!-- TODO: Disk operation, instrument menu, sample menu -->
+
+![ui_settings_resolutions](../img/ui_settings_resolutions.png)
+A listview of resolutions MT supports.
+
+Select and element from a list, either by double left-mouse clicking or right-mouse clicking on the element in the list.
+
+The most important listviews in MT are in the disk operations window and the instrument and sample menus.
 
 ## Radio buttons
-<!-- TODO: Sample looping, white noise -->
+
+![ui_settings_scale.png](../img/ui_settings_scale.png)
+Radio buttons for the scale multiplier of the MT resolutions.
+
+Select one of the given options.
+The selected option will have a point in the circle next to the radio button, while the rest have empty circles next to them.
+
+You can find radio buttons in the sample and instrument editors.
 
 ## Sliders
-<!-- TODO: Instrument editor -->
+
+![ui_sliderH](../img/ui_sliderH.png)
+![ui_sliderV](../img/ui_sliderV.png)
+
+Set a value from a fixed interval.
+Can be vertical and horizontal.
+
+Commonly seen in the instrument editor (volume, panning, fine tune, fadeout, etc).
 
 ## Text input fields
 
@@ -38,8 +62,8 @@ There are only a few of these fields in MT.
 They are:
 
 - [The song title text input field](#song-title-length-and-peak-window--common-mt-options-toggle-window)
-- [Instrument name text input field](#instrument-menu)
-- [Sample name text input field](#sample-menu)
+- [Instrument name text input fields](#instrument-menu)
+- [Sample name text input fields](#sample-menu)
 
 These elements work in the following way:
 
@@ -54,7 +78,7 @@ This elements works similarly to the text input fields, with the following excep
 - If the user inserts a non-number character before a number character, the value in the field will be set to the minimum value allowed
 - If the user inserts a non-number character after the number and hits `Enter`, everything after the first non-number character is lost
 
-One example of this type of field is the sample size field in the new sample creation popup window.
+One example of this type of field is the sample size field in the sample creation popup window.
 
 <!-- TODO: Link the sample size setting popup window -->
 
@@ -167,15 +191,13 @@ Increments or decrements the repeating song order.
 Allows the selection of which of those three things you want to look at.
 
 - Song title text field tab:
-When right-mouse of left-mouse clicked, allows the editing of your song's title.
-You exit the title editing mode by hitting `Esc`.
-When right-mouse or left mouse-clicking somewhere in the text, you move the cursor to that position.
-By default, the song title is blank.
+Contains a text input field which changes the title of your song.
+By default, the song title is an empty string.
 
 - Song length tab:
 Allows viewing the current time (hour:minute:second) that has elapsed since the module started playback, and the total time.
 By default, in an empty startup module, the text in the tab reads `00:00:00 (00:00:07)`.
-The `ESTIMATE` button estimates the total length of the song.
+The `ESTIMATE` button estimates the total length of the song and updates the song length.
 You usually have to click this button manually, but you can have MT estimate the time for you once the module is loaded, by ticking a checkbox in the settings (`Misc. > Other > ESTIMATE PLAYTIME AFTER LOAD`).
 
 - Song peak tab:
@@ -282,7 +304,7 @@ The options which don't link to a heading do the following:
 ![](../img/ui_instrumentMenu.png)
 
 Allows selection of the active instrument.
-The active instrument is selected by left-mouse or right-mouse clicking on the ID slot or left-mouse clicking the name slot of the instrument.
+The active instrument is selected by left-mouse or right-mouse clicking on the ID slot or left-mouse clicking the name slot text input field of the instrument.
 The user can also change the active instrument by hitting `Sh+UpArrow` (setting the previous instrument as the active one) or `Sh+DownArrow` (setting the next instrument as the active one).
 The active instrument is displayed in the [instrument editor](#instrument-editor), as well as being the instrument which is set for inserting notes into the [playlist](#playlist).
 
@@ -309,7 +331,7 @@ Used to navigate the instrument slots. Mouse gestures (scroll up/down) do the sa
 ![](../img/ui_sampleMenu.png)
 
 Allows selection of the active sample of the active instrument.
-The active sample is selected by left-mouse or right-mouse clicking on the ID slot or left-mouse clicking the name slot of the sample.
+The active sample is selected by left-mouse or right-mouse clicking on the ID slot or left-mouse clicking the name slot text input field of the sample.
 The user can also change the active sample by hitting `Ctrl+Sh+UpArrow` (setting the previous sample as the active one) or `Ctrl+Sh+DownArrow` (setting the next sample as the active one).
 The sample in the [sample editor](#sample-editor) is the currently active one.
 
