@@ -40,6 +40,7 @@
 [3. MILKYTRACKER UI](./docs/ui.md)
 
 [3.1. INTERACTIVE UI ELEMENTS](./docs/elems.md)
+
 [3.2. WORKING WITH SAMPLES](./docs/samples.md)
 
 [4. CONFIGURING MILKYTRACKER](./docs/config.md)
