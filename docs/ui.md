@@ -20,6 +20,18 @@ The simplest of them all!
 Left-mouse clicking activates the action associated with the button.
 Right-mouse clicking shows the button as clicked, but doesn't actually "click" it.
 
+## Checkboxes
+<!-- TODO: Instrument editor -->
+
+## Listviews
+<!-- TODO: Disk operation, instrument menu, sample menu -->
+
+## Radio buttons
+<!-- TODO: Sample looping, white noise -->
+
+## Sliders
+<!-- TODO: Instrument editor -->
+
 ## Text input fields
 
 There are only a few of these fields in MT.
@@ -45,10 +57,6 @@ This elements works similarly to the text input fields, with the following excep
 One example of this type of field is the sample size field in the new sample creation popup window.
 
 <!-- TODO: Link the sample size setting popup window -->
-
-## Listviews
-
-<!-- TODO: Disk operation, instrument menu, sample menu -->
 
 # Startup
 
