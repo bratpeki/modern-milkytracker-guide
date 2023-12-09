@@ -24,6 +24,8 @@ A listview of resolutions MT supports.
 
 Allows selection of an element from a list, either by double left-mouse clicking or right-mouse clicking on the element in the list.
 
+Listviews have a scrollbar, which behaves similarly to the [sliders](#sliders), except that they are vertical.
+
 The most important listviews in MT are in the [disk operations window](./ui.md#disk-operations-window) and the [instrument](./ui.md#instrument-menu) and [sample menus](./ui.md#sample-menu).
 
 ## Radio buttons
@@ -38,13 +40,14 @@ You can find radio buttons in the [instrument](./ui.md#instrument-editor) and [s
 
 ## Sliders
 
-![ui_sliderH](../img/ui_sliderH.png)
-![ui_sliderV](../img/ui_sliderV.png)
+![ui_sliderH](../img/ui_sliderH.png) Sliders.<br>
+![ui_sliderV](../img/ui_sliderV.png) Scrollbars, seen in [listviews](#listviews) behave similarly.
 
-Set a value from a fixed interval.
-Can be vertical and horizontal.
+Allows setting a value from a fixed interval, by sliding the box within the slider.
 
-Commonly seen in the instrument editor (volume, panning, fine tune, fadeout, etc).
+The buttons that are on the edge of the slider allow for a fine tune of the value which is being set.
+
+They are commonly seen in the [instrument editor](./ui.md#instrument-editor) (volume, panning, fine tune, fadeout, etc).
 
 ## Text input fields
 
