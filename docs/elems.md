@@ -40,12 +40,15 @@ You can find radio buttons in the [instrument](./ui.md#instrument-editor) and [s
 
 ## Scrollbars
 
-![ui_sliderH1](../img/ui_sliderH1.png) Horizonal, seen in the [playlist](./ui.md#playlist) and [sample editor](./ui.md#sample-editor).<br>
-![ui_sliderV](../img/ui_sliderV.png) Vertical, seen in the [instrument](./ui.md#instrument-menu) and [sample menus](./ui.md#sample-menu).
+![ui_sliderH1](../img/ui_sliderH1.png) Horizonal.<br>
+![ui_sliderV](../img/ui_sliderV.png) Vertical.
 
 Allows scrolling.
 
-The arrow characters at the end are used for fine-tuned scrolling.
+The arrow characters at the edges of the scrollbar are used for fine-tuned scrolling.
+
+Horizonal scrollbars are seen in the [playlist](./ui.md#playlist) and [sample editor](./ui.md#sample-editor).
+The vertical ones are seen in the [instrument](./ui.md#instrument-menu) and [sample menus](./ui.md#sample-menu).
 
 ## Sliders
 
