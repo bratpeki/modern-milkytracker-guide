@@ -24,7 +24,7 @@ A listview of resolutions MT supports.
 
 Allows selection of an element from a list, either by double left-mouse clicking or right-mouse clicking on the element in the list.
 
-Listviews have a scrollbar, which behaves similarly to the [sliders](#sliders), except that they are vertical, and their fine tune buttons have the arrow characters, instead of the `+` and `-`.
+Listviews have a scrollbar, which behaves similarly to [sliders](#sliders), except for the fact they are vertical, and their fine tune buttons have the arrow characters, instead of the `+` and `-`.
 
 The most important listviews in MT are in the [disk operations window](./ui.md#disk-operations-window) and the [instrument](./ui.md#instrument-menu) and [sample menus](./ui.md#sample-menu).
 
@@ -38,10 +38,18 @@ The selected option will have a point in the circle next to the radio button, wh
 
 You can find radio buttons in the [instrument](./ui.md#instrument-editor) and [sample editors](./ui.md#sample-editor).
 
+## Scrollbars
+
+![ui_sliderH1](../img/ui_sliderH1.png) Horizonal, seen in the [playlist](./ui.md#playlist) and [sample editor](./ui.md#sample-editor).<br>
+![ui_sliderV](../img/ui_sliderV.png) Vertical, seen in the [instrument](./ui.md#instrument-menu) and [sample menus](./ui.md#sample-menu).
+
+Allows scrolling.
+
+The arrow characters at the end are used for fine-tuned scrolling.
+
 ## Sliders
 
-![ui_sliderH](../img/ui_sliderH.png) Sliders.<br>
-![ui_sliderV](../img/ui_sliderV.png) Scrollbars, seen in [listviews](#listviews) behave similarly.
+![ui_sliderH](../img/ui_sliderH.png)
 
 Allows setting a value from a fixed interval, by sliding the box within the slider.
 
