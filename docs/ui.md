@@ -8,7 +8,7 @@ Also, left-, right- and middle-clicking will refer to their respective mouse act
 
 Also, I'll talk about the various elements of the UI by first covering the ones you'll be using commonly, and then the rest.
 
-**Before you read this**, you might want to read about the interactive UI elements in MT that are covered in "[3.1. INTERACTIVE UI ELEMENTS](./docs/elems.md)".
+**Before you read this**, you might want to read about the interactive UI elements in MT that are covered in "[3.1. INTERACTIVE UI ELEMENTS](./elems.md)".
 
 # Startup
 
