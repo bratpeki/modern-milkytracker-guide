@@ -28,6 +28,7 @@
 	- [Samples](./docs/xm.md#samples)
 - [Volume (Track slot)](./docs/xm.md#volume-track-slot)
 - [Effects](./docs/xm.md#effects)
+- [Tracks](./docs/xm.md#tracks)
 - [Patterns](./docs/xm.md#patterns)
 - [Songs](./docs/xm.md#songs)
 	- [Global song volume](./docs/xm.md#global-song-volume)

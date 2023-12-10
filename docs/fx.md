@@ -1,6 +1,6 @@
 Here, we'll be covering effects you will *commonly* use. I'll leave out some effects which are useful for very specific use-cases.
 
-What you should keep in mind is that some effects play differently on MODs than on XMs.
+What you should keep in mind is that some effects "play" differently on MODs, in comparison to how they would play on XMs.
 This is called playback mode and can be found by clicking on the `OPTIONS` button in the top-left section of the main UI.
 We'll keep in mind that the playback mode is always set to `Fasttracker 2.x` (that is, that you're composing in XM).
 
