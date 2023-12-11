@@ -11,13 +11,17 @@ It's meant to be a modern collection of knowledge relating to the MilkyTracker m
 "MilkyTracker" implies MilkyTracker version 1.03.00 on PC devices.<br>
 Most of the information should still be relevant for other versions and/or hardware.
 
+As far as the module format is concerned, I'll take it that you're using XM instead of MOD, although MOD musicians might also find interesting information.
+
+Any other tracker-related settings (such as for the [effects](./fx.md)), will appear when they are relevant.
+
 As for the Markdown code, it is written following these rules:
 
 - In the code, do not break sentences, the reader can use word breaks if they see fit
 - In the code, avoid using HTML code unless neccessary (i.e. for a direct line break, `<br>`)
 - Make moving between docs easy and accessible
 
-Currently, it is meant to be a collection of the following information:
+Currently, the guide is meant to be a collection of the following information:
 
 - General tracker basics
 - MilkyTracker basics

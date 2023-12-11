@@ -79,7 +79,7 @@ These elements work in the following way:
 
 This elements works similarly to the text input fields, with the following exceptions:
 
-- If the user inserts a non-number character before a number character, the value in the field will be set to the minimum value allowed
+- If the user inserts a non-number character before a number character, the value in the field will be set to the default one
 - If the user inserts a non-number character after the number and hits `Enter`, everything after the first non-number character is lost
 
 One example of this type of field is the sample size field in the sample creation popup window.

@@ -46,7 +46,7 @@ The general editor is the top-left window visible from the [main window](#main-w
 
 From here, you'll manage various properties relating to your song, your editing of the song, as well as toggle other windows.
 
-You can return to this window by either hitting `Exit` on the windows that take its place (like the [disk operation window](#disk-operations-window), [transposition window](#transposition-window), etc) or by going back to the main window with `Ctrl+X`.
+You can return to this window by either hitting `Exit` on the windows that take its place (like the [disk operations window](#disk-operations-window), [transposition window](#transposition-window), etc) or by going back to the main window with `Ctrl+X`.
 
 The elements in this window, from top-left to bottom-right, are:
 
@@ -430,6 +430,58 @@ Undoable.
 <!-- TODO: Note that the text and number input field are focused by double left-clicking and unfocused by hitting the Esc key -->
 
 # Disk operations window
+
+![ui_diskOp.png](../img/ui_diskOp.png) "List" view.<br>
+![ui_diskOpSimple.png](../img/ui_diskOpSimple.png) "Simple" view.
+
+Allows the user to perform reading and writing operations to their hard memory.
+
+Comes in two views, which we'll call the "list" and "simple" view.
+You can change the active view by hitting `FLIP` in the top-right corner.
+
+## "List" view
+
+This window allows you to read or load the following information by hitting the `Type` button under the "Disk op" text field:
+
+1. Modules (`Modules`)
+2. Instruments (`Instr.`)
+3. Samples (`Sample`)
+4. Patterns (`Patt.`)
+5. Tracks (`Track`)
+
+Once you hit the `Type` button, you must select what you want to write or load.
+By default, the type is set to modules.
+
+Under the `Type` button are radio buttons which allow you to select in which format you are saving the file.
+For modules, selecting `.wav` will export the module to a lossless WAV audio file.
+
+The buttons right of the "Disk op" text field allow the following actions, from left to right:
+
+1. (`<-`) Moving to the previous directory, up until the first directory that was opened in the disk operations window
+2. (`->`) Undoing the move to the previous directory
+3. (`UP`) Moving to the parent directory
+4. (`ROOT`) Moving to the root directory
+5. (`HOME`) Moving to the home directory
+6. (`RELOAD`) Refreshing the current directory
+7. (`STEP`) Stepping back one directory (similar to #3)
+8. (`DEL`) Deleting the selected file (which doesn't have to be of appropriate type)
+9. (`MKDIR`) Making a new directory in the current directory
+10. Toggling additional options
+11. (`<`/`>`) Toggling the saved directories tab
+12. (`FLIP`) Toggling the two views of the disk operations window
+
+In the center of the view is a listview which lets you select the file you want to load into the module, or go to a directory.
+
+If the saved directories tab is toggled, there are six additional buttons; five for directory paths and one for storing them.
+By hitting any of them, you will load your saved directories.
+They are not shared for any type of file (for example, the module type and sample type have different saved directory paths).
+You can store a path by hitting `STORE`, and then, once you are in the path you want to save, hitting the button of the slot you want to save the path to.
+
+The `Save` button saves the file, and the `Exit` buttons returns you to the [general editor](#general-editor).
+
+## "Simple" view
+
+<!-- TODO -->
 
 # Playlist
 
