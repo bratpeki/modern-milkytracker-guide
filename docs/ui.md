@@ -431,15 +431,14 @@ Undoable.
 
 # Disk operations window
 
-![ui_diskOp.png](../img/ui_diskOp.png) "List" view.<br>
-![ui_diskOpSimple.png](../img/ui_diskOpSimple.png) "Simple" view.
-
 Allows the user to perform reading and writing operations to their hard memory.
 
-Comes in two views, which we'll call the "list" and "simple" view.
+It comes in two views, which we'll call the ["list"](#list-view) and ["simple" view](#simple-view).
 You can change the active view by hitting `FLIP` in the top-right corner.
 
 ## "List" view
+
+![ui_diskOp.png](../img/ui_diskOp.png)
 
 This window allows you to read or load the following information by hitting the `Type` button under the "Disk op" text field:
 
@@ -477,11 +476,19 @@ By hitting any of them, you will load your saved directories.
 They are not shared for any type of file (for example, the module type and sample type have different saved directory paths).
 You can store a path by hitting `STORE`, and then, once you are in the path you want to save, hitting the button of the slot you want to save the path to.
 
-The `Save` button saves the file, and the `Exit` buttons returns you to the [general editor](#general-editor).
+The `Save` button opens the [HD Recorder window](#hd-recorder-window), and the `Exit` buttons returns you to the [general editor](#general-editor).
 
 ## "Simple" view
 
-<!-- TODO -->
+![ui_diskOpSimple.png](../img/ui_diskOpSimple.png)
+
+Allows quick selection of format and saving to disk.
+
+Hitting the `Save As` button opens a popup window that allows selection the directory to which you will save.
+
+As with the ["List" view](#list-view), the `Exit` buttons returns you to the [general editor](#general-editor).
+
+## HD Recorder window
 
 # Playlist
 
