@@ -197,7 +197,7 @@ You can, however, bring them back by undoing your chagnes (`Ctrl+Alt+Z`).
 - [`Load` - Load module]()
 - `Save` - Save module
 - [`As...` - Save module as...]()
-- [`Disk Op.` - Disk operations window](#disk-operation-window)
+- [`Disk Op.` - Disk operations window](#disk-operations-window)
 - [`Smp. Ed.` - Sample editor](#sample-editor)
 - [`Ins. Ed.` - Instrument editor](#instrument-editor)
 - [`Adv. Edit` - Advanced editor]()
