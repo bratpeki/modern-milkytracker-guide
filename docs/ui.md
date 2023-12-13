@@ -229,7 +229,7 @@ The options which don't link to a heading do the following:
 
 # Instrument menu
 
-![](../img/ui_instrumentMenu.png)
+![ui_instrumentMenu.png](../img/ui_instrumentMenu.png)
 
 Allows selection of the active instrument.
 The active instrument is selected by left- or right-clicking on the ID slot or left-clicking the name slot text input field of the instrument.
@@ -256,7 +256,7 @@ Used to navigate the instrument slots. Mouse gestures (scroll up/down) do the sa
 
 # Sample menu
 
-![](../img/ui_sampleMenu.png)
+![ui_sampleMenu.png](../img/ui_sampleMenu.png)
 
 Allows selection of the active sample of the active instrument.
 The active sample is selected by left- or right-clicking on the ID slot or left-clicking the name slot text input field of the sample.
@@ -277,7 +277,7 @@ Used to navigate the sample slots. Mouse gestures (scroll up/down) do the same t
 
 # Instrument editor
 
-![](../img/ui_instrumentEditor.png)
+![ui_instrumentEditor.png](../img/ui_instrumentEditor.png)
 
 Allows editing of the currently selected instrument (via the [instrument menu](#instrument-menu)).
 Can be toggled by hitting `Ctrl+I`.
@@ -331,13 +331,13 @@ Copy a sample from one sample slot in one instrument into another sample slot in
 Overrides the sample in the destination sample slot, if one exists.
 Opens an external window, seen below.
 
-![](../img/ui_copySample.png)
+![ui_copySample.png](../img/ui_copySample.png)
 
 - `Swap` button:
 Swap a sample from one sample slot in one instrument with another sample slot in another instrument.
 Opens an external window, seen below.
 
-![](../img/ui_swapSample.png)
+![ui_swapSample.png](../img/ui_swapSample.png)
 
 - Keyboard:
 Allows either playing the instrument, or setting which key triggers which sample.
@@ -346,14 +346,14 @@ Setting which key triggers which sample is done by hitting `Edit`.
 `Stop` stops all instrument playback, either from playing the keyboard, which is usually neccessary when the user has set a long fadeout, or playing the actual song.
 The graphical look of the keyboard's two modes are seen below.
 
-![](../img/ui_pianoPlay.png)<br>
+![ui_pianoPlay.png](../img/ui_pianoPlay.png)<br>
 "Playing" mode.<br>
-![](../img/ui_pianoEdit.png)<br>
+![ui_pianoEdit.png](../img/ui_pianoEdit.png)<br>
 "Editing" mode.
 
 # Sample editor
 
-![](../img/ui_sampleEditor.png)
+![ui_sampleEditor.png](../img/ui_sampleEditor.png)
 
 Allows editing of the currently selected sample (via the [sample menu](#sample-menu)).
 Can be toggled by hitting `Ctrl+S`.
@@ -489,6 +489,8 @@ Hitting the `Save As` button opens a popup window that allows selection the dire
 As with the ["List" view](#list-view), the `Exit` buttons returns you to the [general editor](#general-editor).
 
 ## HD Recorder window
+
+![ui_diskOpExport.png](../img/ui_diskOpExport.png)
 
 # Playlist
 
