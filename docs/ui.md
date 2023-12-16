@@ -440,19 +440,20 @@ You can change the active view by hitting `FLIP` in the top-right corner.
 
 ![ui_diskOp.png](../img/ui_diskOp.png)
 
-This window allows you to read or load the following information by hitting the `Type` button under the "Disk op" text field:
+Allows reading or loading files of a specific type by hitting the `Type` button under the "Disk op" text field.
+Once you hit the `Type` button, you must select what type you want to write or load.
+The types from which you can select a file type are:
 
-1. Modules (`Modules`)
-2. Instruments (`Instr.`)
-3. Samples (`Sample`)
-4. Patterns (`Patt.`)
-5. Tracks (`Track`)
+1. Modules (`Modules`, saves the module)
+2. Instruments (`Instr.`, saves the selected instrument)
+3. Samples (`Sample`, saves the selected sample)
+4. Patterns (`Patt.`, saves the currect pattern)
+5. Tracks (`Track`, saves the track your cursor is on)
 
-Once you hit the `Type` button, you must select what you want to write or load.
 By default, the type is set to modules.
 
 Under the `Type` button are radio buttons which allow you to select in which format you are saving the file.
-For modules, selecting `.wav` will export the module to a lossless WAV audio file.
+For modules, selecting `.wav` will allow you to export the module to a lossless WAV audio file.
 
 The buttons right of the "Disk op" text field allow the following actions, from left to right:
 
@@ -476,7 +477,9 @@ By hitting any of them, you will load your saved directories.
 They are not shared for any type of file (for example, the module type and sample type have different saved directory paths).
 If you want to store the path to the directory you are currently int, you can do so by hitting `STORE`, and then hitting the button of the slot you want to save the path to.
 
-The `Save` button opens the [HD Recorder window](#hd-recorder-window), and the `Exit` buttons returns you to the [general editor](#general-editor).
+The `Save` button saves the file in the selected directory, unless you've chosen to output a WAV file.
+In that case, the button opens the [HD Recorder window](#hd-recorder-window).
+The `Exit` buttons returns you to the [general editor](#general-editor).
 
 ## "Simple" view
 
@@ -491,6 +494,8 @@ As with the ["List" view](#list-view), the `Exit` buttons returns you to the [ge
 ## HD Recorder window
 
 ![ui_diskOpExport.png](../img/ui_diskOpExport.png)
+
+
 
 # Playlist
 
