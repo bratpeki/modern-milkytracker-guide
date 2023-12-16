@@ -463,7 +463,7 @@ The buttons right of the "Disk op" text field allow the following actions, from 
 5. (`HOME`) Moving to the home directory
 6. (`RELOAD`) Refreshing the current directory
 7. (`STEP`) Stepping back one directory (similar to #3)
-8. (`DEL`) Deleting the selected file (which doesn't have to be of appropriate type)
+8. (`DEL`) Deleting the selected file (which can be of any type)
 9. (`MKDIR`) Making a new directory in the current directory
 10. Toggling additional options
 11. (`<`/`>`) Toggling the saved directories tab
@@ -471,10 +471,10 @@ The buttons right of the "Disk op" text field allow the following actions, from 
 
 In the center of the view is a listview which lets you select the file you want to load into the module, or go to a directory.
 
-If the saved directories tab is toggled, there are six additional buttons; five for directory paths and one for storing them.
+If the saved directories tab is toggled, there are six additional buttons; five for directory paths (`DIR1` through `DIR5`) and one for storing them (`STORE`).
 By hitting any of them, you will load your saved directories.
 They are not shared for any type of file (for example, the module type and sample type have different saved directory paths).
-You can store a path by hitting `STORE`, and then, once you are in the path you want to save, hitting the button of the slot you want to save the path to.
+If you want to store the path to the directory you are currently int, you can do so by hitting `STORE`, and then hitting the button of the slot you want to save the path to.
 
 The `Save` button opens the [HD Recorder window](#hd-recorder-window), and the `Exit` buttons returns you to the [general editor](#general-editor).
 
