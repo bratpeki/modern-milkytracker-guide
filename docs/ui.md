@@ -487,7 +487,7 @@ The `Exit` buttons returns you to the [general editor](#general-editor).
 
 Allows quick selection of format and saving to disk.
 
-Hitting the `Save As` button opens a popup window that allows selection the directory to which you will save.
+Hitting the `Save As` button opens a popup window that allows selection the directory to which you will save, unless you've selected `.wav`, in which case you'll first be prompted with the [HD Recorder window](#hd-recorder-window), and then the popup window.
 
 As with the ["List" view](#list-view), the `Exit` buttons returns you to the [general editor](#general-editor).
 
@@ -495,7 +495,20 @@ As with the ["List" view](#list-view), the `Exit` buttons returns you to the [ge
 
 ![ui_diskOpExport.png](../img/ui_diskOpExport.png)
 
+Allows selecting the basic properties of the WAV file you are recording from the module.
 
+These options include, from top-left to bottom-right:
+
+- The sample rate (11025Hz, 22050Hz, 44100Hz, 48000Hz)
+- Resampling interpolation (The `SELECT...` button)
+- "Volume ramping" (**Undocumented**)
+- Range
+- "Allow muting" (Keep the muted tracks muted in the export)
+- The Export location (`File` \ `Inst` button)
+- Amplification of the export
+- Mixer volume
+
+<!-- TODO: In-depth about the options -->
 
 # Playlist
 
