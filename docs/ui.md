@@ -247,19 +247,24 @@ The options which don't link to a heading do the following:
 
 ![ui_instrumentMenu.png](../img/ui_instrumentMenu.png)
 
-Allows selection of the active instrument.
-The active instrument is selected by left- or right-clicking on the ID slot or left-clicking the name slot text input field of the instrument.
-The user can also change the active instrument by hitting `Sh+UpArrow` (setting the previous instrument as the active one) or `Sh+DownArrow` (setting the next instrument as the active one).
-The active instrument is displayed in the [instrument editor](#instrument-editor), as well as being the instrument which is set for inserting notes into the [playlist](#playlist).
+Allows selection of the active instrument. The active instrument is selected by left- or
+right-clicking on the ID slot or left-clicking the name slot text input field of the instrument. The
+user can also change the active instrument by hitting `Sh+UpArrow` (setting the previous instrument
+as the active one) or `Sh+DownArrow` (setting the next instrument as the active one). The active
+instrument is displayed in the [instrument editor](#instrument-editor), as well as being the
+instrument which is set for inserting notes into the [playlist](#playlist).
 
 - "Instruments" text field:
-Hides the active instrument highlight. Useful for making the text in the instrument slot more readable.
+Hides the active instrument highlight. Useful for making the text in the instrument slot more
+readable.
 
 - `+`/`-` buttons:
-Add or remove one instrument. Non-desctructive action, unless you save the file without the removed instruments.
+Add or remove one instrument. Non-desctructive action, unless you save the file without the removed
+instruments.
 
 - `ZAP` button:
-Clears the instrument (samples and instrument settings). Destructive action, undoable. Opens a warning popup window.
+Clears the instrument (samples and instrument settings). Destructive action, undoable. Opens a
+warning popup window.
 
 - `LOAD` button:
 Loads an XI instrument from memory.
@@ -274,10 +279,11 @@ Used to navigate the instrument slots. Mouse gestures (scroll up/down) do the sa
 
 ![ui_sampleMenu.png](../img/ui_sampleMenu.png)
 
-Allows selection of the active sample of the active instrument.
-The active sample is selected by left- or right-clicking on the ID slot or left-clicking the name slot text input field of the sample.
-The user can also change the active sample by hitting `Ctrl+Sh+UpArrow` (setting the previous sample as the active one) or `Ctrl+Sh+DownArrow` (setting the next sample as the active one).
-The sample in the [sample editor](#sample-editor) is the currently active one.
+Allows selection of the active sample of the active instrument. The active sample is selected by
+left- or right-clicking on the ID slot or left-clicking the name slot text input field of the
+sample. The user can also change the active sample by hitting `Ctrl+Sh+UpArrow` (setting the
+previous sample as the active one) or `Ctrl+Sh+DownArrow` (setting the next sample as the active
+one). The sample in the [sample editor](#sample-editor) is the currently active one.
 
 - `CLEAR` button:
 Clears the active sample. Destructive action, undoable. Doesn't open a warning popup window.
@@ -309,16 +315,18 @@ Used to edit either the volume or panning envelope.
 - `0`-`9` and `STORE` buttons:
 Used to load of store of the predefined envelopes.
 The used can predefine 20 envelopes, 10 for volume and 10 for panning.
-The predefined envelopes are loaded by hitting the numerical buttons, and storing is done by hitting the `STORE` button first, after which the user hits the numerical buttons.
+The predefined envelopes are loaded by hitting the numerical buttons, and storing is done by
+hitting the `STORE` button first, after which the user hits the numerical buttons.
 
 - `UNDO`/`REDO` buttons:
 Undo or redo the envelope changes.
 These include all the envelope editing actions right of the `UNDO`/`REDO` buttons,
 that being adding or removing points from the envelope (via the `Add`/`Del` buttons),
 toggling the envelope on or off (via the `On` button),
-toggling the sustain on or off, or changing which point is the sustain point (via the `Sustain` button and the `+`/`-` buttons under it),
-toggling the loop on or off, of chaning the start and end point (via the `Loop` button and the `+`/`-` buttons under it)
-and scaling the envelope, that is multiplying it by a given percentage (via the `SCALE X`/`SCALE Y` buttons).
+toggling the sustain on or off, or changing which point is the sustain point (via the `Sustain`
+button and the `+`/`-` buttons under it), toggling the loop on or off, of chaning the start and end
+point (via the `Loop` button and the `+`/`-` buttons under it) and scaling the envelope, that is
+multiplying it by a given percentage (via the `SCALE X`/`SCALE Y` buttons).
 
 - `COPY`/`PASTE` buttons:
 Copy or paste the envelope (indepent of which type of envelope it is) into another envelope.
@@ -327,7 +335,7 @@ Copy or paste the envelope (indepent of which type of envelope it is) into anoth
 Zoom in or out of the envelope.
 
 - Right-most part of the window:
-Used for editing the basic instrument properties, as described in [the doc titled "THE XM FILE FORMAT" in the "Instruments" section](./xm.md#instruments).
+Used for editing the basic instrument properties, which are described [here](./xm.md#instruments).
 There are still certain buttons of interest, described below.
 
 - `Exit` button:
@@ -356,11 +364,11 @@ Opens an external window, seen below.
 ![ui_swapSample.png](../img/ui_swapSample.png)
 
 - Keyboard:
-Allows either playing the instrument, or setting which key triggers which sample.
-Playing the instrument is done by hitting `Play`, after which the keyboard is playable.
-Setting which key triggers which sample is done by hitting `Edit`.
-`Stop` stops all instrument playback, either from playing the keyboard, which is usually neccessary when the user has set a long fadeout, or playing the actual song.
-The graphical look of the keyboard's two modes are seen below.
+Allows either playing the instrument, or setting which key triggers which sample. Playing the
+instrument is done by hitting `Play`, after which the keyboard is playable. Setting which key
+triggers which sample is done by hitting `Edit`. `Stop` stops all instrument playback, either from
+playing the keyboard, which is usually neccessary when the user has set a long fadeout, or playing
+the actual song. The graphical look of the keyboard's two modes are seen below.
 
 ![ui_pianoPlay.png](../img/ui_pianoPlay.png)<br>
 "Playing" mode.<br>
@@ -377,10 +385,12 @@ Can be toggled by hitting `Ctrl+S`.
 - Sample waveform viewer:
 Displays the sample. Largest part of the sample editor.
 Special actions include shift-left-clicking, left-clicking, right-clicking and scrolling.
-Right-clicking on it open the waveform editing menu, which is covered in more detail in "[3.2. WORKING WITH SAMPLES](./samples.md)".
+Right-clicking on it open the waveform editing menu, which is covered in more detail in
+"[3.2. WORKING WITH SAMPLES](./samples.md)".
 
 - "Play:" text field:
-Indicates which note will play when using `Wav`, `Rng` and `Dsp`. The note is displayed below the text field.
+Indicates which note will play when using `Wav`, `Rng` and `Dsp`. The note is displayed below the
+text field.
 
 - `Stop` button:
 Stops sample playback.
@@ -421,9 +431,10 @@ Zoom out entirely.
 Reapply the last change done to the same (generators, EQ, volume change, etc).
 
 - `Cut`/`Copy`/`Paste` buttons:
-Work as expected, providing the ability to cut, copy and paste parts of the sample into other sample slots.
-Selecting a range in the sample editor, by holding the left mouse button, and pasting results in the selected section of the sample being swapped for the cut/copied section.
-Cuting is undoable.
+Work as expected, providing the ability to cut, copy and paste parts of the sample into other
+sample slots. Selecting a range in the sample editor, by holding the left mouse button, and pasting
+results in the selected section of the sample being swapped for the cut/copied section. Cutting is
+undoable.
 
 - `Crop` button:
 Swaps the current sample for the range you have selected in it.
@@ -437,9 +448,9 @@ Going below 0 reverses the polarity of the waveform.
 
 - `Draw` button:
 Toggles the draw mode on the sample.
-When the button is pressed, any left-mouse action overrides the current sample data, placing the waveform point there where the user has pressed.
-**You can also toggle drawing by holding** `Sh` **and pressing the same button**.
-Undoable.
+When the button is pressed, any left-mouse action overrides the current sample data, placing the
+waveform point there where the user has pressed. **You can also toggle drawing by holding** `Sh`
+**and pressing the same button**. Undoable.
 
 <!-- TODO: Use a unified language for the mouse actions -->
 <!-- TODO: Note that any popup window can be closed with the Esc key -->
@@ -456,8 +467,8 @@ You can change the active view by hitting `FLIP` in the top-right corner.
 
 ![ui_diskOp.png](../img/ui_diskOp.png)
 
-Allows reading or loading files of a specific type by hitting the `Type` button under the "Disk op" text field.
-Once you hit the `Type` button, you must select what type you want to write or load.
+Allows reading or loading files of a specific type by hitting the `Type` button under the "Disk op"
+text field. Once you hit the `Type` button, you must select what type you want to write or load.
 The types from which you can select a file type are:
 
 1. Modules (`Modules`, saves the module)
@@ -468,8 +479,9 @@ The types from which you can select a file type are:
 
 By default, the type is set to modules.
 
-Under the `Type` button are radio buttons which allow you to select in which format you are saving the file.
-For modules, selecting `.wav` will allow you to export the module to a lossless WAV audio file.
+Under the `Type` button are radio buttons which allow you to select in which format you are saving
+the file. For modules, selecting `.wav` will allow you to export the module to a lossless WAV audio
+file.
 
 The buttons right of the "Disk op" text field allow the following actions, from left to right:
 
@@ -486,15 +498,18 @@ The buttons right of the "Disk op" text field allow the following actions, from 
 11. (`<`/`>`) Toggling the saved directories tab
 12. (`FLIP`) Toggling the two views of the disk operations window
 
-In the center of the view is a listview which lets you select the file you want to load into the module, or go to a directory.
+In the center of the view is a listview which lets you select the file you want to load into the
+module, or go to a directory.
 
-If the saved directories tab is toggled, there are six additional buttons; five for directory paths (`DIR1` through `DIR5`) and one for storing them (`STORE`).
-By hitting any of them, you will load your saved directories.
-They are not shared for any type of file (for example, the module type and sample type have different saved directory paths).
-If you want to store the path to the directory you are currently int, you can do so by hitting `STORE`, and then hitting the button of the slot you want to save the path to.
+If the saved directories tab is toggled, there are six additional buttons; five for directory paths
+(`DIR1` through `DIR5`) and one for storing them (`STORE`). By hitting any of them, you will load
+your saved directories. They are not shared for any type of file (for example, the module type and
+sample type have different saved directory paths). If you want to store the path to the directory
+you are currently in, you can do so by hitting `STORE`, and then hitting the button of the slot you
+want to save the path to.
 
-The `Save` button saves the file in the selected directory, unless you've chosen to output a WAV file.
-In that case, the button opens the [HD Recorder window](#hd-recorder-window).
+The `Save` button saves the file in the selected directory, unless you've chosen to output a WAV
+file. In that case, the button opens the [HD Recorder window](#hd-recorder-window).
 The `Exit` buttons returns you to the [general editor](#general-editor).
 
 ## "Simple" view
@@ -503,9 +518,12 @@ The `Exit` buttons returns you to the [general editor](#general-editor).
 
 Allows quick selection of format and saving to disk.
 
-Hitting the `Save As` button opens a popup window that allows selection the directory to which you will save, unless you've selected `.wav`, in which case you'll first be prompted with the [HD Recorder window](#hd-recorder-window), and then the popup window.
+Hitting the `Save As` button opens a popup window that allows selection the directory to which you
+will save, unless you've selected `.wav`, in which case you'll first be prompted with the
+[HD Recorder window](#hd-recorder-window), and then the popup window.
 
-As with the ["List" view](#list-view), the `Exit` buttons returns you to the [general editor](#general-editor).
+As with the ["List" view](#list-view), the `Exit` buttons returns you to the
+[general editor](#general-editor).
 
 ## HD Recorder window
 

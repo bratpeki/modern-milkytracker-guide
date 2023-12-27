@@ -6,7 +6,7 @@ Okay, let's get into it.
 
 # Intro to XM
 
-A brief bit of history and introductory trivia about the format.
+First, a brief bit of history and introductory trivia about the format.
 
 The XM (**"eXtended Module"**) is a direct decendant of the MOD (**"MODule"**) format.<br>
 Unlike a MOD, XM has:
