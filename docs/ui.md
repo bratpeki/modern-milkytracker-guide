@@ -609,6 +609,17 @@ Opened with `Ctrl+T`.
 
 # Zapper window
 
+![ui_zapper.png](../img/ui_zapper.png)
+
+A popup window which, as suggested, removes every piece of data of a certain type from the module.
+The options include:
+
+- `Song`: All pattern and song order data.
+- `Patns`: All the note and effect data of the current pattern.
+- `Insts`: The data of all the instruments.
+
+Undoable.
+
 # Options window
 
 # Configuration window
