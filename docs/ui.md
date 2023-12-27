@@ -584,6 +584,8 @@ Displays the sound created by the corresponding track.
 Left-clicking mutes and un-mutes the track, as indicated by "MUTE" in the scope.
 Right-clicking arms and un-arms a track for recording, as indicated by the red dot in scope.
 
+You can change how the scopes look in the settings (`Misc. > Other > Scope style:`).
+
 # Transposition window
 
 # Zapper window
