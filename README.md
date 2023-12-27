@@ -65,3 +65,5 @@
 - [Compiling MilkyTracker]()
 
 [8. THANKS](./docs/thanks.md)
+
+<!-- TODO: Better navigation in documents, check that at the end of everything -->
