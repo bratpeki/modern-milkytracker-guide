@@ -463,6 +463,8 @@ Allows the user to perform reading and writing operations to their hard memory.
 It comes in two views, which we'll call the ["list"](#list-view) and ["simple" view](#simple-view).
 You can change the active view by hitting `FLIP` in the top-right corner.
 
+Opened with `Ctrl+D`.
+
 ## "List" view
 
 ![ui_diskOp.png](../img/ui_diskOp.png)
@@ -586,6 +588,8 @@ Right-clicking arms and un-arms a track for recording, as indicated by the red d
 
 You can change how the scopes look in the settings (`Misc. > Other > Scope style:`).
 
+Toggled with `Ctrl+Z`.
+
 # Transposition window
 
 ![ui_transpose.png](../img/ui_transpose.png)
@@ -598,6 +602,8 @@ note is moved up or down. The `NOTE UP`, `NOTE DOWN`, `OCTAVE UP` and `OCTAVE DO
 the semitone offset to a specified value, which is `+1`, `-1`, `+12` and `-12`, respectively.
 
 The buttons next to "Apply:" let you specify what you want the transposition to be applied to.
+
+Opened with `Ctrl+T`.
 
 <!-- American pronounciations? Behaviour, ammount? -->
 
