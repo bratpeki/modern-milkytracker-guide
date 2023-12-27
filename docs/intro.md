@@ -8,7 +8,7 @@ It's meant to be a modern collection of knowledge relating to the MilkyTracker m
 - **that it is presented in a modern format (Markdown, GitHub standard)** and
 - **that it is clean of stale links and information which was relevant for very old versions**.
 
-"MilkyTracker" implies MilkyTracker version 1.03.00 on PC devices.<br>
+**"MilkyTracker" implies MilkyTracker version 1.03.00 on PC devices.**<br>
 Most of the information should still be relevant for other versions and/or hardware.
 
 As far as the module format is concerned, I'll take it that you're using XM instead of MOD, although MOD musicians might also find interesting information.
@@ -17,7 +17,7 @@ Any other tracker-related settings (such as for the [effects](./fx.md)), will ap
 
 As for the Markdown code, it is written following these rules:
 
-- In the code, do not break sentences, the reader can use word breaks if they see fit
+- No line should exceed 100 characters unless neccessary
 - In the code, avoid using HTML code unless neccessary (i.e. for a direct line break, `<br>`)
 - Make moving between docs easy and accessible
 

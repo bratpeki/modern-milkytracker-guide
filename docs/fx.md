@@ -113,9 +113,11 @@ The bending depends on the frequency table, BPM, SPD, the current note, and some
 
 **Description**:
 
-Bends down from the original note (ex. `C-4`) to the target note (ex. `D-4`).
+Slides from the original note (ex. `C-4`) to the target note (ex. `D-4`).
 
-<!-- TODO: Nicely elaborate on 1xx, 2xx and 3xx, cover 3xx behaviour when the volume envelope is on -->
+If the volume envelope on the instrument is on, the new note (ex. `D-4`) will apply it on the sound again, in addition to sliding.
+
+<!-- TODO: Nicely elaborate on 1xx, 2xx and 3xx -->
 
 ## 4xy Vibrato
 
