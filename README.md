@@ -44,6 +44,8 @@
 
 [3.2. WORKING WITH SAMPLES](./docs/samples.md)
 
+[3.3. WORKING WITH THE PLAYLIST](./docs/playlist.md)
+
 [4. CONFIGURING MILKYTRACKER](./docs/config.md)
 
 [4.1. KEYBIND OPTIONS](./docs/keybind.md)

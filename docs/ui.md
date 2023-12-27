@@ -150,12 +150,12 @@ This window consists of four buttons labeled `F`, `P`, `W` and `L`, in that orde
 Right-clicking these toggles their respective options.
 The options are:
 
-| Label | Keyboard shortcut | Name of the action, taken from the MT manual  | Description |
-| -     | -                 | -                                             | - |
-| `F`   | `Ctrl+F`          | Song follow                                   | If on, the cursor follows the playhead. |
-| `P`   | `Ctrl+P`          | Prospective pattern view                      | If on, the previous and next patterns in the song are visible. |
-| `W`   | `Ctrl+W`          | Pattern wrapping                              | If on, during editing of a pattern, the cursor will wrap and stay on the current pattern, instead of moving to the next or previous one. |
-| `L`   | `Ctrl+L`          | Pattern change behavior (live mode)           | If on, when you change the current pattern while another pattern is playing, it will first play the current one entirely, and then move on to the next one. If off, the pattern change happens immedietly, without wait. Used in live performances. |
+| Label | Keyboard shortcut | Name of the action, taken from the MT manual | Description |
+| -     | -                 | -                                            | - |
+| `F`   | `Ctrl+F`          | Song follow                                  | If on, the cursor follows the playhead. |
+| `P`   | `Ctrl+P`          | Prospective pattern view                     | If on, the previous and next patterns in the song are visible. |
+| `W`   | `Ctrl+W`          | Pattern wrapping                             | If on, during editing of a pattern, the cursor will wrap and stay on the current pattern, instead of moving to the next or previous one. |
+| `L`   | `Ctrl+L`          | Pattern change behaviour (live mode)         | If on, when you change the current pattern while another pattern is playing, it will first play the current one entirely, and then move on to the next one. If off, the pattern change happens immedietly, without wait. Used in live performances. |
 
 ## Song and editing properties
 
@@ -568,7 +568,21 @@ Mulitply the export amplitude by the given value.
 
 # Playlist
 
+The playlist is the window where you write notes and effects, making it the window in with you
+actually create the individual [patterns](./xm.md#patterns).
+
+The actual process of editing a pattern, including the keyboard shortcuts and UI behaviour are
+described in "[3.3. WORKING WITH THE PLAYLIST](./docs/playlist.md)".
+
 # Scopes
+
+![ui_scopes.png](../img/ui_scopes.png)<br>
+Example, where the first two tracks are armed for recording, and the third is muted.
+
+Displays the sound created by the corresponding track.
+
+Left-clicking mutes and un-mutes the track, as indicated by "MUTE" in the scope.
+Right-clicking arms and un-arms a track for recording, as indicated by the red dot in scope.
 
 # Transposition window
 
