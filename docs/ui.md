@@ -241,7 +241,7 @@ The options which don't link to a heading do the following:
 | `Stop`     | Stop the playback. Same as `Spc`, when the module is playing. |
 | `Rec`      | Toggle the recording mode. Same as `Spc`, when the module is not playing. |
 | `Add`      | Adds 2 tracks to the song. Can't add more than the maximum value set in the settings (`I/O > XM channel limit`). |
-| `Sub`      | Subtracts 2 tracks from the song. Can't subtract less than 2 tracks, because that makes the number of tracks 0, duh! This action is not desctructive until you save and reload the module. |
+| `Sub`      | Subtracts 2 tracks from the song. Can't subtract when there are 2 tracks, because that makes the number of tracks 0, duh! This action is not desctructive until you save and reload the module. |
 
 # Instrument menu
 
@@ -535,14 +535,36 @@ These options include, from top-left to bottom-right:
 
 - The sample rate (11025Hz, 22050Hz, 44100Hz, 48000Hz)
 - Resampling interpolation (The `SELECT...` button)
-- "Volume ramping" (**Undocumented**)
+- "Volume ramping" (An "anti-clicking" algorithm applied during the mixing phase)
 - Range
 - "Allow muting" (Keep the muted tracks muted in the export)
-- The Export location (`File` \ `Inst` button)
+- The export destination location (`File:` \ `Samp:` button)
 - Amplification of the export
 - Mixer volume
 
+The buttons in the window are:
+
+- `SELECT...`:
+Allows setting the resampler used during exporting.
+- `Record`:
+Records the export to the destination location.
+- `As...`:
+Allows setting the export destination location. Doesn't work for exports into instruments.
+- `AUTO`:
+Auto-adjusts the mixer volume. <!-- TODO -->
+- `Exit`:
+Leaves the window.
+- `File:`/`Samp:`:
+Toggles exporting to a file, or a sample slot of an instrument of the opened module.
+If sample exporting is selected, changing the active instrument and sample changes the output
+instrument and sample slot of the export.
+- Radio buttons under the "Output:" text field:
+Allow for selecting the sample rate.
+- Radio buttons under the "Amplify" text field:
+Mulitply the export amplitude by the given value.
+
 <!-- TODO: In-depth about the options -->
+<!-- TODO: Individual windows? -->
 
 # Playlist
 
