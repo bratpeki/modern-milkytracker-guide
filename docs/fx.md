@@ -115,7 +115,7 @@ The bending depends on the frequency table, BPM, SPD, the current note, and some
 
 Bends down from the original note (ex. `C-4`) to the target note (ex. `D-4`).
 
-For more information read [1xx PORTAMENTO UP](#1xx-portamento-up).
+<!-- TODO: Nicely elaborate on 1xx, 2xx and 3xx, cover 3xx behaviour when the volume envelope is on -->
 
 ## 4xy Vibrato
 
