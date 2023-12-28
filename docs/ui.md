@@ -599,7 +599,7 @@ Allows transposing of the notes in the playlist.
 By default, all notes of all instruments can be transposed. This can be changed with the settings
 under the "Instrument:" and "Note:" text fields. "Amount" specifies by how many semitone the
 note is moved up or down. The `NOTE UP`, `NOTE DOWN`, `OCTAVE UP` and `OCTAVE DOWN` buttons set
-the semitone offset to a specified value, which is `+1`, `-1`, `+12` and `-12`, respectively.
+the semitone offset to `+1`, `-1`, `+12` and `-12`, respectively.
 
 The buttons next to "Apply:" let you specify what you want the transposition to be applied to.
 
@@ -614,9 +614,10 @@ Opened with `Ctrl+T`.
 A popup window which, as suggested, removes every piece of data of a certain type from the module.
 The options include:
 
-- `Song`: All pattern and song order data.
-- `Patns`: All the note and effect data of the current pattern.
-- `Insts`: The data of all the instruments.
+- `All`: Closes the opened module and creates the started module `Untitled.xm`.
+- `Song`: Delete all pattern and song order data.
+- `Patns`: Delete all the note and effect data of the current pattern.
+- `Insts`: Delete the data of all the instruments.
 
 Undoable.
 
