@@ -623,11 +623,43 @@ Undoable.
 
 # Options window
 
+![ui_options](../img/ui_options.png)
+
+Allows setting how the module will be played back.
+Opened with `Ctrl+O`.
+
+The playback modes include:
+
+- `Fasttracker 2.x` (intended from XMs) and
+- `Protracker 2.x`/`Protracker 3.x` (intended for MODs)
+
+The additional options on the right include:
+
+- Toggling which panning effects will be functional (useful for MODs made in ProTracker)
+- Setting the octave limits to be like in ProTracker 3 (`B-2` - `A-5`), and
+- The default panning for each track
+
+The default panning refers to the fact that, on the Amiga, ProTracker panned each track either far-left or far-right.
+
+The default panning window looks like this:
+
+![ui_options_pan](../img/ui_options_pan.png)
+
+The three presets for the default panning are in the bottom-left corner and include:
+
+1. `AMIGA` (Far-left and far-right panning)
+2. `MILKY` (50% left and 50% right) *[unchecked]*
+3. `MONO` (No panning)
+
 # Configuration window
+
+Opened with `Ctrl+C`.
 
 # Optimization window
 
 # Advanced editor
+
+Opened with `Ctrl+A`.
 
 # About window
 

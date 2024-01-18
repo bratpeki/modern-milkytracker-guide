@@ -1,6 +1,8 @@
 There are plenty of different UI elements in MT.
 Here, we'll be covering the interactive ones and how they behave.
 
+<!-- TODO: Tickbox? -->
+
 ## Buttons
 
 ![ui_elementButton.png](../img/ui_elementButton.png) A button from the [general editor buttons window](#general-editor-buttons-window).<br>
