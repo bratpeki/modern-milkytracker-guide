@@ -648,12 +648,33 @@ The default panning window looks like this:
 The three presets for the default panning are in the bottom-left corner and include:
 
 1. `AMIGA` (Far-left and far-right panning)
-2. `MILKY` (50% left and 50% right) *[unchecked]*
+2. `MILKY` (50% left and 50% right) <!-- TODO: Unchecked -->
 3. `MONO` (No panning)
 
 # Configuration window
 
+![ui_settings.png](../img/ui_settings.png)
+
+Configures MT's appearance and behaviour.
 Opened with `Ctrl+C`.
+
+Features the following tabs (toggled by the buttons with the following text):
+
+- `I/O` (Sound-related settings)
+- `Layout` (Colors, resolution, visual settings)
+- `Fonts` (Font size and face settings)
+- `Misc.` (Editor preferences, scrolling style, edit mode, scope style, etc)
+- `Tabs` (Tab-related settings)
+
+The buttons labeled `<`/`>`, which are next to each of the aforementioned buttons, shift the configuration subwindows left/right by one, in case your GUI window size is too small.
+
+The buttons below the tabs are:
+
+- `Ok` (Applies the changes and closes the configuration window)
+- `Apply` (Applies the changes without closing the configuration window)
+- `Cancel` (Closes the configuration window without applying any of the made changes)
+
+<!-- TODO: Tabs -->
 
 # Optimization window
 
