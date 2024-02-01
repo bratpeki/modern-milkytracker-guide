@@ -674,6 +674,8 @@ The buttons below the tabs are:
 - `Apply` (Applies the changes without closing the configuration window)
 - `Cancel` (Closes the configuration window without applying any of the made changes)
 
+An in-depth look at configuring MT is given in [4. CONFIGURING MILKYTRACKER](./config.md).
+
 <!-- TODO: Tabs -->
 
 # Optimization window
