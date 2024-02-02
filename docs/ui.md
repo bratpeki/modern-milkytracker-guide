@@ -680,6 +680,96 @@ An in-depth look at configuring MT is given in [4. CONFIGURING MILKYTRACKER](./c
 
 # Optimization window
 
+![ui_optimize.png](../img/ui_optimize.png)
+
+Allows many functionalities aimed at optimizing the file-size of the module.
+
+The functionalities are:
+
+- Removing the patterns (`Pat`), instruments (`Ins`) and samples (`Smp`) which weren't used in the song. `Remove unused` has to be ticked first.
+- `Remap instr.` <!-- TODO -->
+- Trimming the silence off samples (`Min. all smp.`).
+- Converting the samples from 16-bit to 8-bit (`Smp. to 8 bit`).
+
+`ANALYZE` will open a popup window showing you the changes that would take place when you optimize the track, with your selected optimizations.
+`OPTIMIZE` would optimize the track, with your selected optimizations.
+
+`Crunch headers (XM format only)` is a, currently, non-implemented functionality.
+
+The matrix-like assortment of effect-column effect, ranging from `1xx` to `X2x`, alters the effects in such a way that they do or don't use the effect memory.
+Effect memory was talked about [at the start of 2.1. EFFECT GLOSSARY](./fx.md).
+So, let's say `3xx` is ticked, and the pattern looks like this:
+
+```
+| C-4 | .1 | .. | 320 |
+| ... | .. | .. | 320 |
+| ... | .. | .. | 320 |
+| D#3 | .1 | .. | ... |
+| D#4 | .1 | .. | 390 |
+| ... | .. | .. | 300 |
+| ... | .. | .. | 300 |
+```
+
+Applying the `ZERO OPS` (zero operators, such as `300`, `300`, ...) change on the track (`TRACK`), we get this:
+
+```
+| C-4 | .1 | .. | 320 |
+| ... | .. | .. | 300 | These now use the effect memory
+| ... | .. | .. | 300 |
+| D#3 | .1 | .. | ... |
+| D#4 | .1 | .. | 390 |
+| ... | .. | .. | 300 |
+| ... | .. | .. | 300 |
+```
+
+Applying the `FILL OPS` (fill operators, such as `320`, `320`, ...) change on the track (`TRACK`), we get this:
+
+```
+| C-4 | .1 | .. | 320 |
+| ... | .. | .. | 320 | These are now "filled"
+| ... | .. | .. | 320 |
+| D#3 | .1 | .. | ... |
+| D#4 | .1 | .. | 390 |
+| ... | .. | .. | 390 | Same with these!
+| ... | .. | .. | 390 |
+```
+
+`ZERO OPS` and `FILL OPS` also allows making the change on the pattern (`Pat.`), song (`SONG`) and selection block (`BLOCK`).
+
+<!-- TODO: Selections -->
+
+The matrix-like assortment of effect column effects from `3xx` to `Pxx` allows relocating the effects from the effect column to the volume column.
+So, let's say `3xx` and `Pxx` are ticked, and the pattern looks like this:
+
+```
+| C-4 | .1 | .. | 320 |
+| ... | .. | .. | 322 |
+| ... | .. | .. | 320 |
+| D#3 | .1 | .. | ... |
+| D#4 | .1 | .. | P80 |
+| ... | .. | .. | P88 |
+| ... | .. | .. | P73 |
+```
+
+Relocating the effects in the track, by hitting `TRACK`, now gets us:
+
+```
+| C-4 | .1 | M2 | ... |
+| ... | .. | .. | 322 |
+| ... | .. | M2 | ... |
+| D#3 | .1 | .. | ... |
+| D#4 | .1 | R8 | ... |
+| ... | .. | .. | P88 |
+| ... | .. | .. | P73 |
+```
+
+I'm using `R` instead of the `▶` you'll see in the program.<br>
+This is because that character is two character widths wide, so this makes the example easier to read.
+
+So, those effects that have been ticked and can be relocated, were relocated.
+
+The functionality can also be used on the pattern (`Pat.`), song (`SONG`) and selection block (`BLOCK`).
+
 # Advanced editor
 
 Opened with `Ctrl+A`.
