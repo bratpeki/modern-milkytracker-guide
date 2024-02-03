@@ -773,6 +773,8 @@ The functionality can also be used on the pattern (`Pat.`), song (`SONG`) and se
 
 # Advanced editor
 
+![ui_advEdit.png](../img/advEdit.png)
+
 Allows advanced editing of the track, pattern, selection block or song.
 Opened with `Ctrl+A`.
 
