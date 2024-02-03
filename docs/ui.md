@@ -796,6 +796,46 @@ The options for editing include:
 
 # About window
 
+![ui_about.png](../img/ui_about.png)
+
+An "About" window with some cool visuals and text! :)
+
+A quick look at the source code reveals that the about text is actually:
+
+```
+Welcome to MilkyTracker! The open-source, cross-platform FastTracker II compatible music tracker.
+
+Now heads-up for some credits!
+
+MilkyTracker contains code from the following people:
+Peter 'pailes' Barth (original author),
+Antti S. Lankila (Amiga filter algorithm/coefficients),
+Andrew Simper (noise code),
+David Ross (EQ code),
+Heikki Orsila/Stuart Caie/Claudio Matsuoka (PowerPacker decrunching),
+Julian 'jua' Harnath (Haiku port),
+Varthall (Amiga port),
+Christopher 'Deltafire' O'Neill (current maintainer),
+Dale 'd0pefish' Whinham (Cocoa and SDL2 ports, current maintainer),
+Henri Isojarvi (GUS fixes, GUI improvements), Corvus Corax (sample editor code), David Seifert.
+
+MilkyTracker also makes use of some common 3rd party libraries:
+RtMidi/RtAudio,
+zlib & zziplib (ZIP/GZIP extraction),
+lhasa (LHA extraction)
+
+The following people manipulated pixels: kenet, raina, IDC
+
+ASCII art was provided by H2o
+
+As special shout-out to everyone who has contributed to MilkyTracker by
+dropping emails, writing bug reports, drawing fonts, producing tutorials
+(both text and video) and producing music!   A *HUGE* shout-out goes to
+pailes for creating one of the most popular trackers ever created!
+Now enjoy your stay, and happy tracking!
+---- wrapping ---- wrapping ---- wrapping ---- .....
+```
+
 ---
 
 [>>> WORKING WITH SAMPLES](./samples.md)<br>
