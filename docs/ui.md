@@ -1,7 +1,7 @@
 Here, we'll be covering the MT's UI and how to navigate around it.
 
 I'll use shortcuts to indicate keyboard actions, such as `Ctrl+S`. Keep in mind that `Ctrl` is the
-control key, `Sh` is the shift key, `Spc` is the space bar and `Alt`is, well, the alt key! All the
+control key, `Sh` is the shift key, `Spc` is the space bar and `Alt` is, well, the alt key! All the
 listed keyboard actions apply to the **FastTracker II edit mode**.
 
 Also, left-, right- and middle-clicking will refer to their respective mouse actions.
@@ -194,7 +194,7 @@ Switch between different patterns.
 Increase or decrease the pattern length.
 This action is desctructive; in case you shorten the pattern so certain notes disappear, they cannot
 be brought back by increasing the pattern length. You can, however, bring them back by undoing your
-chagnes (`Ctrl+Alt+Z`).
+changes (`Ctrl+Alt+Z`).
 
 - `Expand` button:
 Doubles the pattern length, by inserting an empty pattern line on each second line
@@ -203,7 +203,7 @@ Doubles the pattern length, by inserting an empty pattern line on each second li
 - `Shrink` button:
 Halves the pattern length, by deleting even second line (line 1 - line 3 - line 5 - line 7...).
 This action is desctructive; expanding a shrinked pattern will not bring back notes that were
-removed. You can, however, bring them back by undoing your chagnes (`Ctrl+Alt+Z`).
+removed. You can, however, bring them back by undoing your changes (`Ctrl+Alt+Z`).
 
 ## General editor buttons window
 
@@ -763,6 +763,7 @@ Relocating the effects in the track, by hitting `TRACK`, now gets us:
 | ... | .. | .. | P73 |
 ```
 
+<!-- TODO: ">" instead of "R" -->
 I'm using `R` instead of the `▶` you'll see in the program.<br>
 This is because that character is two character widths wide, so this makes the example easier to read.
 
@@ -772,7 +773,24 @@ The functionality can also be used on the pattern (`Pat.`), song (`SONG`) and se
 
 # Advanced editor
 
+Allows advanced editing of the track, pattern, selection block or song.
 Opened with `Ctrl+A`.
+
+The options for editing include:
+
+- Instrument remapping (`Remap Ins`), which changes the notes playing the first instrument so that they play the second instrument. Opens an external popup window seen below.
+
+![ui_instRemap.png](../img/ui_instRemap.png)
+
+- Interpolation (`Interpol`), which interpolates the volume (if the volume column is selected), note pitch (if notes are selected), or both.
+- `Volume scale`, which multiplies the start and end volumes of the track (`Track`), pattern (`Patt`), or selection block (`Block`), and then interpolates the volume. Open and external popup window seen below.
+
+![ui_volScale.png](../img/ui_volScale.png)
+
+- `Split track options:`, which "spreads" the notes apart into the number of subsequent channels selected by the user. `Block only` applies the changes to the block. `Insert note off` puts note-offs whenever a note is moved into a subsequent channel. `SPLIT` applies the splitting.
+- Panning conversion <!-- TODO -->
+
+<!-- TODO: Missing images -->
 
 # About window
 
