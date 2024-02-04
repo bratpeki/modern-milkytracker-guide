@@ -800,7 +800,7 @@ The options for editing include:
 
 An "About" window with some cool visuals and text! :)
 
-A quick look at the source code reveals that the about text is actually:
+A quick look at the source code reveals that the text in question is:
 
 ```
 Welcome to MilkyTracker! The open-source, cross-platform FastTracker II compatible music tracker.
@@ -817,7 +817,9 @@ Julian 'jua' Harnath (Haiku port),
 Varthall (Amiga port),
 Christopher 'Deltafire' O'Neill (current maintainer),
 Dale 'd0pefish' Whinham (Cocoa and SDL2 ports, current maintainer),
-Henri Isojarvi (GUS fixes, GUI improvements), Corvus Corax (sample editor code), David Seifert.
+Henri Isojarvi (GUS fixes, GUI improvements),
+Corvus Corax (sample editor code),
+David Seifert.
 
 MilkyTracker also makes use of some common 3rd party libraries:
 RtMidi/RtAudio,
@@ -830,7 +832,7 @@ ASCII art was provided by H2o
 
 As special shout-out to everyone who has contributed to MilkyTracker by
 dropping emails, writing bug reports, drawing fonts, producing tutorials
-(both text and video) and producing music!   A *HUGE* shout-out goes to
+(both text and video) and producing music! A *HUGE* shout-out goes to
 pailes for creating one of the most popular trackers ever created!
 Now enjoy your stay, and happy tracking!
 ---- wrapping ---- wrapping ---- wrapping ---- .....
