@@ -45,8 +45,8 @@ The elements in this window, from top-left to bottom-right, are:
 
 MT can open multiple module instances, in the form of tabs.
 
-A new tab with an empty module, called `Untitled.xm`, is opened using `Ctrl+Sh+T` and the current one is closed using `Ctrl+Sh+W`.<br>
-You can select the active tab by clicking on it from the tab bar, at the bottom of the main window.<br>
+A new tab with an empty module, called `Untitled.xm`, is opened using `Ctrl+Sh+T` and the current one is closed using `Ctrl+Sh+W`.
+You can select the active tab by clicking on it from the tab bar, at the bottom of the main window.
 You can also use the `+`/`-` buttons on the left side of the tab bar to open an empty tab or close the current one.
 
 # General editor
@@ -389,12 +389,13 @@ the actual song. The graphical look of the keyboard's two modes are seen below.
 
 Allows editing of the currently selected sample (via the [sample menu](#sample-menu)).
 Can be toggled by hitting `Ctrl+S`.
+This section will be covered in
+"[3.2. WORKING WITH SAMPLES](./samples.md)".
 
 - Sample waveform viewer:
 Displays the sample. Largest part of the sample editor.
 Special actions include shift-left-clicking, left-clicking, right-clicking and scrolling.
 Right-clicking on it open the waveform editing menu, which is covered in more detail in
-"[3.2. WORKING WITH SAMPLES](./samples.md)".
 
 - "Play:" text field:
 Indicates which note will play when using `Wav`, `Rng` and `Dsp`. The note is displayed below the
@@ -459,6 +460,41 @@ Toggles the draw mode on the sample.
 When the button is pressed, any left-mouse action overrides the current sample data, placing the
 waveform point there where the user has pressed. **You can also toggle drawing by holding** `Sh`
 **and pressing the same button**. Undoable.
+
+- Looping mode radio buttons:
+Allows setting if and how the sample will loop between the set loop points.
+The options include **No loop**, **Forward**, **Ping-pong** and **One shot**
+and have been covered [here](./xm.md#samples).
+
+- 8-bit and 16-bit sample conversion
+
+- `Load` and `Save` buttons:
+Load the sample from memory or save the current sample to memory, respectively.
+
+- `Exit` buttons:
+Closes the sample editor. Duh!
+
+- Text boxes on the far right:
+These showcase the length of the display, length of the sample, where the looping segment starts and how long the looping segment is.
+
+- `Clear` button:
+Clears the sample, setting it's length back to 0.
+
+- `Min` button:
+TODO.
+
+- `+`/`-` button pair:
+Effectively, these move the start and end of the looping segment forward and back.
+
+<!-- TODO: More verbose? -->
+
+- `H`/`D`/`T` button:
+Toggles hex, decimal or timed display of the text boxes.
+
+- `REP` button:
+TODO.
+
+<!-- TODO: Loop points -->
 
 <!-- TODO: Use a unified language for the mouse actions -->
 <!-- TODO: Note that any popup window can be closed with the Esc key -->
