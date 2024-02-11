@@ -44,8 +44,9 @@ The elements in this window, from top-left to bottom-right, are:
 ## Tabs
 
 MT can open multiple module instances, in the form of tabs.
-A new tab with an empty module, called `Untitled.xm`, is opened using `Ctrl+Sh+T` and the current one is closed using `Ctrl+Sh+W`.
-You can select the active tab by clicking on it from the tab bar, at the bottom of the main window.
+
+A new tab with an empty module, called `Untitled.xm`, is opened using `Ctrl+Sh+T` and the current one is closed using `Ctrl+Sh+W`.<br>
+You can select the active tab by clicking on it from the tab bar, at the bottom of the main window.<br>
 You can also use the `+`/`-` buttons on the left side of the tab bar to open an empty tab or close the current one.
 
 # General editor
@@ -682,8 +683,6 @@ The buttons below the tabs are:
 - `Cancel` (Closes the configuration window without applying any of the made changes)
 
 An in-depth look at configuring MT is given in [4. CONFIGURING MILKYTRACKER](./config.md).
-
-<!-- TODO: Tabs -->
 
 # Optimization window
 
