@@ -36,11 +36,133 @@ With that in mind, let's proceed.
 
 # Sample manipulation
 
-To begin manipulating a loaded sample, or create a new sample, right click on the sample waveform
-viewer (the black box which shows the sample).
+**To begin manipulating a loaded sample, or create a new sample, right click on the sample waveform viewer (the black box which shows the sample).**
+This will show a drop-down menu of various functionalities you can use.
+Those with an arrow expand to more functionalities.
+
+<!-- TODO: Drop down in elems.md -->
 
 The diagram below serves to highlight all the sample manipulation functionalities:
 
 ![sampleEditingDiagram.png](../img/sampleEditingDiagram.png)
 
-I'll name each popup window according to the text below the "System request" window title.
+I'll name each functionality by its name in the drop-down menu.
+
+## New...
+
+Creates a new sample, with the specified sample size.
+I usually use 30 for simple waves and 500-1000 for percussion.
+
+## Undo/Redo
+
+Undoes or redoes a change done to the sample.
+
+<!-- TODO: "Undoable" is not specific enough in ui.md, then -->
+
+## Cut/Copy/Paste/Crop
+
+Self-explanatory.
+
+Cut, Copy and Crop require a range selection to be made.
+You can make one by right-mouse dragging along a sample **when not in draw mode**.
+
+## Range all
+
+Range selects the entire sample.
+
+## Advanced
+
+Allows more advanced manipulation of an existing sample.
+
+### Volume boost...
+
+Boosts the volume by a given percent.
+
+If a selection is made, makes the change only on the selection.
+
+### Volume fade...
+
+Fades the volume from the starting value to the given value.
+
+If a selection is made, makes the change only on the selection.
+
+### Normalize
+
+Boosts the volume of the sample as far as possible before any clipping occurs.
+
+If a selection is made, makes the change only on the selection.
+
+### Backwards
+
+Reverses the sample.
+
+If a selection is made, makes the change only on the selection.
+
+### Cross-fade
+
+TODO
+
+### Change sign
+
+TODO
+
+### Swap byte order
+
+TODO
+
+### DC normalize
+
+TODO
+
+### DC offset...
+
+TODO
+
+### Smooth (rect.)/Smooth (tri.)
+
+Rectangular and triangular smoothing.
+
+Smooths out the sample, making the transients smaller and high ends lower.
+
+If a selection is made, makes the change only on the selection.
+
+<!-- TODO: More info -->
+
+### 3 Band EQ...
+
+Opens a popup winow which prompts the user with a 3-band equalizer.
+
+The frequency the bands are on are visible above the sliders.
+
+If a selection is made, makes the change only on the selection.
+
+### 10 Band EQ...
+
+Opens a popup winow which prompts the user with a 10-band equalizer.
+
+The frequency the bands are on are visible above the sliders.
+
+If a selection is made, makes the change only on the selection.
+
+### Resample...
+
+Allows resampling the sample to a specific number of samples.
+
+This is usually useful for making it so you have about 10000 sample blocks, for efficiently using 9xx.
+
+<!-- TODO -->
+
+## Ext. Paste
+
+TODO
+
+## ProTracker. Boost
+
+Does the ProTracker sample boost.
+
+Effectively, this boosts the volume and high-end.
+
+## Generators
+
+If a sample exists, overrides the original sample data with the generated signal.
+Undable using [Undo](#undo-redo).
