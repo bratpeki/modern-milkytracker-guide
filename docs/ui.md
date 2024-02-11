@@ -41,6 +41,13 @@ The elements in this window, from top-left to bottom-right, are:
 4. [The scopes](#scopes)
 5. [The playlist](#playlist)
 
+## Tabs
+
+MT can open multiple module instances, in the form of tabs.
+A new tab with an empty module, called `Untitled.xm`, is opened using `Ctrl+Sh+T` and the current one is closed using `Ctrl+Sh+W`.
+You can select the active tab by clicking on it from the tab bar, at the bottom of the main window.
+You can also use the `+`/`-` buttons on the left side of the tab bar to open an empty tab or close the current one.
+
 # General editor
 
 ![ui_generalEditor.png](../img/ui_generalEditor.png)
