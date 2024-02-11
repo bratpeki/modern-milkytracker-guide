@@ -20,7 +20,7 @@ and some less important features.
 
 Here, we'll be looking at how you can use these features to create and manipulate samples.
 
-# Starting point
+# Before we begin
 
 When you open the sample editor (using `Ctrl+S` or `Smp. Ed.` from the
 [general editor buttons window](./ui.md#general-editor-buttons-window)),
@@ -30,4 +30,17 @@ you are greeted with this window:
 
 These UI elements, and their basic functionality, are covered [here](./ui.md#sample-editor).
 
+This document, however, serves to showcase the sample manipulation.
+
+With that in mind, let's proceed.
+
+# Sample manipulation
+
+To begin manipulating a loaded sample, or create a new sample, right click on the sample waveform
+viewer (the black box which shows the sample).
+
+The diagram below serves to highlight all the sample manipulation functionalities:
+
 ![sampleEditingDiagram.png](../img/sampleEditingDiagram.png)
+
+I'll name each popup window according to the text below the "System request" window title.
