@@ -159,3 +159,7 @@ So far, I haven't documented:
 - Ext. paste
 
 I've never used them, so I doubt you ever will, either, but any help regarding these is appreciated!
+
+---
+
+<!-- TODO: Links -->

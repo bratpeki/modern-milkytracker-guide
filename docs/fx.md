@@ -221,6 +221,7 @@ Keep in mind that `OFFSET MULTIPLER` is read in hex.
 So, with `901`, you are offsetting the sample playback start position by 256 (`0x100`) bytes, with `902` by 512 bytes, and so on.
 
 The maximum offset amount is 65280 (0x10000) bytes.
+**So, any sample block over 9FF cannot be started from.**
 
 `900`, of course, makes no change to the sample playback.
 
