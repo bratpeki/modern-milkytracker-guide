@@ -3,12 +3,12 @@ FastTracker II. The features available to you in MT include:
 
 - Creating a new sample with a specified sample size
 - Waveform generators for:
-    - sine waves,
-    - square waves,
-    - triangle waves,
-    - sawtooth waves,
-    - noise
-    - silence (which clears the sample)
+	- sine waves,
+	- square waves,
+	- triangle waves,
+	- sawtooth waves,
+	- noise
+	- silence (which clears the sample)
 - Volume boosting, fading and normalizing
 - Reversing
 - Smoothing
@@ -133,6 +133,8 @@ This is usually useful for making it so you have about cca. 10000 sample blocks,
 
 An example of a track being resampled to be cca. 10000 sample blocks is given below.
 The left window shows the original. The right window shows the resampled sample.
+
+<!-- TODO: Move this to tips and tricks -->
 
 ![resampleTo10000.png](../img/resampleTo10000.png)
 

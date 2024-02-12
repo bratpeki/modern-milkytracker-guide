@@ -94,7 +94,7 @@ Available features are show in black, the unavailable ones are in white.
 
 A good example is the playlist track dropdown menu, featured above.
 
-# Tickbox
+# Tickboxes
 
 Enables/disables an option.
 
