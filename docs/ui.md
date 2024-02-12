@@ -730,7 +730,7 @@ The buttons below the tabs are:
 - `Apply` (Applies the changes without closing the configuration window)
 - `Cancel` (Closes the configuration window without applying any of the made changes)
 
-An in-depth look at configuring MT is given in [4. CONFIGURING MILKYTRACKER](./config.md).
+An in-depth look at configuring MT is given in "[4. CONFIGURING MILKYTRACKER](./config.md)".
 
 # Optimization window
 
@@ -812,14 +812,10 @@ Relocating the effects in the track, by hitting `TRACK`, now gets us:
 | ... | .. | .. | 322 |
 | ... | .. | M2 | ... |
 | D#3 | .1 | .. | ... |
-| D#4 | .1 | R8 | ... |
+| D#4 | .1 | >8 | ... |
 | ... | .. | .. | P88 |
 | ... | .. | .. | P73 |
 ```
-
-<!-- TODO: ">" instead of "R" -->
-I'm using `R` instead of the `▶` you'll see in the program.<br>
-This is because that character is two character widths wide, so this makes the example easier to read.
 
 So, those effects that have been ticked and can be relocated, were relocated.
 

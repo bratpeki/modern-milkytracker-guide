@@ -384,14 +384,14 @@ Same as using `A` `0` `VALUE` in the effect column.
 **Example**:
 
 ```
-| C-4 | .1 | ▲2 | ... |
+| C-4 | .1 | ^2 | ... |
 ```
 
 **Description**:
 
-Similar to [+X VOLUME SLIDE UP](#x-volume-slide-up), except that it changes the volume per row (ex. the volume will increase by 2).
+Displayed as `^x`.
 
-Displayed as `▲x`.
+Similar to [+X VOLUME SLIDE UP](#x-volume-slide-up), except that it changes the volume per row (ex. the volume will increase by 2).
 
 ## Dx Fine volume slide down
 
@@ -402,14 +402,14 @@ Displayed as `▲x`.
 **Example**:
 
 ```
-| C-4 | .1 | ▼2 | ... |
+| C-4 | .1 | v2 | ... |
 ```
 
 **Description**:
 
-Similar to [-X VOLUME SLIDE DOWN](#-x-volume-slide-down), except that it changes the volume per row (ex. the volume will decrease by 2).
+Displayed as `vx`.
 
-Displayed as `▼x`.
+Similar to [-X VOLUME SLIDE DOWN](#-x-volume-slide-down), except that it changes the volume per row (ex. the volume will decrease by 2).
 
 ## Lx Panning slide left
 
@@ -419,14 +419,11 @@ Displayed as `▼x`.
 
 **Example**:
 
-I'm using `L` instead of the `◀` you'll see in the program.<br>
-This is because that character is two character widths wide, so this makes the example easier to read.
-
 ```
 | TRACK               | PAN
 | ------------------- |
 | C-4 | .1 | .. | F03 | 80 (Center)
-| ... | .. | L2 | ... | 80 - 2*3 = 7A
+| ... | .. | <2 | ... | 80 - 2*3 = 7A
 | ... | .. | .. | 300 | 7A
 | ... | .. | .. | ... | 7A
 | ... | .. | .. | 880 | 80
@@ -434,12 +431,12 @@ This is because that character is two character widths wide, so this makes the e
 
 **Description**:
 
+Displayed as `<x`.
+
 Slides the pan, once per tick, over to the left.
 SPD acts like a multiplier.
 
-`3xx` and `◀x` share memory (ex. in the second row we slide the pan over to `7A`, and in the third row the `300` keeps the pan at `7A`).
-
-Displayed as `◀x`.
+`3xx` and `<x` share memory (ex. in the second row we slide the pan over to `7A`, and in the third row the `300` keeps the pan at `7A`).
 
 ## Rx Panning slide right
 
@@ -449,14 +446,11 @@ Displayed as `◀x`.
 
 **Example**:
 
-I'm using `R` instead of the `▶` you'll see in the program.<br>
-This is because that character is two character widths wide, so this makes the example easier to read.
-
 ```
 | TRACK               | PAN (hex)
 | ------------------- |
 | C-4 | .1 | .. | F03 | 80 (center)
-| ... | .. | R1 | ... | 80 + 1*3 = 83
+| ... | .. | >1 | ... | 80 + 1*3 = 83
 | ... | .. | .. | 300 | 83
 | ... | .. | .. | ... | 83
 | ... | .. | .. | 880 | 80
@@ -464,12 +458,12 @@ This is because that character is two character widths wide, so this makes the e
 
 **Description**:
 
+Displayed as `>x`.
+
 Slides the pan, once per tick, over to the left.
 SPD acts like a multiplier.
 
-`3xx` and `▶x` share memory (ex. in the second row we slide the pan over to `83`, and in the third row the `300` keeps the pan at `83`).
-
-Displayed as `▶x`.
+`3xx` and `>x` share memory (ex. in the second row we slide the pan over to `83`, and in the third row the `300` keeps the pan at `83`).
 
 ## Px Set note panning position
 
