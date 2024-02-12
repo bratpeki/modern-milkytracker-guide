@@ -1,8 +1,12 @@
 Here, we'll be covering the MT's UI and how to navigate around it.
 
-I'll use shortcuts to indicate keyboard actions, such as `Ctrl+S`. Keep in mind that `Ctrl` is the
-control key, `Sh` is the shift key, `Spc` is the space bar and `Alt` is, well, the alt key! All the
-listed keyboard actions apply to the **FastTracker II edit mode**.
+I'll use shortcuts to indicate keyboard actions, such as `Ctrl+S`. Keep in mind that:
+- `Ctrl` is the control key,
+- `Sh` is the shift key,
+- `Spc` is the space bar and
+- `Alt` is, well, the alt key!
+
+All the listed keyboard actions apply to the **FastTracker II edit mode**.
 
 Also, left-, right- and middle-clicking will refer to their respective mouse actions.
 
@@ -11,6 +15,14 @@ commonly, and then the rest.
 
 **Before you read this**, you might want to read about the interactive UI elements in MT that are
 covered in "[3.1. INTERACTIVE UI ELEMENTS](./elems.md)".
+
+Working with the playlist and sample editor are mostly covered in separate docs, that being
+"[3.2. WORKING WITH SAMPLES](./docs/samples.md)" and
+"[3.3. WORKING WITH THE PLAYLIST](./docs/playlist.md)",
+because of how much there is to write.
+
+There's a lot of text here to, but consider **ONLY READING WHAT YOU DON'T KNOW OR UNDERSTAND**.
+**YOU CAN SKIP THIS DOC AND MOVE ON TO** "[7. MAKING AN EXAMPLE TRACK IN MILKYTRACKER](./track.md)"!
 
 # Startup
 
@@ -218,18 +230,18 @@ removed. You can, however, bring them back by undoing your changes (`Ctrl+Alt+Z`
 ![ui_generalEditor_buttons.png](../img/ui_generalEditor_buttons.png)
 
 - [`Zap` - Zapper](#zapper-window)
-- [`Load` - Load module]()
-- `Save` - Save module
-- [`As...` - Save module as...]()
+- `Load` - "Load module", opens a popup window to find the module you want to load
+- `Save` - "Save module", saves the module, behaves like "Save module as..." if the module wasn't saved before
+- `As...` - "Save module as...", opens a popup to choose the location and name of the module you are saving
 - [`Disk Op.` - Disk operations window](#disk-operations-window)
 - [`Smp. Ed.` - Sample editor](#sample-editor)
 - [`Ins. Ed.` - Instrument editor](#instrument-editor)
-- [`Adv. Edit` - Advanced editor]()
+- [`Adv. Edit` - Advanced editor](#advanced-editor)
 - [`Transpose` - Note trasposition](#transposition-window)
-- [`About` - About MT]()
+- [`About` - About MT](#about-window)
 - [`Optimize` - Module optimization](#optimization-window)
-- [`Options` - Playback options]()
-- [`Config` - MT configuration]()
+- [`Options` - Playback behaviour options](#playback-behaviour-options-window)
+- [`Config` - MT configuration](#configuration-window)
 - `Play Sng` - Play module
 - `Pat` - Play pattern
 - `Pos` - Play from cursor position
@@ -665,7 +677,7 @@ The options include:
 
 Undoable.
 
-# Options window
+# Playback behaviour options window
 
 ![ui_options](../img/ui_options.png)
 

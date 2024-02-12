@@ -61,9 +61,11 @@
 - [Modules]()
 - [Information]()
 
-[7. DEVELOPMENT INFORMATION]()
+[7. MAKING AN EXAMPLE TRACK IN MILKYTRACKER](./docs/track.md)
+
+[8. DEVELOPMENT INFORMATION]()
 - [Compiling MilkyTracker]()
 
-[8. THANKS](./docs/thanks.md)
+[9. THANKS](./docs/thanks.md)
 
 <!-- TODO: Better navigation in documents, check that at the end of everything -->
