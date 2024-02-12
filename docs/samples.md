@@ -98,26 +98,6 @@ Reverses the sample.
 
 If a selection is made, makes the change only on the selection.
 
-### Cross-fade
-
-TODO
-
-### Change sign
-
-TODO
-
-### Swap byte order
-
-TODO
-
-### DC normalize
-
-TODO
-
-### DC offset...
-
-TODO
-
 ### Smooth (rect.)/Smooth (tri.)
 
 Rectangular and triangular smoothing.
@@ -147,14 +127,14 @@ If a selection is made, makes the change only on the selection.
 ### Resample...
 
 Allows resampling the sample to a specific number of samples.
+Resampling implies changing the sample count, using fine-tune and relative note settings.
 
-This is usually useful for making it so you have about 10000 sample blocks, for efficiently using 9xx.
+This is usually useful for making it so you have about cca. 10000 sample blocks, for efficiently using 9xx.
 
-<!-- TODO -->
+An example of a track being resampled to be cca. 10000 sample blocks is given below.
+The left window shows the original. The right window shows the resampled sample.
 
-## Ext. Paste
-
-TODO
+![resampleTo10000.png](../img/resampleTo10000.png)
 
 ## ProTracker. Boost
 
@@ -164,5 +144,18 @@ Effectively, this boosts the volume and high-end.
 
 ## Generators
 
-If a sample exists, overrides the original sample data with the generated signal.
-Undable using [Undo](#undo-redo).
+Generates a selected signal sample and places it into the selected sample slot.
+Undable using [Undo](#undoredo).
+
+# Undocumented
+
+So far, I haven't documented:
+
+- Cross-fade
+- Change sign
+- Swap byte order
+- DC normalize
+- DC offset...
+- Ext. paste
+
+I've never used them, so I doubt you ever will, either, but any help regarding these is appreciated!

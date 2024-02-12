@@ -220,9 +220,11 @@ Offsets the sample playback start position by `OFFSET MULTIPLER`*256 bytes.
 Keep in mind that `OFFSET MULTIPLER` is read in hex.
 So, with `901`, you are offsetting the sample playback start position by 256 (`0x100`) bytes, with `902` by 512 bytes, and so on.
 
-The maximum offset amount is 65280 bytes.
+The maximum offset amount is 65280 (0x10000) bytes.
 
 `900`, of course, makes no change to the sample playback.
+
+If you're dealing with a large sample, and intend to chop it using 9xx, consider [resampling the sample](./samples.md#resample).
 
 ## Axy Volume slide
 
