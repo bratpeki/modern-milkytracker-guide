@@ -38,7 +38,7 @@
 - [Effect column effects](./docs/fx.md#effect-column-effects)
 - [Volume column effects](./docs/fx.md#volume-column-effects)
 
-[3. MILKYTRACKER UI](./docs/ui.md)
+[3. MILKYTRACKER UI REFERENCE](./docs/ui.md)
 
 [3.1. INTERACTIVE UI ELEMENTS](./docs/elems.md)
 

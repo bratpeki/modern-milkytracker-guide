@@ -8,14 +8,11 @@ It's meant to be a modern collection of knowledge relating to the MilkyTracker m
 - **that it is presented in a modern format (Markdown, GitHub standard)** and
 - **that it is clean of stale links and information which was relevant for very old versions**.
 
-**"MilkyTracker" implies MilkyTracker version 1.03.00 on PC devices.**<br>
-Most of the information should still be relevant for other versions and/or hardware.
+I'll make the following assumptions:
 
-As far as the module format is concerned, I'll take it that you're using XM instead of MOD, although
-MOD musicians might also find interesting information.
-
-Any other tracker-related settings (such as for the [effects](./fx.md)), will appear when they are
-relevant.
+- You use the FastTracker II edit mode
+- You are using MilkyTracker version 1.03.00 on PC devices
+- You're making music using the XM format
 
 As for the Markdown code, it is written following these rules:
 
