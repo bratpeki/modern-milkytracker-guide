@@ -1,9 +1,6 @@
 There are plenty of different UI elements in MT.
 Here, we'll be covering the interactive ones and how they behave.
 
-<!-- TODO: Tickbox? -->
-<!-- TODO: Dropdown menu -->
-
 ## Buttons
 
 ![ui_elementButton.png](../img/ui_elementButton.png) A button from the [general editor buttons window](#general-editor-buttons-window).<br>
@@ -85,7 +82,25 @@ This elements works similarly to the text input fields, with the following excep
 - If the user inserts a non-number character before a number character, the value in the field will be set to the default one
 - If the user inserts a non-number character after the number and hits `Enter`, everything after the first non-number character is lost
 
-One example of this type of field is the sample size field in the sample creation popup window.
+One example of this type of field is the sample size field in the sample creation popup window, visible [here (in the diagram)](./samples.md#new).
 
-<!-- TODO: Link the sample size setting popup window -->
+## Dropdown menus
+
+![ui_playlistDropDown.png](../img/ui_playlistDropDown.png)
+
+This element features many different functions, all of which are related to each other.
+
+Available features are show in black, the unavailable ones are in white.
+
+A good example is the playlist track dropdown menu, featured above.
+
+## Tickbox
+
+Enables/disables an option.
+
+Enable options have a tick in the box, as expected!
+
+Can be seen in the [configuration window](./ui.md#configuration-window).
+
 <!-- TODO: Back links -->
+
