@@ -147,6 +147,11 @@ Effectively, this boosts the volume and high-end.
 Generates a selected signal sample and places it into the selected sample slot.
 Undable using [Undo](#undoredo).
 
+# Tips and tricks
+
+You can hold `Ctrl` when your mouse is inside the sample waveform viewer to view the
+`9xx` offset regions! This is pretty useful for chopping vocals and breakbeats.
+
 # Undocumented
 
 So far, I haven't documented:
