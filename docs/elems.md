@@ -1,7 +1,7 @@
 There are plenty of different UI elements in MT.
 Here, we'll be covering the interactive ones and how they behave.
 
-## Buttons
+# Buttons
 
 ![ui_elementButton.png](../img/ui_elementButton.png) A button from the [general editor buttons window](#general-editor-buttons-window).<br>
 ![ui_elementButtonPressed.png](../img/ui_elementButtonPressed.png) Pressed.
@@ -10,14 +10,14 @@ The simplest of them all!
 Left-mouse clicking activates the action associated with the button.
 Right-mouse clicking shows the button as clicked, but doesn't actually "click" it.
 
-## Checkboxes
+# Checkboxes
 
 Toggles a certain behaviour on or off.
 When on, there is a check inside the box.
 
 These are commonly found in the [instrument editor](./ui.md#instrument-editor) and settings.
 
-## Listviews
+# Listviews
 
 ![ui_settings_resolutions](../img/ui_settings_resolutions.png)<br>
 A listview of resolutions MT supports.
@@ -28,7 +28,7 @@ Listviews have a scrollbar, which behaves similarly to [sliders](#sliders), exce
 
 The most important listviews in MT are in the [disk operations window](./ui.md#disk-operations-window) and the [instrument](./ui.md#instrument-menu) and [sample menus](./ui.md#sample-menu).
 
-## Radio buttons
+# Radio buttons
 
 ![ui_settings_scale.png](../img/ui_settings_scale.png)<br>
 Radio buttons for the scale multiplier of the MT resolutions.
@@ -38,7 +38,7 @@ The selected option will have a point in the circle next to the radio button, wh
 
 You can find radio buttons in the [instrument](./ui.md#instrument-editor) and [sample editors](./ui.md#sample-editor).
 
-## Scrollbars
+# Scrollbars
 
 ![ui_sliderH1](../img/ui_sliderH1.png) Horizonal.<br>
 ![ui_sliderV](../img/ui_sliderV.png) Vertical.
@@ -50,7 +50,7 @@ The arrow characters at the edges of the scrollbar are used for fine-tuned scrol
 Horizonal scrollbars are seen in the [playlist](./ui.md#playlist) and [sample editor](./ui.md#sample-editor).
 The vertical ones are seen in the [instrument](./ui.md#instrument-menu) and [sample menus](./ui.md#sample-menu).
 
-## Sliders
+# Sliders
 
 ![ui_sliderH](../img/ui_sliderH.png)
 
@@ -60,7 +60,7 @@ The `+` and `-` buttons that are on the edge of the slider allow for a fine tune
 
 They are commonly seen in the [instrument editor](./ui.md#instrument-editor) (volume, panning, fine tune, fadeout, etc).
 
-## Text input fields
+# Text input fields
 
 There are only a few of these fields in MT.
 They are:
@@ -75,7 +75,7 @@ These elements work in the following way:
 - Hitting `Enter` saves the text into the field
 - Hitting `Esc` resets the text to what it was before the editing
 
-## Number input fields
+# Number input fields
 
 This elements works similarly to the text input fields, with the following exceptions:
 
@@ -84,7 +84,7 @@ This elements works similarly to the text input fields, with the following excep
 
 One example of this type of field is the sample size field in the sample creation popup window, visible [here (in the diagram)](./samples.md#new).
 
-## Dropdown menus
+# Dropdown menus
 
 ![ui_playlistDropDown.png](../img/ui_playlistDropDown.png)
 
@@ -94,7 +94,7 @@ Available features are show in black, the unavailable ones are in white.
 
 A good example is the playlist track dropdown menu, featured above.
 
-## Tickbox
+# Tickbox
 
 Enables/disables an option.
 
