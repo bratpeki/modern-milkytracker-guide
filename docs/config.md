@@ -47,3 +47,33 @@ You would want this on if you want to experiment with different chords, leads, e
 
 - "Use"<br>
 If "Jam channels" is on, sets how many "jam channels" there are.
+
+- "Recording"<br>
+TODO.
+
+- "Keyjazzing"<br>
+TODO.
+
+- "Editing"<br>
+TODO.
+
+- "Record key off"<br>
+When recording notes, record the moment they are let go as well.
+Once you let go of the key, a Note-off is placed.
+
+- "Rec. note delays"<br>
+As the name suggests, the moment you play and, if "Record key off" is on, the moment you let go of the note is recorded in higher precision,
+using the `EDx` and `Kxx` effects.
+
+- "XM channel limit"<br>
+Set the maximum number of tracks you can have in a song.
+In FastTracker II, this was 32.
+You can set 32, 64 and 128.
+
+# Layout
+
+# Fonts
+
+# Misc.
+
+# Tabs
