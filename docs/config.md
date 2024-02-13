@@ -1,6 +1,6 @@
 This doc is reserved for covering all the configuration options in MT.
 
-#I/O
+# I/O
 
 - "Driver"<br>
 Allows selection the audio driver you are using.
