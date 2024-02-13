@@ -8,7 +8,8 @@ You can move around using the playlist movements keybinds, or the mouse.
 
 <!-- TODO: Arrows, tab, PgUp, PgDn, Home and End -->
 
-Mouse movement is done by simply left-clicking to where you want to go!
+Mouse movement is enabled with the "Click to cursor" configuration option, under the "Misc." tab.
+When that option is on, you can simply left-click to where you want to go!
 
 # Placing notes and effects into the playlist
 

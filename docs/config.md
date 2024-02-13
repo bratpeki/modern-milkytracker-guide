@@ -123,11 +123,36 @@ The tickboxes next to "Full:" enable the row highlight spacing.
 
 ## Colors
 
-TODO.
+The `I` button imports a colorscheme from a file and previews it.
+
+The `E` button exports the currently applied colorscheme to a file.
+
+The `RESTORE` button restores all the colorschemes to defaults.
+
+The `PREVIEW` button previews a colorscheme.
+In other words, it sets all the colors to those of the colorscheme without applying the changes.
+
+The section below is used to set the colors of individual UI parts.
+The listview contains the element you're currently changing.
+The sliders next to "R", "G" and "B" are used for setting the color of the element.
+`COPY` copies the RGB values, `PASTE` pastes them.
+`<<` halves the values, `>>` doubles them.
+
+The buttons "A"-"F" next to "Predef" are used for quickly loading some stored colorschemes.
+
+To store the current colorscheme, hit `STORE` and then the slot "A"-"F" you want to store to.
 
 ## Resolutions
 
-TODO.
+The `CUSTOM` button lets you define a custom resolution.
+
+The `FULL` button sets the resolution to the screen size.
+
+Below those buttons, you can find a listview containing common resolutions, as well as "&lt;Custom&gt;"
+
+The radio buttons next to "Scale" define a multiplier of the resolution.
+For example, if you used a resolution like 1000x1000, and a scale multiplier of 2,
+the output resolution would be 2000x2000.
 
 ## Fullscreen
 
@@ -146,11 +171,100 @@ Allows setting what font face is used for what font size.
 
 # Misc.
 
+## Edit mode
+
+Sets which keybinds you're using.
+
+This guide uses the FastTracker II keybinds, as stated [here](./intro.md).
+
+<!-- TODO: More info here -->
+
+## Scrolling Style
+
+Sets how the cursor moves across the screen.
+
+The options are:
+
+1. Scroll to end
+
+- Start at the top of the pattern
+- Move down one pattern line at a time when at the bottom of the pattern
+
+2. Scroll to center
+
+- Start at the top of the pattern
+- Stay in the center of the pattern editor
+- When the end of the pattern is visible move the cursor down one pattern line at a time
+<!-- TODO: See how I used the pattern editor? -->
+
+3. Always centered
+
+Self-explanatory.
+
+## Paste autoresize
+
+## Instr. backtrace
+
+## TAB to note
+
+## Click to cursor
+
+## Warp cursor
+
+## Enable undo buff
+
+## AUTO-MIXDOWN STEREO SAMPLES
+
+TODO.
+
+## Internal browser
+
+TODO.
+
+## Splash screen
+
+Self-explanatory.
+
+You can read about the splash screen as a UI element [here](./ui.md#startup).
+
+## ESTIMATE PLAYTIME AFTER LOAD
+
+Self-explanatory.
+
+You can read about the estimate playtime [here](./ui.md#song-title-length-and-peak-window--common-mt-options-toggle-window).
+
+## Show scopes
+
+Self-explanatory.
+
+Can also be toggled with `Ctrl+Z`.
+
+## Scope Style
+
+Allows setting how the scopes will look.
+
+The options are:
+
+1. DOTS (Not filled, dotted line)
+2. SOLID (Filled, full line)
+3. SMOOTH LINES (Not filled, full line)
+
+## Inv PatEd scroll
+
+If on, the direction your cursor moves is opposite the direction you move your scrollwheel,
+or the direction you move your fingers on the trackpad.
+
+## Invert zoom
+
+If off, you zoom in on the sample by scrolling down.
+
+If on, you zoom in on the sample by scrolling up.
+
 # Tabs
 
 ## Load module ... in new Tab
-Whenever a module is opened, it will open in a new tab, instead of overriding the current one.
 
+Whenever a module is opened, it will open in a new tab, instead of overriding the current one.
 
 ## Stop background
 
