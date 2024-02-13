@@ -74,6 +74,27 @@ You can set 32, 64 and 128.
 
 # Fonts
 
+- "Pattern editor"<br>
+Allows setting the size of the font in the playlist.
+<!-- TODO: Pattern editor or Playlist? -->
+
+- "Font face config"<br>
+Allows setting what font face is used for what font size.
+
 # Misc.
 
 # Tabs
+
+- "Load module ... in new Tab"<br>
+Whenever a module is opened, it will open in a new tab, instead of overriding the current one.
+
+- "Stop background"<br>
+Set how the playback will behave with multiple tabs.
+The options include:
+
+1. Never (You can play multiple tabs simultaneously)
+2. On Tab switch (When you change the active tab, the playback of the previous tab stops)
+3. On Playback (The playback of the previous tab stops only when you play the pattern/song in the new tab)
+
+- "Tab switch resume"<br>
+If on, the playback of the previous tab will continue when you switch back to it.
