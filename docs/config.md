@@ -2,10 +2,10 @@ This doc is reserved for covering all the configuration options in MT.
 
 #I/O
 
-- "Driver"
+- "Driver"<br>
 Allows selection the audio driver you are using.
 
-- "Buffer"
+- "Buffer"<br>
 Allows setting the size of the audio buffer.
 Usually, 1.0k to 2.0k is perfectly enough.
 
