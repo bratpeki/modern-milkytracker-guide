@@ -77,4 +77,5 @@ Unmuting all the tracks is achieved with "Unmute all".
 
 # Swapping tracks
 
+<!-- TODO: More info here -->
 You can move swap the track that the cursor is on with the track you right-clicked on, using the "Swap channel" option in the dropdown.
