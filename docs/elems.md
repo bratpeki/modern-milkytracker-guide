@@ -84,7 +84,7 @@ This elements works similarly to the text input fields, with the following excep
 
 One example of this type of field is the sample size field in the sample creation popup window, visible [here (in the diagram)](./samples.md#new).
 
-# Dropdown menus
+# Drop-down menus
 
 ![ui_playlistDropDown.png](../img/ui_playlistDropDown.png)
 
@@ -92,7 +92,7 @@ This element features many different functions, all of which are related to each
 
 Available features are show in black, the unavailable ones are in white.
 
-A good example is the playlist track dropdown menu, featured above.
+A good example is the playlist track drop-down menu, featured above.
 
 # Tickboxes
 

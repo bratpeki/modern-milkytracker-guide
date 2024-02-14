@@ -75,7 +75,7 @@
 - [Sliders](./docs/elems.md#sliders)
 - [Text input fields](./docs/elems.md#text-input-fields)
 - [Number input fields](./docs/elems.md#number-input-fields)
-- [Dropdown menus](./docs/elems.md#dropdown-menus)
+- [Drop-down menus](./docs/elems.md#drop-down-menus)
 - [Tickboxes](./docs/elems.md#tickboxes)
 
 [3.2. WORKING WITH SAMPLES](./docs/samples.md)

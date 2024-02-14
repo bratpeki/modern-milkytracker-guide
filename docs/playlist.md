@@ -65,8 +65,8 @@ You can read about both [here](./ui.md#advanced-editor).
 
 # Muting and soloing tracks
 
-This is done by opening the playlist dropdown menu, by right-clicking on any track in the playlist.
-The dropdown window looks something like this:
+This is done by opening the playlist drop-down menu, by right-clicking on any track in the playlist.
+The drop-down window looks something like this:
 
 ![ui_playlistDropDown.png](../img/ui_playlistDropDown.png)
 
@@ -79,4 +79,4 @@ Unmuting all the tracks is achieved with "Unmute all".
 # Swapping tracks
 
 <!-- TODO: More info here -->
-You can move swap the track that the cursor is on with the track you right-clicked on, using the "Swap channel" option in the dropdown.
+You can move swap the track that the cursor is on with the track you right-clicked on, using the "Swap channel" option in the drop-down.
