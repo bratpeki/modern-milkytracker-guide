@@ -154,19 +154,6 @@ Undable using [Undo](#undoredo).
 You can hold `Ctrl` when your mouse is inside the sample waveform viewer to view the
 `9xx` offset regions! This is pretty useful for chopping vocals and breakbeats.
 
-# Undocumented
-
-So far, I haven't documented:
-
-- Cross-fade
-- Change sign
-- Swap byte order
-- DC normalize
-- DC offset...
-- Ext. paste
-
-I've never used them, so I doubt you ever will, either, but any help regarding these is appreciated!
-
 ---
 
 <!-- TODO: Links -->

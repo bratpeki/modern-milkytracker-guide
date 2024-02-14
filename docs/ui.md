@@ -492,19 +492,18 @@ These showcase the length of the display, length of the sample, where the loopin
 - `Clear` button:<br>
 Clears the sample, setting it's length back to 0.
 
-- `Min` button:<br>
-TODO.
+<!-- MISSING: - `Min` button:<br> -->
 
 - `+`/`-` button pair:<br>
 Effectively, these move the start and end of the looping segment forward and back.
 
 <!-- TODO: More verbose? -->
+<!-- TODO: Add all these MISSING's where they belong! -->
 
 - `H`/`D`/`T` button:<br>
 Toggles hex, decimal or timed display of the text boxes.
 
-- `REP` button:<br>
-TODO.
+<!-- MISSING: - `REP` button:<br> -->
 
 <!-- TODO: Loop points -->
 

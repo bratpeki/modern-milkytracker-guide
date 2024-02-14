@@ -81,23 +81,22 @@
 [3.2. WORKING WITH SAMPLES](./docs/samples.md)
 - [Before we begin](./docs/samples.md#before-we-begin)
 - [Sample manipulation](./docs/samples.md#sample-manipulation)
-    - [New...](./docs/samples.md#new)
-    - [Undo/Redo](./docs/samples.md#undoredo)
-    - [Cut/Copy/Paste/Crop](./docs/samples.md#cutcopypastecrop)
-    - [Range all](./docs/samples.md#range-all)
-    - [Advanced](./docs/samples.md#advanced)
-        - [Volume boost...](./docs/samples.md#volume-boost)
-        - [Volume fade...](./docs/samples.md#volume-fade)
-        - [Normalize](./docs/samples.md#normalize)
-        - [Backwards](./docs/samples.md#backwards)
-        - [Smooth (rect.)/Smooth (tri.)](./docs/samples.md#smooth-rectsmooth-tri)
-        - [3 Band EQ...](./docs/samples.md#3-band-eq)
-        - [10 Band EQ...](./docs/samples.md#10-band-eq)
-        - [Resample...](./docs/samples.md#resample)
-    - [ProTracker. Boost](./docs/samples.md#protracker-boost)
-    - [Generators](./docs/samples.md#generators)
+	- [New...](./docs/samples.md#new)
+	- [Undo/Redo](./docs/samples.md#undoredo)
+	- [Cut/Copy/Paste/Crop](./docs/samples.md#cutcopypastecrop)
+	- [Range all](./docs/samples.md#range-all)
+	- [Advanced](./docs/samples.md#advanced)
+		- [Volume boost...](./docs/samples.md#volume-boost)
+		- [Volume fade...](./docs/samples.md#volume-fade)
+		- [Normalize](./docs/samples.md#normalize)
+		- [Backwards](./docs/samples.md#backwards)
+		- [Smooth (rect.)/Smooth (tri.)](./docs/samples.md#smooth-rectsmooth-tri)
+		- [3 Band EQ...](./docs/samples.md#3-band-eq)
+		- [10 Band EQ...](./docs/samples.md#10-band-eq)
+		- [Resample...](./docs/samples.md#resample)
+	- [ProTracker. Boost](./docs/samples.md#protracker-boost)
+	- [Generators](./docs/samples.md#generators)
 - [Tips and tricks](./docs/samples.md#tips-and-tricks) <!-- TODO: This doesn't belong here, move it to 5. TIPS AND TRICKS! -->
-- [Undocumented](./docs/samples.md#undocumented)
 
 [3.3. WORKING WITH THE PLAYLIST](./docs/playlist.md)
 - [Positioning yourself](./docs/playlist.md#positioning-yourself)
@@ -109,6 +108,11 @@
 - [Swapping tracks](./docs/playlist.md#swapping-tracks)
 
 [4. CONFIGURING MILKYTRACKER](./docs/config.md)
+- [I/O](./config.md#io)
+- [Layout](./config.md#layout)
+- [Fonts](./config.md#fonts)
+- [Misc](./config.md#misc)
+- [Tabs](./config.md#tabs)
 
 [4.1. KEYBIND OPTIONS](./docs/keybind.md)
 
@@ -130,5 +134,7 @@
 - [Compiling MilkyTracker]()
 
 [9. THANKS](./docs/thanks.md)
+
+[10. MISSING DOCUMENTATION](./docs/missing.md)
 
 <!-- TODO: Better navigation in documents, check that at the end of everything -->
