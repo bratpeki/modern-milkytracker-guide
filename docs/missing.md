@@ -17,3 +17,16 @@ From the sample manipulation drop-down menu, I'm missing:
 ## ui.md
 
 The `Min` and `REP` buttons in the [sample editor](./ui.md#sample-editor).
+
+## config.md
+
+I'm missing:
+
+- Recording
+- Keyjazzing
+- Editing
+- Paste autoresize
+- Instr. backtrace
+- Enable undo buff
+- AUTO-MIXDOWN STEREO SAMPLES
+- Internal browser
