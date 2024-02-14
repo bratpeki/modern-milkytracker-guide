@@ -59,11 +59,11 @@ You would want this on if you want to experiment with different chords, leads, e
 
 If "Jam channels" is on, sets how many "jam channels" there are.
 
-<!-- ## Recording -->
+<!-- MISSING: ## Recording -->
 
-<!-- ## Keyjazzing -->
+<!-- MISSING: ## Keyjazzing -->
 
-<!-- ## Editing -->
+<!-- MISSING: ## Editing -->
 
 ## Record key off
 
@@ -196,8 +196,8 @@ The options are:
 
     - Self-explanatory.
 
-<!-- ## Paste autoresize -->
-<!-- ## Instr. backtrace -->
+<!-- MISSING: ## Paste autoresize -->
+<!-- MISSING: ## Instr. backtrace -->
 
 ## TAB to note
 
@@ -219,9 +219,9 @@ If off, clicking will make a selection, much like dragging the left-click.
 
 If on, moving the cursor out of bounds (with the arrow keys) will wrap the cursor around the pattern.
 
-<!-- ## Enable undo buff -->
-<!-- ## AUTO-MIXDOWN STEREO SAMPLES -->
-<!-- ## Internal browser -->
+<!-- MISSING: ## Enable undo buff -->
+<!-- MISSING: ## AUTO-MIXDOWN STEREO SAMPLES -->
+<!-- MISSING: ## Internal browser -->
 
 ## Splash screen
 
