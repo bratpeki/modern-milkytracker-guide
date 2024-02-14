@@ -187,31 +187,52 @@ The options are:
 
 1. Scroll to end
 
-- Start at the top of the pattern
-- Move down one pattern line at a time when at the bottom of the pattern
+    - Start at the top of the pattern
+    - Move down one pattern line at a time when at the bottom of the pattern
 
 2. Scroll to center
 
-- Start at the top of the pattern
-- Stay in the center of the pattern editor
-- When the end of the pattern is visible move the cursor down one pattern line at a time
-<!-- TODO: See how I used the pattern editor? -->
+    - Start at the top of the pattern
+    - Stay in the center of the pattern editor
+    - When the end of the pattern is visible move the cursor down one pattern line at a time
+
+<!-- TODO: See how I used "the pattern editor" instead of "playlist"? -->
 
 3. Always centered
 
-Self-explanatory.
+    - Self-explanatory.
 
 ## Paste autoresize
 
+TODO.
+
 ## Instr. backtrace
+
+TODO.
 
 ## TAB to note
 
+If on, hitting the TAB key will move you to the note slot of the cell of the next track.
+
+If off, hitting the TAB key will move you the same slot of the cell of the next track as the one you were on.
+For example, if the cursor was in the volume slot of the cell, hitting TAB will move you to the volume slot of the cell of the next track.
+
+<!-- TODO: 100-line formatting rule -->
+
 ## Click to cursor
 
-## Warp cursor
+If on, clicking on the pattern editor will move the cursor there.
+
+If off, clicking will make a selection, much like dragging the left-click.
+<!-- TODO: Is this good? -->
+
+## Wrap cursor
+
+If on, moving the cursor out of bounds (with the arrow keys) will wrap the cursor around the pattern.
 
 ## Enable undo buff
+
+TODO.
 
 ## AUTO-MIXDOWN STEREO SAMPLES
 
