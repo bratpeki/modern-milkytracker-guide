@@ -30,3 +30,7 @@ I'm missing:
 - Enable undo buff
 - AUTO-MIXDOWN STEREO SAMPLES
 - Internal browser
+
+## keybind.md
+
+I'm missing both MacOS keybinds, as well as Windows/Linux keybinds for MilkyTracker edit mode.

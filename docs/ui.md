@@ -702,8 +702,8 @@ The default panning window looks like this:
 
 The three presets for the default panning are in the bottom-left corner and include:
 
-1. `AMIGA` (Far-left and far-right panning)
-2. `MILKY` (50% left and 50% right)
+1. `AMIGA` (The panning follows the pattern of far-left, then far-right, then far-right, then far-left)
+2. `MILKY` (The panning follows the pattern of 50% left, then 50% right)
 3. `MONO` (No panning)
 
 # Configuration window
