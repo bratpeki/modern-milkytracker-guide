@@ -240,7 +240,7 @@ removed. You can, however, bring them back by undoing your changes (`Ctrl+Alt+Z`
 - [`Transpose` - Note trasposition](#transposition-window)
 - [`About` - About MT](#about-window)
 - [`Optimize` - Module optimization](#optimization-window)
-- [`Options` - Playback behaviour options](#playback-behaviour-options-window)
+- [`Options` - Quick options](#quick-options-window)
 - [`Config` - MT configuration](#configuration-window)
 - `Play Sng` - Play module
 - `Pat` - Play pattern
@@ -676,7 +676,7 @@ The options include:
 
 Undoable.
 
-# Playback behaviour options window
+# Quick options options
 
 ![ui_options](../img/ui_options.png)
 

@@ -60,7 +60,7 @@
 - [Scopes](./docs/ui.md#scopes)
 - [Transposition window](./docs/ui.md#transposition-window)
 - [Zapper window](./docs/ui.md#zapper-window)
-- [Playback behaviour options window](./docs/ui.md#playback-behaviour-options-window)
+- [Quick options window](./docs/ui.md#quick-options-window)
 - [Configuration window](./docs/ui.md#configuration-window)
 - [Optimization window](./docs/ui.md#optimization-window)
 - [Advanced editor](./docs/ui.md#advanced-editor)
