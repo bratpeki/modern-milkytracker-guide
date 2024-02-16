@@ -36,7 +36,6 @@ Any help with the other keybinds is appreciated.
 - `F1` through `F8` - Select the octave (For `F1`, `Q` will play C1)
 - `Spc` - While not playlist, arms/disarms MT for recording
 - `CapsLock` - Places a "Note-off"
-
 - `2`, `3`, `5`,... - Playing sharp/flat notes
 - `Q`, `W`, `E`,... - Playing notes (`Q` is C)
 - `S`, `D`, `G`,... - Playing sharp/flat notes in the lower octave
@@ -44,6 +43,9 @@ Any help with the other keybinds is appreciated.
 
 ### Playback
 
+- `AltGr` and `Ctrl+Enter` - plays the current pattern
+- `Sh+Enter` - plays the current pattern, from the current line
+- `Right Ctrl` and `Enter` - plays the song, starting from the current position in the song index
 - `Spc` - While playing, stops the playback
 
 ### Muting
