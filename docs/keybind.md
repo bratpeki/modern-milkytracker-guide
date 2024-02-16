@@ -22,6 +22,8 @@ Any help with the other keybinds is appreciated.
 
 ### Movement
 
+<!-- TODO: Maybe the .../... should be split up -->
+
 | Keys | Action |
 | -    | -      |
 | Arrow keys                       | Move by open cell up/down, or by one slot left/right |
@@ -33,6 +35,10 @@ Any help with the other keybinds is appreciated.
 | `Ctrl` and up/down arrow keys    | Change the current file in the [disk operator](./ui.md#disk-operations-window) |
 | `Ctrl` and left/right arrow keys | Go to the previous/next pattern |
 | `Sh` and left/right arrow keys   | Go to the previous/next pattern in the [song order](./xm.md#songs) |
+| `F9`                             | Go to the top of the pattern |
+| `F10`                            | Go to 1/4 of the pattern |
+| `F11`                            | Go to half of the pattern |
+| `F12`                            | Go to 3/4 of the pattern |
 
 ### Playing and recording
 
