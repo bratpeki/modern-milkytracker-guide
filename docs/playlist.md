@@ -22,7 +22,7 @@ or the `Rec` button in the [general editor buttons window](./ui.md#general-edito
 You should notice that your playhead, as well as the `Rec` button, have changed colors!
 
 Any note you hit on your keyboard, or any note you hit from [the instrument editor](./ui.md#instrument-editor)'s
-keyboard while it's in "Playing" mode, will be placed into the playlist.
+keyboard while it's in "Playing" mode, while recording, will be placed into the playlist.
 
 You can use
 any effect named [here](./fx.md#volume-column-effects) in the volume column,
