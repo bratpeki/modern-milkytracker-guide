@@ -58,4 +58,19 @@ Any help with the other keybinds is appreciated.
 
 ### Muting
 
+| Keys | Action |
+| -    | -      |
+| `Sh+M`      | Mute/unmute the current track |
+| `Ctrl+Sh+M` | Invert muting |
+| `Sh+U`      | Unmute all tracks |
+
 ### Cut/Copy/Paste
+
+| Keys | Action |
+| -    | -      |
+| `Sh+F3` | Cutting the track contents |
+| `Sh+F4` | Copying the track contents |
+| `Sh+F5` | Pasting the track contents |
+| `Alt+F3` | Cutting the selection block contents |
+| `Alt+F4` | Copying the selection block contents |
+| `Alt+F5` | Pasting the selection block contents |
