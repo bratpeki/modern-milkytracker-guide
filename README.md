@@ -116,12 +116,10 @@
 
 [4.1. KEYBIND OPTIONS](./docs/keybind.md)
 
-[5. TIPS AND TRICKS]()
-- [Mixing]()
-- [Common sound effects]()
-	- [Chorus]()
-	- [Delay]()
-- [Other tips]()
+[5. TIPS AND TRICKS](./docs/tips.md)
+- [Mixing](./docs/tips.md#mixing)
+- [Chorus]()
+- [Delay]()
 
 [6. GOOD SOURCES]()
 - [Samples]()
