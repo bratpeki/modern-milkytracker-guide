@@ -408,6 +408,8 @@ This section will be covered in
 Displays the sample. Largest part of the sample editor.
 Special actions include shift-left-clicking, left-clicking, right-clicking and scrolling.
 Right-clicking on it open the waveform editing menu, which is covered in more detail in
+You can hold `Ctrl` when your mouse is inside the sample waveform viewer to view the
+`9xx` offset regions! This is pretty useful for chopping samples.
 
 - "Play:" text field:<br>
 Indicates which note will play when using `Wav`, `Rng` and `Dsp`. The note is displayed below the

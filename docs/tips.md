@@ -1,6 +1,21 @@
 This doc is reserved for giving some tips and tricks that will aid you in using MT, as well as trackers in general!
 
-# Mixing
+# Leveing the song
+
+Once all your instruments have been leveled relative to each other,
+there's a good chance that your track will clip. You can investigate
+this using the [peak meter](./ui.md#song-title-length-and-peak-window--common-mt-options-toggle-window).
+If the text next to the peak meter turns red, your song is clipping.
+
+<!-- TODO: Peak meter should have it's own header, covered in another TODO -->
+
+The way this can be resolved is by opening the [HD Recorder window](./ui.md#hd-recorder-window)
+and hitting the "AUTO" button. This will show you the mixer level that will
+be used for the export.
+
+Then, simply take that number and change the volume of each sample to it.
+
+Now, the song *shouldn't* clip, indepent of the tracker used to play it.
 
 # Chorus
 

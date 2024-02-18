@@ -96,7 +96,6 @@
 		- [Resample...](./docs/samples.md#resample)
 	- [ProTracker. Boost](./docs/samples.md#protracker-boost)
 	- [Generators](./docs/samples.md#generators)
-- [Tips and tricks](./docs/samples.md#tips-and-tricks) <!-- TODO: This doesn't belong here, move it to 5. TIPS AND TRICKS! -->
 
 [3.3. WORKING WITH THE PLAYLIST](./docs/playlist.md)
 - [Positioning yourself](./docs/playlist.md#positioning-yourself)
@@ -117,14 +116,15 @@
 [4.1. KEYBIND OPTIONS](./docs/keybind.md)
 
 [5. TIPS AND TRICKS](./docs/tips.md)
-- [Mixing](./docs/tips.md#mixing)
+- [Leveling the song](./docs/tips.md#leveling-the-song)
 - [Chorus](./docs/tips.md#chorus)
 - [Delay](./docs/tips.md#delay)
 
-[6. GOOD SOURCES]()
-- [Samples]()
-- [Modules]()
-- [Information]()
+[6. GOOD SOURCES](./docs/sources.md)
+- [Samples](./docs/sources.md#samples)
+- [Instruments](./docs/sources.md#instruments)
+- [Modules](./docs/sources.md#modules)
+- [Information](./docs/sources.md#information)
 
 [7. MAKING AN EXAMPLE TRACK IN MILKYTRACKER](./docs/track.md)
 
