@@ -117,3 +117,8 @@ You might need more tracks and more space, that all depends on the sound!
 
 <!-- TODO: Maybe these should be headers, and not listitems? -->
 The ["Split track options" section of the Advanced editor](./ui.md#advanced-editor) might help you with this.
+
+# Sample chopping
+
+The first thing you've got to understand is that [9xx](./fx.md#9xx-sample-offset) works.
+

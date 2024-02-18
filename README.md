@@ -118,8 +118,8 @@
 
 [5. TIPS AND TRICKS](./docs/tips.md)
 - [Mixing](./docs/tips.md#mixing)
-- [Chorus]()
-- [Delay]()
+- [Chorus](./docs/tips.md#chorus)
+- [Delay](./docs/tips.md#delay)
 
 [6. GOOD SOURCES]()
 - [Samples]()
