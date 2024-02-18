@@ -126,7 +126,7 @@
 - [Modules](./docs/sources.md#modules)
 - [Information](./docs/sources.md#information)
 
-[7. MAKING AN EXAMPLE TRACK IN MILKYTRACKER](./docs/track.md)
+[7. MAKING AN EXAMPLE SONG IN MILKYTRACKER](./docs/song.md)
 
 [8. DEVELOPMENT INFORMATION]()
 - [Compiling MilkyTracker]()
