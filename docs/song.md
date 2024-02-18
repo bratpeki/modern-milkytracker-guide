@@ -6,7 +6,7 @@ Let's set the BPM to 128 using the [song and editing properties](./ui.md#song-an
 We'll keep the SPD at 6, since it's the standard setting.
 We'll also name the song "my first song!", since it feels appropriate! :)
 
-<!-- TODO: 1 -->
+![firstSong_1](../img/firstSong_1.mp4)
 
 ---
 
@@ -23,7 +23,7 @@ Right-clicking, or double-left-clicking, on the instrument slots in the [instrum
 
 Let's name them "Kick", "Snare" and "Closed hat", respectivelly.
 
-<!-- TODO: 2 -->
+![firstSong_2](../img/firstSong_2.mp4)
 
 ---
 
@@ -36,13 +36,13 @@ We'll set the [looping mode to "Forward"](./ui.md#sample-editor).
 We'll name it "Synth" in the instrument menu.
 Let's also name the sample "Synth" from the sample menu, just so that we know which slot it is occupying.
 
-<!-- TODO: 3 -->
+![firstSong_3](../img/firstSong_3.mp4)
 
 We'll edit instrument 4 in the [instrument editor](./ui.md#instrument-editor), by making the Fadeout set to 000, turning the
 volume envelope on, and creating a "plucky" sound using a falloff.
 We'll set the volume to 10.
 
-<!-- TODO: 4 -->
+![firstSong_4](../img/firstSong_4.mp4)
 
 ---
 
@@ -52,7 +52,7 @@ For the purposes of this example song, we have all the sounds we need!
 
 Using the [pattern editor](TODO), let's generate a pattern that looks like this:
 
-<!-- TODO: 5 -->
+<!-- TODO -->
 
 # Adding another pattern
 
@@ -60,7 +60,7 @@ Then, let's clone the pattern, using the [`CLN` button in the song arranger](./u
 
 Let's just add a snare to the end, like so.
 
-<!-- TODO: 6 -->
+<!-- TODO -->
 
 # Arranging the song
 
@@ -101,7 +101,7 @@ Now, let's save the song using [the disk operator window]().
 We're setting the type to "Module" and saving an XM module.
 Let's name the export "my-first-track.xm"!
 
-<!-- TODO: 5 -->
+![firstSong_5](../img/firstSong_5.mp4)
 
 # Exporting the song
 
@@ -111,6 +111,6 @@ Let's name the export "my-first-track.wav"!
 
 We'll audo-adjust the mixer volume and export.
 
-<!-- TODO: 6 -->
+![firstSong_6](../img/firstSong_6.mp4)
 
 You've now successfully made and exported your first MilkyTracker song!
