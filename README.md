@@ -107,11 +107,11 @@
 - [Swapping tracks](./docs/playlist.md#swapping-tracks)
 
 [4. CONFIGURING MILKYTRACKER](./docs/config.md)
-- [I/O](./config.md#io)
-- [Layout](./config.md#layout)
-- [Fonts](./config.md#fonts)
-- [Misc](./config.md#misc)
-- [Tabs](./config.md#tabs)
+- [I/O](./docs/config.md#io)
+- [Layout](./docs/config.md#layout)
+- [Fonts](./docs/config.md#fonts)
+- [Misc.](./docs/config.md#misc)
+- [Tabs](./docs/config.md#tabs)
 
 [4.1. KEYBIND OPTIONS](./docs/keybind.md)
 

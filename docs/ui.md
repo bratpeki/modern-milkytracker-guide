@@ -6,22 +6,20 @@ I'll use shortcuts to indicate keyboard actions, such as `Ctrl+S`. Keep in mind 
 - `Spc` is the space bar and
 - `Alt` is, well, the alt key!
 
-All the listed keyboard actions apply to the **FastTracker II edit mode**.
+**All the listed keyboard actions apply to the FastTracker II edit mode**.
 
 Also, left-, right- and middle-clicking will refer to their respective mouse actions.
-
-Also, I'll talk about the various elements of the UI by first covering the ones you'll be using
-commonly, and then the rest.
 
 **Before you read this**, you might want to read about the interactive UI elements in MT that are
 covered in "[3.1. INTERACTIVE UI ELEMENTS](./elems.md)".
 
-Working with the playlist and sample editor are mostly covered in separate docs, that being
+Working with the pattern editor and sample editor are mostly covered in separate docs, that being
 "[3.2. WORKING WITH SAMPLES](./docs/samples.md)" and
-"[3.3. WORKING WITH THE PLAYLIST](./docs/playlist.md)",
+"[3.3. WORKING WITH THE PATTERN EDITOR](./docs/playlist.md)",
 because of how much there is to write.
 
 There's a lot of text here to, but consider **ONLY READING WHAT YOU DON'T KNOW OR UNDERSTAND**.
+<!-- TODO: Is this formatting good? -->
 **YOU CAN SKIP THIS DOC AND MOVE ON TO** "[7. MAKING AN EXAMPLE TRACK IN MILKYTRACKER](./track.md)"!
 
 # Startup
@@ -32,7 +30,8 @@ Upon first startup, you are going to be greeted by the MT splash screen:
 
 Afterwards, MT loads the [main window](#main-window).
 
-The startup splash screen is easily disabled in the settings (`Misc. > Other > Splash screen`).
+The startup splash screen is easily disabled in the
+[settings](./config.md) ([`Misc. > Other > Splash screen`](./config.md#splash-screen)).
 
 # Main window
 
@@ -57,9 +56,12 @@ The elements in this window, from top-left to bottom-right, are:
 
 MT can open multiple module instances, in the form of tabs.
 
-A new tab with an empty module, called `Untitled.xm`, is opened using `Ctrl+Sh+T` and the current one is closed using `Ctrl+Sh+W`.
-You can select the active tab by clicking on it from the tab bar, at the bottom of the main window.
-You can also use the `+`/`-` buttons on the left side of the tab bar to open an empty tab or close the current one.
+A new tab with an empty module, called `Untitled.xm`, is opened using `Ctrl+Sh+T` and the current
+one is closed using `Ctrl+Sh+W`. You can select the active tab by clicking on it from the tab bar,
+at the bottom of the main window. You can also use the `+`/`-` buttons on the left side of the tab
+bar to open an empty tab or close the current one.
+
+<!-- TODO: Tab bar image? -->
 
 # General editor
 
@@ -78,64 +80,77 @@ The elements in this window, from top-left to bottom-right, are:
 
 1. [The song arranger](#the-song-arranger)
 2. [Song title, length and peak window + Common MT options toggle window](#song-title-length-and-peak-window--common-mt-options-toggle-window)
-4. [Song and editing properties](#song-and-editing-properties)
-5. [Pattern editing window](#pattern-editing-window)
-6. [General editor buttons window](#general-editor-buttons-window)
+3. [Song and editing properties](#song-and-editing-properties)
+4. [Pattern editing window](#pattern-editing-window)
+5. [General editor buttons window](#general-editor-buttons-window)
 
 ## The song arranger
 
-![ui_generalEditor_songArr.png](../img/ui_generalEditor_songArr.png) Regular.<br>
+![ui_generalEditor_songArr.png](../img/ui_generalEditor_songArr.png) Regular view.<br>
 ![ui_generalEditor_songArrExpand.png](../img/ui_generalEditor_songArrExpand.png) Expanded view.
 
 This window is used to arrange the patterns you've created into the final song.
 
-- **Pattern sequence display**:<br>
+### Pattern sequence display
+
 Allows you to view the song order number (in hex) and the pattern number (in hex), one next to the
 other. In a new module, you have the pattern `00` set to order `0`.
 
-- **Pattern sequence display expansion button**:<br>
+### Pattern sequence display expansion button
+
 This button is above the `SEQ` button and allows you to hide the song pattern length and repeating
 song order. This, in turn, expands the pattern sequence display further down, and allows for more
 readability. Hitting the button toggles this behaviour on and off. The example of this behaviour is
 above, on the second image of the section.
 
-- `SEQ` button:<br>
-Adds a new pattern after the current one, if possible, so that its pattern number is the incremented
-previous pattern number. So, if your pattern sequence is:
+### "SEQ" button
+
+Adds a new pattern after the current one, if possible, so that its pattern number is the
+incremented previous pattern number. So, if your pattern sequence is:
+
 ```
 0 | 00
 ```
+
 By hitting `SEQ` you will generate the following sequence:
+
 ```
 0 | 00
 1 | 01
 ```
+
 If the current pattern in the sequence has the pattern number `FF`, the next one will be `00`, as
 well as every pattern after that next one.
 
-- `CLN` button:<br>
+### "CLN" button
+
 Works the same way as the `SEQ` button, except that it copies the content of the current pattern
 into the next one.
 
-- `Ins.` button:<br>
+### "Ins." button
+
 Inserts the current pattern at the next song order number.
 The button has no effect if there are 255 patterns in the song.
 
-- `Del` button:<br>
+### "Del" button
+
 Deletes the pattern from the current song order number and moves the next pattern into the deleted
 slot. If there are no patterns after the deleted one (that is, if we deleted the last one) we just
 move back one song order to the previous pattern. The button has no effect if there's only one
 pattern in the song.
 
-- `+/-` buttons between `Ins.` and `Del`:<br>
+### "+"/"-" buttons between "Ins." and "Del"
+
 Increments or decrements the number of the pattern at the current song order.
 
-- `+/-` buttons next to the song pattern length:<br>
+### "+"/"-" buttons next to the song pattern length
+
 Adds a new pattern to the end of the song, or removes a pattern from the end of the song.
 In case a new pattern is added, its pattern number is `00`.
 The `+/-` buttons next to the song pattern length in the exapnded view have the same effect.
 
-- `+/-` button next to the repeating song order:<br>
+### "+"/"-" button next to the repeating song order
+
 Increments or decrements the repeating song order.
 
 ## Song title, length and peak window + Common MT options toggle window
@@ -144,14 +159,17 @@ Increments or decrements the repeating song order.
 ![ui_generalEditor_songTitleTimePeak2.png](../img/ui_generalEditor_songTitleTimePeak2.png)<br>
 ![ui_generalEditor_songTitleTimePeak3.png](../img/ui_generalEditor_songTitleTimePeak3.png)
 
-- "TITLE", "TIME" and "PEAK" tabs:<br>
+### "TITLE", "TIME" and "PEAK" tabs
+
 Allows the selection of which of those three things you want to look at.
 
-- Song title text field tab:<br>
+### Song title text field tab
+
 Contains a text input field which changes the title of your song.
 By default, the song title is an empty string.
 
-- Song length tab:<br>
+### Song length tab
+
 Allows viewing the current time (hour:minute:second) that has elapsed since the module started
 playback, and the total time. By default, in an empty startup module, the text in the tab reads
 `00:00:00 (00:00:07)`. The `ESTIMATE` button estimates the total length of the song and updates the
@@ -159,13 +177,15 @@ song length. You usually have to click this button manually, but you can have MT
 for you once the module is loaded, by ticking a checkbox in the settings
 (`Misc. > Other > ESTIMATE PLAYTIME AFTER LOAD`).
 
-- Song peak tab:<br>
+### Song peak tab
+
 Reads the intensity of the sound generated by the playback. As per default, the peak is split into
 the left signal (left of center) and right signal (right of center), as well as the quiet (green),
 sufficient (yellow) and loud (red) areas. If the song clips, the `PEAK LEVEL:` text above the peak
 will turn red. Right-clicking it resets it back to its default color, white.
 
-- Common MT options toggle window:<br>
+### Common MT options toggle window
+
 This window consists of four buttons labeled `F`, `P`, `W` and `L`, in that order.
 Right-clicking these toggles their respective options.
 The options are:
@@ -186,41 +206,50 @@ This window consists of a couple properties related to the song and how you edit
 The `+/-` buttons are placed next to their respective properties.
 The `FLIP` button flips the display to show the rest of the editable properties.
 
-- BPM:<br>
+### BPM
+
 The song's [BPM](./basics.md#ticks-spd-and-bpm).
 
-- Spd:<br>
+### Spd
+
 The song's [SPD](./basics.md#ticks-spd-and-bpm).
 
-- Add:<br>
+### Add
+
 The ammount by which your cursor moves down after placing a note or effect. The cursor loops if
 pattern wrapping (`Ctrl+W`) is on.
 
-- Oct:<br>
+### Oct
+
 The octave of the notes you place (ex. if `Oct` is equal to `04`, then the lowest key you can place
 with your keyboard is C4).
 
-- The `Mainvol` property:<br>
+### The "Mainvol" property
+
 Shows you the [global song volume](./xm.md#global-song-volume).
 
 ## Pattern editing window
 
 ![ui_generalEditor_pattern.png](../img/ui_generalEditor_pattern.png)
 
-- `+`/`-` buttons next to `Patn.`:<br>
+### "+"/"-" buttons next to "Patn."
+
 Switch between different patterns.
 
-- `+`/`-` buttons next to `Len.`:<br>
+### "+"/"-" buttons next to "Len."
+
 Increase or decrease the pattern length.
 This action is desctructive; in case you shorten the pattern so certain notes disappear, they cannot
 be brought back by increasing the pattern length. You can, however, bring them back by undoing your
 changes (`Ctrl+Alt+Z`).
 
-- `Expand` button:<br>
+### "Expand" button
+
 Doubles the pattern length, by inserting an empty pattern line on each second line
 (line 1 - empty line - line 2 - empty line - ...).
 
-- `Shrink` button:<br>
+### "Shrink" button
+
 Halves the pattern length, by deleting even second line (line 1 - line 3 - line 5 - line 7...).
 This action is desctructive; expanding a shrinked pattern will not bring back notes that were
 removed. You can, however, bring them back by undoing your changes (`Ctrl+Alt+Z`).
@@ -242,7 +271,7 @@ removed. You can, however, bring them back by undoing your changes (`Ctrl+Alt+Z`
 - [`Optimize` - Module optimization](#optimization-window)
 - [`Options` - Quick options](#quick-options-window)
 - [`Config` - MT configuration](#configuration-window)
-- `Play Sng` - Play module
+- `Play Sng` - Play the entire song
 - `Pat` - Play pattern
 - `Pos` - Play from cursor position
 - `Stop` - Stop playback
@@ -274,25 +303,31 @@ as the active one) or `Sh+DownArrow` (setting the next instrument as the active 
 instrument is displayed in the [instrument editor](#instrument-editor), as well as being the
 instrument which is set for inserting notes into the [playlist](#playlist).
 
-- "Instruments" text field:<br>
+### "Instruments" text field
+
 Hides the active instrument highlight. Useful for making the text in the instrument slot more
 readable.
 
-- `+`/`-` buttons:<br>
+### "+"/"-" buttons
+
 Add or remove one instrument. Non-desctructive action, unless you save the file without the removed
 instruments.
 
-- `ZAP` button:<br>
+### "ZAP" button
+
 Clears the instrument (samples and instrument settings). Destructive action, undoable. Opens a
 warning popup window.
 
-- `LOAD` button:<br>
-Loads an XI instrument from memory.
+### "LOAD" button
 
-- `SAVE` button:<br>
-Saves an XI instrument to memory.
+Loads an XI instrument from memory. Opens a popup window.
 
-- Scrollbar:<br>
+### "SAVE" button
+
+Saves an XI instrument to memory. Opens a popup window.
+
+### Scrollbar
+
 Used to navigate the instrument slots. Mouse gestures (scroll up/down) do the same thing.
 
 # Sample menu
