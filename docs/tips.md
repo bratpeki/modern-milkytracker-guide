@@ -1,6 +1,6 @@
 This doc is reserved for giving some tips and tricks that will aid you in using MT, as well as trackers in general!
 
-# Leveing the song
+# Leveling the song
 
 Once all your instruments have been leveled relative to each other,
 there's a good chance that your track will clip. You can investigate
