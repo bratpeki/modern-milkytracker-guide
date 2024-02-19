@@ -131,5 +131,3 @@
 [8. THANKS](./docs/thanks.md)
 
 [9. MISSING DOCUMENTATION](./docs/missing.md)
-
-<!-- TODO: Better navigation in documents, check that at the end of everything -->

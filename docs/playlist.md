@@ -83,3 +83,42 @@ Unmuting all the tracks is achieved with "Unmute all".
 
 <!-- TODO: More info here -->
 You can move swap the track that the cursor is on with the track you right-clicked on, using the "Swap channel" option in the drop-down.
+
+---
+
+[0. INTRODUCTION](./docs/intro.md)
+
+[1. TRACKER BASICS](./docs/basics.md)
+
+[2. THE XM FILE FORMAT](./docs/xm.md)
+
+[2.1. EFFECT GLOSSARY](./docs/fx.md)
+
+[3. MILKYTRACKER UI REFERENCE](./docs/ui.md)
+
+[3.1. INTERACTIVE UI ELEMENTS](./docs/elems.md)
+
+[3.2. WORKING WITH SAMPLES](./docs/samples.md)
+
+**3.3. WORKING WITH THE PATTERN EDITOR**
+- [Positioning yourself](#positioning-yourself)
+- [Placing notes and effects into the pattern editor](#placing-notes-and-effects-into-the-pattern-editor)
+- [Working with tracks](#working-with-tracks)
+- [Working with selections](#working-with-selections)
+- [Effectively using the advanced options](#effectively-using-the-advanced-options)
+- [Muting and soloing tracks](#muting-and-soloing-tracks)
+- [Swapping tracks](#swapping-tracks)
+
+[4. CONFIGURING MILKYTRACKER](./docs/config.md)
+
+[4.1. KEYBIND OPTIONS](./docs/keybind.md)
+
+[5. TIPS AND TRICKS](./docs/tips.md)
+
+[6. GOOD SOURCES](./docs/sources.md)
+
+[7. MAKING AN EXAMPLE SONG IN MILKYTRACKER](./docs/song.md)
+
+[8. THANKS](./docs/thanks.md)
+
+[9. MISSING DOCUMENTATION](./docs/missing.md)
