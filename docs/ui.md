@@ -1,3 +1,13 @@
+<!--
+
+On a side note, I decided to use the following formatting rule here:
+
+# is reserved for windows.
+## is reserved for sections of windows.
+### is reserved for buttons, text fields, etc.
+
+-->
+
 Here, we'll be covering the MT's UI and how to navigate around it.
 
 I'll use shortcuts to indicate keyboard actions, such as `Ctrl+S`. Keep in mind that:
@@ -340,16 +350,20 @@ sample. The user can also change the active sample by hitting `Ctrl+Sh+UpArrow` 
 previous sample as the active one) or `Ctrl+Sh+DownArrow` (setting the next sample as the active
 one). The sample in the [sample editor](#sample-editor) is the currently active one.
 
-- `CLEAR` button:<br>
+### "CLEAR" button
+
 Clears the active sample. Destructive action, undoable. Doesn't open a warning popup window.
 
-- `LOAD` button:<br>
+### "LOAD" button
+
 Loads a WAV file from memory into the active sample.
 
-- `SAVE` button:<br>
+### "SAVE" button
+
 Saves a WAV file of the active sample to memory.
 
-- Scrollbar:<br>
+### Scrollbar
+
 Used to navigate the sample slots. Mouse gestures (scroll up/down) do the same thing.
 
 # Instrument editor
@@ -359,22 +373,27 @@ Used to navigate the sample slots. Mouse gestures (scroll up/down) do the same t
 Allows editing of the currently selected instrument (via the [instrument menu](#instrument-menu)).
 Can be toggled by hitting `Ctrl+I`.
 
-- Envelope viewer:<br>
+### Envelope viewer
+
 Displays the volume or panning envelope of the instrument.
 Special actions include left-clicking and right-clicking.
 <!--TODO-->
 
-- `Volume`/`Panning` tabs:<br>
+### "Volume"/"Panning" tabs
+
 Used to edit either the volume or panning envelope.
 
-- `0`-`9` and `STORE` buttons:<br>
+### "0"-"9" and "STORE" buttons
+
 Used to load of store of the predefined envelopes.
 The used can predefine 20 envelopes, 10 for volume and 10 for panning.
 The predefined envelopes are loaded by hitting the numerical buttons, and storing is done by
 hitting the `STORE` button first, after which the user hits the numerical buttons.
 
-- `UNDO`/`REDO` buttons:<br>
+### "UNDO"/"REDO" buttons
+
 Undo or redo the envelope changes.
+
 These include all the envelope editing actions right of the `UNDO`/`REDO` buttons,
 that being adding or removing points from the envelope (via the `Add`/`Del` buttons),
 toggling the envelope on or off (via the `On` button),
@@ -383,42 +402,52 @@ button and the `+`/`-` buttons under it), toggling the loop on or off, of chanin
 point (via the `Loop` button and the `+`/`-` buttons under it) and scaling the envelope, that is
 multiplying it by a given percentage (via the `SCALE X`/`SCALE Y` buttons).
 
-- `COPY`/`PASTE` buttons:<br>
+### "COPY"/"PASTE" buttons
+
 Copy or paste the envelope (indepent of which type of envelope it is) into another envelope.
 
-- `ZOOM IN`/`ZOOM OUT` buttons:<br>
+### "ZOOM IN"/"ZOOM OUT" buttons
+
 Zoom in or out of the envelope.
 
-- Right-most part of the window:<br>
+### Right-most part of the window
+
 Used for editing the basic instrument properties, which are described [here](./xm.md#instruments).
 There are still certain buttons of interest, described below.
 
-- `Exit` button:<br>
+### "Exit" button
+
 Close the instrument editor window. Same as hitting `Ctrl+I`.
 
-- `Zap` button:<br>
+### "Zap" button
+
 Zap the instrument. Cannot be undone.
 
-- `Load` button:<br>
+### "Load" button
+
 Load an instrument from memory.
 
-- `Save` button:<br>
+### "Save" button
+
 Save an instrument into memory.
 
-- `Copy` button:<br>
+### "Copy" button
+
 Copy a sample from one sample slot in one instrument into another sample slot in another instrument.
 Overrides the sample in the destination sample slot, if one exists.
 Opens an external window, seen below.
 
 ![ui_copySample.png](../img/ui_copySample.png)
 
-- `Swap` button:<br>
+### "Swap" button
+
 Swap a sample from one sample slot in one instrument with another sample slot in another instrument.
 Opens an external window, seen below.
 
 ![ui_swapSample.png](../img/ui_swapSample.png)
 
-- Keyboard:<br>
+### Keyboard
+
 Allows either playing the instrument, or setting which key triggers which sample. Playing the
 instrument is done by hitting `Play`, after which the keyboard is playable. Setting which key
 triggers which sample is done by hitting `Edit`. `Stop` stops all instrument playback, either from
@@ -439,105 +468,134 @@ Can be toggled by hitting `Ctrl+S`.
 This section will be covered in
 "[3.2. WORKING WITH SAMPLES](./samples.md)".
 
-- Sample waveform viewer:<br>
+### Sample waveform viewer
+
 Displays the sample. Largest part of the sample editor.
 Special actions include shift-left-clicking, left-clicking, right-clicking and scrolling.
 Right-clicking on it open the waveform editing menu, which is covered in more detail in
 You can hold `Ctrl` when your mouse is inside the sample waveform viewer to view the
 `9xx` offset regions! This is pretty useful for chopping samples.
 
-- "Play:" text field:<br>
+### "Play:" text field
+
 Indicates which note will play when using `Wav`, `Rng` and `Dsp`. The note is displayed below the
 text field.
 
-- `Stop` button:<br>
+### "Stop" button
+
 Stops sample playback.
 
-- `Up`/`Dn` buttons:<br>
+### "Up"/"Dn" buttons
+
 Change the note that will play when using `Wav`, `Rng` and `Dsp`.
 
-- `Wav` button:<br>
+### "Wav" button
+
 Plays the entire sample on the note shown in the "Play:" text field.
 Accounts for looping.
 
-- `Rng` button:<br>
+### "Rng" button
+
 Plays the selected sample range on the note shown in the "Play:" text field.
 Does not account for looping.
 
-- `Dsp` button:<br>
+### "Dsp" button
+
 Plays the sample range displayed in the sample viewer on the note shown in the "Play:" text field.
 Does not account for looping.
 
-- `Show rng` button:<br>
+### "Show rng" button
+
 Set the sample viewer in such a way that it displays the selected range.
 There is usually padding around the displayed range.
 
-- `Rng all` button:<br>
+### "Rng all" button
+
 Set the range to be the entire sample.
 
-- `Undo`/`Redo` buttons:<br>
+### "Undo"/"Redo" buttons
+
 Undo or redo the changes done to the sample.
 The user can go back 15 steps.
 
-- `Zoom out` button:<br>
+### "Zoom out" button
+
 Zoom out partially.
 
-- `Show all` button:<br>
+<!-- TODO: By how much? -->
+
+### "Show all" button
+
 Zoom out entirely.
 
-- `Redo filter` button:<br>
+### "Redo filter" button
+
 Reapply the last change done to the same (generators, EQ, volume change, etc).
 
-- `Cut`/`Copy`/`Paste` buttons:<br>
+### "Cut"/"Copy"/"Paste" buttons
+
 Work as expected, providing the ability to cut, copy and paste parts of the sample into other
 sample slots. Selecting a range in the sample editor, by holding the left mouse button, and pasting
 results in the selected section of the sample being swapped for the cut/copied section. Cutting is
 undoable.
 
-- `Crop` button:<br>
+### "Crop" button
+
 Swaps the current sample for the range you have selected in it.
 Undoable.
 
-- `Vol` button:<br>
+### "Vol" button
+
 Opens a popup window which lets you input a number.
 Hitting `OK` in the popup window sets the amplitude of the sample to the input number, in percent.
 The input number can go over 100, and below 0.
 Going below 0 reverses the polarity of the waveform.
 
-- `Draw` button:<br>
+### "Draw" button
+
 Toggles the draw mode on the sample.
 When the button is pressed, any left-mouse action overrides the current sample data, placing the
 waveform point there where the user has pressed. **You can also toggle drawing by holding** `Sh`
 **and pressing the same button**. Undoable.
 
-- Looping mode radio buttons:<br>
+### Looping mode radio buttons
+
 Allows setting if and how the sample will loop between the set loop points.
 The options include **No loop**, **Forward**, **Ping-pong** and **One shot**
 and have been covered [here](./xm.md#samples).
 
-- 8-bit and 16-bit sample conversion<br>
+### 8-bit and 16-bit radio buttons
 
-- `Load` and `Save` buttons:<br>
+Used for coverting the sample between 8-bit and 16-bit.
+
+### "Load" and "Save" buttons
+
 Load the sample from memory or save the current sample to memory, respectively.
 
-- `Exit` buttons:<br>
+### "Exit" buttons
+
 Closes the sample editor. Duh!
 
-- Text boxes on the far right:<br>
-These showcase the length of the display, length of the sample, where the looping segment starts and how long the looping segment is.
+### Text boxes on the far right
 
-- `Clear` button:<br>
+These showcase the length of the display, length of the sample, where the looping segment starts
+and how long the looping segment is.
+
+### "Clear" button
+
 Clears the sample, setting it's length back to 0.
 
 <!-- MISSING: - `Min` button:<br> -->
 
-- `+`/`-` button pair:<br>
+### "+"/"-" button pair
+
 Effectively, these move the start and end of the looping segment forward and back.
 
 <!-- TODO: More verbose? -->
 <!-- TODO: Add all these MISSING's where they belong! -->
 
-- `H`/`D`/`T` button:<br>
+### "H"/"D"/"T" button
+
 Toggles hex, decimal or timed display of the text boxes.
 
 <!-- MISSING: - `REP` button:<br> -->
