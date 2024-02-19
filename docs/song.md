@@ -6,6 +6,7 @@ Let's set the BPM to 128 using the [song and editing properties](./ui.md#song-an
 We'll keep the SPD at 6, since it's the standard setting.
 We'll also name the song "my first song!", since it feels appropriate! :)
 
+<!-- ../img/firstSong_1.mp4 -->
 https://github.com/bratpeki/modern-milkytracker-guide/assets/44314748/604a2692-396b-4106-b3d2-7d79a12eadc3
 
 ---
@@ -23,6 +24,7 @@ Right-clicking, or double-left-clicking, on the instrument slots in the [instrum
 
 Let's name them "Kick", "Snare" and "Closed hat", respectivelly.
 
+<!-- ../img/firstSong_2.mp4 -->
 https://github.com/bratpeki/modern-milkytracker-guide/assets/44314748/ac7f8a21-5b0d-4db5-ae7d-f447f0d1157d
 
 ---
@@ -36,12 +38,14 @@ We'll set the [looping mode to "Forward"](./ui.md#sample-editor).
 We'll name it "Synth" in the instrument menu.
 Let's also name the sample "Synth" from the sample menu, just so that we know which slot it is occupying.
 
+<!-- ../img/firstSong_3.mp4 -->
 https://github.com/bratpeki/modern-milkytracker-guide/assets/44314748/6d8a8d97-b2c1-4b59-8eec-ac78f9715e7d
 
 We'll edit instrument 4 in the [instrument editor](./ui.md#instrument-editor), by making the Fadeout set to 000, turning the
 volume envelope on, and creating a "plucky" sound using a falloff.
 We'll set the volume to 10.
 
+<!-- ../img/firstSong_4.mp4 -->
 https://github.com/bratpeki/modern-milkytracker-guide/assets/44314748/94ef12d1-58dc-442f-8294-8886b15c6c01
 
 ---
@@ -52,15 +56,17 @@ For the purposes of this example song, we have all the sounds we need!
 
 Using the [pattern editor](TODO), let's generate a pattern that looks like this:
 
-<!-- TODO -->
+![firstSong_pat0.png](../img/firstSong_pat0.png)
 
 # Adding another pattern
 
 Then, let's clone the pattern, using the [`CLN` button in the song arranger](./ui.md#the-song-arranger).
 
-Let's just add a snare to the end, like so.
+Let's just add a snare to the end, like how I've done here.
 
-<!-- TODO -->
+![firstSong_pat1.png](../img/firstSong_pat1.png)
+
+The change is highlighted in red.
 
 # Arranging the song
 
@@ -101,6 +107,7 @@ Now, let's save the song using [the disk operator window]().
 We're setting the type to "Module" and saving an XM module.
 Let's name the export "my-first-track.xm"!
 
+<!-- ../img/firstSong_5.mp4 -->
 https://github.com/bratpeki/modern-milkytracker-guide/assets/44314748/3b37d94d-3ba1-4d29-9449-1e765c582c59
 
 # Exporting the song
@@ -111,6 +118,9 @@ Let's name the export "my-first-track.wav"!
 
 We'll audo-adjust the mixer volume and export.
 
+<!-- ../img/firstSong_6.mp4 -->
 https://github.com/bratpeki/modern-milkytracker-guide/assets/44314748/12076ae2-8d00-457e-99eb-a66896de6fab
 
 You've now successfully made and exported your first MilkyTracker song!
+
+The module will be available in the `res/modules/` folder, so that you can see what it's supposed to sound like!
