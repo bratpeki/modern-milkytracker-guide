@@ -128,11 +128,8 @@
 
 [7. MAKING AN EXAMPLE SONG IN MILKYTRACKER](./docs/song.md)
 
-[8. DEVELOPMENT INFORMATION]()
-- [Compiling MilkyTracker]()
+[8. THANKS](./docs/thanks.md)
 
-[9. THANKS](./docs/thanks.md)
-
-[10. MISSING DOCUMENTATION](./docs/missing.md)
+[9. MISSING DOCUMENTATION](./docs/missing.md)
 
 <!-- TODO: Better navigation in documents, check that at the end of everything -->
