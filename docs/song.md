@@ -6,7 +6,7 @@ Let's set the BPM to 128 using the [song and editing properties](./ui.md#song-an
 We'll keep the SPD at 6, since it's the standard setting.
 We'll also name the song "my first song!", since it feels appropriate! :)
 
-<!-- ../img/firstSong_1.mp4 -->
+<!-- AVAILABLE AT: ../img/firstSong_1.mp4 -->
 https://github.com/bratpeki/modern-milkytracker-guide/assets/44314748/604a2692-396b-4106-b3d2-7d79a12eadc3
 
 ---
@@ -24,7 +24,7 @@ Right-clicking, or double-left-clicking, on the instrument slots in the [instrum
 
 Let's name them "Kick", "Snare" and "Closed hat", respectivelly.
 
-<!-- ../img/firstSong_2.mp4 -->
+<!-- AVAILABLE AT: ../img/firstSong_2.mp4 -->
 https://github.com/bratpeki/modern-milkytracker-guide/assets/44314748/ac7f8a21-5b0d-4db5-ae7d-f447f0d1157d
 
 ---
@@ -38,14 +38,14 @@ We'll set the [looping mode to "Forward"](./ui.md#sample-editor).
 We'll name it "Synth" in the instrument menu.
 Let's also name the sample "Synth" from the sample menu, just so that we know which slot it is occupying.
 
-<!-- ../img/firstSong_3.mp4 -->
+<!-- AVAILABLE AT: ../img/firstSong_3.mp4 -->
 https://github.com/bratpeki/modern-milkytracker-guide/assets/44314748/6d8a8d97-b2c1-4b59-8eec-ac78f9715e7d
 
 We'll edit instrument 4 in the [instrument editor](./ui.md#instrument-editor), by making the Fadeout set to 000, turning the
 volume envelope on, and creating a "plucky" sound using a falloff.
 We'll set the volume to 10.
 
-<!-- ../img/firstSong_4.mp4 -->
+<!-- AVAILABLE AT: ../img/firstSong_4.mp4 -->
 https://github.com/bratpeki/modern-milkytracker-guide/assets/44314748/94ef12d1-58dc-442f-8294-8886b15c6c01
 
 ---
@@ -107,8 +107,11 @@ Now, let's save the song using [the disk operator window]().
 We're setting the type to "Module" and saving an XM module.
 Let's name the export "my-first-track.xm"!
 
-<!-- ../img/firstSong_5.mp4 -->
+<!-- AVAILABLE AT: ../img/firstSong_5.mp4 -->
 https://github.com/bratpeki/modern-milkytracker-guide/assets/44314748/3b37d94d-3ba1-4d29-9449-1e765c582c59
+
+You can, of course, choose where you'll save the module.
+I saved it to the fifth slot in the module part of the disk operator.
 
 # Exporting the song
 
@@ -118,7 +121,7 @@ Let's name the export "my-first-track.wav"!
 
 We'll audo-adjust the mixer volume and export.
 
-<!-- ../img/firstSong_6.mp4 -->
+<!-- AVAILABLE AT: ../img/firstSong_6.mp4 -->
 https://github.com/bratpeki/modern-milkytracker-guide/assets/44314748/12076ae2-8d00-457e-99eb-a66896de6fab
 
 You've now successfully made and exported your first MilkyTracker song!
