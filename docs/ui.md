@@ -24,8 +24,8 @@ Also, left-, right- and middle-clicking will refer to their respective mouse act
 covered in "[3.1. INTERACTIVE UI ELEMENTS](./elems.md)".
 
 Working with the pattern editor and sample editor are mostly covered in separate docs, that being
-"[3.2. WORKING WITH SAMPLES](./docs/samples.md)" and
-"[3.3. WORKING WITH THE PATTERN EDITOR](./docs/playlist.md)",
+"[3.2. WORKING WITH SAMPLES](./samples.md)" and
+"[3.3. WORKING WITH THE PATTERN EDITOR](./playlist.md)",
 because of how much there is to write.
 
 There's a lot of text here to, but consider **ONLY READING WHAT YOU DON'T KNOW OR UNDERSTAND**.
@@ -747,7 +747,7 @@ The pattern editor is the window where you write notes and effects, making it th
 actually create the individual [patterns](./xm.md#patterns).
 
 The actual process of editing a pattern, including the keyboard shortcuts and UI behaviour are
-described in "[3.3. WORKING WITH THE PATTERN EDITOR](./docs/playlist.md)".
+described in "[3.3. WORKING WITH THE PATTERN EDITOR](./playlist.md)".
 
 # Scopes
 
@@ -1011,15 +1011,15 @@ Now enjoy your stay, and happy tracking!
 
 ---
 
-[0. INTRODUCTION](./docs/intro.md)
+[0. INTRODUCTION](./intro.md)
 
-[1. TRACKER BASICS](./docs/basics.md)
+[1. TRACKER BASICS](./basics.md)
 
-[2. THE XM FILE FORMAT](./docs/xm.md)
+[2. THE XM FILE FORMAT](./xm.md)
 
-[2.1. EFFECT GLOSSARY](./docs/fx.md)
+[2.1. EFFECT GLOSSARY](./fx.md)
 
-[3. MILKYTRACKER UI REFERENCE](./docs/ui.md)
+[3. MILKYTRACKER UI REFERENCE](./ui.md)
 
 **3.1. INTERACTIVE UI ELEMENTS**
 - [Startup](#startup)
@@ -1049,20 +1049,20 @@ Now enjoy your stay, and happy tracking!
 - [Advanced editor](#advanced-editor)
 - [About window](#about-window)
 
-[3.2. WORKING WITH SAMPLES](./docs/samples.md)
+[3.2. WORKING WITH SAMPLES](./samples.md)
 
-[3.3. WORKING WITH THE PATTERN EDITOR](./docs/playlist.md)
+[3.3. WORKING WITH THE PATTERN EDITOR](./playlist.md)
 
-[4. CONFIGURING MILKYTRACKER](./docs/config.md)
+[4. CONFIGURING MILKYTRACKER](./config.md)
 
-[4.1. KEYBIND OPTIONS](./docs/keybind.md)
+[4.1. KEYBIND OPTIONS](./keybind.md)
 
-[5. TIPS AND TRICKS](./docs/tips.md)
+[5. TIPS AND TRICKS](./tips.md)
 
-[6. GOOD SOURCES](./docs/sources.md)
+[6. GOOD SOURCES](./sources.md)
 
-[7. MAKING AN EXAMPLE SONG IN MILKYTRACKER](./docs/song.md)
+[7. MAKING AN EXAMPLE SONG IN MILKYTRACKER](./song.md)
 
-[8. THANKS](./docs/thanks.md)
+[8. THANKS](./thanks.md)
 
-[9. MISSING DOCUMENTATION](./docs/missing.md)
+[9. MISSING DOCUMENTATION](./missing.md)
