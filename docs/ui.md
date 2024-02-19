@@ -585,7 +585,7 @@ and how long the looping segment is.
 
 Clears the sample, setting it's length back to 0.
 
-<!-- MISSING: - `Min` button:<br> -->
+<!-- MISSING: "Min" button -->
 
 ### "+"/"-" button pair
 
@@ -598,7 +598,7 @@ Effectively, these move the start and end of the looping segment forward and bac
 
 Toggles hex, decimal or timed display of the text boxes.
 
-<!-- MISSING: - `REP` button:<br> -->
+<!-- MISSING: "REP" button -->
 
 <!-- TODO: Loop points -->
 
@@ -694,25 +694,38 @@ These options include, from top-left to bottom-right:
 - Amplification of the export
 - Mixer volume
 
-The buttons in the window are:
+### "SELECT..." button
 
-- `SELECT...`:<br>
 Allows setting the resampler used during exporting.
-- `Record`:<br>
-Records the export to the destination location.
-- `As...`:<br>
+
+### "Record" button
+
+Records the export to the destination directory.
+
+### "As..." button
+
 Allows setting the export destination location. Doesn't work for exports into instruments.
-- `AUTO`:<br>
-Auto-adjusts the mixer volume. <!-- TODO --><br>
-- `Exit`:<br>
+
+### "AUTO" button
+
+Auto-adjusts the mixer volume. <!-- TODO -->
+
+### "Exit" button
+
 Leaves the window.
-- `File:`/`Samp:`:<br>
+
+### "File:"/"Samp:" button
+
 Toggles exporting to a file, or a sample slot of an instrument of the opened module.
 If sample exporting is selected, changing the active instrument and sample changes the output
 instrument and sample slot of the export.
-- Radio buttons under the "Output:" text field:<br>
+
+### Radio buttons under the "Output:" text field
+
 Allow for selecting the sample rate.
-- Radio buttons under the "Amplify" text field:<br>
+
+### Radio buttons under the "Amplify" text field
+
 Mulitply the export amplitude by the given value.
 
 <!-- TODO: In-depth about the options -->
