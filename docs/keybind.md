@@ -46,7 +46,7 @@ Any help with the other keybinds is appreciated.
 | -    | -      |
 | `Tilde`/`Sh+Tilde`    | Increase/decrease the [Add](./ui.md#song-and-editing-properties) by 1 |
 | `F1` through `F8`     | Select the octave (For `F1`, `Q` will play C1) |
-| `Spc`                 | While not playlist, arms/disarms MT for recording |
+| `Spc`                 | While not playing , arms/disarms MT for recording |
 | `CapsLock`            | Places a "Note-off" |
 | `2`, `3`, `5`,...     | Playing sharp/flat notes |
 | `Q`, `W`, `E`,...     | Playing notes (`Q` is C) |

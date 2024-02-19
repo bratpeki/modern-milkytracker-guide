@@ -47,7 +47,7 @@ Allows scrolling.
 
 The arrow characters at the edges of the scrollbar are used for fine-tuned scrolling.
 
-Horizonal scrollbars are seen in the [playlist](./ui.md#playlist) and [sample editor](./ui.md#sample-editor).
+Horizonal scrollbars are seen in the [pattern editor](./ui.md#pattern-editor) and [sample editor](./ui.md#sample-editor).
 The vertical ones are seen in the [instrument](./ui.md#instrument-menu) and [sample menus](./ui.md#sample-menu).
 
 # Sliders
@@ -92,7 +92,7 @@ This element features many different functions, all of which are related to each
 
 Available features are show in black, the unavailable ones are in white.
 
-A good example is the playlist track drop-down menu, featured above.
+A good example is the pattern editor track drop-down menu, featured above.
 
 # Tickboxes
 

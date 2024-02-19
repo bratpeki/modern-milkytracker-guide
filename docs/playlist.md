@@ -1,19 +1,20 @@
-Here, we're covering how to actually use the playlist.
+Here, we're covering how to actually use the pattern editor.
 
 So, let's get started!
 
 # Positioning yourself
 
-You can move around using the playlist movements keybinds, or the mouse.
+You can move around using the pattern editor movements keybinds, or the mouse.
 
 <!-- TODO: Arrows, tab, PgUp, PgDn, Home and End -->
 
 Mouse movement is enabled with the "Click to cursor" configuration option, under the "Misc." tab.
 When that option is on, you can simply left-click to where you want to go!
 
-# Placing notes and effects into the playlist
+# Placing notes and effects into the pattern editor
 
 First and foremost, you need to select the right pattern to edit.
+
 You can do this from [the pattern editing window](./ui.md#pattern-editing-window)
 and [the song arranger](./ui.md#the-song-arranger).
 
@@ -21,16 +22,17 @@ Once you've selected a pattern, you can begin inserting notes by hitting `Spc`,
 or the `Rec` button in the [general editor buttons window](./ui.md#general-editor-buttons-window).
 You should notice that your playhead, as well as the `Rec` button, have changed colors!
 
-Any note you hit on your keyboard, or any note you hit from [the instrument editor](./ui.md#instrument-editor)'s
-keyboard while it's in "Playing" mode, while recording, will be placed into the playlist.
+Any note you hit on your keyboard, or any note you hit from
+[the instrument editor](./ui.md#instrument-editor)'s keyboard while it's in "Playing" mode, while
+recording, will be placed into the pattern editor.
 
 You can use
 any effect named [here](./fx.md#volume-column-effects) in the volume column,
 any effect named [here](./fx.md#effect-column-effects) in the effect column.
 
-You can change how by how many rows the cursor moves down after a change by altering the "Add" property in the
-[song and editing properties](./ui.md#song-and-editing-properties). If it's 0, the cursor won't move at all!
-Naturally, the cursor will move down for a change in any column.
+You can change how by how many rows the cursor moves down after a change by altering the "Add"
+property in the [song and editing properties](./ui.md#song-and-editing-properties). If it's 0, the
+cursor won't move at all! Naturally, the cursor will move down for a change in any column.
 
 # Working with tracks
 
@@ -65,7 +67,8 @@ You can read about both [here](./ui.md#advanced-editor).
 
 # Muting and soloing tracks
 
-This is done by opening the playlist drop-down menu, by right-clicking on any track in the playlist.
+This is done by opening the pattern editor drop-down menu, by right-clicking on any track in the
+pattern editor.
 The drop-down window looks something like this:
 
 ![ui_playlistDropDown.png](../img/ui_playlistDropDown.png)

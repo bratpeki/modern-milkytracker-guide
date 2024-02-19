@@ -18,6 +18,8 @@ From the sample manipulation drop-down menu, I'm missing:
 
 The `Min` and `REP` buttons in the [sample editor](./ui.md#sample-editor).
 
+Under the [optimization window](./ui.md#optimization-window), `Remap instr.` is missing.
+
 ## config.md
 
 I'm missing:

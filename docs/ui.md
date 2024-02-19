@@ -60,7 +60,7 @@ The elements in this window, from top-left to bottom-right, are:
 2. [The instrument menu](#instrument-menu)
 3. [The sample menu](#sample-menu)
 4. [The scopes](#scopes)
-5. [The playlist](#playlist)
+5. [The pattern editor](#pattern-editor)
 
 ## Tabs
 
@@ -91,7 +91,7 @@ The elements in this window, from top-left to bottom-right, are:
 1. [The song arranger](#the-song-arranger)
 2. [Song title, length and peak window + Common MT options toggle window](#song-title-length-and-peak-window--common-mt-options-toggle-window)
 3. [Song and editing properties](#song-and-editing-properties)
-4. [Pattern editing window](#pattern-editing-window)
+4. [Pattern properties window](#pattern-properties-window)
 5. [General editor buttons window](#general-editor-buttons-window)
 
 ## The song arranger
@@ -238,7 +238,7 @@ with your keyboard is C4).
 
 Shows you the [global song volume](./xm.md#global-song-volume).
 
-## Pattern editing window
+## Pattern properties window
 
 ![ui_generalEditor_pattern.png](../img/ui_generalEditor_pattern.png)
 
@@ -249,9 +249,9 @@ Switch between different patterns.
 ### "+"/"-" buttons next to "Len."
 
 Increase or decrease the pattern length.
-This action is desctructive; in case you shorten the pattern so certain notes disappear, they cannot
-be brought back by increasing the pattern length. You can, however, bring them back by undoing your
-changes (`Ctrl+Alt+Z`).
+This action is desctructive; in case you shorten the pattern so certain notes disappear, they
+cannot be brought back by increasing the pattern length. You can, however, bring them back by
+undoing your changes (`Ctrl+Alt+Z`).
 
 ### "Expand" button
 
@@ -311,7 +311,7 @@ right-clicking on the ID slot or left-clicking the name slot text input field of
 user can also change the active instrument by hitting `Sh+UpArrow` (setting the previous instrument
 as the active one) or `Sh+DownArrow` (setting the next instrument as the active one). The active
 instrument is displayed in the [instrument editor](#instrument-editor), as well as being the
-instrument which is set for inserting notes into the [playlist](#playlist).
+instrument which is set for inserting notes into the [pattern editor](#pattern-editor).
 
 ### "Instruments" text field
 
@@ -325,8 +325,9 @@ instruments.
 
 ### "ZAP" button
 
-Clears the instrument (samples and instrument settings). Destructive action, undoable. Opens a
-warning popup window.
+Clears the instrument (samples and instrument settings).
+
+Destructive action, undoable using `Ctrl+Alt+Z`. Opens a warning popup window.
 
 ### "LOAD" button
 
@@ -352,7 +353,9 @@ one). The sample in the [sample editor](#sample-editor) is the currently active 
 
 ### "CLEAR" button
 
-Clears the active sample. Destructive action, undoable. Doesn't open a warning popup window.
+Clears the active sample.
+
+Destructive action, undoable undoable using `Ctrl+Alt+Z`. Doesn't open a warning popup window.
 
 ### "LOAD" button
 
@@ -535,14 +538,18 @@ Reapply the last change done to the same (generators, EQ, volume change, etc).
 ### "Cut"/"Copy"/"Paste" buttons
 
 Work as expected, providing the ability to cut, copy and paste parts of the sample into other
-sample slots. Selecting a range in the sample editor, by holding the left mouse button, and pasting
-results in the selected section of the sample being swapped for the cut/copied section. Cutting is
-undoable.
+sample slots.
+
+Selecting a range in the sample editor, by holding the left mouse button, and pasting results in
+the selected section of the sample being swapped for the cut/copied section.
+
+Cutting is undoable using `Ctrl+Alt+Z`.
 
 ### "Crop" button
 
 Swaps the current sample for the range you have selected in it.
-Undoable.
+
+Undoable using `Ctrl+Alt+Z`.
 
 ### "Vol" button
 
@@ -554,9 +561,12 @@ Going below 0 reverses the polarity of the waveform.
 ### "Draw" button
 
 Toggles the draw mode on the sample.
+
 When the button is pressed, any left-mouse action overrides the current sample data, placing the
 waveform point there where the user has pressed. **You can also toggle drawing by holding** `Sh`
-**and pressing the same button**. Undoable.
+**and pressing the same button**.
+
+Undoable using `Ctrl+Alt+Z`.
 
 ### Looping mode radio buttons
 
@@ -731,13 +741,13 @@ Mulitply the export amplitude by the given value.
 <!-- TODO: In-depth about the options -->
 <!-- TODO: Individual windows? -->
 
-# Playlist
+# Pattern editor
 
-The playlist is the window where you write notes and effects, making it the window in with you
+The pattern editor is the window where you write notes and effects, making it the window in with you
 actually create the individual [patterns](./xm.md#patterns).
 
 The actual process of editing a pattern, including the keyboard shortcuts and UI behaviour are
-described in "[3.3. WORKING WITH THE PLAYLIST](./docs/playlist.md)".
+described in "[3.3. WORKING WITH THE PATTERN EDITOR](./docs/playlist.md)".
 
 # Scopes
 
@@ -757,7 +767,7 @@ Toggled with `Ctrl+Z`.
 
 ![ui_transpose.png](../img/ui_transpose.png)
 
-Allows transposing of the notes in the playlist.
+Allows transposing of the notes in the pattern editor.
 
 By default, all notes of all instruments can be transposed. This can be changed with the settings
 under the "Instrument:" and "Note:" text fields. "Amount" specifies by how many semitone the
@@ -782,7 +792,7 @@ The options include:
 - `Patns`: Delete all the note and effect data of the current pattern.
 - `Insts`: Delete the data of all the instruments.
 
-Undoable.
+Undoable using `Ctrl+Alt+Z`.
 
 # Quick options options
 
@@ -802,7 +812,8 @@ The additional options on the right include:
 - Setting the octave limits to be like in ProTracker 3 (`B-2` - `A-5`), and
 - The default panning for each track
 
-The default panning refers to the fact that, on the Amiga, ProTracker panned each track either far-left or far-right.
+The default panning refers to the fact that, on the Amiga, ProTracker panned each track either
+far-left or far-right.
 
 The default panning window looks like this:
 
@@ -829,7 +840,8 @@ Features the following tabs (toggled by the buttons with the following text):
 - `Misc.` (Editor preferences, scrolling style, edit mode, scope style, etc)
 - `Tabs` (Tab-related settings)
 
-The buttons labeled `<`/`>`, which are next to each of the aforementioned buttons, shift the configuration subwindows left/right by one, in case your GUI window size is too small.
+The buttons labeled `<`/`>`, which are next to each of the aforementioned buttons, shift the
+configuration subwindows left/right by one, in case your GUI window size is too small.
 
 The buttons below the tabs are:
 
@@ -848,16 +860,18 @@ Allows many functionalities aimed at optimizing the file-size of the module.
 The functionalities are:
 
 - Removing the patterns (`Pat`), instruments (`Ins`) and samples (`Smp`) which weren't used in the song. `Remove unused` has to be ticked first.
-- `Remap instr.` <!-- TODO -->
+<!-- MISSING: - `Remap instr.` -->
 - Trimming the silence off samples (`Min. all smp.`).
 - Converting the samples from 16-bit to 8-bit (`Smp. to 8 bit`).
 
-`ANALYZE` will open a popup window showing you the changes that would take place when you optimize the track, with your selected optimizations.
-`OPTIMIZE` would optimize the track, with your selected optimizations.
+`ANALYZE` will open a popup window showing you the changes that would take place when you optimize
+the track, with your selected optimizations. `OPTIMIZE` would optimize the track, with your
+selected optimizations.
 
 `Crunch headers (XM format only)` is a, currently, non-implemented functionality.
 
-The matrix-like assortment of effect-column effect, ranging from `1xx` to `X2x`, alters the effects in such a way that they do or don't use the effect memory.
+The matrix-like assortment of effect-column effect, ranging from `1xx` to `X2x`, alters the effects
+in such a way that they do or don't use the effect memory.
 Effect memory was talked about [at the start of 2.1. EFFECT GLOSSARY](./fx.md).
 So, let's say `3xx` is ticked, and the pattern looks like this:
 

@@ -3,7 +3,9 @@ Let's create a basic electro loop using MilkyTracker!
 # Setting the song up
 
 Let's set the BPM to 128 using the [song and editing properties](./ui.md#song-and-editing-properties).
+
 We'll keep the SPD at 6, since it's the standard setting.
+
 We'll also name the song "my first song!", since it feels appropriate! :)
 
 <!-- AVAILABLE AT: ../img/firstSong_1.mp4 -->
@@ -11,16 +13,18 @@ https://github.com/bratpeki/modern-milkytracker-guide/assets/44314748/604a2692-3
 
 ---
 
-Now, we'll select instrument 1, and load `kick.wav` into it using the [disk operations window](./ui.md#disk-operations-window),
-by selecting the "Type" as "Sample".
+Now, we'll select instrument 1, and load `kick.wav` into it using the
+[disk operations window](./ui.md#disk-operations-window), by selecting the "Type" as "Sample".
 
-We'll select instrument 2 either from the [instrument menu](./ui.md#instrument-menu) or by using the `Sh+DownArrow` keyboard shortcut.
+We'll select instrument 2 either from the [instrument menu](./ui.md#instrument-menu) or by using
+the `Sh+DownArrow` keyboard shortcut.
 
 We'll, similarly as for instrument 1, load `snare.wav` in the second instrument slot.
 
 We'll load `closed_hat.wav` into the third instrument slot.
 
-Right-clicking, or double-left-clicking, on the instrument slots in the [instrument menu](./ui.md#instrument-menu), will let us rename the instruments.
+Right-clicking, or double-left-clicking, on the instrument slots in the
+[instrument menu](./ui.md#instrument-menu), will let us rename the instruments.
 
 Let's name them "Kick", "Snare" and "Closed hat", respectivelly.
 
@@ -31,18 +35,19 @@ https://github.com/bratpeki/modern-milkytracker-guide/assets/44314748/ac7f8a21-5
 
 Now, let's generate a synth using the square wave generator.
 
-Let's select instrument 4, open the sample editor using `Ctrl+S`, and [generate](./samples.md#generators) a new square wave.
+Let's select instrument 4, open the sample editor using `Ctrl+S`, and
+[generate](./samples.md#generators) a new square wave.
 We'll do this by generating 32 samples, and a square wave of 1 period, at 25% volume.
-We'll set the [looping mode to "Forward"](./ui.md#sample-editor).
+We'll set the [looping mode](/ui.md#looping-mode-radio-buttons) to "Forward".
 
-We'll name it "Synth" in the instrument menu.
-Let's also name the sample "Synth" from the sample menu, just so that we know which slot it is occupying.
+We'll name it "Synth" in the [instrument menu](./ui.md#instrument-menu). Let's also name the
+sample "Synth" from the sample menu, just so that we know which slot it is occupying.
 
 <!-- AVAILABLE AT: ../img/firstSong_3.mp4 -->
 https://github.com/bratpeki/modern-milkytracker-guide/assets/44314748/6d8a8d97-b2c1-4b59-8eec-ac78f9715e7d
 
-We'll edit instrument 4 in the [instrument editor](./ui.md#instrument-editor), by making the Fadeout set to 000, turning the
-volume envelope on, and creating a "plucky" sound using a falloff.
+We'll edit instrument 4 in the [instrument editor](./ui.md#instrument-editor), by making the
+Fadeout set to 000, turning the volume envelope on, and creating a "plucky" sound using a falloff.
 We'll set the volume to 10.
 
 <!-- AVAILABLE AT: ../img/firstSong_4.mp4 -->
