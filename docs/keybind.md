@@ -22,36 +22,34 @@ Any help with the other keybinds is appreciated.
 
 ### Movement
 
-<!-- TODO: Maybe the .../... should be split up -->
-
 | Keys | Action |
 | -    | -      |
-| Arrow keys                       | Move by open cell up/down, or by one slot left/right |
-| `Tab`/`Sh+Tab`                   | Move to the next/previous track, can also [tab to the note slot specifically](./config.md#tab-to-note). |
-| `Page Up`/`Page Down`            | Move up/down by 16 |
-| `Home`/`End`                     | Go to the top/bottom of the pattern |
-| `Sh` and up/down arrow keys      | Change the active instrument |
-| `Ctrl+Sh` and up/down arrow keys | Change the active sample |
-| `Ctrl` and up/down arrow keys    | Change the current file in the [disk operator](./ui.md#disk-operations-window) |
-| `Ctrl` and left/right arrow keys | Go to the previous/next pattern |
-| `Sh` and left/right arrow keys   | Go to the previous/next pattern in the [song order](./xm.md#songs) |
-| `F9`                             | Go to the top of the pattern |
-| `F10`                            | Go to 1/4 of the pattern |
-| `F11`                            | Go to half of the pattern |
-| `F12`                            | Go to 3/4 of the pattern |
+| Arrow keys                     | Move by open cell up/down, or by one slot left/right |
+| `Tab`/`Sh+Tab`                 | Move to the next/previous track, can also [tab to the note slot specifically](./config.md#tab-to-note) |
+| `Page Up`/`Page Down`          | Move up/down by 16 |
+| `Home`/`End`                   | Go to the top/bottom of the pattern |
+| `Sh` + up/down arrow keys      | Change the active instrument |
+| `Ctrl+Sh` + up/down arrow keys | Change the active sample |
+| `Ctrl` + up/down arrow keys    | Change the current file in the [disk operator](./ui.md#disk-operations-window) |
+| `Ctrl` + left/right arrow keys | Go to the previous/next pattern |
+| `Sh` + left/right arrow keys   | Go to the previous/next pattern in the [song order](./xm.md#songs) |
+| `F9`                           | Go to the top of the pattern |
+| `F10`                          | Go to 1/4 of the pattern |
+| `F11`                          | Go to half of the pattern |
+| `F12`                          | Go to 3/4 of the pattern |
 
 ### Playing and recording
 
 | Keys | Action |
 | -    | -      |
-| `Tilde`/`Sh+Tilde`    | Increase/decrease the [Add](./ui.md#song-and-editing-properties) by 1 |
-| `F1` through `F8`     | Select the octave (For `F1`, `Q` will play C1) |
-| `Spc`                 | While not playing , arms/disarms MT for recording |
-| `CapsLock`            | Places a "Note-off" |
-| `2`, `3`, `5`,...     | Playing sharp/flat notes |
-| `Q`, `W`, `E`,...     | Playing notes (`Q` is C) |
-| `S`, `D`, `G`,...     | Playing sharp/flat notes in the lower octave |
-| `Y`/`Z`, `X`, `C`,... | Playing notes (`Y`/`Z` is C) in the lower octave |
+| `Tilde`/`Sh+Tilde`                       | Increase/decrease the [Add](./ui.md#add) by 1 |
+| `F1` through `F8`                        | Select the octave (For `F1`, `Q` will play C1) |
+| `Spc`                                    | While not playing , arms/disarms MT for recording |
+| `CapsLock` and the key right of `LShift` | Places a ["Note-off"](./xm.md#note-off) |
+| `2`, `3`, `5`,...                        | Playing sharp/flat notes |
+| `Q`, `W`, `E`,...                        | Playing notes (`Q` is C) |
+| `S`, `D`, `G`,...                        | Playing sharp/flat notes in the lower octave |
+| `Y`/`Z`, `X`, `C`,...                    | Playing notes (`Y`/`Z` is C) in the lower octave |
 
 ### Playback
 
@@ -80,6 +78,12 @@ Any help with the other keybinds is appreciated.
 | `Alt+F3` | Cutting the selection block contents |
 | `Alt+F4` | Copying the selection block contents |
 | `Alt+F5` | Pasting the selection block contents |
+
+### Sample editor
+
+| Keys | Action |
+| -    | -      |
+| `Sh` + right-click hold | Draw sample |
 
 ---
 

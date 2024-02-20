@@ -4,9 +4,7 @@ So, let's get started!
 
 # Positioning yourself
 
-You can move around using the pattern editor movements keybinds, or the mouse.
-
-<!-- TODO: Arrows, tab, PgUp, PgDn, Home and End -->
+You can move around using the pattern editor [movements keybinds](./ui.md#add), or the mouse.
 
 Mouse movement is enabled with the "Click to cursor" configuration option, under the "Misc." tab.
 When that option is on, you can simply left-click to where you want to go!

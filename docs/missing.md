@@ -1,9 +1,7 @@
 This doc is reserved for everything I haven't managed to document.
-If you can help with this, feel free to contact me!
+If you can help with this, feel free to contact me or make a pull request!
 
 ## samples.md
-
-<!-- TODO: Dropdown or drop-down? -->
 
 From the sample manipulation drop-down menu, I'm missing:
 
