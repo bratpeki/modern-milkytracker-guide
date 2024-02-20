@@ -20,14 +20,13 @@ This one is highly recommended, since all the instruments are already set up for
 
 The most popular source of modules is [The Mod Archive](https://modarchive.org/).
 
-[ModLand](https://modland.com/pub/modules/Fasttracker%202/) is also very popular, and has a lot of modules
-(5GB worth of them, as of the writing of this)!
+[ModLand](https://modland.com/pub/modules/Fasttracker%202/) is also very popular, and has a lot of modules!
 
-There's plenty other ones out there!
+There's plenty other ones out there.
 
 # Information
 
-[The Mod Archive forums](https://modarchive.org/forums/index.php) and
+[The Mod Archive forums](https://modarchive.org/forums/index.php) and the
 [Tracker Music Discord server](https://discord.gg/4TD8mxtw) are my go-tos!
 
 ---
