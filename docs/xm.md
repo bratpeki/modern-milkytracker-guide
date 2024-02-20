@@ -36,6 +36,8 @@ They are plentiful and confusing at times, until you get used to them.<br>
 The default state depends on what effect was there previously, or if there was any at all.<br>
 Effects are, of course, specified in the [last column of the cell](./basics.md#cells).
 
+## Note-off
+
 There is a special kind of note known as **Note-off**.
 Note-off has special properties which depend on the context it is used in.
 In short, it stops the note from playing and, if you have set an envelope

@@ -794,7 +794,7 @@ The options include:
 
 Undoable using `Ctrl+Alt+Z`.
 
-# Quick options options
+# Quick options window
 
 ![ui_options](../img/ui_options.png)
 

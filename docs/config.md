@@ -25,35 +25,42 @@ I would recommend keeping this at 100% at all times.
 ## Amp
 
 Output amplification of the song.
-Not seen on the peak meter, it's just a change that makes the song quieter for the tracker musician.
+Not seen on the [peak meter](./ui.md#song-peak-meter-tab), it's just a change that makes the song
+quieter for the tracker musician.
 
 ## Resampling
 
 Allows setting how the played samples are interpolated.
+
 Usually, you just want "Linear interpolation".
 
 ## Volume ramping
 
-In FastTracker II, it was an anti-clicking mechanism in the mixer.
-I assume the same is true for MT.
+In FastTracker II, it was an anti-clicking mechanism in the mixer. I assume the same is true for MT.
+
 Usually, you want this on.
 
 ## Mixer resolution
 
 The sample rate of the playback and export.
+
 Usually, you would either go for 44100Hz or 48000Hz.
 
 ## Frequency table
 
 Affects how the frequency slides made with the `1xx`, `2xx` and `3xx` effects happen.
+
 Usually, you want to use "Linear frequencies".
 
 ## Jam channels
 
 If off, any keyboard playing is done on the current track.
+
 If on, any keyboard playing is done on a virtual "jam channel",
 so that your playing does not interrupt the current playback.
-You would want this on if you want to experiment with different chords, leads, etc. while the pattern or song is playing.
+
+You would want this on if you want to experiment with different chords, leads, etc. while the
+pattern or song is playing.
 
 ## Use
 
@@ -70,10 +77,13 @@ If "Jam channels" is on, sets how many "jam channels" there are.
 When recording notes, record the moment they are let go as well.
 Once you let go of the key, a Note-off is placed.
 
+<!-- TODO: Key-off or Note-off -->
+
 ## Rec. note delays
 
-As the name suggests, the moment you play and, if "Record key off" is on, the moment you let go of the note is recorded in higher precision,
-using the `EDx` and `Kxx` effects.
+As the name suggests, the moment you play and, if "Record key off" is on, the moment you let go of
+the note is recorded in higher precision, using the [`EDx`](./fx.md#edx-note-delay) and
+[`Kxx`](./fx.md#kxx-key-off) effect column effects.
 
 ## XM channel limit
 
@@ -85,12 +95,12 @@ You can set 32, 64 and 128.
 
 ## Spacing
 
-The pixel spacing between the
-[different elements in the cell](./basics.md#cells).
+The pixel spacing between the [different elements in the cell](./basics.md#cells).
 
 ## Hex count
 
 Sets how the [pattern lines](./basics.md#patterns) are counted.
+
 If off, the count is decimal.
 
 ## Show zero effect
@@ -100,13 +110,16 @@ If on, shows `000` where there are no effects applied, similar to FastTracker II
 ## Prospective
 
 If on, shows the next and previous patterns in the song, darkened out.
+
 Can be toggled with `Ctrl+P` or from the
 [common MT options toggle window](./ui.md#song-title-length-and-peak-window--common-mt-options-toggle-window).
 
 ## Muting opacity
 
 Sets the opacity of the muted tracks.
+
 0% makes them invisible.
+
 I usually keep it at 25%.
 
 ## ROW HIGHLIGHT SPACING
@@ -203,8 +216,9 @@ The options are:
 
 If on, hitting the TAB key will move you to the note slot of the cell of the next track.
 
-If off, hitting the TAB key will move you the same slot of the cell of the next track as the one you were on.
-For example, if the cursor was in the volume slot of the cell, hitting TAB will move you to the volume slot of the cell of the next track.
+If off, hitting the TAB key will move you the same slot of the cell of the next track as the one
+you were on. For example, if the cursor was in the volume slot of the cell, hitting TAB will move
+you to the volume slot of the cell of the next track.
 
 <!-- TODO: 100-line formatting rule -->
 
@@ -233,7 +247,8 @@ You can read about the splash screen as a UI element [here](./ui.md#startup).
 
 Self-explanatory.
 
-You can read about the estimate playtime [here](./ui.md#song-title-length-and-peak-window--common-mt-options-toggle-window).
+You can read about the estimate playtime
+[here](./ui.md#song-title-length-and-peak-window--common-mt-options-toggle-window).
 
 ## Show scopes
 

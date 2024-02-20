@@ -1,13 +1,13 @@
-Here, we'll be covering effects you will *commonly* use. I'll leave out some effects which are useful for very specific use-cases.
+Here, we'll be covering effects you will *commonly* use. I'll leave out some effects which are
+useful for very specific use-cases.
 
-What you should keep in mind is that some effects "play" differently on MODs, in comparison to how they would play on XMs.
-This is called playback mode and can be found by clicking on the `OPTIONS` button in the top-left section of the main UI.
-We'll keep in mind that the playback mode is always set to `Fasttracker 2.x` (that is, that you're composing in XM).
+Keep in mind that the way effects play out depends on the way MT is set up!
 
-We'll also assume your resampling mode (in `SETTINGS > I/O`) is set to a non-Amiga option (ex. `Linear interpolation`).
+We'll set the [playback mode](./ui.md#quick-options-window) to `Fasttracker 2.x` and the
+[resampling mode](./config.md#resampling) to a non-Amiga option (ex. `Linear interpolation`).
 
 All effects that we leave out, and specifics relating to the settings mentioned above, can be found
-in the `/docs/MilkyTracker.html` section of the original MT repo. You can find that doc
+in the `./docs/MilkyTracker.html` section of the original MT repo. You can find that doc
 **in dark mode** in my fork [here](https://github.com/bratpeki/MilkyTracker/blob/master/docs/MilkyTracker.html).
 
 Some things to note:
@@ -328,6 +328,26 @@ Sets the global song volume.
 By default, the global song volume will be `40`.
 
 This setting cannot be set graphically, and can only be altered using the `Gxx` command.
+
+## Kxx Key-off
+
+**Syntax**:
+
+`K` `VALUE`
+
+**Example**:
+
+```
+| C-4 | .. | ... | K00 |
+```
+
+**Description**:
+
+Sends a [Note-off](./xm.md#note-off) after `VALUE` ticks.
+
+`K00` stops the playback immediately.
+
+Any `VALUE` equal to or greater than [`SPD`](./basics.md#ticks-spd-and-bpm) is disregarded.
 
 ## EDx Note delay
 

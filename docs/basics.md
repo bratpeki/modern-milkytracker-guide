@@ -1,7 +1,8 @@
 Here, we will be covering the basics of **traditional** trackers.
 
-I hightlight the term "traditional" because you will mainly hear that trackers are split into traditional and modern trackers.
-Modern trackers have some neat features like plugin support, mixers and so on.
+I hightlight the term "traditional" because you will mainly hear that trackers are split into
+traditional and modern trackers. Modern trackers have some neat features like plugin support,
+mixers and so on.
 
 Whenever we refer to something as a "tracker" in this guide, it will be a traditional tracker.
 
@@ -17,7 +18,8 @@ They handle manipulation of one of four sample properties:
 
 A tracker allows storing the user-created composition under a binary file called a module.
 In MT, you will be met with two module formats: MOD and XM.
-Modules are usually of a much smaller file size than the lossless export, making trackers optimal for making small, but good-sounding music.
+Modules are usually of a much smaller file size than the lossless export, making trackers optimal
+for making small, but good-sounding music.
 
 # Origin of the name
 
@@ -26,7 +28,7 @@ You should know the following trems:
 | Term             | Meaning                                                     |
 | -                | -                                                           |
 | **Track**        | **A single column in the program which holds musical data** |
-| Tracking         | The act of placing notes into tracks                        |
+| Tracking         | Making music using trackers                                 |
 | Tracker musician | A musician that makes music using trackers                  |
 
 More often than not, you'll hear the term "tracker" being used to describe a tracker musician.
@@ -47,7 +49,8 @@ Instruments allow you to:
 
 ## Cells
 
-Cells are single elements which make up a track.<br>
+Cells are single elements which make up a track.
+
 They usually look like this:
 
 ```
@@ -65,7 +68,8 @@ The dots are meant to be empty spaces. Some trackers show them, some don't. MT d
 
 ## Tracks
 
-Tracks are columns consisting of a finite number of cells.<br>
+Tracks are columns consisting of a finite number of cells.
+
 For example, here's a track containing a manually created arpeggio:
 
 ```
@@ -79,7 +83,8 @@ For example, here's a track containing a manually created arpeggio:
 | D#4 | .1 | .. | ... |
 ```
 
-Also, notice that instead of the `-`, there is now a `#` for sharp notes in the first row.<br>
+Also, notice that instead of the `-`, there is now a `#` for sharp notes in the first row.
+
 This saves up on screen space.
 
 Sometimes, as is the case for MT, you'll hear the term "channel" begin used instead of "track".
@@ -87,7 +92,8 @@ We'll mostly be using the term "track", since it's generaly more common.
 
 ## Patterns
 
-The next step up after tracks are patterns, collections of multiple tracks.<br>
+The next step up after tracks are patterns, collections of multiple tracks.
+
 For example, let's expand on the previous example with a bass in the second track:
 
 ```
@@ -103,7 +109,8 @@ For example, let's expand on the previous example with a bass in the second trac
 | D#4 | .1 | .. | ... | ... | .. | .. | ... |
 ```
 
-They consist of pattern lines (rows), which are a collection of cells that play at the same time.<br>
+They consist of pattern lines (rows), which are a collection of cells that play at the same time.
+
 In the example above:
 
 ```
@@ -120,7 +127,8 @@ More on SPD in the [TICKS, SPD AND BPM](#ticks-spd-and-bpm) section.
 
 A song is a system consisting of mulitple patterns, played one after another in a specific order.
 
-The duration of the song can be either finite or infinite, depending on whether or not you've set pattern looping.
+The duration of the song can be either finite or infinite, depending on whether or not you've set
+pattern looping.
 
 ## Ticks, SPD and BPM
 
@@ -136,7 +144,8 @@ The general idea is:
 - **The greater the BPM, the less time there is between two neighboring ticks.**
 - **The greater the SPD, the more ticks there are between two pattern lines.**
 
-It is useful to set a bigger SPD when you need fine-tuned changes to take place, because, for example, with SPD set to 10 you have 10 units of time between two pattern lines to make changes.
+It is useful to set a bigger SPD when you need fine-tuned changes to take place, because, for
+example, with SPD set to 10 you have 10 units of time between two pattern lines to make changes.
 
 ---
 

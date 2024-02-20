@@ -3,10 +3,13 @@ Here, we'll be covering the interactive ones and how they behave.
 
 # Buttons
 
-![ui_elementButton.png](../img/ui_elementButton.png) A button from the [general editor buttons window](#general-editor-buttons-window).<br>
-![ui_elementButtonPressed.png](../img/ui_elementButtonPressed.png) Pressed.
+![ui_elementButton.png](../img/ui_elementButton.png)
+A button from the [general editor buttons window](#general-editor-buttons-window).<br>
+![ui_elementButtonPressed.png](../img/ui_elementButtonPressed.png)
+Pressed.
 
 The simplest of them all!
+
 Left-mouse clicking activates the action associated with the button.
 Right-mouse clicking shows the button as clicked, but doesn't actually "click" it.
 
@@ -22,11 +25,16 @@ These are commonly found in the [instrument editor](./ui.md#instrument-editor) a
 ![ui_settings_resolutions](../img/ui_settings_resolutions.png)<br>
 A listview of resolutions MT supports.
 
-Allows selection of an element from a list, either by double left-mouse clicking or right-mouse clicking on the element in the list.
+Allows selection of an element from a list, either by double left-mouse clicking or right-mouse
+clicking on the element in the list.
 
-Listviews have a scrollbar, which behaves similarly to [sliders](#sliders), except for the fact they are vertical, and their fine tune buttons have the arrow characters, instead of the `+` and `-`.
+Listviews have a scrollbar, which behavges an audio signal by es similarly to [sliders](#sliders),
+except for the fact they are vertical, and their fine tune buttons have the arrow characters,
+instead of the `+` and `-`.
 
-The most important listviews in MT are in the [disk operations window](./ui.md#disk-operations-window) and the [instrument](./ui.md#instrument-menu) and [sample menus](./ui.md#sample-menu).
+The most important listviews in MT are in the
+[disk operations window](./ui.md#disk-operations-window) and the
+[instrument](./ui.md#instrument-menu) and [sample menus](./ui.md#sample-menu).
 
 # Radio buttons
 
@@ -34,9 +42,11 @@ The most important listviews in MT are in the [disk operations window](./ui.md#d
 Radio buttons for the scale multiplier of the MT resolutions.
 
 Select one of the given options.
-The selected option will have a point in the circle next to the radio button, while the rest have empty circles next to them.
+The selected option will have a point in the circle next to the radio button, while the rest have
+empty circles next to them.
 
-You can find radio buttons in the [instrument](./ui.md#instrument-editor) and [sample editors](./ui.md#sample-editor).
+You can find radio buttons in the [instrument](./ui.md#instrument-editor) and
+[sample editors](./ui.md#sample-editor).
 
 # Scrollbars
 
@@ -47,8 +57,9 @@ Allows scrolling.
 
 The arrow characters at the edges of the scrollbar are used for fine-tuned scrolling.
 
-Horizonal scrollbars are seen in the [pattern editor](./ui.md#pattern-editor) and [sample editor](./ui.md#sample-editor).
-The vertical ones are seen in the [instrument](./ui.md#instrument-menu) and [sample menus](./ui.md#sample-menu).
+Horizonal scrollbars are seen in the [pattern editor](./ui.md#pattern-editor) and
+[sample editor](./ui.md#sample-editor). The vertical ones are seen in the
+[instrument](./ui.md#instrument-menu) and [sample menus](./ui.md#sample-menu).
 
 # Sliders
 
@@ -56,9 +67,11 @@ The vertical ones are seen in the [instrument](./ui.md#instrument-menu) and [sam
 
 Allows setting a value from a fixed interval, by sliding the box within the slider.
 
-The `+` and `-` buttons that are on the edge of the slider allow for a fine tune of the value which is being set, by increasing and decreasing it, respectfully.
+The `+` and `-` buttons that are on the edge of the slider allow for a fine tune of the value which
+is being set, by increasing and decreasing it, respectfully.
 
-They are commonly seen in the [instrument editor](./ui.md#instrument-editor) (volume, panning, fine tune, fadeout, etc).
+They are commonly seen in the [instrument editor](./ui.md#instrument-editor) (volume, panning, fine
+tune, fadeout, etc).
 
 # Text input fields
 
@@ -82,7 +95,8 @@ This elements works similarly to the text input fields, with the following excep
 - If the user inserts a non-number character before a number character, the value in the field will be set to the default one
 - If the user inserts a non-number character after the number and hits `Enter`, everything after the first non-number character is lost
 
-One example of this type of field is the sample size field in the sample creation popup window, visible [here (in the diagram)](./samples.md#new).
+One example of this type of field is the sample size field in the sample creation popup window,
+visible [here (in the diagram)](./samples.md#new).
 
 # Drop-down menus
 
