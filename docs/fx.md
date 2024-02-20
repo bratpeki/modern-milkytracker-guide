@@ -10,11 +10,13 @@ All effects that we leave out, and specifics relating to the settings mentioned 
 in the `./docs/MilkyTracker.html` section of the original MT repo. You can find that doc
 **in dark mode** in my fork [here](https://github.com/bratpeki/MilkyTracker/blob/master/docs/MilkyTracker.html).
 
-Some things to note:
+The "(Memory)" added to certain effect syntax sections means that MT "remembers" the last used
+parameter **for that note**.
 
-- The "(Memory)" added to certain effect syntax sections means that MT "remembers" the last used parameter **for that note**
-    - "(Memory - ...)" means that only the parameter "..." is remembered
-- Any bracket that looks like "(ex. ...)" shows how the current description relates to the example above
+"(Memory - ...)" means that only the parameter "..." is remembered.
+
+Any bracket that looks like "(ex. ...)" shows how the current description relates to the example
+above.
 
 # Effect column effects
 
@@ -34,7 +36,7 @@ Some things to note:
 **Description**:
 
 Arpeggio quickly alters the note pitch between the base note (ex. `C-4`) and the semitone offsets
-`X` (ex. 3 = `D#4`) and `Y` (ex. 7 = `G-4`).
+`OFFSET X` (ex. 3 = `D#4`) and `OFFSET Y` (ex. 7 = `G-4`).
 
 Each pitch is played for the duration of 1 tick.
 If SPD is higher than 3 (meaning there are more than 3 ticks per row), the sequence is looped.
@@ -43,7 +45,8 @@ If SPD is higher than 3 (meaning there are more than 3 ticks per row), the seque
 
 **Syntax**:
 
-`1` `PORTAMENTO SPEED` or<br>
+`1` `PORTAMENTO SPEED` or
+
 `1` `00` (Memory)
 
 **Example**:
@@ -72,7 +75,8 @@ when you use this effect. So, go by trial and error! :)
 
 **Syntax**:
 
-`2` `PORTAMENTO SPEED` or<br>
+`2` `PORTAMENTO SPEED` or
+
 `2` `00` (Memory)
 
 **Example**:
@@ -101,7 +105,8 @@ when you use this effect. So, go by trial and error! :)
 
 **Syntax**:
 
-`3` `PORTAMENTO SPEED` or<br>
+`3` `PORTAMENTO SPEED` or
+
 `3` `00` (Memory)
 
 **Example**:
@@ -130,9 +135,12 @@ sound again, in addition to sliding.
 
 **Syntax**:
 
-`4` `SPEED` `DEPTH` or<br>
-`4` `0` `DEPTH` (Memory - `SPEED`) or<br>
-`4` `SPEED` `0` (Memory - `DEPTH`) or<br>
+`4` `SPEED` `DEPTH` or
+
+`4` `0` `DEPTH` (Memory - `SPEED`) or
+
+`4` `SPEED` `0` (Memory - `DEPTH`) or
+
 `4` `00` (Memory)
 
 **Example**:
@@ -160,9 +168,12 @@ Starts by going down.
 
 **Syntax**:
 
-`7` `SPEED` `DEPTH` or<br>
-`7` `0` `DEPTH` (Memory - `SPEED`) or<br>
-`7` `SPEED` `0` (Memory - `DEPTH`) or<br>
+`7` `SPEED` `DEPTH` or
+
+`7` `0` `DEPTH` (Memory - `SPEED`) or
+
+`7` `SPEED` `0` (Memory - `DEPTH`) or
+
 `7` `00` (Memory)
 
 **Example**:
@@ -441,7 +452,8 @@ Same as using `A` `0` `VALUE` in the effect column.
 
 Displayed as `^x`.
 
-Similar to [+X VOLUME SLIDE UP](#x-volume-slide-up), except that it changes the volume per row (ex. the volume will increase by 2).
+Similar to [+X VOLUME SLIDE UP](#x-volume-slide-up), except that it changes the volume per row (ex.
+the volume will increase by 2).
 
 ## Dx Fine volume slide down
 
@@ -459,7 +471,8 @@ Similar to [+X VOLUME SLIDE UP](#x-volume-slide-up), except that it changes the 
 
 Displayed as `vx`.
 
-Similar to [-X VOLUME SLIDE DOWN](#-x-volume-slide-down), except that it changes the volume per row (ex. the volume will decrease by 2).
+Similar to [-X VOLUME SLIDE DOWN](#-x-volume-slide-down), except that it changes the volume per row
+(ex. the volume will decrease by 2).
 
 ## Lx Panning slide left
 
@@ -486,7 +499,8 @@ Displayed as `<x`.
 Slides the pan, once per tick, over to the left.
 SPD acts like a multiplier.
 
-`3xx` and `<x` share memory (ex. in the second row we slide the pan over to `7A`, and in the third row the `300` keeps the pan at `7A`).
+`3xx` and `<x` share memory (ex. in the second row we slide the pan over to `7A`, and in the third
+row the `300` keeps the pan at `7A`).
 
 ## Rx Panning slide right
 
@@ -513,7 +527,8 @@ Displayed as `>x`.
 Slides the pan, once per tick, over to the left.
 SPD acts like a multiplier.
 
-`3xx` and `>x` share memory (ex. in the second row we slide the pan over to `83`, and in the third row the `300` keeps the pan at `83`).
+`3xx` and `>x` share memory (ex. in the second row we slide the pan over to `83`, and in the third
+row the `300` keeps the pan at `83`).
 
 ## Px Set note panning position
 
