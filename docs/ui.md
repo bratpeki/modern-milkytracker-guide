@@ -953,19 +953,33 @@ Opened with `Ctrl+A`.
 
 The options for editing include:
 
-- Instrument remapping (`Remap Ins`), which changes the notes playing the first instrument so that they play the second instrument. Opens an external popup window seen below.
+### "Remap Ins" button
+
+Instrument remapping (`Remap Ins`) changes the notes playing the first instrument so that they play
+the second instrument. Opens an external popup window seen below.
 
 ![ui_instRemap.png](../img/ui_instRemap.png)
 
-- Interpolation (`Interpol`), which interpolates the volume (if the volume column is selected), note pitch (if notes are selected), or both.
-- `Volume scale`, which multiplies the start and end volumes of the track (`Track`), pattern (`Patt`), or selection block (`Block`), and then interpolates the volume. Open and external popup window seen below.
+### "Interpol" button
+
+Interpolates the volume (if the volume column is selected), note pitch (if notes are selected), or
+both.
+
+### "Volume scale"
+
+Multiplies the start and end volumes of the track (`Track`), pattern (`Patt`), or selection block
+(`Block`), and then interpolates the volume between them, where it is defined.
+Opens an external popup window seen below.
 
 ![ui_volScale.png](../img/ui_volScale.png)
 
-- `Split track options:`, which "spreads" the notes apart into the number of subsequent channels selected by the user. `Block only` applies the changes to the block. `Insert note off` puts note-offs whenever a note is moved into a subsequent channel. `SPLIT` applies the splitting.
-- Panning conversion <!-- TODO -->
+### "Split track options:"
 
-<!-- TODO: Missing images -->
+"Spreads" the notes apart into the number of subsequent channels selected by the user.
+`Block only` applies the changes to the block. `Insert note off` puts note-offs whenever a note is
+moved into a subsequent channel. `SPLIT` applies the splitting.
+
+<!-- MISSING: ### "Panning conversion" -->
 
 # About window
 

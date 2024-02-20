@@ -18,6 +18,8 @@ The `Min` and `REP` buttons in the [sample editor](./ui.md#sample-editor).
 
 Under the [optimization window](./ui.md#optimization-window), `Remap instr.` is missing.
 
+"Panning conversion" is missing for the [advanced editor](./ui.md#advanced-editor).
+
 ## config.md
 
 I'm missing:

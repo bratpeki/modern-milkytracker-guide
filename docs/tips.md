@@ -131,7 +131,7 @@ In that case, you can space these out like this:
 You might need more tracks and more space, that all depends on the sound!
 
 <!-- TODO: Maybe these should be headers, and not listitems? -->
-The ["Split track options" section of the Advanced editor](./ui.md#advanced-editor) might help you with this.
+The ["Split track options" section of the Advanced editor](./ui.md#split-track-options) might help you with this.
 
 # Sample chopping
 
