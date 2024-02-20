@@ -65,7 +65,7 @@ Using the [pattern editor](TODO), let's generate a pattern that looks like this:
 
 You can use `Tilde` and `Sh+Tilde` to ajdust [`Add`](./ui.md#add).
 
-Ideally, you wanna set it to 4.
+You wanna set it to 4.
 
 Then, hit `F5`.
 

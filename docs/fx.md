@@ -6,8 +6,9 @@ We'll keep in mind that the playback mode is always set to `Fasttracker 2.x` (th
 
 We'll also assume your resampling mode (in `SETTINGS > I/O`) is set to a non-Amiga option (ex. `Linear interpolation`).
 
-All effects that we leave out, and specifics relating to the settings mentioned above, can be found in the `/docs/MilkyTracker.html` section of the original MT repo.
-You can find that doc **in dark mode** in my fork [here](https://github.com/bratpeki/MilkyTracker/blob/master/docs/MilkyTracker.html).
+All effects that we leave out, and specifics relating to the settings mentioned above, can be found
+in the `/docs/MilkyTracker.html` section of the original MT repo. You can find that doc
+**in dark mode** in my fork [here](https://github.com/bratpeki/MilkyTracker/blob/master/docs/MilkyTracker.html).
 
 Some things to note:
 
@@ -32,7 +33,8 @@ Some things to note:
 
 **Description**:
 
-Arpeggio quickly alters the note pitch between the base note (ex. `C-4`) and the semitone offsets `X` (ex. 3 = `D#4`) and `Y` (ex. 7 = `G-4`).
+Arpeggio quickly alters the note pitch between the base note (ex. `C-4`) and the semitone offsets
+`X` (ex. 3 = `D#4`) and `Y` (ex. 7 = `G-4`).
 
 Each pitch is played for the duration of 1 tick.
 If SPD is higher than 3 (meaning there are more than 3 ticks per row), the sequence is looped.
@@ -62,7 +64,9 @@ Bends the note pitch up.
 
 The greater the speed, the greater the bend.
 
-The bending depends on the frequency table, BPM, SPD, the current note, and some other instrument-related settings, so it's pretty difficult to calculate which note it will "climb" to when you use this effect. So, go by trial and error! :)
+The bending depends on the frequency table, BPM, SPD, the current note, and some other
+instrument-related settings, so it's pretty difficult to calculate which note it will "climb" to
+when you use this effect. So, go by trial and error! :)
 
 ## 2xx Portamento down
 
@@ -89,7 +93,9 @@ Bends the note pitch down.
 
 The greater the speed, the greater the bend.
 
-The bending depends on the frequency table, BPM, SPD, the current note, and some other instrument-related settings, so it's pretty difficult to calculate which note it will "climb" to when you use this effect. So, go by trial and error! :)
+The bending depends on the frequency table, BPM, SPD, the current note, and some other
+instrument-related settings, so it's pretty difficult to calculate which note it will "climb" to
+when you use this effect. So, go by trial and error! :)
 
 ## 3xx Portamento to note
 
@@ -115,7 +121,8 @@ The bending depends on the frequency table, BPM, SPD, the current note, and some
 
 Slides from the original note (ex. `C-4`) to the target note (ex. `D-4`).
 
-If the volume envelope on the instrument is on, the new note (ex. `D-4`) will apply it on the sound again, in addition to sliding.
+If the volume envelope on the instrument is on, the new note (ex. `D-4`) will apply it on the
+sound again, in addition to sliding.
 
 <!-- TODO: Nicely elaborate on 1xx, 2xx and 3xx -->
 
@@ -199,7 +206,9 @@ Pans the currently playing tone.
 
 This effect overrides the panning value defined by the instrument sample settings.
 
-The effect is not reset if there is no argument on the next pattern line (ex. in the second pattern line, the tone is still panned far-left, and is reset back to the center on the third pattern line).
+The effect is not reset if there is no argument on the next pattern line (ex. in the second
+pattern line, the tone is still panned far-left, and is reset back to the center on the third
+pattern line).
 
 ## 9xx Sample offset
 
@@ -218,14 +227,16 @@ The effect is not reset if there is no argument on the next pattern line (ex. in
 
 Offsets the sample playback start position by `OFFSET MULTIPLER`*256 bytes.
 Keep in mind that `OFFSET MULTIPLER` is read in hex.
-So, with `901`, you are offsetting the sample playback start position by 256 (`0x100`) bytes, with `902` by 512 bytes, and so on.
+So, with `901`, you are offsetting the sample playback start position by 256 (`0x100`) bytes, with
+`902` by 512 bytes, and so on.
 
 The maximum offset amount is 65280 (0x10000) bytes.
 **So, any sample block over 9FF cannot be started from.**
 
 `900`, of course, makes no change to the sample playback.
 
-If you're dealing with a large sample, and intend to chop it using 9xx, consider [resampling the sample](./samples.md#resample).
+If you're dealing with a large sample, and intend to chop it using 9xx, consider
+[resampling the sample](./samples.md#resample).
 
 ## Axy Volume slide
 
@@ -274,7 +285,8 @@ If both are used at the same time, the volume is only increased by `VOLUME SLIDE
 
 **Description**:
 
-Sets the sample playback volume, **overriding both the instrument sample volume setting and the volume in the volume column**.
+Sets the sample playback volume,
+**overriding both the instrument sample volume setting and the volume in the volume column**.
 
 Just like the other two volume settings, the value is a hex number between `00` and `40`.
 
@@ -316,6 +328,24 @@ Sets the global song volume.
 By default, the global song volume will be `40`.
 
 This setting cannot be set graphically, and can only be altered using the `Gxx` command.
+
+## EDx Note delay
+
+**Syntax**:
+
+`ED` `VALUE`
+
+**Example**:
+
+```
+| C-4 | .. | ... | ED2 |
+```
+
+**Description**:
+
+Delays the note in the cell by `VALUE` ticks.
+
+If `VALUE` is greater than [`SPD`](./basics.md#ticks-spd-and-bpm), the note won't play!
 
 # Volume column effects
 
