@@ -236,7 +236,8 @@ There are many, so we'll cover them in
 
 Tracks in XM are interesting because of one thing, and that is their behaviour when muted.
 Upon muting a track in a composition, you are only stopping it from producing a sound.
-Any effects that alter the song (such as [Fxx](./fx.md#fxx-set-song-speed) or [Gxx](./fx.md#gxx-set-global-volume) will still affect the song.
+Any effects that alter the song (such as [Fxx](./fx.md#fxx-set-song-speed) or
+[Gxx](./fx.md#gxx-set-global-volume) will still affect the song.
 
 # Patterns
 
@@ -256,7 +257,8 @@ The default value is `40`, 64 in decimal, or 4 bars split into 16th notes in 4/4
 3. **The pattern content**:<br>
 The actual notes and effects in the pattern.
 
-At any point in the pattern you can change the SPD and BPM.<br>
+At any point in the pattern you can change the [SPD and BPM](./basics.md#ticks-spd-and-bpm).
+
 SPD ranges from 1 up to 31, in decimal.<br>
 BPM ranges from 32 up to 255, in decimal.
 
@@ -267,9 +269,11 @@ In MT, you can "unlock" more tracks in the settings, either 64 or 128.
 # Songs
 
 A song is structured out of a table of **song order numbers** and **pattern numbers**.
-The song order numbers are structured so that the next one is always greater than the previous one by exactly 1.
-The pattern numbers can vary however you want.
-So, if we want to play the song in the given order of patterns: `00`, `01`, `00`, `02`, the table of song order numbers and pattern numbers will look like this:
+The song order numbers are structured so that the next one is always greater than the previous one
+by exactly 1. The pattern numbers can vary however you want.
+So, if we want to play the song in the given order of patterns: `00`, `01`, `00`, `02`, the table
+of song order numbers and pattern numbers will look like this:
+
 ```
 ORDER | PATTERN
     0 | 00
@@ -277,11 +281,12 @@ ORDER | PATTERN
     2 | 00
     3 | 02
 ```
+
 You can have a maximum of 256 patterns in a song.
 
 By default, the song will loop after it is played in its entirety.
-That means that after the song is played from start to finish, the playhead returns to song order 0 and replays the song.
-You can set which song order you want to return to.
+That means that after the song is played from start to finish, the playhead returns to song order
+0 and replays the song. You can set which song order you want to return to.
 The order that the track returns to is called the **repeating song order**.
 
 ## Global song volume

@@ -2,9 +2,10 @@ Let's create a basic electro loop using MilkyTracker!
 
 # Setting the song up
 
-Let's set the BPM to 128 using the [song and editing properties](./ui.md#song-and-editing-properties).
+Let's set the [BPM](./basics.md#ticks-spd-and-bpm) to 128 using the
+[song and editing properties](./ui.md#song-and-editing-properties).
 
-We'll keep the SPD at 6, since it's the standard setting.
+We'll keep the [SPD](./basics.md#ticks-spd-and-bpm) at 6, since it's the standard setting.
 
 We'll also name the song "my first song!", since it feels appropriate! :)
 
@@ -38,7 +39,7 @@ Now, let's generate a synth using the square wave generator.
 Let's select instrument 4, open the sample editor using `Ctrl+S`, and
 [generate](./samples.md#generators) a new square wave.
 We'll do this by generating 32 samples, and a square wave of 1 period, at 25% volume.
-We'll set the [looping mode](/ui.md#looping-mode-radio-buttons) to "Forward".
+We'll set the [looping mode](./ui.md#looping-mode-radio-buttons) to "Forward".
 
 We'll name it "Synth" in the [instrument menu](./ui.md#instrument-menu). Let's also name the
 sample "Synth" from the sample menu, just so that we know which slot it is occupying.
