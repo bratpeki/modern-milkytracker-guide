@@ -63,6 +63,24 @@ Using the [pattern editor](TODO), let's generate a pattern that looks like this:
 
 ![firstSong_pat0.png](../img/firstSong_pat0.png)
 
+You can use `Tilde` and `Sh+Tilde` to ajdust [`Add`](./ui.md#add).
+
+Ideally, you wanna set it to 4.
+
+Then, hit `F5`.
+
+Make sure wrapping is on by checking the
+[common MT options toggle window](./ui.md#common-mt-options-toggle-window).
+
+Hit `Home` to move to the top of the pattern.
+
+Use the arrow keys, `Tab` and `Sh+Tab` to navigate to the first track's first cell's note section.
+
+Then, hold `Q`.
+You'll place kicks on each 4th bar of the first track.
+
+You can do the same with the other instruments!
+
 # Adding another pattern
 
 Then, let's clone the pattern, using the [`CLN` button in the song arranger](./ui.md#the-song-arranger).
