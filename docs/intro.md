@@ -1,8 +1,9 @@
 Welcome to page 0!
 
-**Before we begin, let's state what this guide *actually* is.**
+Before we begin, let's state what this guide *actually* is.
 
-It's meant to be a modern collection of knowledge relating to the MilkyTracker music tracker.<br>
+It's meant to be a modern collection of knowledge relating to the MilkyTracker music tracker.
+
 "Modern" implies:
 
 - **that it is presented in a modern format (Markdown, GitHub standard)** and
@@ -10,7 +11,7 @@ It's meant to be a modern collection of knowledge relating to the MilkyTracker m
 
 I'll make the following assumptions:
 
-- You use the FastTracker II edit mode
+- You use the FastTracker II (default) edit mode
 - You are using MilkyTracker version 1.03.00 on PC devices
 - You're making music using the XM format
 
@@ -31,10 +32,11 @@ Currently, the guide is meant to be a collection of the following information:
 - An index of (if I succeed) all MilkyTracker options, settings and functionalities
 - More advanced tips relating to MilkyTracker (mixing, quick editing, etc)
 - Where to find modules
-- Compiling MilkyTracker
+<!-- - Compiling MilkyTracker -->
 
 If all goes well, this guide should move you from having no clue what you're doing to being
-competent at using MilkyTracker.<br>
+competent at using MilkyTracker.
+
 And if you're well into using it or some other tracker, there might still be interesting information
 to find.
 
