@@ -135,8 +135,43 @@ The ["Split track options" section of the Advanced editor](./ui.md#advanced-edit
 
 # Sample chopping
 
-The first thing you've got to understand is that [9xx](./fx.md#9xx-sample-offset) works.
-<!-- TODO -->
+There's multiple approaches to chopping a sample in MT.
+
+## Using 9xx
+
+You can use the [`9xx` effect](./fx.md#9xx-sample-offset) to chop a sample.
+
+As stated in the
+["Sample waveform viewer" section of "3. MILKYTRACKER UI REFERENCE](./ui.md#sample-waveform-viewer),
+you can use `Ctrl` in the waveform viewer to view the `9xx` offsets!
+
+If your sample is more than 255 `9xx` offset blocks, and you need to reach those offset blocks
+which `9xx` doesn't let you reach, you might have to resample the sample down, so that it
+fits in the 255 offset blocks.
+
+You can use ["Resample..."](./samples.md#resample) for this:
+
+![resampleTo10000.png](../img/resampleTo10000.png)
+
+You're aiming to set the new size to cca. 10000.
+
+This can, of course, destroy audio quality, but you can undo it using ["Undo"](./samples.md#undoredo).
+
+## Chop the sample into instruments
+
+You can load the sample into multiple instruments, and then [crop](./ui.md#crop-button) different
+sections for each instrument.
+
+## Chop the sample into samples of one instrument
+
+This method involves loading the sample into multiple [sample slots](./ui.md#sample-menu) of one
+instrument, and then cropping those.
+
+Then, you use the [instrument editor keyboard](./ui.md#keyboard) to assign the notes to the sample
+slots.
+
+This method has the advantage of exporting the instrument as an XI instrument file, which you can
+send to other people or reuse!
 
 ---
 

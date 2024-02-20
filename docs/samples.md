@@ -1,4 +1,4 @@
-MilkyTracker has a significantly more powerful sample editor, in comparison to it's predecesor,
+MilkyTracker has a significantly more powerful sample editor, in comparison to its predecesor,
 FastTracker II. The features available to you in MT include:
 
 - Creating a new sample with a specified sample size
@@ -22,7 +22,7 @@ Here, we'll be looking at how you can use these features to create and manipulat
 
 # Before we begin
 
-When you open the sample editor (using `Ctrl+S` or `Smp. Ed.` from the
+When you open the [sample editor](./ui.md#sample-editor) (using `Ctrl+S` or `Smp. Ed.` from the
 [general editor buttons window](./ui.md#general-editor-buttons-window)),
 you are greeted with this window:
 
@@ -36,11 +36,12 @@ With that in mind, let's proceed.
 
 # Sample manipulation
 
-**To begin manipulating a loaded sample, or create a new sample, right click on the sample waveform viewer (the black box which shows the sample).**
-This will show a drop-down menu of various functionalities you can use.
-Those with an arrow expand to more functionalities.
+To begin manipulating a loaded sample, or create a new sample, right-click on the sample waveform
+viewer (the black box which shows the sample).
 
-<!-- TODO: Drop down in elems.md -->
+This will show a drop-down menu of various functionalities you can use.
+
+Those with an arrow expand to more functionalities.
 
 The diagram below serves to highlight all the sample manipulation functionalities:
 
@@ -56,8 +57,6 @@ I usually use 30 for simple waves and 500-1000 for percussion.
 ## Undo/Redo
 
 Undoes or redoes a change done to the sample.
-
-<!-- TODO: "Undoable" is not specific enough in ui.md, then -->
 
 ## Cut/Copy/Paste/Crop
 

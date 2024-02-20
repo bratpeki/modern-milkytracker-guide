@@ -20,7 +20,7 @@ Any help with the other keybinds is appreciated.
 | `Ctrl+C` | [Configuration window](./ui.md#configuration-window) |
 | `Ctrl+O` | [Quick options window](./ui.md#quick-options-window) |
 
-### Movement
+### Pattern editor movement
 
 | Keys | Action |
 | -    | -      |
@@ -83,7 +83,10 @@ Any help with the other keybinds is appreciated.
 
 | Keys | Action |
 | -    | -      |
-| `Sh` + right-click hold | Draw sample |
+| `Sh` + left-click hold | Draw sample |
+| Left-click hold        | Make a selection in the sample |
+| Right-click            | Opens the [sample manipulation drop-down](./samples.md#sample-manipulation) |
+| Scroll                 | Zoom in and out of the sample, by 25% |
 
 ---
 

@@ -18,7 +18,8 @@ I'll use shortcuts to indicate keyboard actions, such as `Ctrl+S`. Keep in mind 
 
 **All the listed keyboard actions apply to the FastTracker II edit mode**.
 
-Also, left-, right- and middle-clicking will refer to their respective mouse actions.
+Also, left-, right- and middle-clicking, as well as left-, right- and middle-click holding will
+refer to their respective mouse actions.
 
 **Before you read this**, you might want to read about the interactive UI elements in MT that are
 covered in "[3.1. INTERACTIVE UI ELEMENTS](./elems.md)".
@@ -339,7 +340,7 @@ Saves an XI instrument to memory. Opens a popup window.
 
 ### Scrollbar
 
-Used to navigate the instrument slots. Mouse gestures (scroll up/down) do the same thing.
+Used to navigate the instrument slots. Mouse-scrolling does the same thing.
 
 # Sample menu
 
@@ -355,7 +356,7 @@ one). The sample in the [sample editor](#sample-editor) is the currently active 
 
 Clears the active sample.
 
-Destructive action, undoable undoable using `Ctrl+Alt+Z`. Doesn't open a warning popup window.
+Destructive action, undoable using `Ctrl+Alt+Z`. Doesn't open a warning popup window.
 
 ### "LOAD" button
 
@@ -367,7 +368,7 @@ Saves a WAV file of the active sample to memory.
 
 ### Scrollbar
 
-Used to navigate the sample slots. Mouse gestures (scroll up/down) do the same thing.
+Used to navigate the sample slots. Mouse-scrolling does the same thing.
 
 # Instrument editor
 
@@ -451,11 +452,11 @@ Opens an external window, seen below.
 
 ### Keyboard
 
-Allows either playing the instrument, or setting which key triggers which sample. Playing the
+Allows either playing the instrument, or setting which key triggers which sample slot. Playing the
 instrument is done by hitting `Play`, after which the keyboard is playable. Setting which key
-triggers which sample is done by hitting `Edit`. `Stop` stops all instrument playback, either from
-playing the keyboard, which is usually neccessary when the user has set a long fadeout, or playing
-the actual song. The graphical look of the keyboard's two modes are seen below.
+triggers which sample slow is done by hitting `Edit`. `Stop` stops all instrument playback, either
+from playing the keyboard, which is usually neccessary when the user has set a long fadeout, or
+playing the actual song. The graphical look of the keyboard's two modes are seen below.
 
 ![ui_pianoPlay.png](../img/ui_pianoPlay.png)<br>
 "Playing" mode.<br>
@@ -468,14 +469,17 @@ the actual song. The graphical look of the keyboard's two modes are seen below.
 
 Allows editing of the currently selected sample (via the [sample menu](#sample-menu)).
 Can be toggled by hitting `Ctrl+S`.
-This section will be covered in
-"[3.2. WORKING WITH SAMPLES](./samples.md)".
 
 ### Sample waveform viewer
 
 Displays the sample. Largest part of the sample editor.
-Special actions include shift-left-clicking, left-clicking, right-clicking and scrolling.
-Right-clicking on it open the waveform editing menu, which is covered in more detail in
+
+Special actions include
+[shift-left-clicking, left-clicking, right-clicking and scrolling](./keybind.md#sample-editor).
+Right-clicking, specifically, opens the
+[sample manipulation drop-down](./samples.md#sample-manipulation), which is covered in
+"[3.2. WORKING WITH SAMPLES](./samples.md)".
+
 You can hold `Ctrl` when your mouse is inside the sample waveform viewer to view the
 `9xx` offset regions! This is pretty useful for chopping samples.
 
@@ -523,9 +527,7 @@ The user can go back 15 steps.
 
 ### "Zoom out" button
 
-Zoom out partially.
-
-<!-- TODO: By how much? -->
+Zoom out of the sample by 200%.
 
 ### "Show all" button
 

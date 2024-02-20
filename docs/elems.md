@@ -10,8 +10,8 @@ Pressed.
 
 The simplest of them all!
 
-Left-mouse clicking activates the action associated with the button.
-Right-mouse clicking shows the button as clicked, but doesn't actually "click" it.
+Left-clicking activates the action associated with the button.
+Right-clicking shows the button as clicked, but doesn't actually "click" it.
 
 # Checkboxes
 
@@ -25,8 +25,8 @@ These are commonly found in the [instrument editor](./ui.md#instrument-editor) a
 ![ui_settings_resolutions](../img/ui_settings_resolutions.png)<br>
 A listview of resolutions MT supports.
 
-Allows selection of an element from a list, either by double left-mouse clicking or right-mouse
-clicking on the element in the list.
+Allows selection of an element from a list, either by double left-clicking or right-clicking on the
+element in the list.
 
 Listviews have a scrollbar, which behavges an audio signal by es similarly to [sliders](#sliders),
 except for the fact they are vertical, and their fine tune buttons have the arrow characters,
@@ -84,7 +84,7 @@ They are:
 
 These elements work in the following way:
 
-- Double left-mouse clicking or right-mouse clicking on the field toggles a cursor and allows the user to edit the text in the field
+- Double left-clicking or right-clicking on the field toggles a cursor and allows the user to edit the text in the field
 - Hitting `Enter` saves the text into the field
 - Hitting `Esc` resets the text to what it was before the editing
 

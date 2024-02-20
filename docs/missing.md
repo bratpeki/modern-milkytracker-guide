@@ -33,7 +33,7 @@ I'm missing:
 
 ## keybind.md
 
-I'm missing both MacOS keybinds, as well as Windows/Linux keybinds for MilkyTracker edit mode.
+I'm missing both MacOS keybinds, as well as Windows/Linux keybinds for the MilkyTracker edit mode.
 
 ---
 

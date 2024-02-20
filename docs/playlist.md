@@ -4,17 +4,19 @@ So, let's get started!
 
 # Positioning yourself
 
-You can move around using the pattern editor [movements keybinds](./ui.md#add), or the mouse.
+You can move around using the pattern editor
+[movements keybinds](./keybind.md#pattern-editor-movement), or the mouse.
 
-Mouse movement is enabled with the "Click to cursor" configuration option, under the "Misc." tab.
-When that option is on, you can simply left-click to where you want to go!
+Mouse movement is enabled with the ["Click to cursor"](./config.md#click-to-cursor) configuration
+option, under the "Misc." tab. When that option is on, you can simply left-click to where you want
+to go!
 
 # Placing notes and effects into the pattern editor
 
 First and foremost, you need to select the right pattern to edit.
 
-You can do this from [the pattern editing window](./ui.md#pattern-editing-window)
-and [the song arranger](./ui.md#the-song-arranger).
+You can do this from [the pattern editor](./ui.md#pattern-editing-window) and
+[the song arranger](./ui.md#the-song-arranger).
 
 Once you've selected a pattern, you can begin inserting notes by hitting `Spc`,
 or the `Rec` button in the [general editor buttons window](./ui.md#general-editor-buttons-window).
@@ -44,18 +46,21 @@ You can do the following with tracks:
 
 There are two ways you can make a selection:
 
-1. Holding `Alt` and moving around
-2. Using your mouse
+1. Holding `Alt` and [moving around](./keybind.md#pattern-editor-movement)
+2. Left-click dragging your mouse within the pattern editor
 
 Both of these ways of selecting will produce a region.
 
-Once you've made a selection, you can move it around using the mouse, by left-mouse holding it, and moving it.
+Once you've made a selection, you can move it around using the mouse, by left-click holding it,
+and dragging it.
 
 All of the [track-related functions](#working-with-tracks) can be done using selections:
 
 - Cutting (`Alt+F3`)
 - Copying (`Alt+F4`)
 - Pasting (`Alt+F5`)
+
+Notice how the only difference between the two is whether you hold down `Sh` or `Alt`.
 
 # Effectively using the advanced options
 
@@ -65,22 +70,19 @@ You can read about both [here](./ui.md#advanced-editor).
 
 # Muting and soloing tracks
 
-This is done by opening the pattern editor drop-down menu, by right-clicking on any track in the
-pattern editor.
+This is done by opening the pattern editor drop-down menu, and clicking on "Mute channel".
 The drop-down window looks something like this:
 
 ![ui_playlistDropDown.png](../img/ui_playlistDropDown.png)
 
-Muting is done using the "Mute channel" options.
-
-Soloing the track which was right-clicked (that is, muting everything except that one), is done with the "Solo channel" option.
+Clicking "Solo channel" will mute each channel except the one that was right-clicked.
 
 Unmuting all the tracks is achieved with "Unmute all".
 
 # Swapping tracks
 
-<!-- TODO: More info here -->
-You can move swap the track that the cursor is on with the track you right-clicked on, using the "Swap channel" option in the drop-down.
+You can move swap the track that the cursor is on with the track you right-clicked on, using the
+"Swap channel" option in the drop-down.
 
 ---
 
