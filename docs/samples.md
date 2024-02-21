@@ -49,6 +49,8 @@ The diagram below serves to highlight all the sample manipulation functionalitie
 
 I'll name each functionality by its name in the drop-down menu.
 
+Keep in mind that **you can make selections by left-click dragging across the sample**!
+
 ## New...
 
 Creates a new sample, with the specified sample size.

@@ -596,21 +596,33 @@ and how long the looping segment is.
 
 Clears the sample, setting it's length back to 0.
 
-<!-- MISSING: "Min" button -->
+### "Min" button
+
+Removes everything after the loop end point.
 
 ### "+"/"-" button pair
 
-Effectively, these move the start and end of the looping segment forward and back.
+If the "REP"/"RNG" button reads "REP":
 
-<!-- TODO: More verbose? -->
+- The button pair next to "Repeat" moves the loop start point.
+- The button pair next to "Replen." moves the loop end point.
+
+If the "REP"/"RNG" button reads "RNG":
+
+- The button pair next to "RStart" moves the sample selection start.
+- The button pair next to "REnd" moves the sample selection end.
+
+`+` moves the points forward by 1, `-` moves them back by 1.
 
 ### "H"/"D"/"T" button
 
 Toggles hex, decimal or timed display of the text boxes.
 
-<!-- MISSING: "REP" button -->
+### "REP"/"RNG" button
 
-<!-- TODO: Loop points -->
+If "REP" is displayed, the information next to the button relates to the loop points.
+
+If "RNG" is displayed, the information next to the button relates to the sample selection.
 
 # Disk operations window
 
@@ -714,7 +726,8 @@ Allows setting the export destination location. Doesn't work for exports into in
 
 ### "AUTO" button
 
-Auto-adjusts the mixer volume. <!-- TODO -->
+Auto-adjusts the mixer volume, a percentage by which the final amplitude of the export is
+multiplied, so that the export doesn't clip.
 
 ### "Exit" button
 
@@ -733,9 +746,6 @@ Allow for selecting the sample rate.
 ### Radio buttons under the "Amplify" text field
 
 Mulitply the export amplitude by the given value.
-
-<!-- TODO: In-depth about the options -->
-<!-- TODO: Individual windows? -->
 
 # Pattern editor
 
@@ -881,7 +891,8 @@ So, let's say `3xx` is ticked, and the pattern looks like this:
 | ... | .. | .. | 300 |
 ```
 
-Applying the `ZERO OPS` (zero operators, such as `300`, `300`, ...) change on the track (`TRACK`), we get this:
+Applying the `ZERO OPS` (zero operators, such as `300`, `300`, ...) change on the track (`TRACK`),
+we get this:
 
 ```
 | C-4 | .1 | .. | 320 |
@@ -893,7 +904,8 @@ Applying the `ZERO OPS` (zero operators, such as `300`, `300`, ...) change on th
 | ... | .. | .. | 300 |
 ```
 
-Applying the `FILL OPS` (fill operators, such as `320`, `320`, ...) change on the track (`TRACK`), we get this:
+Applying the `FILL OPS` (fill operators, such as `320`, `320`, ...) change on the track (`TRACK`),
+we get this:
 
 ```
 | C-4 | .1 | .. | 320 |
@@ -905,12 +917,12 @@ Applying the `FILL OPS` (fill operators, such as `320`, `320`, ...) change on th
 | ... | .. | .. | 390 |
 ```
 
-`ZERO OPS` and `FILL OPS` also allows making the change on the pattern (`Pat.`), song (`SONG`) and selection block (`BLOCK`).
+`ZERO OPS` and `FILL OPS` also allows making the change on the pattern (`Pat.`), song (`SONG`) and
+pattern editor selection block (`BLOCK`).
 
-<!-- TODO: Selections -->
-
-The matrix-like assortment of effect column effects from `3xx` to `Pxx` allows relocating the effects from the effect column to the volume column.
-So, let's say `3xx` and `Pxx` are ticked, and the pattern looks like this:
+The matrix-like assortment of effect column effects from `3xx` to `Pxx` allows relocating the
+effects from the effect column to the volume column. So, let's say `3xx` and `Pxx` are ticked, and
+the pattern looks like this:
 
 ```
 | C-4 | .1 | .. | 320 |
