@@ -603,7 +603,6 @@ Clears the sample, setting it's length back to 0.
 Effectively, these move the start and end of the looping segment forward and back.
 
 <!-- TODO: More verbose? -->
-<!-- TODO: Add all these MISSING's where they belong! -->
 
 ### "H"/"D"/"T" button
 
@@ -612,10 +611,6 @@ Toggles hex, decimal or timed display of the text boxes.
 <!-- MISSING: "REP" button -->
 
 <!-- TODO: Loop points -->
-
-<!-- TODO: Use a unified language for the mouse actions -->
-<!-- TODO: Note that any popup window can be closed with the Esc key -->
-<!-- TODO: Note that the text and number input field are focused by double left-clicking and unfocused by hitting the Esc key -->
 
 # Disk operations window
 

@@ -95,6 +95,8 @@ This elements works similarly to the text input fields, with the following excep
 - If the user inserts a non-number character before a number character, the value in the field will be set to the default one
 - If the user inserts a non-number character after the number and hits `Enter`, everything after the first non-number character is lost
 
+Hitting `Esc` resets the text to what it was before the editing.
+
 One example of this type of field is the sample size field in the sample creation popup window,
 visible [here (in the diagram)](./samples.md#new).
 
@@ -115,6 +117,15 @@ Enables/disables an option.
 Enable options have a tick in the box, as expected!
 
 Can be seen in the [configuration window](./ui.md#configuration-window).
+
+# Popup windows
+
+![](../img/ui_options_pan.png)
+
+Any popup window can be closed with the `Esc` key.
+
+A good example of a popup window is the default panning window in the
+[Quick options](./ui.md#quick-options-window), featured above.
 
 ---
 
