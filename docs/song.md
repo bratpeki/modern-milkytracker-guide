@@ -17,6 +17,8 @@ https://github.com/bratpeki/modern-milkytracker-guide/assets/44314748/604a2692-3
 Now, we'll select instrument 1, and load `kick.wav` into it using the
 [disk operations window](./ui.md#disk-operations-window), by selecting the "Type" as "Sample".
 
+All of these samples are available in the `res/samples` folder in the repo.
+
 We'll select instrument 2 either from the [instrument menu](./ui.md#instrument-menu) or by using
 the `Sh+DownArrow` keyboard shortcut.
 
