@@ -4,10 +4,8 @@ This doc is reserved for giving some tips and tricks that will aid you in using 
 
 Once all your instruments have been leveled relative to each other,
 there's a good chance that your track will clip. You can investigate
-this using the [peak meter](./ui.md#song-title-length-and-peak-window--common-mt-options-toggle-window).
+this using the [peak meter](./ui.md#song-peak-meter-tab).
 If the text next to the peak meter turns red, your song is clipping.
-
-<!-- TODO: Peak meter should have it's own header, covered in another TODO -->
 
 The way this can be resolved is by opening the [HD Recorder window](./ui.md#hd-recorder-window)
 and hitting the "AUTO" button. This will show you the mixer level that will
@@ -130,7 +128,6 @@ In that case, you can space these out like this:
 
 You might need more tracks and more space, that all depends on the sound!
 
-<!-- TODO: Maybe these should be headers, and not listitems? -->
 The ["Split track options" section of the Advanced editor](./ui.md#split-track-options) might help you with this.
 
 # Sample chopping

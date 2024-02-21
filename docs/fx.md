@@ -63,7 +63,7 @@ If SPD is higher than 3 (meaning there are more than 3 ticks per row), the seque
 
 **Description**:
 
-Bends the note pitch up.
+Bends the note pitch up by `PORTAMENTO SPEED` frequency units every tick.
 
 The greater the speed, the greater the bend.
 
@@ -93,7 +93,7 @@ when you use this effect. So, go by trial and error! :)
 
 **Description**:
 
-Bends the note pitch down.
+Bends the note pitch down by `PORTAMENTO SPEED` frequency units every tick.
 
 The greater the speed, the greater the bend.
 
@@ -124,12 +124,11 @@ when you use this effect. So, go by trial and error! :)
 
 **Description**:
 
-Slides from the original note (ex. `C-4`) to the target note (ex. `D-4`).
+Slides from the original note (ex. `C-4`) to the target note (ex. `D-4`) by `PORTAMENTO SPEED`
+frequency units every tick.
 
 If the volume envelope on the instrument is on, the new note (ex. `D-4`) will apply it on the
 sound again, in addition to sliding.
-
-<!-- TODO: Nicely elaborate on 1xx, 2xx and 3xx -->
 
 ## 4xy Vibrato
 

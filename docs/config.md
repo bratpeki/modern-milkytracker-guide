@@ -75,9 +75,7 @@ If "Jam channels" is on, sets how many "jam channels" there are.
 ## Record key off
 
 When recording notes, record the moment they are let go as well.
-Once you let go of the key, a Note-off is placed.
-
-<!-- TODO: Key-off or Note-off -->
+Once you let go of the key, a [Note-off](./xm.md#note-off) is placed.
 
 ## Rec. note delays
 
@@ -155,7 +153,8 @@ The `CUSTOM` button lets you define a custom resolution.
 
 The `FULL` button sets the resolution to the screen size.
 
-Below those buttons, you can find a listview containing common resolutions, as well as "&lt;Custom&gt;"
+Below those buttons, you can find a listview containing common resolutions, as well as
+&lt;Custom&gt;".
 
 The radio buttons next to "Scale" define a multiplier of the resolution.
 For example, if you used a resolution like 1000x1000, and a scale multiplier of 2,
@@ -169,8 +168,7 @@ Self-explanatory.
 
 ## Pattern editor
 
-Allows setting the size of the font in the playlist.
-<!-- TODO: Pattern editor or Playlist? -->
+Allows setting the size of the font in the pattern editor.
 
 ## Font face config
 
@@ -183,8 +181,6 @@ Allows setting what font face is used for what font size.
 Sets which keybinds you're using.
 
 This guide uses the FastTracker II keybinds, as stated [here](./intro.md).
-
-<!-- TODO: More info here -->
 
 ## Scrolling Style
 
@@ -203,8 +199,6 @@ The options are:
     - Stay in the center of the pattern editor
     - When the end of the pattern is visible move the cursor down one pattern line at a time
 
-<!-- TODO: See how I used "the pattern editor" instead of "playlist"? -->
-
 3. Always centered
 
     - Self-explanatory.
@@ -220,14 +214,11 @@ If off, hitting the TAB key will move you the same slot of the cell of the next 
 you were on. For example, if the cursor was in the volume slot of the cell, hitting TAB will move
 you to the volume slot of the cell of the next track.
 
-<!-- TODO: 100-line formatting rule -->
-
 ## Click to cursor
 
 If on, clicking on the pattern editor will move the cursor there.
 
-If off, clicking will make a selection, much like dragging the left-click.
-<!-- TODO: Is this good? -->
+If off, clicking will make a selection, much like left-click dragging.
 
 ## Wrap cursor
 

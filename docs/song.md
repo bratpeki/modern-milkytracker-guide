@@ -60,7 +60,7 @@ For the purposes of this example song, we have all the sounds we need!
 
 # Working on pattern 0
 
-Using the [pattern editor](TODO), let's generate a pattern that looks like this:
+Using the [pattern editor](./ui.md#pattern-editor), let's generate a pattern that looks like this:
 
 ![firstSong_pat0.png](../img/firstSong_pat0.png)
 
@@ -84,7 +84,8 @@ You can do the same with the other instruments!
 
 # Adding another pattern
 
-Then, let's clone the pattern, using the [`CLN` button in the song arranger](./ui.md#the-song-arranger).
+Then, let's clone the pattern, using the
+[`CLN` button in the song arranger](./ui.md#the-song-arranger).
 
 Let's just add a snare to the end, like how I've done here.
 
@@ -94,7 +95,8 @@ The change is highlighted in red.
 
 # Arranging the song
 
-Now, let's use the [song arranger](TODO) so that we have the following song structure:
+Now, let's use the [song arranger](./ui.md#the-song-arranger) so that we have the following song
+structure:
 
 ```
 ORDER | PATTERN

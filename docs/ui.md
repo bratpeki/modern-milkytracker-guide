@@ -25,13 +25,12 @@ refer to their respective mouse actions.
 covered in "[3.1. INTERACTIVE UI ELEMENTS](./elems.md)".
 
 Working with the pattern editor and sample editor are mostly covered in separate docs, that being
-"[3.2. WORKING WITH SAMPLES](./samples.md)" and
-"[3.3. WORKING WITH THE PATTERN EDITOR](./playlist.md)",
+["3.2. WORKING WITH SAMPLES"](./samples.md) and
+["3.3. WORKING WITH THE PATTERN EDITOR"](./playlist.md),
 because of how much there is to write.
 
 There's a lot of text here to, but consider **ONLY READING WHAT YOU DON'T KNOW OR UNDERSTAND**.
-<!-- TODO: Is this formatting good? -->
-**YOU CAN SKIP THIS DOC AND MOVE ON TO** "[7. MAKING AN EXAMPLE TRACK IN MILKYTRACKER](./track.md)"!
+**YOU CAN SKIP THIS DOC AND MOVE ON TO** "[7. MAKING AN EXAMPLE SONG IN MILKYTRACKER](./song.md)"!
 
 # Startup
 
@@ -380,8 +379,8 @@ Can be toggled by hitting `Ctrl+I`.
 ### Envelope viewer
 
 Displays the volume or panning envelope of the instrument.
-Special actions include left-clicking and right-clicking.
-<!--TODO-->
+Special actions include left-clicking, which moves the envelope points, and right-clicking, which
+opens a drop-down menu which allows copying and pasting, as well as scaling the envelope.
 
 ### "Volume"/"Panning" tabs
 
@@ -975,7 +974,7 @@ Opens an external popup window seen below.
 
 ### "Split track options:"
 
-"Spreads" the notes apart into the number of subsequent channels selected by the user.
+"Spreads" the cells apart into the number of subsequent channels (tracks) selected by the user.
 `Block only` applies the changes to the block. `Insert note off` puts note-offs whenever a note is
 moved into a subsequent channel. `SPLIT` applies the splitting.
 
