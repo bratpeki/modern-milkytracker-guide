@@ -142,7 +142,7 @@ There's multiple approaches to chopping a sample in MT.
 You can use the [`9xx` effect](./fx.md#9xx-sample-offset) to chop a sample.
 
 As stated in the
-["Sample waveform viewer" section of "3. MILKYTRACKER UI REFERENCE](./ui.md#sample-waveform-viewer),
+["Sample waveform viewer" section of "3. MILKYTRACKER UI REFERENCE"](./ui.md#sample-waveform-viewer),
 you can use `Ctrl` in the waveform viewer to view the `9xx` offsets!
 
 If your sample is more than 255 `9xx` offset blocks, and you need to reach those offset blocks

@@ -328,7 +328,7 @@ instruments.
 
 Clears the instrument (samples and instrument settings).
 
-Destructive action, undoable using `Ctrl+Alt+Z`. Opens a warning popup window.
+Destructive action. Opens a warning popup window.
 
 ### "LOAD" button
 
@@ -356,7 +356,7 @@ one). The sample in the [sample editor](#sample-editor) is the currently active 
 
 Clears the active sample.
 
-Destructive action, undoable using `Ctrl+Alt+Z`. Doesn't open a warning popup window.
+Destructive action, not undoable using `Ctrl+Alt+Z`. Doesn't open a warning popup window.
 
 ### "LOAD" button
 
@@ -545,7 +545,7 @@ sample slots.
 Selecting a range in the sample editor, by holding the left mouse button, and pasting results in
 the selected section of the sample being swapped for the cut/copied section.
 
-Cutting is undoable using `Ctrl+Alt+Z`.
+Cutting is undoable using [Undo](./samples.md#undoredo).
 
 ### "Crop" button
 
