@@ -602,12 +602,12 @@ Removes everything after the loop end point.
 
 ### "+"/"-" button pair
 
-If the "REP"/"RNG" button reads "REP":
+If the ["REP"/"RNG" button](#reprng-button) reads "REP":
 
 - The button pair next to "Repeat" moves the loop start point.
 - The button pair next to "Replen." moves the loop end point.
 
-If the "REP"/"RNG" button reads "RNG":
+If the ["REP"/"RNG"](#reprng-button) button reads "RNG":
 
 - The button pair next to "RStart" moves the sample selection start.
 - The button pair next to "REnd" moves the sample selection end.
@@ -1041,9 +1041,7 @@ Now enjoy your stay, and happy tracking!
 
 [2.1. EFFECT GLOSSARY](./fx.md)
 
-[3. MILKYTRACKER UI REFERENCE](./ui.md)
-
-**3.1. INTERACTIVE UI ELEMENTS**
+**3. MILKYTRACKER UI REFERENCE**
 - [Startup](#startup)
 - [Main window](#main-window)
 	- [Tabs](#tabs)
@@ -1070,6 +1068,8 @@ Now enjoy your stay, and happy tracking!
 - [Optimization window](#optimization-window)
 - [Advanced editor](#advanced-editor)
 - [About window](#about-window)
+
+[3.1. INTERACTIVE UI ELEMENTS](./elems.md)
 
 [3.2. WORKING WITH SAMPLES](./samples.md)
 
