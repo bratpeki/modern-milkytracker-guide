@@ -129,7 +129,7 @@ We'll get the desired song structure named at the start of the section.
 
 Now, let's save the song using [the disk operator window]().
 We're setting the type to "Module" and saving an XM module.
-Let's name the export "my-first-track.xm"!
+Let's name the export "my-first-song.xm"!
 
 <!-- AVAILABLE AT: ../img/firstSong_5.mp4 -->
 https://github.com/bratpeki/modern-milkytracker-guide/assets/44314748/3b37d94d-3ba1-4d29-9449-1e765c582c59
@@ -141,7 +141,7 @@ I saved it to the fifth slot in the module part of the disk operator.
 
 Now, let's open the [disk operations window](./ui.md#disk-operations-window).
 We're setting the type to "Module" and saving a WAV file.
-Let's name the export "my-first-track.wav"!
+Let's name the export "my-first-song.wav"!
 
 We'll audo-adjust the mixer volume and export.
 
