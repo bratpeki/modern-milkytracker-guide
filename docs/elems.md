@@ -150,6 +150,7 @@ A good example of a popup window is the default panning window in the
 - [Number input fields](#number-input-fields)
 - [Drop-down menus](#drop-down-menus)
 - [Tickboxes](#tickboxes)
+- [Popup windows](#popup-windows)
 
 [3.2. WORKING WITH SAMPLES](./samples.md)
 
