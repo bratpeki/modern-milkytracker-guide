@@ -64,14 +64,15 @@ The elements in this window, from top-left to bottom-right, are:
 
 ## Tabs
 
+![ui_tabs.png](../img/ui_tabs.png)<br>
+4 opened modules, the last one is active.
+
 MT can open multiple module instances, in the form of tabs.
 
 A new tab with an empty module, called `Untitled.xm`, is opened using `Ctrl+Sh+T` and the current
 one is closed using `Ctrl+Sh+W`. You can select the active tab by clicking on it from the tab bar,
 at the bottom of the main window. You can also use the `+`/`-` buttons on the left side of the tab
 bar to open an empty tab or close the current one.
-
-<!-- TODO: Tab bar image? -->
 
 # General editor
 
