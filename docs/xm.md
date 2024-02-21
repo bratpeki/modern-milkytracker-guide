@@ -269,14 +269,14 @@ Any effects that alter the song (such as [`Fxx`](./fx.md#fxx-set-song-speed) or
 Patterns are defined by 3 things:
 
 1. **The pattern number**:<br>
-In the MT GUI, specified as [`Patn.`](./ui.md#pattern-properties-window).
-The ID of the pattern, presented in hexadecimal.
+In the MT GUI, specified as [`Patn.`](./ui.md#pattern-properties-window).<br>
+The ID of the pattern, presented in hexadecimal.<br>
 You can have a maximum of 255 different patterns.
 
 2. **The pattern length**:<br>
-In the MT GUI, specified as [`Len.`](./ui.md#pattern-properties-window).
-The number of cell rows in the pattern, presented in hexadecimal.
-You can have a maximum of 256 pattern rows per pattern, and a minimum of 1.
+In the MT GUI, specified as [`Len.`](./ui.md#pattern-properties-window).<br>
+The number of cell rows in the pattern, presented in hexadecimal.<br>
+You can have a maximum of 256 pattern rows per pattern, and a minimum of 1.<br>
 The default value is `40`, 64 in decimal, or 4 bars split into 16th notes in 4/4 meter.
 
 3. **The pattern content**:<br>
@@ -290,7 +290,8 @@ BPM ranges from 32 up to 255, in decimal.
 
 What you cannot change is the number of tracks in all patterns.
 You can have at least 2 and at most 32 tracks in each pattern in standard XM.
-In MT, you can "unlock" more tracks in the settings, either 64 or 128.
+In MT, you can "unlock" more tracks in the [settings](./config.md#xm-channel-limit), either
+64 or 128.
 
 # Songs
 
