@@ -43,8 +43,8 @@ You can read about them in ["2.1. EFFECT GLOSSARY"](./fx.md).
 
 There is a special kind of note known as **Note-off**, called **Key-off** in MT.
 Note-off has special properties which depend on the context it is used in.
-In short, it stops the note from playing and, if you have set an envelope
-and/or Fadeout, play for a short period of time after the Note-off instruction.
+In short, it stops the note from playing and, if you have set a [volume envelope](#volume-envelope)
+and/or [Fadeout](#fadeout), play for a short period of time after the Note-off instruction.
 
 There's more talk about Note-off below.
 
@@ -173,10 +173,10 @@ Choice-driven value.
 
 The choices are:
 
-    - Sine (Default)
-    - Square
-    - Reverse sawtooth
-    - Sawtooth
+- Sine (Default)
+- Square
+- Reverse sawtooth
+- Sawtooth
 
 ## Relative note
 

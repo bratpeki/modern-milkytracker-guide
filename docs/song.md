@@ -48,8 +48,8 @@ sample "Synth" from the sample menu, just so that we know which slot it is occup
 https://github.com/bratpeki/modern-milkytracker-guide/assets/44314748/6d8a8d97-b2c1-4b59-8eec-ac78f9715e7d
 
 We'll edit instrument 4 in the [instrument editor](./ui.md#instrument-editor), by making the
-Fadeout set to 000, turning the volume envelope on, and creating a "plucky" sound using a falloff.
-We'll set the volume to 10.
+[Fadeout](./xm.md#fadeout) set to 000, turning the [volume envelope](./xm.md#volume-envelope) on,
+and creating a "plucky" sound using a volume falloff. We'll set the volume to 10.
 
 <!-- AVAILABLE AT: ../img/firstSong_4.mp4 -->
 https://github.com/bratpeki/modern-milkytracker-guide/assets/44314748/94ef12d1-58dc-442f-8294-8886b15c6c01
