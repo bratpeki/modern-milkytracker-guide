@@ -268,19 +268,19 @@ Any effects that alter the song (such as [`Fxx`](./fx.md#fxx-set-song-speed) or
 
 Patterns are defined by 3 things:
 
-    1. **The pattern number**:<br>
-    In the MT GUI, specified as [`Patn.`](./ui.md#pattern-properties-window).
-    The ID of the pattern, presented in hexadecimal.
-    You can have a maximum of 255 different patterns.
+1. **The pattern number**:<br>
+In the MT GUI, specified as [`Patn.`](./ui.md#pattern-properties-window).
+The ID of the pattern, presented in hexadecimal.
+You can have a maximum of 255 different patterns.
 
-    2. **The pattern length**:<br>
-    In the MT GUI, specified as [`Len.`](./ui.md#pattern-properties-window).
-    The number of cell rows in the pattern, presented in hexadecimal.
-    You can have a maximum of 256 pattern rows per pattern, and a minimum of 1.
-    The default value is `40`, 64 in decimal, or 4 bars split into 16th notes in 4/4 meter.
+2. **The pattern length**:<br>
+In the MT GUI, specified as [`Len.`](./ui.md#pattern-properties-window).
+The number of cell rows in the pattern, presented in hexadecimal.
+You can have a maximum of 256 pattern rows per pattern, and a minimum of 1.
+The default value is `40`, 64 in decimal, or 4 bars split into 16th notes in 4/4 meter.
 
-    3. **The pattern content**:<br>
-    The actual notes and effects in the pattern.
+3. **The pattern content**:<br>
+The actual notes and effects in the pattern.
 
 At any point in the pattern you can change the [SPD and BPM](./basics.md#ticks-spd-and-bpm).
 
