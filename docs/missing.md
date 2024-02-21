@@ -11,6 +11,7 @@ From the sample manipulation drop-down menu, I'm missing:
 - DC normalize
 - DC offset...
 - Everything in Ext. paste
+- Technical info about the rectangular and triangular smoothing
 
 ## ui.md
 

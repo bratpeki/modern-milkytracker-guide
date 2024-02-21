@@ -153,7 +153,7 @@ You can use ["Resample..."](./samples.md#resample) for this:
 
 ![resampleTo10000.png](../img/resampleTo10000.png)
 
-You're aiming to set the new size to cca. 10000.
+If you want to be able to reach the entire sample, you're aiming to set the new size to cca. 10000.
 
 This can, of course, destroy audio quality, but you can undo it using ["Undo"](./samples.md#undoredo).
 

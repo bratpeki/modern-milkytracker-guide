@@ -36,8 +36,8 @@ With that in mind, let's proceed.
 
 # Sample manipulation
 
-To begin manipulating a loaded sample, or create a new sample, right-click on the sample waveform
-viewer (the black box which shows the sample).
+To begin manipulating a loaded sample, or create a new sample, right-click on the
+[sample waveform viewer](./ui.md#sample-waveform-viewer) (the black box which shows the sample).
 
 This will show a drop-down menu of various functionalities you can use.
 
@@ -105,7 +105,7 @@ Smooths out the sample, making the transients smaller and high ends lower.
 
 If a selection is made, makes the change only on the selection.
 
-<!-- TODO: More info -->
+<!-- MISSING: More info of how the smoothing actually works -->
 
 ### 3 Band EQ...
 
@@ -126,16 +126,8 @@ If a selection is made, makes the change only on the selection.
 ### Resample...
 
 Allows resampling the sample to a specific number of samples.
+
 Resampling implies changing the sample count, using fine-tune and relative note settings.
-
-This is usually useful for making it so you have about cca. 10000 sample blocks, for efficiently using 9xx.
-
-An example of a track being resampled to be cca. 10000 sample blocks is given below.
-The left window shows the original. The right window shows the resampled sample.
-
-<!-- TODO: Move this to tips and tricks -->
-
-![resampleTo10000.png](../img/resampleTo10000.png)
 
 ## ProTracker. Boost
 
