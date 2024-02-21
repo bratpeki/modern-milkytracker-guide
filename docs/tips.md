@@ -199,6 +199,7 @@ send to other people or reuse!
 - [Leveling the song](#leveling-the-song)
 - [Chorus](#chorus)
 - [Delay](#delay)
+- [Sample chopping](#sample-chopping)
 
 [6. GOOD SOURCES](./sources.md)
 
