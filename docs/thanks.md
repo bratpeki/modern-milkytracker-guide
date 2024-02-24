@@ -4,7 +4,7 @@ My thanks go out to all the people mentioned below!
 tracking is immense, take a look at his DOS and Amiga tracker clones over on his
 [GitHub page](https://github.com/8bitbubsy) or his [website](https://16-bits.org/).
 
-- The wonderful people over at the [Tracker Music Discord server](https://discord.gg/4TD8mxtw),
+- The wonderful people over at the [Tracker Music Discord server](https://discord.gg/NbHf8VqfM4),
 moderated by [Vectif](https://www.youtube.com/c/Vectif).
 
 ---
