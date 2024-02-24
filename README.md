@@ -120,7 +120,7 @@
 - [Leveling the song](./docs/tips.md#leveling-the-song)
 - [Chorus](./docs/tips.md#chorus)
 - [Delay](./docs/tips.md#delay)
-- [Sample chopping](./tips.md#sample-chopping)
+- [Sample chopping](./docs/tips.md#sample-chopping)
 
 [6. GOOD SOURCES](./docs/sources.md)
 - [Samples](./docs/sources.md#samples)
