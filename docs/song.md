@@ -70,8 +70,6 @@ You can use `Tilde` and `Sh+Tilde` to ajdust [`Add`](./ui.md#add).
 
 You wanna set it to 4.
 
-Then, hit `F5`.
-
 Make sure wrapping is on by checking the
 [common MT options toggle window](./ui.md#common-mt-options-toggle-window).
 

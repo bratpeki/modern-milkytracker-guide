@@ -481,7 +481,7 @@ Right-clicking, specifically, opens the
 "[3.2. WORKING WITH SAMPLES](./samples.md)".
 
 You can hold `Ctrl` when your mouse is inside the sample waveform viewer to view the
-`9xx` offset regions! This is pretty useful for chopping samples.
+[`9xx`](./fx.md#9xx-sample-offset) offset regions! This is pretty useful for chopping samples.
 
 ### "Play:" text field
 
