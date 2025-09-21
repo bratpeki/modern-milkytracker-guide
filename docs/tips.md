@@ -17,7 +17,7 @@ Now, the song *shouldn't* clip, indepent of the tracker used to play it.
 
 # Chorus
 
-For this one, you would use the [EDx note delay effect]()!
+For this one, you would use the [EDx note delay effect](./fx.md#edx-note-delay)!
 
 Let's say we have a track playing one instrument, like so:
 
