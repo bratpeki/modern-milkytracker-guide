@@ -262,7 +262,7 @@ There are many, so we'll cover them in ["2.1. EFFECT GLOSSARY"](./fx.md).
 Tracks in XM are interesting because of one thing, and that is their behaviour when muted.
 Upon muting a track in a composition, you are only stopping it from producing a sound.
 Any effects that alter the song (such as [`Fxx`](./fx.md#fxx-set-song-speed) or
-[`Gxx`](./fx.md#gxx-set-global-volume) will still affect the song.
+[`Gxx`](./fx.md#gxx-set-global-volume)) will still affect the song.
 
 # Patterns
 
