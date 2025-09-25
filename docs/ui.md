@@ -665,7 +665,7 @@ The buttons right of the "Disk op" text field allow the following actions, from 
 7. (`STEP`) Stepping back one directory (similar to #3)
 8. (`DEL`) Deleting the selected file (which can be of any type)
 9. (`MKDIR`) Making a new directory in the current directory
-10. Toggling additional options
+10. (`≡`) Toggling additional options
 11. (`<`/`>`) Toggling the saved directories tab
 12. (`FLIP`) Toggling the two views of the disk operations window
 
