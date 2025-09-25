@@ -140,7 +140,7 @@ Effectively, this boosts the volume and high-end.
 ## Generators
 
 Generates a selected signal sample and places it into the selected sample slot.
-Undable using [Undo](#undoredo).
+Undoable using [Undo](#undoredo).
 
 ---
 
