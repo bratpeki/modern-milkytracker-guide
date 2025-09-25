@@ -28,7 +28,7 @@ A listview of resolutions MT supports.
 Allows selection of an element from a list, either by double left-clicking or right-clicking on the
 element in the list.
 
-Listviews have a scrollbar, which behavges an audio signal by es similarly to [sliders](#sliders),
+Listviews have a scrollbar, which behaves an audio signal by es similarly to [sliders](#sliders),
 except for the fact they are vertical, and their fine tune buttons have the arrow characters,
 instead of the `+` and `-`.
 
