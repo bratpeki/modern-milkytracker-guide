@@ -98,7 +98,7 @@ This elements works similarly to the text input fields, with the following excep
 Hitting `Esc` resets the text to what it was before the editing.
 
 One example of this type of field is the sample size field in the sample creation popup window,
-visible [here (in the diagram)](./samples.md#new).
+visible [here (in the diagram)](./samples.md#sample-manipulation).
 
 # Drop-down menus
 
