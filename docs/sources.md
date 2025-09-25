@@ -27,7 +27,7 @@ There's plenty other ones out there.
 # Information
 
 [The Mod Archive forums](https://modarchive.org/forums/index.php) and the
-[Tracker Music Discord server](https://discord.gg/4TD8mxtw) are my go-tos!
+[Tracker Music Discord server](https://discord.gg/NbHf8VqfM4) are my go-tos!
 
 ---
 
