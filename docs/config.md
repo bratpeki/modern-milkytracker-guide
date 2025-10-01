@@ -239,7 +239,7 @@ You can read about the splash screen as a UI element [here](./ui.md#startup).
 Self-explanatory.
 
 You can read about the estimate playtime
-[here](./ui.md#song-title-length-and-peak-window--common-mt-options-toggle-window).
+[here](./ui.md#song-length-tab).
 
 ## Show scopes
 

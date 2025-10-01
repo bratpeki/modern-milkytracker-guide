@@ -28,7 +28,7 @@ A listview of resolutions MT supports.
 Allows selection of an element from a list, either by double left-clicking or right-clicking on the
 element in the list.
 
-Listviews have a scrollbar, which behavges an audio signal by es similarly to [sliders](#sliders),
+Listviews have a scrollbar, which behaves an audio signal by es similarly to [sliders](#sliders),
 except for the fact they are vertical, and their fine tune buttons have the arrow characters,
 instead of the `+` and `-`.
 
@@ -98,7 +98,7 @@ This elements works similarly to the text input fields, with the following excep
 Hitting `Esc` resets the text to what it was before the editing.
 
 One example of this type of field is the sample size field in the sample creation popup window,
-visible [here (in the diagram)](./samples.md#new).
+visible [here (in the diagram)](./samples.md#sample-manipulation).
 
 # Drop-down menus
 

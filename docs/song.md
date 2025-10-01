@@ -129,7 +129,7 @@ We'll get the desired song structure named at the start of the section.
 
 # Saving the song
 
-Now, let's save the song using [the disk operator window]().
+Now, let's save the song using [the disk operator window](./ui.md#disk-operations-window).
 We're setting the type to "Module" and saving an XM module.
 Let's name the export "my-first-song.xm"!
 

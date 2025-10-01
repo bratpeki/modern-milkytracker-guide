@@ -108,7 +108,7 @@ The default value is 0 (`+000`).
 ## Fadeout
 
 A value that determines how quickly the volume of the sample drops to 0 after the
-[Note-off](#fadeout).
+[Note-off](#note-off).
 
 Works only when the volume envelope is on.
 

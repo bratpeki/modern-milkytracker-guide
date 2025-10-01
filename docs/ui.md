@@ -294,7 +294,7 @@ The options which don't link to a heading do the following:
 
 | Option     | Description |
 | -          | - |
-| `Save`     | Save the module by owerwriting the module you loaded. If the module is the default empty one that MT loads up with (`Untitled.xm`), this button works the same as [`As...`](). |
+| `Save`     | Save the module by owerwriting the module you loaded. If the module is the default empty one that MT loads up with (`Untitled.xm`), this button works the same as `As...`. |
 | `Play Sng` | Play the module, from the beginning of the current pattern. Same as `Right Ctrl`. |
 | `Pat`      | Play the current pattern indefinitely, starting from the beginning. Same as `AltGr` (`Right Alt`). |
 | `Pos`      | Play the current pattern indefinitely, starting from the cursor position. Same as `Sh+Enter`. |
@@ -665,7 +665,7 @@ The buttons right of the "Disk op" text field allow the following actions, from 
 7. (`STEP`) Stepping back one directory (similar to #3)
 8. (`DEL`) Deleting the selected file (which can be of any type)
 9. (`MKDIR`) Making a new directory in the current directory
-10. Toggling additional options
+10. (`≡`) Toggling additional options
 11. (`<`/`>`) Toggling the saved directories tab
 12. (`FLIP`) Toggling the two views of the disk operations window
 
